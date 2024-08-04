@@ -19,12 +19,12 @@ const Page = () => {
 ***[#8bc34a] Select and Design Best Plan
 ***[#e91e63] Implement Plan
 ***[#9e9e9e] Evaluate
-left side
 **[#03a9f4] Simple Problems
 ***[#4caf50] Define and Analyze
 ***[#ffeb3b] Design Plan
 ***[#ff5722] Implement Plan
 ***[#9e9e9e] Evaluate
+left side
 **[#ff5722] Important Considerations
 ***[#ffc107] Thoroughly Investigate
 ***[#4caf50] Properly Define and Analyze
@@ -41,7 +41,7 @@ left side
   return (
     <div className="p-6 bg-white text-gray-900">
       <h1 className="text-3xl font-bold mb-6">
-        1.3 Problem Solving
+        2.3 Problem Solving
       </h1>
 
       <div className="overflow-x-auto">
