@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { BookOpen, Brain, HelpCircle, FileText, List } from 'lucide-react';
+import Link from 'next/link';
 
 const data = [
     {
@@ -118,14 +119,14 @@ const Section = ({ section }: any) => {
       <h2 className="text-xl font-bold text-white mb-4">{section.title}</h2>
       <div className="grid grid-cols-2 gap-2">
         {section.links.map((link: any) => (
-          <a
+          <Link
             key={link.href}
             href={link.href}
             className="flex items-center space-x-2 p-2 rounded-lg text-white hover:bg-white hover:bg-opacity-20 transition-colors duration-200"
           >
             {React.createElement(link.icon, { size: 18 })}
             <span className="text-sm">{link.text}</span>
-          </a>
+          </Link>
         ))}
       </div>
     </div>

@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { Menu, X, ChevronDown, Search, Bell } from 'lucide-react';
+import Link from 'next/link';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,33 +33,33 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <a href="/" className="flex-shrink-0">
+            <Link href="/" className="flex-shrink-0">
               <span className="text-white text-2xl font-bold tracking-tight">SSC Study Hub</span>
-            </a>
+            </Link>
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               {navItems.map((item) => (
                 <div key={item.name} className="relative group">
-                  <a
+                  <Link
                     href={item.href}
                     className="text-white hover:bg-white hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out flex items-center"
                   >
                     {item.name}
                     {item.subItems && <ChevronDown className="ml-1 h-4 w-4" />}
-                  </a>
+                  </Link>
                   {item.subItems && (
                     <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-150 ease-in-out">
                       <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
                         {item.subItems.map((subItem) => (
-                          <a
+                          <Link
                             key={subItem.name}
                             href={subItem.href}
                             className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100 hover:text-blue-900"
                             role="menuitem"
                           >
                             {subItem.name}
-                          </a>
+                          </Link>
                         ))}
                       </div>
                     </div>
@@ -99,22 +100,22 @@ const Navbar = () => {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navItems.map((item) => (
               <React.Fragment key={item.name}>
-                <a
+                <Link
                   href={item.href}
                   className="text-white hover:bg-white hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
                 >
                   {item.name}
-                </a>
+                </Link>
                 {item.subItems && (
                   <div className="pl-4">
                     {item.subItems.map((subItem) => (
-                      <a
+                      <Link
                         key={subItem.name}
                         href={subItem.href}
                         className="text-gray-300 hover:bg-white hover:text-blue-600 block px-3 py-2 rounded-md text-sm font-medium"
                       >
                         {subItem.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 )}
