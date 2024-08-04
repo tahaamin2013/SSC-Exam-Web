@@ -1,273 +1,139 @@
-// pages/history.tsx
+'use client'
 
 import React from 'react';
+import { motion } from 'framer-motion';
 
-const page: React.FC = () => {
-    return (
-        <div className="bg-white text-gray-900 font-sans leading-relaxed">
-            <div className="container mx-auto p-6">
-                <header className="mb-8">
-                    <h1 className="text-3xl font-bold mb-4">Brief History of Computer Systems</h1>
-                </header>
+interface SubChapter {
+  title: string;
+  children?: SubChapter[];
+}
 
-                <section className="mb-8">
-                    <h2 className="text-2xl font-semibold mb-4">Early Computing Devices</h2>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Abacus</li>
-                        <li>Napier’s Bones</li>
-                        <li>Pascaline</li>
-                        <li>Stepped Reckoner or Leibniz wheel</li>
-                        <li>Difference Engine</li>
-                        <li>Analytical Engine</li>
-                        <li>Tabulating machine</li>
-                        <li>Differential Analyzer</li>
-                        <li>Mark 1</li>
-                    </ul>
-                </section>
+interface Chapter {
+  title: string;
+  gradient: string;
+  subChapters?: SubChapter[];
+}
 
-                <section className="mb-8">
-                    <h2 className="text-2xl font-semibold mb-4">Computer Generations</h2>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>First Generation Computers (1940 -1956)</li>
-                        <li>Second Generation Computers (1957 -1963)</li>
-                        <li>Third Generation Computers (1963 -1971)</li>
-                        <li>Fourth Generation Computers (1971 - Present)</li>
-                        <li>Fifth Generation Computers</li>
-                    </ul>
-                </section>
+const chapters: Chapter[] = [
+  {
+    title: "1. Problems",
+    gradient: "from-purple-400 to-pink-500",
+    subChapters: [
+      { title: "1.1 Economic" },
+      { title: "1.2 Healthcare" },
+      { title: "1.3 Education" },
+      { title: "1.4 Transportation" },
+      { title: "1.5 Internet" },
+      { title: "1.6 Biology" },
+    ],
+  },
+  {
+    title: "2. Identifying a Computing Problem",
+    gradient: "from-yellow-400 to-orange-500",
+    subChapters: [
+      { title: "2.1 Decision Problems" },
+      { title: "2.2 Search Problems" },
+      { title: "2.3 Counting Problems" },
+    ],
+  },
+  {
+    title: "3. Problem Solving",
+    gradient: "from-green-400 to-cyan-500",
+    subChapters: [
+      { title: "3.1 6 step problem solving process for complex problems" },
+    ],
+  },
+  {
+    title: "4. Input-Processing-Output (I-P-O) Model",
+    gradient: "from-red-400 to-pink-500",
+  },
+  {
+    title: "5. Input-Processing-Output (I-P-O) Chart",
+    gradient: "from-indigo-400 to-purple-500",
+  },
+  {
+    title: "6. Computational Thinking",
+    gradient: "from-blue-400 to-indigo-500",
+    subChapters: [
+      { title: "6.1 Importance of Computational Thinking" },
+      { title: "6.2 Properties of computational Thinking" },
+    ],
+  },
+  {
+    title: "7. Principles of Computational Thinking",
+    gradient: "from-teal-400 to-blue-500",
+    subChapters: [
+      { title: "7.1 Logical thinking" },
+      { title: "7.2 Algorithmic Thinking" },
+    ],
+  },
+  {
+    title: "8. Methods to Design a Solution",
+    gradient: "from-pink-400 to-purple-500",
+    subChapters: [
+      { 
+        title: "8.1 Flowcharts",
+        children: [
+          { title: "8.1.1 Importance of flowchart in solving a problem" },
+        ],
+      },
+      { title: "8.2 Larp" },
+    ],
+  },
+  {
+    title: "9. Concept Maps",
+    gradient: "from-orange-400 to-red-500",
+  },
+];
 
-                <section className="mb-8">
-                    <h2 className="text-2xl font-semibold mb-4">Understanding Systems and their Types</h2>
-                    <h3 className="text-xl font-semibold mb-2">Natural And Artificial Systems</h3>
-                    <div className="space-y-4">
-                        <div>
-                            <h4 className="text-lg font-semibold mb-2">Natural Systems</h4>
-                            <ul className="list-disc pl-5 space-y-2">
-                                <li>Ecosystems</li>
-                                <li>Forest Ecosystems</li>
-                                <li>Aquatic Ecosystems</li>
-                                <li>Grassland Ecosystems</li>
-                                <li>Weather Systems</li>
-                                <li>Geological Systems</li>
-                                <li>Plate Tectonics</li>
-                                <li>Mountain Systems</li>
-                                <li>Hydrological Systems</li>
-                                <li>Solar Systems</li>
-                                <li>Biological Systems</li>
-                                <li>Human Body</li>
-                                <li>Coral Reef</li>
-                                <li>Rainforest Canopy</li>
-                            </ul>
-                        </div>
+const ChapterCard: React.FC<{ chapter: Chapter }> = ({ chapter }) => (
+  <motion.div 
+    className={`chapter-card backdrop-blur-md bg-white bg-opacity-20 rounded-3xl shadow-lg overflow-hidden border border-white border-opacity-20`}
+    whileHover={{ scale: 1.05 }}
+    transition={{ type: "spring", stiffness: 300 }}
+  >
+    <div className={`bg-gradient-to-r ${chapter.gradient} p-6 rounded-t-3xl`}>
+      <h2 className="text-2xl font-bold text-white">{chapter.title}</h2>
+    </div>
+    {chapter.subChapters && (
+      <ul className="p-6 space-y-3">
+        {chapter.subChapters.map((subChapter, index) => (
+          <motion.li 
+            key={index} 
+            className={`subchapter p-3 rounded-xl bg-white bg-opacity-10 backdrop-blur-sm
+                        hover:bg-opacity-20 transition-all duration-300 ease-in-out`}
+            whileHover={{ x: 5 }}
+          >
+            {subChapter.title}
+            {subChapter.children && (
+              <ul className="ml-4 mt-2 space-y-1">
+                {subChapter.children.map((child, childIndex) => (
+                  <li key={childIndex} className="text-sm text-gray-200">{child.title}</li>
+                ))}
+              </ul>
+            )}
+          </motion.li>
+        ))}
+      </ul>
+    )}
+  </motion.div>
+);
 
-                        <div>
-                            <h4 className="text-lg font-semibold mb-2">Artificial Systems</h4>
-                            <ul className="list-disc pl-5 space-y-2">
-                                <li>Communication Systems</li>
-                                <li>Telephone Networks</li>
-                                <li>Internet and Computer Networks</li>
-                                <li>Satellite Communication Systems</li>
-                                <li>Information Systems</li>
-                                <li>Databases</li>
-                                <li>Software Applications</li>
-                                <li>Transportation Systems</li>
-                                <li>Automobiles</li>
-                                <li>Aircraft</li>
-                                <li>Trains and Rail Systems</li>
-                                <li>Subways and Mass Transit</li>
-                                <li>Energy Systems</li>
-                                <li>Power Plants</li>
-                                <li>Renewable Energy Systems</li>
-                                <li>Electrical Grids</li>
-                                <li>Manufacturing Systems</li>
-                                <li>Factory Automation</li>
-                                <li>Assembly Lines</li>
-                                <li>Healthcare Systems</li>
-                                <li>Hospital Information Systems (HIS)</li>
-                                <li>Medical Devices</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="mb-8">
-                    <h2 className="text-2xl font-semibold mb-4">Core Components of a Computer System</h2>
-                    <h3 className="text-xl font-semibold mb-2">Input Devices</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Microphone</li>
-                        <li>Scanner</li>
-                        <li>Barcode Reader</li>
-                        <li>Digital Camera</li>
-                        <li>Touch Screen</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">System Unit</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Motherboard</li>
-                        <li>Microprocessor</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">Storage Devices</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Hard Disk</li>
-                        <li>Compact Disk (CD)</li>
-                        <li>Digital Versatile Disk (DVD)</li>
-                        <li>Memory Card</li>
-                        <li>USB Flash Drive</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">Output Devices</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Monitor</li>
-                        <li>Printer</li>
-                        <li>Impact Printer</li>
-                        <li>Non-Impact Printer</li>
-                        <li>Plotter</li>
-                        <li>Speaker</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">Ports, Expansion Slots and Expansion Cards</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Ports</li>
-                        <li>Expansion Slots and Expansion Cards</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">Von Neumann Architecture</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Central Processing Unit (CPU)</li>
-                        <li>Registers</li>
-                        <li>Arithmetic and Logic Unit (ALU)</li>
-                        <li>Control Unit (CU)</li>
-                        <li>Buses</li>
-                        <li>Memory Unit</li>
-                        <li>Input/Output (I/O) Controller</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">Data Transmission within a Computer System</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Bus Architecture</li>
-                        <li>Data Paths</li>
-                        <li>Registers</li>
-                        <li>Memory Hierarchy</li>
-                        <li>Instruction Cycle</li>
-                        <li>Pipeline Processing</li>
-                        <li>Interrupts and I/O</li>
-                        <li>Parallelism</li>
-                    </ul>
-                </section>
-
-                <section className="mb-8">
-                    <h2 className="text-2xl font-semibold mb-4">Types and Hierarchy of Computer Memory</h2>
-                    <h3 className="text-xl font-semibold mb-2">Memory Terminology</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Bit</li>
-                        <li>Byte</li>
-                        <li>Memory Word</li>
-                        <li>Word Size</li>
-                        <li>Memory Built-up and Retention Power</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">Chip Memory</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Magnetic Memory</li>
-                        <li>Optical Memory</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">Main Memory</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>ROM (Read Only Memory)</li>
-                        <li>RAM (Random Access Memory)</li>
-                        <li>Cache Memory</li>
-                        <li>Volatile and Non-Volatile Memory</li>
-                        <li>Volatile Memory</li>
-                        <li>Non-Volatile Memory</li>
-                    </ul>
-                </section>
-
-                <section className="mb-8">
-                    <h2 className="text-2xl font-semibold mb-4">Software Engineering and Hardware Engineering</h2>
-                    <h3 className="text-xl font-semibold mb-2">Software Engineering</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Application Software Engineering</li>
-                        <li>System Software Engineering</li>
-                        <li>Embedded Software Engineering</li>
-                        <li>Enterprise Software Engineering</li>
-                        <li>Game Development</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">Hardware Engineering</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Digital Hardware Engineering</li>
-                        <li>Integrated Circuit (IC) Design</li>
-                        <li>Computer Architecture</li>
-                        <li>Embedded Systems Design</li>
-                    </ul>
-                </section>
-
-                <section className="mb-8">
-                    <h2 className="text-2xl font-semibold mb-4">Computer Software</h2>
-                    <h3 className="text-xl font-semibold mb-2">System Software</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Operating System (OS)</li>
-                        <li>Device Drivers</li>
-                        <li>Utilities</li>
-                        <li>Compiler and Assembler</li>
-                        <li>Linkers and Loaders</li>
-                        <li>Firmware</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">Application Software</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Productivity Software</li>
-                        <li>Business Software</li>
-                        <li>Entertainment Software</li>
-                        <li>Educational Software</li>
-                    </ul>
-                </section>
-
-                <section className="mb-8">
-                    <h2 className="text-2xl font-semibold mb-4">Programming Languages</h2>
-                    <h3 className="text-xl font-semibold mb-2">Low Level Languages</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Machine Language</li>
-                        <li>Assembly Language</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">High Level Languages (HLLs)</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Procedural and Structured Language</li>
-                        <li>Object-Oriented Programming Languages</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">Uses of Low Level Languages</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Operating System Development</li>
-                        <li>Device Drivers</li>
-                        <li>Embedded Systems</li>
-                        <li>Firmware Development</li>
-                        <li>Real-Time Systems</li>
-                        <li>Security Tools</li>
-                        <li>Game Development</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">Uses of High Level Languages</h3>
-                    <ul className="list-disc pl-5 space-y-2">
-                        <li>Applications (Apps) Development</li>
-                        <li>Web Development</li>
-                        <li>Data Analysis and Science</li>
-                        <li>Machine Learning and AI</li>
-                        <li>Automation and Scripting</li>
-                        <li>Game Development</li>
-                        <li>Database Management</li>
-                        <li>Scientific and Engineering Simulations</li>
-                        <li>Business Software</li>
-                        <li>Educational Tools</li>
-                        <li>Data Communication</li>
-                    </ul>
-                </section>
-            </div>
+const ChapterContent: React.FC = () => {
+  return (
+    <div className="min-h-screen p-8 bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900">
+      <div className="max-w-6xl mx-auto">
+        <h1 className="text-5xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-purple-300 mb-16">
+          Unit 2: Chapter Content
+        </h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {chapters.map((chapter, index) => (
+            <ChapterCard key={index} chapter={chapter} />
+          ))}
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
-export default page;
+export default ChapterContent;
