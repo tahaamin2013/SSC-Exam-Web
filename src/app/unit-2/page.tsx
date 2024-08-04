@@ -139,7 +139,7 @@ const ComputerSystemsDashboard = () => {
       fontFamily: '"Poppins", sans-serif'
     }}>
       <h1 className="text-5xl font-extrabold mb-12 text-center text-white">
-        Computer Systems
+      Computational Thinking & Algorithms
       </h1>
       <div className="flex flex-wrap gap-6 justify-center">
         {data.map((section) => (
