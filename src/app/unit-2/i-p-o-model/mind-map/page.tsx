@@ -18,23 +18,23 @@ mindmapDiagram {
 }
 </style>
 * Input-Processing-Output (I-P-O) Model
-** Input
-*** Data entered in the system
-*** Example: Length, Width
-*** Example: Grades
+** Usage
+*** Visual representation
+*** Problem-solving tool
+*** Used by software designers
 ** Process
 *** Operations applied on input
 *** Example: Area calculation
 *** Example: Average calculation
 left side
+** Input
+*** Data entered in the system
+*** Example: Length, Width
+*** Example: Grades
 ** Output
 *** Data turned into information
 *** Example: Rectangle area
 *** Example: Student grade average
-** Usage
-*** Visual representation
-*** Problem-solving tool
-*** Used by software designers
 @endmindmap
 `;
   return (

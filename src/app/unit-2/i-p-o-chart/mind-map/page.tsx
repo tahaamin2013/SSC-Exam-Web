@@ -48,9 +48,6 @@ mindmapDiagram {
 *** Examples
 **** Rectangle Area
 **** Student Grade Average
-** Purpose
-*** Visually represent IPO model
-*** Handy tool for problem-solving
 left side
 ** Usage
 *** Software designers
@@ -63,6 +60,9 @@ left side
 *** Clear representation
 *** Helps in system design
 *** Simplifies complex processes
+** Purpose
+*** Visually represent IPO model
+*** Handy tool for problem-solving
 @endmindmap
 `;
   return (

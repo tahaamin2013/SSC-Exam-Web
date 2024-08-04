@@ -18,29 +18,29 @@ const Page = () => {
             </h1>
             <div className="grid grid-cols-1 text-left gap-x-8 w-full">
                 <Accordion type="single" collapsible>
-                <AccordionItem value="item-31">
+                <AccordionItem value="item-1">
                         <AccordionTrigger>What is the major difference in solving simple problems and complex problems?</AccordionTrigger>
                         <AccordionContent>
                             <p>The major difference in solving simple and complex problems lies in the approach and techniques used. Simple problems often have straightforward solutions and can be solved directly, while complex problems require breaking down into smaller, manageable parts and may involve multiple steps or algorithms.</p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    <AccordionItem value="item-32">
+                    <AccordionItem value="item-2">
                         <AccordionTrigger>Why do software designers prefer to use IPO charts?</AccordionTrigger>
                         <AccordionContent>
-                            <p>Software designers prefer IPO (Input-Process-Output) charts because they provide a clear, visual representation of a program's flow. These charts help in understanding the data inputs, the processing steps, and the expected outputs, making it easier to design and communicate software structure.</p>
+                            <p>Software designers prefer IPO (Input-Process-Output) charts because they provide a clear, visual representation of a program&apos;s flow. These charts help in understanding the data inputs, the processing steps, and the expected outputs, making it easier to design and communicate software structure.</p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    <AccordionItem value="item-33">
+                    <AccordionItem value="item-3">
                         <AccordionTrigger>Differentiate between Computational thinking and Logical thinking.</AccordionTrigger>
                         <AccordionContent>
-                            <p><strong>Computational thinking</strong> involves problem-solving using concepts fundamental to computer science, such as decomposition, pattern recognition, abstraction, and algorithm design. It's about formulating problems in a way that enables computational solutions.</p>
-                            <p><strong>Logical thinking</strong> is the process of using reasoning consistently to come to a conclusion. While it's a part of computational thinking, it's broader and applies to many areas beyond computer science.</p>
+                            <p><strong>Computational thinking</strong> involves problem-solving using concepts fundamental to computer science, such as decomposition, pattern recognition, abstraction, and algorithm design. It&apos;s about formulating problems in a way that enables computational solutions.</p>
+                            <p><strong>Logical thinking</strong> is the process of using reasoning consistently to come to a conclusion. While it&apos;s a part of computational thinking, it&apos;s broader and applies to many areas beyond computer science.</p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    <AccordionItem value="item-34">
+                    <AccordionItem value="item-4">
                         <AccordionTrigger>Write four properties of Computational thinking.</AccordionTrigger>
                         <AccordionContent>
                             <p>Four properties of Computational thinking are:</p>
@@ -53,7 +53,7 @@ const Page = () => {
                         </AccordionContent>
                     </AccordionItem>
 
-                    <AccordionItem value="item-35">
+                    <AccordionItem value="item-5">
                         <AccordionTrigger>What are the methods used to design a solution?</AccordionTrigger>
                         <AccordionContent>
                             <p>Methods used to design a solution include:</p>
@@ -68,14 +68,14 @@ const Page = () => {
                         </AccordionContent>
                     </AccordionItem>
 
-                    <AccordionItem value="item-36">
+                    <AccordionItem value="item-6">
                         <AccordionTrigger>Which Computational thinking technique breaks down the problem into smaller parts?</AccordionTrigger>
                         <AccordionContent>
                             <p>The Computational thinking technique that breaks down the problem into smaller parts is <strong>Decomposition</strong>. This technique involves dividing a complex problem or system into smaller, more manageable parts that are easier to understand, solve, and manage.</p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    <AccordionItem value="item-37">
+                    <AccordionItem value="item-7">
                         <AccordionTrigger>Identify 3 computing problems from other subjects that you are studying in your class.</AccordionTrigger>
                         <AccordionContent>
                             <p>Three computing problems from other subjects could include:</p>
@@ -87,7 +87,7 @@ const Page = () => {
                         </AccordionContent>
                     </AccordionItem>
 
-                    <AccordionItem value="item-38">
+                    <AccordionItem value="item-8">
                         <AccordionTrigger>Why do we need to think computationally?</AccordionTrigger>
                         <AccordionContent>
                             <p>We need to think computationally because it:</p>
@@ -101,7 +101,7 @@ const Page = () => {
                         </AccordionContent>
                     </AccordionItem>
 
-                    <AccordionItem value="item-39">
+                    <AccordionItem value="item-9">
                         <AccordionTrigger>How many different telephone numbers are possible with a given area code?</AccordionTrigger>
                         <AccordionContent>
                             <p>Given that:</p>
@@ -112,11 +112,11 @@ const Page = () => {
                             </ul>
                             <p>The number of possible telephone numbers with a given area code is:</p>
                             <p><strong>9 * 10^6 = 9,000,000</strong></p>
-                            <p>This is because the first digit of the 7-digit number can't be 0 (9 choices), and the remaining 6 digits can be any number from 0 to 9 (10 choices each).</p>
+                            <p>This is because the first digit of the 7-digit number can&apos;t be 0 (9 choices), and the remaining 6 digits can be any number from 0 to 9 (10 choices each).</p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    <AccordionItem value="item-40">
+                    <AccordionItem value="item-9">
                         <AccordionTrigger>How many possible routes are there to reach from city A to city C passing by city B?</AccordionTrigger>
                         <AccordionContent>
                             <p>Given:</p>
