@@ -4,7 +4,6 @@ import mermaid from "mermaid";
 import PlantUMLDiagram from "@/components/PlantUMLDiagram";
 
 const Page = () => {
-  const [zoomLevel2, setZoomLevel2] = useState(1);
   const umlCode = `
 @startmindmap
 *[#ff9800] Identifying Computing Problems
@@ -103,7 +102,7 @@ left side
                   <ul className="list-disc list-inside pl-5 mt-2 space-y-1">
                     <li>Is a number odd or even?</li>
                     <li>Is a number prime?</li>
-                    <li>Is "aa" in a sequence of English alphabets?</li>
+                    <li>Is &quot;aa&quot; in a sequence of English alphabets?</li>
                   </ul>
                 </li>
               </ul>

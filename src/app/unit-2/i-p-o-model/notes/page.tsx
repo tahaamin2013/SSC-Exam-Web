@@ -63,7 +63,7 @@ const Page = () => {
 
           <section>
             <h2 className="text-2xl font-semibold text-gray-800 mb-3">
-              Example: Calculate Student's Average
+              Example: Calculate Student&apos;s Average
             </h2>
             <div className="bg-yellow-100 rounded-lg p-4">
               <h3 className="font-semibold mb-2">Inputs:</h3>

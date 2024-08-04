@@ -50,7 +50,7 @@ const DataTransmission = () => {
             </section>
 
             <section>
-                <h2 className="text-2xl font-semibold text-gray-800 mb-3">Example 2: Calculate Student's Average</h2>
+                <h2 className="text-2xl font-semibold text-gray-800 mb-3">Example 2: Calculate Student&apos;s Average</h2>
                 <div className="bg-yellow-100 rounded-lg p-4">
                     <h3 className="font-semibold mb-2">Inputs:</h3>
                     <p>Grade 1, Grade 2, Grade 3</p>

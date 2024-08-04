@@ -19,7 +19,7 @@ const Page = () => {
               <p className="mt-2">To solve such problems, you need reasoning skills that are based on evidence and facts.</p>
             </div>
             <p className="text-gray-600">
-              One of the fundamental parts of computational thinking is to think logically. The computers use logic in their computation but it does not mean that they think logically. The computers themselves can't perform logical thinking unless they are programmed to do so. By developing the ability to align problem-solving with technology and focusing on the process as well as the outcome, we can enhance our computational thinking skills.
+              One of the fundamental parts of computational thinking is to think logically. The computers use logic in their computation but it does not mean that they think logically. The computers themselves can&apos;t perform logical thinking unless they are programmed to do so. By developing the ability to align problem-solving with technology and focusing on the process as well as the outcome, we can enhance our computational thinking skills.
             </p>
           </section>
 

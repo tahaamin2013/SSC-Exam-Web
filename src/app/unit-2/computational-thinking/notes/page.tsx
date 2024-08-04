@@ -15,7 +15,7 @@ const ComputationalThinkingNotes = () => {
               2.6 Computational Thinking
             </h2>
             <p className="text-gray-600">
-              Using computation to solve problems requires the ability to think in a certain way, which is often referred to as 'computational thinking'.
+              Using computation to solve problems requires the ability to think in a certain way, which is often referred to as &apos;computational thinking&apos;.
             </p>
           </section>
 
@@ -61,7 +61,7 @@ const ComputationalThinkingNotes = () => {
             </h2>
             <div className="bg-yellow-100 rounded-lg p-4">
               <p className="text-gray-600 mb-2">
-                If you want to create your own computer game, here's how these properties of computational thinking would apply:
+                If you want to create your own computer game, here&apos;s how these properties of computational thinking would apply:
               </p>
               <ul className="list-disc list-inside space-y-2">
                 <li>

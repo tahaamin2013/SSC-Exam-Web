@@ -135,7 +135,7 @@ left side
           <thead className="bg-purple-500 text-white">
             <tr>
               <th className="py-3 px-4 text-left" colSpan={2}>
-                Example 2: Calculate Student's Average
+                Example 2: Calculate Student&apos;s Average
               </th>
             </tr>
           </thead>
