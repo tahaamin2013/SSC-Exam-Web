@@ -48,7 +48,7 @@ const Page = () => {
                   <li>Determining if a given number is odd or even</li>
                   <li>Checking if a given number is prime</li>
                   <li>
-                    Finding if there's any occurrence of "aa" in a sequence of
+                    Finding if there&apos;s any occurrence of &quot;aa&quot; in a sequence of
                     English alphabets
                   </li>
                 </ul>
