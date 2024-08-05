@@ -158,7 +158,7 @@ note bottom of Output : Result is shown here
 `;
 
 
-    const umlCode5 = `
+const umlCode5 = `
 @startuml
 skinparam backgroundColor transparent
 skinparam defaultTextAlignment center
@@ -184,6 +184,93 @@ Process --> Output
 @enduml
 `;
 
+const umlCode7 = `
+@startuml
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
+skinparam arrowColor #2C3E50
+skinparam roundCorner 10
+
+rectangle "Input" {
+  (Number n)
+}
+
+rectangle "Process" {
+  (Generate multiplication table)
+}
+
+rectangle "Output" {
+  (Multiplication table for n)
+}
+
+(Number n) -> (Generate multiplication table)
+(Generate multiplication table) -> (Multiplication table for n)
+
+@enduml
+`;
+
+const umlCode8 = `
+@startuml
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
+skinparam arrowColor #2C3E50
+
+start
+:Input base number x;
+:Input exponent n;
+:Initialize result = 1;
+
+if (n < 0) then (yes)
+  :Set flag for negative exponent;
+  :n = -n;
+else (no)
+endif
+
+while (n > 0)
+  if (n is odd) then (yes)
+    :result = result * x;
+  endif
+  :x = x * x;
+  :n = n / 2;
+endwhile
+
+if (negative exponent flag is set) then (yes)
+  :result = 1 / result;
+endif
+
+:Output result;
+stop
+@enduml
+`;
+
+
+
+
+const umlCode9 = `
+@startuml
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
+skinparam arrowColor #2C3E50
+
+start
+:Initialize number = 1;
+
+while (number <= 100) is (yes)
+  if (number % 2 != 0) then (yes)
+    :Print number;
+  endif
+  :Increment number by 1;
+endwhile (no)
+
+stop
+@enduml
+`;
+
+
+    
+
+
+    
     const umlCode6 = `
 @startuml
 skinparam backgroundColor transparent
@@ -271,6 +358,47 @@ note bottom of Process : Data is transformed here
 note bottom of Output : Results are shown here
 @enduml
 `;
+
+  const umlCode11 = `
+  @startuml
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
+skinparam arrowColor #2C3E50
+
+start
+:Input number n;
+:Initialize i = 1;
+
+while (i <= 10) is (yes)
+  :result = n * i;
+  :Print "n x i = result";
+  :Increment i by 1;
+endwhile (no)
+
+stop
+@enduml
+
+`;
+
+
+    
+    const umlCode10 = `
+@startuml
+skinparam backgroundColor transparent
+skinparam defaultFontName Arial
+skinparam arrowColor #2C3E50
+
+start
+:Initialize number = 100;
+
+while (number >= 1) is (yes)
+  :Print number;
+  :Decrement number by 1;
+endwhile (no)
+
+stop
+@enduml
+`;
     return (
         <section
             id="FAQ"
@@ -335,16 +463,7 @@ note bottom of Output : Results are shown here
                             Draw IPO Chart and write an algorithm to print a multiplication table of a given number
                         </AccordionTrigger>
                         <AccordionContent className="p-4">
-                            <pre className="whitespace-pre-wrap">
-                                {`Input: Number
-Process: 
-    1. Initialize multiplier to 1
-    2. While multiplier <= 10:
-        result = number * multiplier
-        print result
-        multiplier = multiplier + 1
-Output: Multiplication table of the given number`}
-                            </pre>
+                               <PlantUMLDiagram code={umlCode7} />
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-7">
@@ -352,7 +471,7 @@ Output: Multiplication table of the given number`}
                             Draw a flowchart to find the exponent of a given number
                         </AccordionTrigger>
                         <AccordionContent className="p-4">
-                            <Flowchart steps={stepsExponent} />
+                               <PlantUMLDiagram code={umlCode8} />
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-8">
@@ -360,7 +479,7 @@ Output: Multiplication table of the given number`}
                             Draw a flowchart to print odd numbers from 1 to 100
                         </AccordionTrigger>
                         <AccordionContent className="p-4">
-                            <Flowchart steps={stepsOddNumbers} />
+                             <PlantUMLDiagram code={umlCode9} />
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-9">
@@ -368,7 +487,7 @@ Output: Multiplication table of the given number`}
                             Draw a flowchart to print the following sequence of numbers in descending order
                         </AccordionTrigger>
                         <AccordionContent className="p-4">
-                            <Flowchart steps={stepsSequence} />
+                             <PlantUMLDiagram code={umlCode10} />
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-10">
@@ -376,7 +495,7 @@ Output: Multiplication table of the given number`}
                             Draw a flowchart to print a multiplication table of a given number
                         </AccordionTrigger>
                         <AccordionContent className="p-4">
-                            <Flowchart steps={stepsMultiplication} />
+                            <PlantUMLDiagram code={umlCode11} />
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
