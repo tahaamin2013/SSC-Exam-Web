@@ -9,4 +9,5 @@ const PlantUMLDiagram = ({ code }) => {
   return <img src={url} alt="PlantUML Diagram" />;
 };
 
-export default PlantUMLDiagram;
+export default PlantUMLDiagram
+  ;
