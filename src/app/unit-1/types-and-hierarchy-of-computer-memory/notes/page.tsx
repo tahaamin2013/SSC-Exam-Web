@@ -2,6 +2,17 @@
 import React from 'react';
 
 const page = () => {
+    const data = [
+        { term: 'Byte (B)', size: '8 bits' },
+        { term: 'Kilobyte (KB)', size: '1024 bytes / 10³ bytes' },
+        { term: 'Megabyte (MB)', size: '1024 KB / 10⁶ bytes' },
+        { term: 'Gigabyte (GB)', size: '1024 MB / 10⁹ bytes' },
+        { term: 'Terabyte (TB)', size: '1024 GB / 10¹² bytes' },
+        { term: 'Petabyte (PB)', size: '1024 TB / 10¹⁵ bytes' },
+        { term: 'Exabyte (EB)', size: '1024 PB / 10¹⁸ bytes' },
+        { term: 'Zettabyte (ZB)', size: '1024 EB / 10²¹ bytes' },
+        { term: 'Yottabyte (YB)', size: '1024 ZB / 10²⁴ bytes' },
+    ];
     return (
         <div className="p-6">
             <h1 className="text-3xl font-bold mb-4">1.6 Types and Hierarchy of Computer Memory</h1>
@@ -9,22 +20,47 @@ const page = () => {
                 Memory in computing refers to the physical devices used to store data and programs, both temporarily and permanently, for use by a computer. It is essential for the operation of the computer system and the execution of programs. The types and hierarchy of memory can be broadly classified into different categories.
             </p>
 
-            <h2 className="text-2xl font-semibold mt-6 mb-2">Memory Terminology</h2>
-            <ul className="list-disc ml-6 mb-4">
-                <li><strong>Bit:</strong> The smallest unit of memory, representing a binary digit, either 0 or 1. Each bit corresponds to an electronic cell in memory which is either ON (1) or OFF (0).</li>
-                <li><strong>Byte:</strong> A group of 8 bits constitutes one byte. It is the basic unit of memory used to store one character of data, such as &apos;A&apos;, &apos;b&apos;, or &apos;*&apos;. Memory size is generally measured in bytes, with higher units including:
-                    <ul className="list-disc ml-6">
-                        <li>Kilobyte (KB): 1 KB = 1024 Bytes</li>
-                        <li>Megabyte (MB): 1 MB = 1024 KB</li>
-                        <li>Gigabyte (GB): 1 GB = 1024 MB</li>
-                        <li>Terabyte (TB): 1 TB = 1024 GB</li>
-                        <li>Petabyte (PB): 1 PB = 1024 TB</li>
-                        <li>Exabyte (EB): 1 EB = 1024 PB</li>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-7'>
+                <div>
+                    <h2 className="text-2xl font-semibold mt-6 mb-2">Memory Terminology</h2>
+                    <ul className="list-disc ml-6 mb-4">
+                        <li><strong>Bit:</strong> The smallest unit of memory, representing a binary digit, either 0 or 1. Each bit corresponds to an electronic cell in memory which is either ON (1) or OFF (0).</li>
+                        <li><strong>Byte:</strong> A group of 8 bits constitutes one byte. It is the basic unit of memory used to store one character of data, such as &apos;A&apos;, &apos;b&apos;, or &apos;*&apos;. Memory size is generally measured in bytes, with higher units including:
+                            <ul className="list-disc ml-6">
+                                <li>Kilobyte (KB): 1 KB = 1024 Bytes</li>
+                                <li>Megabyte (MB): 1 MB = 1024 KB</li>
+                                <li>Gigabyte (GB): 1 GB = 1024 MB</li>
+                                <li>Terabyte (TB): 1 TB = 1024 GB</li>
+                                <li>Petabyte (PB): 1 PB = 1024 TB</li>
+                                <li>Exabyte (EB): 1 EB = 1024 PB</li>
+                            </ul>
+                        </li>
+                        <li><strong>Memory Word:</strong> The smallest amount of data that a computer can process as a unit. The size of a memory word, known as word size, typically ranges from 16 to 64 bits. A larger word size allows the CPU to process more data per operation, enhancing performance.</li>
+                        <li><strong>Word Size:</strong> Refers to the number of bits that a CPU can process or manipulate in a single operation. For example, a 32-bit CPU processes data in 32-bit chunks, whereas a 64-bit CPU handles 64-bit chunks. Larger word sizes enable handling of larger integers, more complex arithmetic operations, and greater memory addressing.</li>
                     </ul>
-                </li>
-                <li><strong>Memory Word:</strong> The smallest amount of data that a computer can process as a unit. The size of a memory word, known as word size, typically ranges from 16 to 64 bits. A larger word size allows the CPU to process more data per operation, enhancing performance.</li>
-                <li><strong>Word Size:</strong> Refers to the number of bits that a CPU can process or manipulate in a single operation. For example, a 32-bit CPU processes data in 32-bit chunks, whereas a 64-bit CPU handles 64-bit chunks. Larger word sizes enable handling of larger integers, more complex arithmetic operations, and greater memory addressing.</li>
-            </ul>
+                </div>
+                <div className="container p-4">
+                    <h2 className="text-2xl font-bold mb-4 text-center">Memory Capacity Conversion Chart</h2>
+                    <div className="overflow-x-auto">
+                        <table className="min-w-full bg-white border border-gray-300">
+                            <thead>
+                                <tr className="bg-gray-100">
+                                    <th className="py-2 px-4 border-b text-left">Term (Abbreviation)</th>
+                                    <th className="py-2 px-4 border-b text-left">Approximate Size</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {data.map((row, index) => (
+                                    <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
+                                        <td className="py-2 px-4 border-b">{row.term}</td>
+                                        <td className="py-2 px-4 border-b">{row.size}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
 
             <h2 className="text-2xl font-semibold mt-6 mb-2">Memory Built-up and Retention Power</h2>
             <ul className="list-disc ml-6 mb-4">

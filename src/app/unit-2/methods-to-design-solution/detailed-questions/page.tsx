@@ -14,14 +14,12 @@ const questionsAndAnswers = [
 
   { question: "What are the software tools for designing flowcharts?", answer: "Software tools for designing flowcharts include:\n- **Microsoft Visio**: A popular tool for creating detailed flowcharts.\n- **LARP (Logics of Algorithms and Resolution of Problems)**: A tool designed specifically for algorithm visualization and flowchart creation." },
 
-  // Concept Maps
   { question: "What is a concept map?", answer: "A concept map is a graphical tool that represents concepts and the relationships between them. Concepts are shown as boxes or circles, and relationships are indicated with lines or arrows, which are labeled with linking words or phrases." },
 
   { question: "What are the key features of concept maps?", answer: "Key features of concept maps include:\n- **Concepts**: Represented as boxes or circles.\n- **Relationships**: Shown with lines or arrows.\n- **Linking Words/Phrases**: Used to label the relationships between concepts.\n- **Purpose**: Helps in visualizing connections between different concepts." },
 
   { question: "What are some software tools for concept mapping?", answer: "Software tools for concept mapping include:\n- **CmapTools**: A tool designed for creating and managing concept maps.\n- **Mind Manager**: A versatile tool for concept mapping and mind mapping." },
 
-  // Key Points Summary
   { question: "What are the key points of flowcharts and concept maps?", answer: "1. **Flowcharts**: Diagrammatic representation of algorithms, illustrating the sequence of operations, aiding in problem analysis and solution, facilitating program writing and communication.\n2. **Concept Maps**: Graphical representation of concepts and relationships, using boxes/circles for concepts and labeled lines/arrows for relationships, helpful for visualizing concept connections." }
 ];
 
