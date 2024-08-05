@@ -7,7 +7,6 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion";
 import PlantUMLDiagram from '@/components/PlantUMLDiagram';
-import MermaidChart from '@/components/MermaidChart';
 import mermaid from 'mermaid';
 
 
