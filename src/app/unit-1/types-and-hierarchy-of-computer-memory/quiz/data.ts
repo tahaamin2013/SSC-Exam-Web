@@ -1,574 +1,255 @@
 export const quiz = {
-  totalQuestions: 55,
   questions: [
     {
       id: 1,
-      question: "What are the two main types of computer software?",
-      answers: [
-        "Hardware and Software",
-        "System Software and Application Software",
-        "Operating Systems and Drivers",
-        "High-level and Low-level Software",
-      ],
-      correctAnswer: "System Software and Application Software",
+      question: "What is the smallest unit of memory?",
+      answers: ["a) Byte", "b) Bit", "c) Word", "d) Kilobyte"],
+      correctAnswer: "b) Bit",
     },
     {
       id: 2,
-      question:
-        "Which of the following is NOT a function of an Operating System?",
+      question: "How many bytes are in 1 Gigabyte (GB)?",
       answers: [
-        "Managing input/output operations",
-        "Allocating tasks to the processor",
-        "Providing a user-friendly interface",
-        "Writing high-level programming code",
+        "a) 1024",
+        "b) 1,048,576",
+        "c) 1,073,741,824",
+        "d) 1,099,511,627,776",
       ],
-      correctAnswer: "Writing high-level programming code",
+      correctAnswer: "c) 1,073,741,824",
     },
     {
       id: 3,
-      question:
-        "What type of software facilitates communication between the operating system and hardware devices?",
-      answers: ["Firmware", "Device Drivers", "Utilities", "Compilers"],
-      correctAnswer: "Device Drivers",
+      question: "Which of the following is NOT an example of chip memory?",
+      answers: ["a) RAM", "b) ROM", "c) Magnetic Tape", "d) Solid State Drive"],
+      correctAnswer: "c) Magnetic Tape",
     },
     {
       id: 4,
-      question: "Which of these is an example of system software?",
-      answers: ["Microsoft Word", "Google Chrome", "Linux", "Photoshop"],
-      correctAnswer: "Linux",
+      question:
+        "What type of memory uses laser technology to encode data onto disks?",
+      answers: [
+        "a) Magnetic Memory",
+        "b) Chip Memory",
+        "c) Optical Memory",
+        "d) Flash Memory",
+      ],
+      correctAnswer: "c) Optical Memory",
     },
     {
       id: 5,
-      question: "What does a compiler do?",
-      answers: [
-        "Manages hardware resources",
-        "Translates high-level language code into machine code",
-        "Provides a user interface",
-        "Scans for viruses",
-      ],
-      correctAnswer: "Translates high-level language code into machine code",
+      question: "Which of the following is an example of volatile memory?",
+      answers: ["a) ROM", "b) Hard Disk Drive", "c) RAM", "d) Flash Memory"],
+      correctAnswer: "c) RAM",
     },
     {
       id: 6,
       question:
-        "Which of the following is NOT an example of application software?",
-      answers: [
-        "Microsoft PowerPoint",
-        "Device Drivers",
-        "Minecraft",
-        "QuickBooks",
-      ],
-      correctAnswer: "Device Drivers",
+        "What is the term for the smallest amount of data that a computer can process as a unit?",
+      answers: ["a) Bit", "b) Byte", "c) Memory Word", "d) Cache"],
+      correctAnswer: "c) Memory Word",
     },
     {
       id: 7,
-      question:
-        "What type of software is permanently stored on hardware devices?",
-      answers: ["Firmware", "Freeware", "Shareware", "Malware"],
-      correctAnswer: "Firmware",
+      question: "Which type of memory is typically the fastest?",
+      answers: [
+        "a) Optical Memory",
+        "b) Magnetic Memory",
+        "c) Cache Memory",
+        "d) ROM",
+      ],
+      correctAnswer: "c) Cache Memory",
     },
     {
       id: 8,
-      question: "Which of these is an example of productivity software?",
-      answers: ["Salesforce", "Minecraft", "Microsoft Excel", "Netflix"],
-      correctAnswer: "Microsoft Excel",
+      question: "What does the word size of a CPU indicate?",
+      answers: [
+        "a) The physical size of the CPU",
+        "b) The number of bits the CPU can process in a single operation",
+        "c) The total amount of RAM in the system",
+        "d) The clock speed of the CPU",
+      ],
+      correctAnswer:
+        "b) The number of bits the CPU can process in a single operation",
     },
     {
       id: 9,
-      question: "What is the main purpose of business software?",
+      question:
+        "Which of the following is NOT a characteristic of magnetic memory?",
       answers: [
-        "Entertainment",
-        "Education",
-        "Streamlining business operations",
-        "System maintenance",
+        "a) Cost-effective",
+        "b) Large storage capacities",
+        "c) Faster access times compared to chip memory",
+        "d) Uses magnetized media to store data",
       ],
-      correctAnswer: "Streamlining business operations",
+      correctAnswer: "c) Faster access times compared to chip memory",
     },
     {
       id: 10,
       question:
-        "Which of these is NOT a characteristic of low-level languages?",
+        "What type of memory retains its data even when the power is turned off?",
       answers: [
-        "Machine-oriented",
-        "Requires detailed knowledge of computer's internal workings",
-        "Easy for humans to read and write",
-        "Includes machine language and assembly language",
+        "a) Volatile Memory",
+        "b) RAM",
+        "c) Cache Memory",
+        "d) Non-Volatile Memory",
       ],
-      correctAnswer: "Easy for humans to read and write",
+      correctAnswer: "d) Non-Volatile Memory",
     },
+
     {
       id: 11,
-      question:
-        "What is the main advantage of high-level languages over low-level languages?",
-      answers: [
-        "They are faster to execute",
-        "They are easier to learn and use",
-        "They don't require a compiler",
-        "They have direct access to hardware",
-      ],
-      correctAnswer: "They are easier to learn and use",
+      question: "What is the smallest unit of memory?",
+      answers: ["a) Byte", "b) Bit", "c) Word", "d) Kilobyte"],
+      correctAnswer: "b) Bit",
     },
+
     {
       id: 12,
-      question:
-        "Which of these is NOT a fundamental element of structured languages?",
-      answers: ["Sequence", "Selection", "Repetition", "Recursion"],
-      correctAnswer: "Recursion",
+      question: "Which of the following is NOT a unit of memory size?",
+      answers: ["a) Gigabyte", "b) Terabyte", "c) Megabit", "d) Petabyte"],
+      correctAnswer: "c) Megabit",
     },
     {
       id: 13,
-      question:
-        "What is the primary concept behind object-oriented programming?",
+      question: "RAM is an example of:",
       answers: [
-        "Writing code in a specific sequence",
-        "Using only high-level languages",
-        "Basing programs on objects that can perform activities",
-        "Avoiding the use of loops",
+        "a) Non-volatile memory",
+        "b) Volatile memory",
+        "c) Read-only memory",
+        "d) Magnetic memory",
       ],
-      correctAnswer: "Basing programs on objects that can perform activities",
+      correctAnswer: "b) Volatile memory",
     },
+
     {
       id: 14,
-      question:
-        "Which of these is NOT a common use of low-level programming languages?",
-      answers: [
-        "Operating System Development",
-        "Web Development",
-        "Embedded Systems Programming",
-        "Firmware Development",
-      ],
-      correctAnswer: "Web Development",
+      question: "Which type of memory is used to store the operating system?",
+      answers: ["a) RAM", "b) ROM", "c) Cache", "d) Flash memory"],
+      correctAnswer: "b) ROM",
     },
+
     {
       id: 15,
-      question:
-        "What type of software would you use to create a slideshow presentation?",
-      answers: [
-        "Spreadsheet software",
-        "Word processing software",
-        "Presentation software",
-        "Database software",
-      ],
-      correctAnswer: "Presentation software",
+      question: "Which of the following memory types is the fastest?",
+      answers: ["a) Hard disk drive", "b) RAM", "c) Cache", "d) Optical disk"],
+      correctAnswer: "c) Cache",
     },
+
     {
       id: 16,
       question:
-        "Which of these is an example of an online collaborative tool for document creation?",
-      answers: ["Microsoft Word", "Adobe Photoshop", "Google Docs", "GIMP"],
-      correctAnswer: "Google Docs",
+        "Which memory type is used for storing large amounts of data at a low cost?",
+      answers: ["a) RAM", "b) ROM", "c) Magnetic disk", "d) Cache"],
+      correctAnswer: "c) Magnetic disk",
     },
+
     {
       id: 17,
       question:
-        "What is the primary purpose of a Learning Management System (LMS)?",
+        "What is the main difference between volatile and non-volatile memory?",
       answers: [
-        "To edit images",
-        "To create presentations",
-        "To manage educational content and assessments",
-        "To develop video games",
+        "a) Volatile memory is faster.",
+        "b) Non-volatile memory is more expensive.",
+        "c) Volatile memory loses data when power is off.",
+        "d) Non-volatile memory cannot be erased.",
       ],
-      correctAnswer: "To manage educational content and assessments",
+      correctAnswer: "c) Volatile memory loses data when power is off.",
     },
+
     {
       id: 18,
-      question:
-        "Which of these is an open-source alternative to Adobe Photoshop?",
-      answers: ["Microsoft Paint", "GIMP", "Canva", "Illustrator"],
-      correctAnswer: "GIMP",
+      question: "Which of the following is an example of optical memory?",
+      answers: ["a) Hard disk drive", "b) CD", "c) RAM", "d) Flash drive"],
+      correctAnswer: "b) CD",
     },
+
     {
       id: 19,
-      question: "What type of software is Duolingo?",
+      question: "What is the purpose of cache memory?",
       answers: [
-        "Business software",
-        "Productivity software",
-        "Entertainment software",
-        "Educational software",
+        "a) To store the operating system.",
+        "b) To speed up access to frequently used data.",
+        "c) To store large amounts of data",
+        "d) To provide permanent storage.",
       ],
-      correctAnswer: "Educational software",
+      correctAnswer: "b) To speed up access to frequently used data.",
     },
+
     {
       id: 20,
-      question:
-        "Which of these is NOT a typical use of high-level programming languages?",
-      answers: [
-        "Creating mobile applications",
-        "Developing machine learning models",
-        "Writing device drivers",
-        "Building websites",
-      ],
-      correctAnswer: "Writing device drivers",
+      question: "Which of the following is NOT a type of chip memory?",
+      answers: ["a) RAM", "b) ROM", "c) Magnetic tape", "d) Flash memory"],
+      correctAnswer: "c) Magnetic tape",
     },
+
     {
       id: 21,
-      question: "What is computer software?",
-      answers: [
-        "A collection of programs, data, and instructions",
-        "A hardware component",
-        "A type of operating system",
-        "A network protocol",
-      ],
-      correctAnswer: "A collection of programs, data, and instructions",
+      question: "What is the smallest unit of memory in computing?",
+      answers: ["a) Byte", "b) Bit", "c) Kilobyte", "d) Megabyte"],
+      correctAnswer: "b) Bit",
     },
     {
       id: 22,
-      question:
-        "Into how many main types is computer software typically categorized?",
-      answers: ["Three", "Four", "Two", "Five"],
-      correctAnswer: "Two",
+      question: "How many bytes are there in one kilobyte (KB)?",
+      answers: [
+        "a) 1000 Bytes",
+        "b) 1024 Bytes",
+        "c) 100 Bytes",
+        "d) 2048 Bytes",
+      ],
+      correctAnswer: "b) 1024 Bytes",
     },
     {
       id: 23,
-      question: "What is the primary role of system software?",
+      question:
+        "What type of memory is used for temporary storage of data and instructions in use?",
       answers: [
-        "To play games",
-        "To manage and control hardware components",
-        "To create spreadsheets",
-        "To edit images",
+        "a) ROM (Read-Only Memory)",
+        "b) Flash Memory",
+        "c) RAM (Random Access Memory)",
+        "d) Optical Memory",
       ],
-      correctAnswer: "To manage and control hardware components",
+      correctAnswer: "c) RAM (Random Access Memory)",
     },
     {
       id: 24,
-      question: "Which of the following is an example of system software?",
+      question: "Which of the following is a type of non-volatile memory?",
       answers: [
-        "Microsoft Word",
-        "Adobe Photoshop",
-        "Microsoft Windows",
-        "Netflix",
+        "a) RAM (Random Access Memory)",
+        "b) Cache Memory",
+        "c) ROM (Read-Only Memory)",
+        "d) All of the above",
       ],
-      correctAnswer: "Microsoft Windows",
+      correctAnswer: "c) ROM (Read-Only Memory)",
     },
     {
       id: 25,
-      question: "What is the main function of an operating system?",
+      question:
+        "Which type of memory is known for being fast due to its lack of mechanical parts and reliance on electrical processes?",
       answers: [
-        "Managing hardware resources and providing services for programs",
-        "Designing websites",
-        "Playing music",
-        "Developing firmware",
+        "a) Magnetic Memory",
+        "b) Optical Memory",
+        "c) Chip Memory",
+        "d) All of the above",
       ],
-      correctAnswer:
-        "Managing hardware resources and providing services for programs",
+      correctAnswer: "c) Chip Memory",
     },
     {
       id: 26,
-      question:
-        "Which of the following is NOT a common function of an operating system?",
-      answers: [
-        "User interaction",
-        "Memory management",
-        "Virus scanning",
-        "File system management",
-      ],
-      correctAnswer: "Virus scanning",
+      question: "Which type of memory uses magnetized media to store data?",
+      answers: ["a) RAM", "b) ROM", "c) Magnetic Memory", "d) Optical Memory"],
+      correctAnswer: "c) Magnetic Memory",
     },
     {
       id: 27,
-      question: "What is the role of device drivers?",
+      question: "What is the primary purpose of cache memory?",
       answers: [
-        "Managing memory",
-        "Facilitating communication between the OS and hardware devices",
-        "Creating documents",
-        "Editing photos",
+        "a) To provide permanent storage for data",
+        "b) To store firmware and system software",
+        "c) To speed up access to frequently used data",
+        "d) To store large amounts of data",
       ],
-      correctAnswer:
-        "Facilitating communication between the OS and hardware devices",
-    },
-    {
-      id: 28,
-      question:
-        "What type of software is used to perform tasks such as disk cleanup and data backup?",
-      answers: [
-        "Operating System",
-        "Compiler",
-        "System Utilities",
-        "Application Software",
-      ],
-      correctAnswer: "System Utilities",
-    },
-    {
-      id: 29,
-      question:
-        "Which tool converts high-level programming languages into machine code?",
-      answers: ["Linker", "Compiler", "Loader", "Device driver"],
-      correctAnswer: "Compiler",
-    },
-    {
-      id: 30,
-      question: "What is the purpose of linkers and loaders?",
-      answers: [
-        "Creating documents",
-        "Translating high-level languages",
-        "Combining and loading files into memory for execution",
-        "Editing images",
-      ],
-      correctAnswer: "Combining and loading files into memory for execution",
-    },
-    {
-      id: 31,
-      question: "What is application software designed for?",
-      answers: [
-        "Managing hardware",
-        "Performing specific tasks for users",
-        "Compiling code",
-        "Managing device drivers",
-      ],
-      correctAnswer: "Performing specific tasks for users",
-    },
-    {
-      id: 32,
-      question:
-        "Which of the following is an example of productivity software?",
-      answers: ["Minecraft", "QuickBooks", "Microsoft Word", "Salesforce"],
-      correctAnswer: "Microsoft Word",
-    },
-    {
-      id: 33,
-      question: "What type of software is Trello?",
-      answers: [
-        "Entertainment Software",
-        "Business Software",
-        "Educational Software",
-        "Image Processing Tool",
-      ],
-      correctAnswer: "Business Software",
-    },
-    {
-      id: 34,
-      question: "Which of the following is an example of educational software?",
-      answers: ["Spotify", "Google Docs", "Duolingo", "QuickBooks"],
-      correctAnswer: "Duolingo",
-    },
-    {
-      id: 35,
-      question: "What are programming languages used for?",
-      answers: [
-        "Creating hardware components",
-        "Communicating instructions to a computer",
-        "Managing operating systems",
-        "Playing games",
-      ],
-      correctAnswer: "Communicating instructions to a computer",
-    },
-    {
-      id: 36,
-      question: "Which language is directly understood by computer hardware?",
-      answers: [
-        "High-Level Language",
-        "Assembly Language",
-        "Machine Language",
-        "Structured Language",
-      ],
-      correctAnswer: "Machine Language",
-    },
-    {
-      id: 37,
-      question:
-        "What tool is used to translate assembly language into machine language?",
-      answers: ["Compiler", "Linker", "Loader", "Assembler"],
-      correctAnswer: "Assembler",
-    },
-    {
-      id: 38,
-      question: "Which of the following is a high-level programming language?",
-      answers: [
-        "Machine Language",
-        "Assembly Language",
-        "C++",
-        "Device Driver",
-      ],
-      correctAnswer: "C++",
-    },
-    {
-      id: 39,
-      question:
-        "What programming paradigm is based on objects like student, vehicle, building, etc.?",
-      answers: [
-        "Procedural Programming",
-        "Structured Programming",
-        "Object-Oriented Programming",
-        "Low-Level Programming",
-      ],
-      correctAnswer: "Object-Oriented Programming",
-    },
-    {
-      id: 40,
-      question:
-        "Which application is NOT a common use of low-level programming languages?",
-      answers: [
-        "Operating System Development",
-        "Game Development",
-        "Embedded Systems",
-        "Real-Time Systems",
-      ],
-      correctAnswer: "Game Development",
-    },
-    {
-      id: 41,
-      question:
-        "Which application is a common use of high-level programming languages?",
-      answers: [
-        "Device Drivers",
-        "Firmware Development",
-        "Scientific and Engineering Simulations",
-        "Security Tools",
-      ],
-      correctAnswer: "Scientific and Engineering Simulations",
-    },
-    {
-      id: 42,
-      question:
-        "Computer software is categorized into two main types. Which of the following is NOT one of them?",
-      answers: [
-        "System Software",
-        "Application Software",
-        "Development Software",
-        "Programming Languages",
-      ],
-      correctAnswer: "Development Software",
-    },
-    {
-      id: 43,
-      question:
-        "System software acts as an intermediary between what three things?",
-      answers: [
-        "User, hardware, and applications",
-        "User, data, and instructions",
-        "Hardware, data, and applications",
-        "Instructions, data, and processing",
-      ],
-      correctAnswer: "User, hardware, and applications",
-    },
-    {
-      id: 44,
-      question:
-        "Which of the following is NOT a common type of system software?",
-      answers: [
-        "Device Drivers",
-        "Web Browsers",
-        "Operating Systems",
-        "Utilities",
-      ],
-      correctAnswer: "Web Browsers",
-    },
-    {
-      id: 45,
-      question:
-        "An operating system is responsible for all of the following EXCEPT:",
-      answers: [
-        "Managing files and directories",
-        "Translating high-level code to machine code",
-        "Allocating memory to programs",
-        "Providing a user interface",
-      ],
-      correctAnswer: "Translating high-level code to machine code",
-    },
-    {
-      id: 46,
-      question: "What is the primary function of a device driver?",
-      answers: [
-        "To manage system resources",
-        "To translate high-level code",
-        "To facilitate communication between hardware and the OS",
-        "To compress and decompress files",
-      ],
-      correctAnswer: "To facilitate communication between hardware and the OS",
-    },
-    {
-      id: 47,
-      question:
-        "Which of the following types of software is designed to help users perform tasks efficiently and organize information?",
-      answers: [
-        "System Software",
-        "Productivity Software",
-        "Entertainment Software",
-        "Educational Software",
-      ],
-      correctAnswer: "Productivity Software",
-    },
-    {
-      id: 48,
-      question: "An example of productivity software is:",
-      answers: ["Minecraft", "Microsoft Office Suite", "Netflix", "Kahoot!"],
-      correctAnswer: "Microsoft Office Suite",
-    },
-    {
-      id: 49,
-      question: "What type of software is designed for leisure and enjoyment?",
-      answers: [
-        "Productivity Software",
-        "Business Software",
-        "Entertainment Software",
-        "Educational Software",
-      ],
-      correctAnswer: "Entertainment Software",
-    },
-    {
-      id: 50,
-      question:
-        "Which of the following is NOT an example of entertainment software?",
-      answers: ["Spotify", "Adobe Photoshop", "Minecraft", "Netflix"],
-      correctAnswer: "Adobe Photoshop",
-    },
-    {
-      id: 51,
-      question:
-        "Educational software can be used for a variety of purposes, including:",
-      answers: [
-        "Playing video games",
-        "Creating presentations",
-        "Learning a new language",
-        "Managing finances",
-      ],
-      correctAnswer: "Learning a new language",
-    },
-    {
-      id: 52,
-      question:
-        "A high-level programming language is easier to learn and use compared to a low-level language because it is:",
-      answers: [
-        "Written in machine code",
-        "More closely resembles human language",
-        "Directly understood by the computer hardware",
-        "Requires less storage space",
-      ],
-      correctAnswer: "More closely resembles human language",
-    },
-    {
-      id: 53,
-      question: "Machine language is an example of a:",
-      answers: [
-        "High-level language",
-        "Low-level language",
-        "Programming language not in use anymore",
-        "None of the above",
-      ],
-      correctAnswer: "Low-level language",
-    },
-    {
-      id: 54,
-      question:
-        "Which of the following is NOT a common use of high-level programming languages?",
-      answers: [
-        "Web development",
-        "Operating system development",
-        "Game development",
-        "Data analysis",
-      ],
-      correctAnswer: "Operating system development",
-    },
-    {
-      id: 55,
-      question: "What is the main advantage of object-oriented programming?",
-      answers: [
-        "It is easier to learn than other programming paradigms.",
-        "It allows for more efficient use of memory.",
-        "It is better suited for real-time systems.",
-        "It promotes code reusability and maintainability.",
-      ],
-      correctAnswer: "It promotes code reusability and maintainability",
+      correctAnswer: "c) To speed up access to frequently used data",
     },
   ],
 };
