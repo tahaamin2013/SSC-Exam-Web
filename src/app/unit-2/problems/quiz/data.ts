@@ -40,7 +40,7 @@ export const quiz = {
         "How to stop infectious diseases",
         "How to reduce the cost of medical equipment",
       ],
-      correctAnswer: "How to reduce hospital waiting times",
+      correctAnswer: "How to stop infectious diseases",
     },
     {
       id: 5,
@@ -73,7 +73,7 @@ export const quiz = {
         "How to secure mobile banking transactions",
         "How to improve internet accessibility in rural areas",
       ],
-      correctAnswer: "How to improve internet accessibility in rural areas",
+      correctAnswer: "How to secure mobile banking transactions",
     },
     {
       id: 8,
@@ -84,7 +84,7 @@ export const quiz = {
         "How do animals adapt to climate change?",
         "How does DNA replication occur?",
       ],
-      correctAnswer: "How does DNA replication occur?",
+      correctAnswer: "How do 5G cell phone signals harm humans?",
     },
     {
       id: 9,
@@ -136,7 +136,7 @@ export const quiz = {
         "How do trees give earth all its oxygen?",
         "What types of trees grow the fastest?",
       ],
-      correctAnswer: "Why are trees important for ecosystems?",
+      correctAnswer: "How do trees give earth all its oxygen?",
     },
     {
       id: 14,
