@@ -1,126 +1,61 @@
 import React from 'react'
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion"
+
+const questionsAndAnswers = [
+    { question: "What factors should be considered when deciding what to produce?", answer: "Factors include market demand, resource availability, production costs, and potential profitability." },
+    { question: "How can businesses effectively manage limited budgets?", answer: "Businesses can prioritize essential expenditures, adopt cost-saving technologies, and regularly review financial plans to manage limited budgets effectively." },
+    { question: "What strategies can improve access to medicines in rural areas?", answer: "Strategies include increasing distribution networks, partnering with local organizations, and utilizing telemedicine services." },
+    { question: "How can we effectively combat infectious diseases?", answer: "Effective measures include vaccination programs, improving sanitation and hygiene, and increasing public awareness." },
+    { question: "What are effective methods to increase literacy rates in developing countries?", answer: "Methods include improving access to education, training teachers, and providing educational resources and technology." },
+    { question: "Which subject areas in education require more focus?", answer: "Subject areas such as STEM (Science, Technology, Engineering, and Mathematics), literacy, and vocational training often require more focus." },
+    { question: "What are the causes of the increasing number of vehicles on the road?", answer: "Causes include population growth, increased income levels, and urbanization." },
+    { question: "What measures can reduce the frequency of motorway accidents?", answer: "Measures include improving road infrastructure, implementing stricter traffic laws, and promoting driver education and awareness." },
+    { question: "How can mobile banking transactions be secured against cyber threats?", answer: "Security can be enhanced through encryption, multi-factor authentication, and regular security updates." },
+    { question: "What are the reasons behind unwanted advertisements on websites?", answer: "Reasons include ad revenue generation, targeted advertising practices, and tracking user behavior for marketing purposes." },
+    { question: "How does exposure to 5G cell phone signals impact human health?", answer: "Current research indicates that 5G signals are generally considered safe, but ongoing studies are needed to fully understand long-term health effects." },
+    { question: "What role do trees play in producing oxygen for the Earth?", answer: "Trees produce oxygen through photosynthesis, a process that converts carbon dioxide and sunlight into oxygen and glucose." },
+    { question: "How can we optimize resource allocation in manufacturing?", answer: "Optimization can be achieved through lean manufacturing practices, advanced planning systems, and regular performance reviews." },
+    { question: "What are the challenges in managing inflation?", answer: "Challenges include balancing monetary policy, managing fiscal deficits, and ensuring stable economic growth." },
+    { question: "What innovations are needed to address global health crises?", answer: "Innovations include developing new treatments and vaccines, improving healthcare infrastructure, and enhancing global health monitoring systems." },
+    { question: "How can we reduce healthcare costs without compromising quality?", answer: "Cost reduction can be achieved through efficient resource management, adopting preventive care practices, and leveraging technology." },
+    { question: "What strategies can be employed to improve teacher training?", answer: "Strategies include professional development programs, mentorship opportunities, and incorporating feedback from classroom experiences." },
+    { question: "How can technology be used to enhance learning outcomes?", answer: "Technology can enhance learning through interactive tools, online resources, and personalized learning experiences." },
+    { question: "What are the environmental impacts of increasing vehicle numbers?", answer: "Impacts include increased air pollution, higher greenhouse gas emissions, and greater demand for natural resources." },
+    { question: "How can public transportation systems be improved?", answer: "Improvements can include expanding service coverage, increasing frequency, and investing in modern infrastructure." },
+    { question: "How can online privacy be better protected?", answer: "Online privacy can be protected through the use of strong passwords, encryption, and privacy-focused browsing practices." },
+    { question: "What measures can prevent the spread of misinformation online?", answer: "Measures include promoting media literacy, fact-checking, and implementing stricter content moderation policies." },
+    { question: "How do pesticides affect the environment?", answer: "Pesticides can harm wildlife, contaminate water sources, and disrupt ecosystems by affecting non-target species." },
+    { question: "What are the benefits of biodiversity for ecosystems?", answer: "Biodiversity supports ecosystem stability, resilience, and productivity by providing a range of species that contribute to ecological functions." },
+    { question: "How can small businesses compete with larger corporations?", answer: "Small businesses can compete by focusing on niche markets, offering personalized services, and leveraging local networks." },
+    { question: "What are the effects of globalization on local economies?", answer: "Effects include increased market access, greater competition, and potential loss of local industries due to global trade practices." },
+    { question: "What are effective ways to promote mental health?", answer: "Effective ways include increasing access to mental health services, reducing stigma, and promoting healthy lifestyles and coping mechanisms." },
+    { question: "How can vaccination rates be increased globally?", answer: "Increasing vaccination rates can be achieved through public education campaigns, improving vaccine availability, and addressing vaccine hesitancy." },
+    { question: "What are the benefits of incorporating STEM education in schools?", answer: "Benefits include preparing students for future careers, fostering problem-solving skills, and encouraging innovation and critical thinking." },
+    { question: "How can educational institutions better support students with disabilities?", answer: "Support can be enhanced through accessible facilities, individualized learning plans, and providing specialized resources and accommodations." },
+];
 
 const Page = () => {
     return (
-        <section id="FAQ" className="border mt-4 max-w-2xl mx-auto text-sm text-left sm:text-md mb-4 p-6">
+        <section
+            id="FAQ"
+            className="border mt-4 max-w-2xl mx-auto text-sm text-left sm:text-md mb-4 p-6"
+        >
             <h1 className="font-bold text-3xl text-center mb-4">
-                Brief Questions and Answers on Computer History (3 marks each)
+                Brief Questions and Answers on Computing Problems (3 marks each)
             </h1>
             <div className="grid grid-cols-1 text-left gap-x-8 w-full">
                 <Accordion type="single" collapsible>
-                    <AccordionItem value="item-1">
-                        <AccordionTrigger>What was the Pascaline, and who invented it?</AccordionTrigger>
-                        <AccordionContent>
-                            The Pascaline was invented in 1642 by Blaise Pascal, a French mathematician. It is considered the first mechanical and automated calculator, consisting of a wooden box with gears and wheels.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-2">
-                        <AccordionTrigger>Describe the main characteristics of First Generation Computers.</AccordionTrigger>
-                        <AccordionContent>
-                            First Generation Computers (1940-1956) were characterized by vacuum tube technology, slow processing speed, limited memory capacity, massive size (occupying entire rooms), high cost, unreliability, significant power consumption, and heat generation. They used punched cards for input and electric typewriters for output, and were programmed using machine language.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-3">
-                        <AccordionTrigger>What was the Analytical Engine, and who invented it?</AccordionTrigger>
-                        <AccordionContent>
-                            The Analytical Engine was invented by Charles Babbage in 1830. It was a mechanical computer that took input from punch cards and was capable of solving mathematical problems and storing data in memory.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-4">
-                        <AccordionTrigger>How did Second Generation Computers differ from First Generation Computers?</AccordionTrigger>
-                        <AccordionContent>
-                            Second Generation Computers (1956-1963) differed from First Generation Computers by using transistors instead of vacuum tubes. This led to enhanced efficiency, smaller size, improved speed and memory capacity, increased reliability, and cost-effectiveness. They also introduced the use of assembly language and high-level programming languages like FORTRAN and COBOL.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-5">
-                        <AccordionTrigger>What was the key innovation of Fourth Generation Computers?</AccordionTrigger>
-                        <AccordionContent>
-                            The key innovation of Fourth Generation Computers (1971-Present) was the development of the microprocessor, capable of handling all processing tasks. This led to exceptional speed, large storage capacity, small size, high reliability, low power consumption, and affordability.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-6">
-                        <AccordionTrigger>Describe the main focus of Fifth Generation Computers.</AccordionTrigger>
-                        <AccordionContent>
-                            Fifth Generation Computers focus on Artificial Intelligence (AI) technologies. They aim to create machines with the capability to learn, think, innovate, reason, and solve problems. They incorporate advanced parallel processing, Natural Language Processing, and Expert Systems to replicate human-like decision-making abilities.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-7">
-                        <AccordionTrigger>What was the Difference Engine, and who created it?</AccordionTrigger>
-                        <AccordionContent>
-                            The Difference Engine was created by Charles Babbage in the early 1820s. It was a mechanical computer capable of basic computations and was designed as a steam-powered calculating machine for solving numerical problems.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-8">
-                        <AccordionTrigger>What were the main characteristics of Third Generation Computers?</AccordionTrigger>
-                        <AccordionContent>
-                            Third Generation Computers (1963-1971) were characterized by the use of integrated circuits (ICs). This led to enhanced speed and memory, improved energy efficiency, size reduction, and increased reliability. They introduced interaction via keyboard and monitor and had the capability to run multiple application programs concurrently.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-9">
-                        <AccordionTrigger>Who invented the Tabulating Machine, and what was its significance?</AccordionTrigger>
-                        <AccordionContent>
-                            The Tabulating Machine was invented by Herman Hollerith in 1890. It was a punch card-based mechanical calculator used for computing statistics and recording data. Its significance lies in the fact that Hollerith&apos;s company eventually became IBM in 1924, a major player in the computer industry.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-10">
-                        <AccordionTrigger>What was the Mark 1, and what were its capabilities?</AccordionTrigger>
-                        <AccordionContent>
-                            The Mark 1 was invented by Howard Aiken in 1944. It was a digital computer that could add three numbers with eight digits in one second. It printed results on punched cards or an electric typewriter. The Mark 1 was massive, measuring 50 feet long, 8 feet high, and weighing about 5 tons.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-11">
-                        <AccordionTrigger>What were Napier&apos;s Bones, and how were they used?</AccordionTrigger>
-                        <AccordionContent>
-                            Napier&apos;s Bones were developed by John Napier. They were a manually operated calculating device using 9 separate strips (bones) marked with numerals. Napier&apos;s Bones were used to multiply and divide and were the first machine to calculate using the decimal point system.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-12">
-                        <AccordionTrigger>What advancements did Fourth Generation Computers bring in terms of user interaction?</AccordionTrigger>
-                        <AccordionContent>
-                            Fourth Generation Computers introduced operating systems with Graphical User Interfaces (GUIs), support for multimedia software and modern programming languages, and compatibility with portable and wireless input/output devices. This greatly enhanced user interaction and expanded the range of applications for computers.
-                        </AccordionContent>
-                    </AccordionItem>
-                    <AccordionItem value="item-13">
-                        <AccordionTrigger>What was the Pascaline, and who invented it?</AccordionTrigger>
-                        <AccordionContent>
-                            The Pascaline was invented by Blaise Pascal, a French mathematician, in 1642. It is considered the first mechanical and automated calculator, consisting of a wooden box with gears and wheels.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-14">
-                        <AccordionTrigger>Describe two key characteristics of First Generation Computers (1940-1956).</AccordionTrigger>
-                        <AccordionContent>
-                            Two key characteristics of First Generation Computers (1940-1956) were:
-                            1. They used vacuum tube technology.
-                            2. They were massive in size, occupying entire rooms.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-15">
-                        <AccordionTrigger>What major technological advancement marked the beginning of Second Generation Computers?</AccordionTrigger>
-                        <AccordionContent>
-                            The major technological advancement that marked the beginning of Second Generation Computers (1956-1963) was the transition from vacuum tubes to transistors. This led to enhanced efficiency, smaller size, and improved speed and memory capacity.
-                        </AccordionContent>
-                    </AccordionItem>
-
-                    <AccordionItem value="item-16">
-                        <AccordionTrigger>What is the key innovation of Fourth Generation Computers, and how did it impact computer design?</AccordionTrigger>
-                        <AccordionContent>
-                            The key innovation of Fourth Generation Computers is the microprocessor, capable of handling all processing tasks. This led to exceptional speed, large storage capacity, small size, high reliability, low power consumption, and affordability in computer design.
-                        </AccordionContent>
-                    </AccordionItem>
+                    {questionsAndAnswers.map((item, index) => (
+                        <AccordionItem key={index} value={`item-${index}`}>
+                            <AccordionTrigger>{item.question}</AccordionTrigger>
+                            <AccordionContent>{item.answer}</AccordionContent>
+                        </AccordionItem>
+                    ))}
                 </Accordion>
             </div>
         </section>
@@ -128,3 +63,4 @@ const Page = () => {
 }
 
 export default Page
+    

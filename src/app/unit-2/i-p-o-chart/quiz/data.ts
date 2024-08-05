@@ -1,683 +1,374 @@
 export const quiz = {
-  totalQuestions: 60,
+  totalQuestions: 34,
   questions: [
     {
-      id: 1,
-      question: "What does the 'Input' component in an IPO chart represent?",
-      answers: [
-        "Data entered into the system",
-        "Operations applied to the input",
-        "Resulting information for the user",
-        "Algorithm used for processing",
-      ],
-      correctAnswer: "Data entered into the system",
-    },
-    {
       id: 2,
-      question:
-        "In an IPO chart, what is the 'Process' component responsible for?",
+      question: "What is the primary function of the Address Bus?",
       answers: [
-        "Performing operations on the input",
-        "Displaying the final result",
-        "Entering data into the system",
-        "Defining the output format",
+        "A) To transfer data between the CPU and memory.",
+        "B) To carry control signals.",
+        "C) To specify memory locations for data transfer.",
+        "D) To store instructions for the CPU.",
       ],
-      correctAnswer: "Performing operations on the input",
+      correctAnswer: "C) To specify memory locations for data transfer.",
     },
     {
       id: 3,
-      question:
-        "Which of the following is an example of 'Output' in an IPO chart?",
+      question: "Registers within the CPU are primarily used for:",
       answers: [
-        "The calculated area of a rectangle",
-        "The formula used to calculate area",
-        "The length and width of a rectangle",
-        "The operations to compute the area",
+        "A) Long-term data storage.",
+        "B) Executing instructions directly.",
+        "C) Holding data that is frequently used by the CPU.",
+        "D) Managing peripheral devices.",
       ],
-      correctAnswer: "The calculated area of a rectangle",
+      correctAnswer: "C) Holding data that is frequently used by the CPU.",
     },
     {
       id: 4,
-      question: "For computing a rectangle's area, what are the inputs?",
+      question:
+        "Which of the following represents the correct order of the instruction cycle?",
       answers: [
-        "Length and Width of the rectangle",
-        "Length * Width",
-        "Area of the rectangle",
-        "Operations applied to length and width",
+        "A) Decode-Fetch-Execute-Store",
+        "B) Fetch-Decode-Execute-Store",
+        "C) Execute-Fetch-Decode-Store",
+        "D) Fetch-Execute-Decode-Store",
       ],
-      correctAnswer: "Length and Width of the rectangle",
+      correctAnswer: "B) Fetch-Decode-Execute-Store",
     },
     {
       id: 5,
-      question: "What process is applied to calculate the area of a rectangle?",
+      question: "What is the purpose of pipelining in modern CPUs?",
       answers: [
-        "Multiply Length by Width",
-        "Add Length and Width",
-        "Divide Length by Width",
-        "Subtract Length from Width",
+        "A) To store more data in the CPU.",
+        "B) To execute multiple instructions simultaneously.",
+        "C) To transfer data faster between memory and CPU.",
+        "D) To handle interrupts more efficiently.",
       ],
-      correctAnswer: "Multiply Length by Width",
+      correctAnswer: "B) To execute multiple instructions simultaneously.",
     },
     {
       id: 6,
       question:
-        "In calculating a student's average grade, what is the process step?",
+        "Which component within the CPU performs arithmetic and logical operations?",
       answers: [
-        "Sum all grades and divide by the number of grades",
-        "Input the grades into the system",
-        "Display the average grade",
-        "Enter the student's name",
+        "A) Control Unit",
+        "B) Registers",
+        "C) Arithmetic Logic Unit (ALU)",
+        "D) Cache",
       ],
-      correctAnswer: "Sum all grades and divide by the number of grades",
+      correctAnswer: "C) Arithmetic Logic Unit (ALU)",
     },
     {
       id: 7,
-      question: "What does the 'Output' in an IPO chart refer to?",
+      question:
+        "How does the memory hierarchy improve data transmission efficiency?",
       answers: [
-        "The result of the processed data",
-        "The data entered into the system",
-        "The operations applied to the input",
-        "The steps to obtain the result",
+        "A) By storing all data in registers.",
+        "B) By using multiple buses for data transfer.",
+        "C) By providing faster access to frequently used data.",
+        "D) By increasing the size of main memory.",
       ],
-      correctAnswer: "The result of the processed data",
+      correctAnswer: "C) By providing faster access to frequently used data.",
     },
     {
       id: 8,
-      question: "Which of the following steps is NOT part of an IPO chart?",
+      question: "What is an interrupt in the context of computer systems?",
       answers: [
-        "Define the problem",
-        "Data entered into the system",
-        "Operations applied to the input",
-        "Resulting information for the user",
+        "A) A signal that temporarily halts CPU operations to handle an important event.",
+        "B) A type of memory used for storing frequently accessed data.",
+        "C) A method for increasing the speed of data transmission between components.",
+        "D) A process of decoding instructions within the CPU.",
       ],
-      correctAnswer: "Define the problem",
+      correctAnswer:
+        "A) A signal that temporarily halts CPU operations to handle an important event.",
     },
     {
       id: 9,
       question:
-        "What would be considered the 'Input' for a system calculating the average of three numbers?",
+        "Which of the following is NOT a part of the system buses in a computer architecture?",
       answers: [
-        "The three numbers to be averaged",
-        "The average of the three numbers",
-        "The algorithm for calculating the average",
-        "The sum of the three numbers",
+        "A) Data Bus",
+        "B) Control Bus",
+        "C) Address Bus",
+        "D) Instruction Bus",
       ],
-      correctAnswer: "The three numbers to be averaged",
+      correctAnswer: "D) Instruction Bus",
     },
     {
       id: 10,
       question:
-        "In an IPO chart, which component shows the result after applying the process to the input?",
-      answers: ["Output", "Input", "Process", "Algorithm"],
-      correctAnswer: "Output",
+        "What role do parallelism and multiple cores play in data transmission within a computer system?",
+      answers: [
+        "A) They reduce the need for memory hierarchy.",
+        "B) They increase the speed of data processing and transmission.",
+        "C) They improve the efficiency of single-threaded applications.",
+        "D) They enhance the control unit's capability to handle interrupts.",
+      ],
+      correctAnswer:
+        "B) They increase the speed of data processing and transmission.",
     },
     {
       id: 11,
       question:
-        "In the context of IPO charts, what is an example of a 'Process' for calculating a rectangle's area?",
+        "Which of the following is the correct sequence for the components involved in the instruction cycle?",
       answers: [
-        "Multiplying Length by Width",
-        "Length and Width",
-        "The calculated area",
-        "Input data for the rectangle",
+        "A) MAR, ALU, Registers, Cache",
+        "B) Registers, PC, ALU, Cache",
+        "C) PC, MAR, MBR, ALU",
+        "D) ALU, MAR, MBR, PC",
       ],
-      correctAnswer: "Multiplying Length by Width",
+      correctAnswer: "C) PC, MAR, MBR, ALU",
     },
     {
       id: 12,
       question:
-        "What does the 'Input' component specifically refer to in a student's average calculation?",
+        "What is the primary function of the Control Bus in a computer system?",
       answers: [
-        "Grades 1, 2, and 3",
-        "The average grade",
-        "The sum of grades",
-        "The process of averaging",
+        "A) To carry data between the CPU and memory.",
+        "B) To manage control signals for coordinating operations.",
+        "C) To address memory locations.",
+        "D) To execute instructions directly.",
       ],
-      correctAnswer: "Grades 1, 2, and 3",
+      correctAnswer:
+        "B) To manage control signals for coordinating operations.",
     },
     {
       id: 13,
       question:
-        "Which of the following correctly describes the 'Output' for the average grade calculation?",
-      answers: [
-        "The student's grade average",
-        "The grades entered into the system",
-        "The algorithm for calculating the average",
-        "The sum of all grades",
-      ],
-      correctAnswer: "The student's grade average",
+        "Which type of memory is known for being the fastest but has the smallest capacity?",
+      answers: ["A) RAM", "B) Cache", "C) SSD", "D) Hard Drive"],
+      correctAnswer: "B) Cache",
     },
     {
       id: 14,
-      question:
-        "What component of the IPO chart includes data like length and width in a rectangle problem?",
-      answers: ["Input", "Process", "Output", "Analysis"],
-      correctAnswer: "Input",
+      question: "How do input/output devices communicate with the CPU?",
+      answers: [
+        "A) Through direct memory access.",
+        "B) Via control signals on the control bus.",
+        "C) Using interrupts.",
+        "D) By storing data in registers.",
+      ],
+      correctAnswer: "C) Using interrupts.",
     },
     {
       id: 15,
       question:
-        "What is the 'Process' involved in converting input data into useful information?",
+        "What is the primary advantage of using a memory hierarchy in computer systems?",
       answers: [
-        "Operations applied to the input",
-        "Input data collection",
-        "Output display",
-        "Problem definition",
+        "A) Increased storage capacity.",
+        "B) Faster data access.",
+        "C) Simplified bus architecture.",
+        "D) Reduced power consumption.",
       ],
-      correctAnswer: "Operations applied to the input",
+      correctAnswer: "B) Faster data access.",
     },
     {
       id: 16,
       question:
-        "For calculating the area of a rectangle, what does the 'Input' include?",
-      answers: [
-        "Length and Width",
-        "The area result",
-        "The multiplication operation",
-        "The processing steps",
-      ],
-      correctAnswer: "Length and Width",
+        "Which component acts as a communication pathway for data and control signals within a computer system?",
+      answers: ["A) Register", "B) ALU", "C) Bus", "D) Cache"],
+      correctAnswer: "C) Bus",
     },
     {
       id: 17,
-      question:
-        "What is the 'Output' of the process in calculating a student's average grade?",
+      question: "What is the primary function of a data bus?",
       answers: [
-        "The average grade",
-        "The sum of grades",
-        "The individual grades",
-        "The calculation method",
+        "A) To carry memory addresses",
+        "B) To transfer data between components",
+        "C) To control the timing of data transfer",
+        "D) To perform arithmetic and logical operations",
       ],
-      correctAnswer: "The average grade",
+      correctAnswer: "B) To transfer data between components",
     },
     {
       id: 18,
       question:
-        "In an IPO chart, which component represents the data after processing?",
-      answers: ["Output", "Input", "Process", "Algorithm"],
-      correctAnswer: "Output",
+        "Data paths are primarily concerned with data movement within the:",
+      answers: [
+        "A) CPU",
+        "B) Memory",
+        "C) Input/Output devices",
+        "D) System bus",
+      ],
+      correctAnswer: "A) CPU",
     },
     {
       id: 19,
-      question: "What should the 'Process' component detail in an IPO chart?",
+      question: "Registers are characterized by their:",
       answers: [
-        "The steps and operations to convert input into output",
-        "The data to be entered into the system",
-        "The result of the processed data",
-        "The method for defining the problem",
+        "A) Large capacity and slow access time",
+        "B) Small capacity and fast access time",
+        "C) Large capacity and fast access time",
+        "D) Small capacity and slow access time",
       ],
-      correctAnswer: "The steps and operations to convert input into output",
+      correctAnswer: "B) Small capacity and fast access time",
     },
     {
       id: 20,
-      question:
-        "Which of the following is NOT an example of 'Output' in an IPO chart?",
-      answers: [
-        "The final calculated value",
-        "The result displayed to the user",
-        "The data entry form",
-        "The result after processing",
-      ],
-      correctAnswer: "The data entry form",
+      question: "Which type of memory typically has the fastest access time?",
+      answers: ["A) RAM", "B) Cache", "C) Hard disk", "D) SSD"],
+      correctAnswer: "B) Cache",
     },
     {
       id: 21,
-      question:
-        "What does the 'Input' component describe for calculating a student's average?",
+      question: "The correct order of the instruction cycle is:",
       answers: [
-        "The grades of the student",
-        "The average grade",
-        "The calculation steps",
-        "The result of the average calculation",
+        "A) Fetch, Decode, Execute, Store",
+        "B) Decode, Fetch, Execute, Store",
+        "C) Execute, Fetch, Decode, Store",
+        "D) Store, Fetch, Decode, Execute",
       ],
-      correctAnswer: "The grades of the student",
+      correctAnswer: "A) Fetch, Decode, Execute, Store",
     },
     {
       id: 22,
-      question:
-        "In an IPO chart, which component involves applying calculations or operations?",
-      answers: ["Process", "Input", "Output", "Data Collection"],
-      correctAnswer: "Process",
+      question: "Pipelining in a CPU is a technique used to:",
+      answers: [
+        "A) Increase the size of the cache",
+        "B) Improve data transfer speed on the bus",
+        "C) Overlap the execution of multiple instructions",
+        "D) Reduce the number of registers",
+      ],
+      correctAnswer: "C) Overlap the execution of multiple instructions",
     },
     {
       id: 23,
-      question:
-        "Which of the following represents the 'Output' for a problem solving system?",
+      question: "Interrupts are used to:",
       answers: [
-        "The final result after applying the process",
-        "The steps to process the input",
-        "The data used for processing",
-        "The initial input data",
+        "A) Store data in registers",
+        "B) Handle unexpected events during program execution",
+        "C) Speed up the instruction cycle",
+        "D) Access data from the hard disk",
       ],
-      correctAnswer: "The final result after applying the process",
+      correctAnswer: "B) Handle unexpected events during program execution",
     },
     {
       id: 24,
-      question:
-        "What would be the 'Input' for a system that computes the total cost of items in a shopping cart?",
+      question: "Parallelism in computer systems refers to:",
       answers: [
-        "The individual item prices",
-        "The total cost after summing up",
-        "The method for calculating cost",
-        "The number of items in the cart",
+        "A) Using a single core to execute multiple instructions",
+        "B) Using multiple cores or processors to perform tasks simultaneously",
+        "C) Increasing the clock speed of the CPU",
+        "D) Reducing the size of the memory",
       ],
-      correctAnswer: "The individual item prices",
+      correctAnswer:
+        "B) Using multiple cores or processors to perform tasks simultaneously",
     },
     {
       id: 25,
-      question:
-        "What is the 'Process' when calculating the total cost of items in a cart?",
+      question: "What is the primary purpose of a bus in a computer system?",
       answers: [
-        "Summing all item prices",
-        "Displaying the total cost",
-        "Entering item prices",
-        "Identifying the items in the cart",
+        "A) To cool down the CPU",
+        "B) To store data permanently",
+        "C) To provide a communication pathway for data transfer between components",
+        "D) To execute program instructions",
       ],
-      correctAnswer: "Summing all item prices",
+      correctAnswer:
+        "C) To provide a communication pathway for data transfer between components",
     },
     {
       id: 26,
-      question: "In calculating the total cost of items, what is the 'Output'?",
+      question:
+        "Which of the following is NOT a type of bus in a typical computer system?",
       answers: [
-        "The total cost",
-        "The item prices",
-        "The number of items",
-        "The cart details",
+        "A) Data Bus",
+        "B) Address Bus",
+        "C) Control Bus",
+        "D) Instruction Bus",
       ],
-      correctAnswer: "The total cost",
+      correctAnswer: "D) Instruction Bus",
     },
     {
       id: 27,
-      question:
-        "For a system that converts Celsius to Fahrenheit, what is the 'Input'?",
+      question: "What are data paths within a CPU?",
       answers: [
-        "The temperature in Celsius",
-        "The converted temperature in Fahrenheit",
-        "The conversion formula",
-        "The steps to perform conversion",
+        "A) Physical connections between the CPU and external devices",
+        "B) Dedicated circuits for moving data between functional units inside the CPU",
+        "C) Software algorithms for data processing",
+        "D) Virtual memory allocation techniques",
       ],
-      correctAnswer: "The temperature in Celsius",
+      correctAnswer:
+        "B) Dedicated circuits for moving data between functional units inside the CPU",
     },
     {
       id: 28,
       question:
-        "In the Celsius to Fahrenheit conversion system, what is the 'Process'?",
-      answers: [
-        "Applying the formula F = C * 9/5 + 32",
-        "Entering the Celsius temperature",
-        "Displaying the Fahrenheit temperature",
-        "Converting Fahrenheit to Celsius",
-      ],
-      correctAnswer: "Applying the formula F = C * 9/5 + 32",
+        "Which component of a computer system holds data that is frequently used by the CPU during processing?",
+      answers: ["A) Hard Drive", "B) RAM", "C) Registers", "D) Cache"],
+      correctAnswer: "C) Registers",
     },
     {
       id: 29,
-      question: "What is the 'Output' when converting Celsius to Fahrenheit?",
+      question:
+        "What is the main advantage of using a memory hierarchy in modern computers?",
       answers: [
-        "The temperature in Fahrenheit",
-        "The temperature in Celsius",
-        "The conversion formula",
-        "The Celsius temperature input",
+        "A) It reduces the overall cost of the system",
+        "B) It improves data transmission speed by utilizing different levels of memory",
+        "C) It increases the physical size of the computer",
+        "D) It simplifies the computer's architecture",
       ],
-      correctAnswer: "The temperature in Fahrenheit",
+      correctAnswer:
+        "B) It improves data transmission speed by utilizing different levels of memory",
     },
     {
       id: 30,
-      question:
-        "For a system that calculates the monthly salary from hourly wage and hours worked, what is the 'Input'?",
+      question: "What is the correct order of the instruction cycle?",
       answers: [
-        "Hourly wage and hours worked",
-        "The calculated monthly salary",
-        "The formula for calculation",
-        "The total hours worked",
+        "A) Execute - Fetch - Decode",
+        "B) Fetch - Execute - Decode",
+        "C) Decode - Fetch - Execute",
+        "D) Fetch - Decode - Execute",
       ],
-      correctAnswer: "Hourly wage and hours worked",
+      correctAnswer: "D) Fetch - Decode - Execute",
     },
     {
       id: 31,
-      question:
-        "What is the 'Process' in calculating the monthly salary from hourly wage?",
+      question: "What is pipelining in CPU processing?",
       answers: [
-        "Multiplying hourly wage by hours worked",
-        "Displaying the monthly salary",
-        "Entering the hourly wage",
-        "Summing up the total hours worked",
+        "A) A method of cooling the CPU",
+        "B) A technique where multiple instructions are in different stages of execution simultaneously",
+        "C) A way to increase the physical size of the CPU",
+        "D) A process of transferring data between the CPU and hard drive",
       ],
-      correctAnswer: "Multiplying hourly wage by hours worked",
+      correctAnswer:
+        "B) A technique where multiple instructions are in different stages of execution simultaneously",
     },
     {
       id: 32,
       question:
-        "In the context of calculating the monthly salary, what is the 'Output'?",
+        "How do input/output devices typically communicate with the CPU?",
       answers: [
-        "The monthly salary",
-        "The hourly wage",
-        "The total hours worked",
-        "The calculation method",
+        "A) Through direct memory access",
+        "B) Using interrupts",
+        "C) Via the power supply",
+        "D) Through the operating system only",
       ],
-      correctAnswer: "The monthly salary",
+      correctAnswer: "B) Using interrupts",
     },
     {
       id: 33,
       question:
-        "In an IPO chart for sorting a list of numbers, what is the 'Input'?",
+        "What is the primary purpose of an interrupt in a computer system?",
       answers: [
-        "The list of numbers",
-        "The sorted list of numbers",
-        "The sorting algorithm",
-        "The steps to sort the numbers",
+        "A) To shut down the computer",
+        "B) To signal the CPU to handle an important event",
+        "C) To increase the clock speed of the CPU",
+        "D) To defragment the hard drive",
       ],
-      correctAnswer: "The list of numbers",
+      correctAnswer: "B) To signal the CPU to handle an important event",
     },
     {
       id: 34,
-      question: "What is the 'Process' involved in sorting a list of numbers?",
-      answers: [
-        "Applying a sorting algorithm",
-        "Displaying the sorted list",
-        "Entering the list of numbers",
-        "Defining the sorting criteria",
-      ],
-      correctAnswer: "Applying a sorting algorithm",
-    },
-    {
-      id: 35,
-      question: "In sorting a list of numbers, what is the 'Output'?",
-      answers: [
-        "The sorted list of numbers",
-        "The list of numbers",
-        "The sorting method",
-        "The steps for sorting",
-      ],
-      correctAnswer: "The sorted list of numbers",
-    },
-    {
-      id: 36,
       question:
-        "What is the 'Input' for a system calculating a loan payment based on principal, rate, and time?",
+        "Which of the following best describes parallelism in computer architecture?",
       answers: [
-        "Principal, rate, and time",
-        "The monthly loan payment",
-        "The loan payment formula",
-        "The loan term",
+        "A) A method of storing data vertically in memory",
+        "B) A technique to improve data transmission speed by using multiple processing units",
+        "C) A way to organize files on a hard drive",
+        "D) A protocol for communication between the CPU and GPU",
       ],
-      correctAnswer: "Principal, rate, and time",
-    },
-    {
-      id: 37,
-      question: "In calculating a loan payment, what is the 'Process'?",
-      answers: [
-        "Applying the loan payment formula",
-        "Entering the principal, rate, and time",
-        "Displaying the monthly payment",
-        "Calculating the total interest",
-      ],
-      correctAnswer: "Applying the loan payment formula",
-    },
-    {
-      id: 38,
-      question: "What is the 'Output' in a loan payment calculation system?",
-      answers: [
-        "The monthly loan payment",
-        "The principal, rate, and time",
-        "The total interest",
-        "The payment formula",
-      ],
-      correctAnswer: "The monthly loan payment",
-    },
-    {
-      id: 39,
-      question:
-        "What would be considered the 'Input' for a temperature conversion from Fahrenheit to Celsius?",
-      answers: [
-        "Temperature in Fahrenheit",
-        "Converted temperature in Celsius",
-        "The conversion formula",
-        "The Celsius temperature",
-      ],
-      correctAnswer: "Temperature in Fahrenheit",
-    },
-    {
-      id: 40,
-      question:
-        "In the Fahrenheit to Celsius conversion system, what is the 'Process'?",
-      answers: [
-        "Applying the formula C = (F - 32) * 5/9",
-        "Entering the Fahrenheit temperature",
-        "Displaying the Celsius temperature",
-        "Converting Celsius to Fahrenheit",
-      ],
-      correctAnswer: "Applying the formula C = (F - 32) * 5/9",
-    },
-    {
-      id: 41,
-      question:
-        "In the context of temperature conversion, what is the 'Output'?",
-      answers: [
-        "The temperature in Celsius",
-        "The temperature in Fahrenheit",
-        "The conversion formula",
-        "The Fahrenheit temperature input",
-      ],
-      correctAnswer: "The temperature in Celsius",
-    },
-    {
-      id: 42,
-      question:
-        "What does the 'Input' include for calculating the circumference of a circle?",
-      answers: [
-        "The radius of the circle",
-        "The circumference result",
-        "The formula for circumference",
-        "The diameter of the circle",
-      ],
-      correctAnswer: "The radius of the circle",
-    },
-    {
-      id: 43,
-      question:
-        "What is the 'Process' for calculating the circumference of a circle?",
-      answers: [
-        "Applying the formula C = 2 * π * radius",
-        "Entering the radius",
-        "Displaying the circumference",
-        "Calculating the diameter",
-      ],
-      correctAnswer: "Applying the formula C = 2 * π * radius",
-    },
-    {
-      id: 44,
-      question:
-        "In calculating the circumference of a circle, what is the 'Output'?",
-      answers: [
-        "The circumference of the circle",
-        "The radius of the circle",
-        "The diameter of the circle",
-        "The area of the circle",
-      ],
-      correctAnswer: "The circumference of the circle",
-    },
-    {
-      id: 45,
-      question:
-        "In an IPO chart, what component represents the operations performed on the input data?",
-      answers: ["Process", "Input", "Output", "Algorithm"],
-      correctAnswer: "Process",
-    },
-    {
-      id: 46,
-      question:
-        "For a system that calculates the area of a circle, what is the 'Input'?",
-      answers: [
-        "The radius of the circle",
-        "The area result",
-        "The formula for the area",
-        "The diameter of the circle",
-      ],
-      correctAnswer: "The radius of the circle",
-    },
-    {
-      id: 47,
-      question: "What is the 'Process' for calculating the area of a circle?",
-      answers: [
-        "Applying the formula A = π * radius^2",
-        "Entering the radius",
-        "Displaying the area",
-        "Calculating the circumference",
-      ],
-      correctAnswer: "Applying the formula A = π * radius^2",
-    },
-    {
-      id: 48,
-      question:
-        "What does the 'Output' include in the area calculation of a circle?",
-      answers: [
-        "The area of the circle",
-        "The radius of the circle",
-        "The circumference",
-        "The diameter of the circle",
-      ],
-      correctAnswer: "The area of the circle",
-    },
-    {
-      id: 49,
-      question:
-        "What is the 'Input' for a system that determines the total number of pages in a book given chapters and pages per chapter?",
-      answers: [
-        "Number of chapters and pages per chapter",
-        "Total number of pages",
-        "Calculation method",
-        "Number of chapters",
-      ],
-      correctAnswer: "Number of chapters and pages per chapter",
-    },
-    {
-      id: 50,
-      question:
-        "What is the 'Process' for determining the total number of pages in a book?",
-      answers: [
-        "Multiplying number of chapters by pages per chapter",
-        "Displaying the total number of pages",
-        "Entering the chapters and pages data",
-        "Calculating the number of chapters",
-      ],
-      correctAnswer: "Multiplying number of chapters by pages per chapter",
-    },
-    {
-      id: 51,
-      question:
-        "In calculating the total number of pages in a book, what is the 'Output'?",
-      answers: [
-        "The total number of pages",
-        "The chapters and pages data",
-        "The calculation method",
-        "The number of chapters",
-      ],
-      correctAnswer: "The total number of pages",
-    },
-    {
-      id: 52,
-      question:
-        "For a system that converts hours to minutes, what is the 'Input'?",
-      answers: [
-        "The number of hours",
-        "The converted minutes",
-        "The conversion formula",
-        "The number of minutes",
-      ],
-      correctAnswer: "The number of hours",
-    },
-    {
-      id: 53,
-      question: "What is the 'Process' in converting hours to minutes?",
-      answers: [
-        "Multiplying hours by 60",
-        "Displaying the minutes",
-        "Entering the hours",
-        "Defining the conversion formula",
-      ],
-      correctAnswer: "Multiplying hours by 60",
-    },
-    {
-      id: 54,
-      question: "In converting hours to minutes, what is the 'Output'?",
-      answers: [
-        "The total minutes",
-        "The number of hours",
-        "The conversion formula",
-        "The hours input",
-      ],
-      correctAnswer: "The total minutes",
-    },
-    {
-      id: 55,
-      question:
-        "What does the 'Input' in an IPO chart for calculating a weekly salary from hourly wage include?",
-      answers: [
-        "Hourly wage and hours worked per week",
-        "The weekly salary",
-        "The calculation formula",
-        "The total hours worked",
-      ],
-      correctAnswer: "Hourly wage and hours worked per week",
-    },
-    {
-      id: 56,
-      question:
-        "What is the 'Process' for calculating a weekly salary from hourly wage?",
-      answers: [
-        "Multiplying hourly wage by hours worked per week",
-        "Entering the hourly wage and hours worked",
-        "Displaying the weekly salary",
-        "Calculating the hourly wage",
-      ],
-      correctAnswer: "Multiplying hourly wage by hours worked per week",
-    },
-    {
-      id: 57,
-      question: "In calculating a weekly salary, what is the 'Output'?",
-      answers: [
-        "The weekly salary",
-        "The hourly wage",
-        "The total hours worked",
-        "The calculation method",
-      ],
-      correctAnswer: "The weekly salary",
-    },
-    {
-      id: 58,
-      question:
-        "For a system that calculates the discount on a price given the discount rate, what is the 'Input'?",
-      answers: [
-        "Original price and discount rate",
-        "The discounted price",
-        "The discount calculation method",
-        "The total amount after discount",
-      ],
-      correctAnswer: "Original price and discount rate",
-    },
-    {
-      id: 59,
-      question:
-        "What is the 'Process' for calculating the discount on a price?",
-      answers: [
-        "Multiplying the original price by the discount rate",
-        "Displaying the discounted price",
-        "Entering the price and discount rate",
-        "Calculating the original price",
-      ],
-      correctAnswer: "Multiplying the original price by the discount rate",
-    },
-    {
-      id: 60,
-      question: "In calculating the discount on a price, what is the 'Output'?",
-      answers: [
-        "The discounted price",
-        "The original price",
-        "The discount rate",
-        "The calculation method",
-      ],
-      correctAnswer: "The discounted price",
+      correctAnswer:
+        "B) A technique to improve data transmission speed by using multiple processing units",
     },
   ],
 };
