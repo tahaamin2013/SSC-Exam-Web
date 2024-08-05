@@ -1,4 +1,4 @@
-export const ipoQuiz = {
+export const quiz = {
   totalQuestions: 60,
   questions: [
     {
