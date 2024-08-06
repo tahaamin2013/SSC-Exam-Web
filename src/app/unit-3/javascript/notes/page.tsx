@@ -80,7 +80,6 @@ var g = a % b;`}
                 <div className="bg-gray-100 p-4 rounded-md mb-4">
                     <code className="text-sm text-gray-800 whitespace-pre-wrap">
                         {`<button onclick="myFunction()">Click me</button>
-
 <script type="text/javascript">
   function myFunction() {
     alert("Do You Mind, CLICKING on the Button");
@@ -108,7 +107,6 @@ document.write("Input from the user was: " + number);`}
                     </code>
                 </div>
             </section>
-
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-4 text-gray-700">3.4.2 Variables</h2>
                 <p className="mb-4 text-gray-600">

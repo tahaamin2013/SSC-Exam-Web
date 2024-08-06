@@ -66,11 +66,11 @@ const data = [
     id: "6",
     title: "Create a Dynamic Website",
     links: [
-      { href: "unit-3/problems/notes", text: "Notes", icon: BookOpen },
-      { href: "unit-3/problems/mind-map", text: "Mind Map", icon: Brain },
-      { href: "unit-3/problems/quiz", text: "MCQs", icon: HelpCircle },
-      { href: "unit-3/problems/brief-questions", text: "Brief Questions", icon: FileText },
-      { href: "unit-3/problems/detailed-questions", text: "Detailed Questions", icon: List },
+      { href: "unit-3/dynamic-website/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-3/dynamic-website/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-3/dynamic-website/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-3/dynamic-website/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-3/dynamic-website/detailed-questions", text: "Detailed Questions", icon: List },
     ],
   },
 
