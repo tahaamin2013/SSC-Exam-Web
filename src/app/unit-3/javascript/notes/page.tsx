@@ -8,7 +8,7 @@ const page = () => {
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-4 text-gray-700">3.4 JavaScript Basics</h2>
                 <p className="mb-4 text-gray-600">
-                    JavaScript is a versatile programming language primarily used for web development. It's lightweight, interpreted, and works well with HTML and CSS on any operating system.
+                    JavaScript is a versatile programming language primarily used for web development. It&apos;s lightweight, interpreted, and works well with HTML and CSS on any operating system.
                 </p>
             </section>
 
@@ -21,11 +21,11 @@ const page = () => {
                     <code className="text-sm text-gray-800 whitespace-pre-wrap">
                         {`<script type="text/javascript">
   // JavaScript code goes here
-  document.write("Let's Meet JavaScript!");
+  document.write("Let&apos;s Meet JavaScript!");
 </script>`}
                     </code>
                 </div>
-                <p className="text-sm text-gray-500 italic">Note: The 'type' attribute is optional in modern HTML.</p>
+                <p className="text-sm text-gray-500 italic">Note: The &apos;type&apos; attribute is optional in modern HTML.</p>
             </section>
 
             <section className="mb-8">
@@ -120,7 +120,7 @@ document.write("Input from the user was: " + number);`}
                     <li>Boolean: true, false</li>
                 </ul>
                 <p className="mt-4 text-gray-600">
-                    JavaScript is case-sensitive, so 'myVar' and 'myvar' are different variables.
+                    JavaScript is case-sensitive, so &apos;myVar&apos; and &apos;myvar&apos; are different variables.
                 </p>
                 <div className="bg-gray-100 p-4 rounded-md mt-4">
                     <code className="text-sm text-gray-800 whitespace-pre-wrap">
@@ -183,7 +183,7 @@ var z = true;`}
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4 text-gray-700">3.4.4 Conditional Statement</h2>
                     <p className="mb-4 text-gray-600">
-                        Conditional or selection statement is an essential part of the program where amongst choices, the program chooses on the basis of some constraint. Applying an 'if' statement before one or more lines of code on the basis of some condition enables the program to execute only if the condition is satisfied in that scenario. That is, if the condition is met, then those lines will be executed otherwise skipped.
+                        Conditional or selection statement is an essential part of the program where amongst choices, the program chooses on the basis of some constraint. Applying an &apos;if&apos; statement before one or more lines of code on the basis of some condition enables the program to execute only if the condition is satisfied in that scenario. That is, if the condition is met, then those lines will be executed otherwise skipped.
                     </p>
                     <p className="mb-4 text-gray-600">
                         Now, to check the condition, JavaScript provides set of comparison operators to be used for evaluating the condition. The conditional operators are listed in table:
@@ -246,14 +246,14 @@ var z = true;`}
                         You may check it for different values of the variable and also for different comparison operators.
                     </p>
                     <p className="mb-4 text-gray-600">
-                        A better notion is to align both the scenarios, i.e. if condition is met and vice versa. This is done using an 'if-else' statement, as shown in Fig 27. This way, either of the two situations will definitely happen.
+                        A better notion is to align both the scenarios, i.e. if condition is met and vice versa. This is done using an &apos;if-else&apos; statement, as shown in Fig 27. This way, either of the two situations will definitely happen.
                     </p>
                 </section>
 
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4 text-gray-700">If-else If-else Statement</h2>
                     <p className="mb-4 text-gray-600">
-                        There are scenarios where more than two possibilities exist and for that reason, we can modify our selection statement to be an 'if-else if-else' statement. This way, the set of conditions apply, first with 'if' and thereafter with 'else if' statements. If all the set conditions do not meet then 'else' will take care of it.
+                        There are scenarios where more than two possibilities exist and for that reason, we can modify our selection statement to be an &apos;if-else if-else&apos; statement. This way, the set of conditions apply, first with &apos;if&apos; and thereafter with &apos;else if&apos; statements. If all the set conditions do not meet then &apos;else&apos; will take care of it.
                     </p>
                     <div className="bg-gray-100 p-4 rounded-md mb-4">
                         <code className="text-sm text-gray-800 whitespace-pre">
@@ -279,7 +279,7 @@ var z = true;`}
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4 text-gray-700">3.4.5 Iterative Statement</h2>
                     <p className="mb-4 text-gray-600">
-                        Iterative statement (like 'For Loop') is used to get similar kind of task done. Rather than writing the same line of code multiple times, the same task is done in much lesser line of code. The 'for loop' works on the basis of an index, which you can initialize in the loop. Next is the terminating condition which needs to be set for the loop to terminate. Lastly, there should be an increment or decrement statement, so that iteration continues till the terminating condition is met.
+                        Iterative statement (like &apos;For Loop&apos;) is used to get similar kind of task done. Rather than writing the same line of code multiple times, the same task is done in much lesser line of code. The &apos;for loop&apos; works on the basis of an index, which you can initialize in the loop. Next is the terminating condition which needs to be set for the loop to terminate. Lastly, there should be an increment or decrement statement, so that iteration continues till the terminating condition is met.
                     </p>
                     <p className="mb-4 text-gray-600">
                         In the following example (for loop), an index is initialized to 1, the value of index will increment with 1 and loop will execute 10 times, till i reaches 10.
@@ -392,7 +392,7 @@ var z = true;`}
                         Fig 36: A function with arguments
                     </p>
                     <p className="mb-4 text-gray-600">
-                        Lastly, later define another function calcBalance() to add to the above v.r.t. the arguments, namely bill and 'amount_rcvd'. The function subtracts bill from 'amount_rcvd' and returns the result. An important point to note in Fig 37 is the lines 5 and 10, where the former prints inside the function and latter always the result outside the scope of the function. Similar approach can be used for testing the values of a function, when frequent occurring set of codes are selected to form a new function.
+                        Lastly, later define another function calcBalance() to add to the above v.r.t. the arguments, namely bill and &apos;amount_rcvd&apos;. The function subtracts bill from &apos;amount_rcvd&apos; and returns the result. An important point to note in Fig 37 is the lines 5 and 10, where the former prints inside the function and latter always the result outside the scope of the function. Similar approach can be used for testing the values of a function, when frequent occurring set of codes are selected to form a new function.
                     </p>
                     <div className="bg-gray-100 p-4 rounded-md mb-4">
                         <code className="text-sm text-gray-800 whitespace-pre">
@@ -411,7 +411,7 @@ var z = true;`}
                         Fig 37: Function returns value
                     </p>
                     <p className="mb-4 text-gray-600">
-                        Lastly, later define another function calcBalance() to add to the above v.r.t. the arguments, namely bill and 'amount_rcvd'. The function subtracts bill from 'amount_rcvd' and returns the result. An important point to note in Fig 37 is the lines 5 and 10, where the former prints inside the function and latter always the result outside the scope of the function. Similar approach can be used for testing the values of a function, when frequent occurring set of codes are selected to form a new function.
+                        Lastly, later define another function calcBalance() to add to the above v.r.t. the arguments, namely bill and &apos;amount_rcvd&apos;. The function subtracts bill from &apos;amount_rcvd&apos; and returns the result. An important point to note in Fig 37 is the lines 5 and 10, where the former prints inside the function and latter always the result outside the scope of the function. Similar approach can be used for testing the values of a function, when frequent occurring set of codes are selected to form a new function.
                     </p>
                     <div className="bg-gray-100 p-4 rounded-md mb-4">
                         <code className="text-sm text-gray-800 whitespace-pre">

@@ -164,7 +164,7 @@ const CSSNotes = () => {
                         <li>Provide additional video formats for better compatibility:
                             <div className="bg-gray-100 p-2 mt-2 rounded-md">
                                 <code className="text-sm text-gray-800">
-                                    &lt;source src="video.mp4" type="video/mp4" /&gt;
+                                    &lt;source src=&quot;video.mp4&quot; type=&quot;video/mp4&quot; /&gt;
                                 </code>
                             </div>
                         </li>
@@ -175,7 +175,7 @@ const CSSNotes = () => {
                     <h2 className="text-2xl font-semibold mb-4 text-gray-700">Example Layout</h2>
                     <div className="border-2 border-gray-300 p-4 rounded-lg">
                         <h3 className="text-xl font-semibold text-center text-blue-600">My Teaching Academy</h3>
-                        <p className="text-center italic">Let's Learn</p>
+                        <p className="text-center italic">Let&apos;s Learn</p>
                         <div className="flex justify-center space-x-4 mt-4">
                             <button className="bg-blue-500 text-white px-4 py-2 rounded">Subjects</button>
                             <button className="bg-green-500 text-white px-4 py-2 rounded">E-Books</button>
