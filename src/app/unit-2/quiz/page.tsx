@@ -31,7 +31,7 @@ const Page: React.FC = () => {
   const [answersRecord, setAnswersRecord] = useState<AnswerRecord[]>([]);
 
   const { questions } = quiz;
-  const { question, answers, correctAnswer, description } =
+  const { question, answers, correctAnswer } =
     questions[activeQuestion];
 
   // Select and check answer
@@ -126,7 +126,6 @@ const Page: React.FC = () => {
                 className="bg-gray-50 p-6 rounded-lg shadow-inner"
               >
                 <h3 className="text-xl text-gray-800 mb-4">{question}</h3>
-                <p>{description}</p>
                 <ul className="space-y-3">
                   {answers.map((answer, idx) => (
                     <li

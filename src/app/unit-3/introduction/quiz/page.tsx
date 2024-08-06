@@ -31,7 +31,7 @@ const Page: React.FC = () => {
   const [answersRecord, setAnswersRecord] = useState<AnswerRecord[]>([]);
 
   const { questions } = quiz;
-  const { question, answers, correctAnswer, description } =
+  const { question, answers, correctAnswer } =
     questions[activeQuestion];
 
   // Select and check answer
@@ -57,14 +57,14 @@ const Page: React.FC = () => {
     setResult((prev) =>
       isCorrect
         ? {
-            ...prev,
-            score: prev.score + 5,
-            correctAnswers: prev.correctAnswers + 1,
-          }
+          ...prev,
+          score: prev.score + 5,
+          correctAnswers: prev.correctAnswers + 1,
+        }
         : {
-            ...prev,
-            wrongAnswers: prev.wrongAnswers + 1,
-          }
+          ...prev,
+          wrongAnswers: prev.wrongAnswers + 1,
+        }
     );
 
     if (activeQuestion !== questions.length - 1) {
@@ -126,17 +126,15 @@ const Page: React.FC = () => {
                 className="bg-gray-50 p-6 rounded-lg shadow-inner"
               >
                 <h3 className="text-xl text-gray-800 mb-4">{question}</h3>
-                <p>{description}</p>
                 <ul className="space-y-3">
                   {answers.map((answer, idx) => (
                     <li
                       key={idx}
                       onClick={() => onAnswerSelected(answer, idx)}
                       className={`cursor-pointer p-4 rounded-lg transition-colors duration-300 
-                        ${
-                          selectedAnswerIndex === idx
-                            ? "bg-blue-500 text-white"
-                            : "bg-white text-gray-800 border border-gray-300 hover:bg-gray-100"
+                        ${selectedAnswerIndex === idx
+                          ? "bg-blue-500 text-white"
+                          : "bg-white text-gray-800 border border-gray-300 hover:bg-gray-100"
                         }`}
                     >
                       {answer}
@@ -148,10 +146,9 @@ const Page: React.FC = () => {
                 onClick={nextQuestion}
                 disabled={!checked}
                 className={`w-full mt-6 p-4 text-lg rounded-lg transition-colors duration-300
-                  ${
-                    checked
-                      ? "bg-purple-600 text-white hover:bg-purple-700"
-                      : "bg-gray-300 text-gray-500 cursor-not-allowed"
+                  ${checked
+                    ? "bg-purple-600 text-white hover:bg-purple-700"
+                    : "bg-gray-300 text-gray-500 cursor-not-allowed"
                   }`}
               >
                 {activeQuestion === questions.length - 1 ? "Finish" : "Next"}
@@ -163,9 +160,8 @@ const Page: React.FC = () => {
                 Quiz Results
               </h3>
               <div
-                className={`text-4xl font-bold text-center mb-6 ${
-                  isPass ? "text-green-500" : "text-red-500"
-                }`}
+                className={`text-4xl font-bold text-center mb-6 ${isPass ? "text-green-500" : "text-red-500"
+                  }`}
               >
                 {isPass ? "Pass!" : "Try Again!"}
               </div>
