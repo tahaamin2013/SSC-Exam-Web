@@ -10,26 +10,38 @@ const data = [
     title: "Introduction",
     links: [
       { href: "unit-3/introduction/notes", text: "Notes", icon: BookOpen },
-      { href: "unit-3/problems/mind-map", text: "Mind Map", icon: Brain },
-      { href: "unit-3/problems/quiz", text: "MCQs", icon: HelpCircle },
-      { href: "unit-3/problems/brief-questions", text: "Brief Questions", icon: FileText },
-      { href: "unit-3/problems/detailed-questions", text: "Detailed Questions", icon: List },
+      { href: "unit-3/introduction/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-3/introduction/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-3/introduction/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-3/introduction/detailed-questions", text: "Detailed Questions", icon: List },
     ],
   },
   {
     id: "2",
     title: "HTML",
     links: [
-      { href: "unit-3/problems/notes", text: "Notes", icon: BookOpen },
-      { href: "unit-3/problems/mind-map", text: "Mind Map", icon: Brain },
-      { href: "unit-3/problems/quiz", text: "MCQs", icon: HelpCircle },
-      { href: "unit-3/problems/brief-questions", text: "Brief Questions", icon: FileText },
-      { href: "unit-3/problems/detailed-questions", text: "Detailed Questions", icon: List },
+      { href: "unit-3/html/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-3/html/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-3/html/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-3/html/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-3/html/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+
+  {
+    id: "3",
+    title: "Cascading Style Sheets (CSS)",
+    links: [
+      { href: "unit-3/css/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-3/css/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-3/css/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-3/css/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-3/css/detailed-questions", text: "Detailed Questions", icon: List },
     ],
   },
   {
-    id: "2",
-    title: "Manipulating Data with Tables",
+    id: "4",
+    title: "JavaScript",
     links: [
       { href: "unit-3/problems/notes", text: "Notes", icon: BookOpen },
       { href: "unit-3/problems/mind-map", text: "Mind Map", icon: Brain },
@@ -39,8 +51,20 @@ const data = [
     ],
   },
   {
-    id: "3",
-    title: "Cascading Style Sheets (CSS)",
+    id: "5",
+    title: "Debug the Code",
+    links: [
+      { href: "unit-3/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-3/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-3/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-3/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-3/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+
+  {
+    id: "6",
+    title: "Create a Dynamic Website",
     links: [
       { href: "unit-3/problems/notes", text: "Notes", icon: BookOpen },
       { href: "unit-3/problems/mind-map", text: "Mind Map", icon: Brain },
