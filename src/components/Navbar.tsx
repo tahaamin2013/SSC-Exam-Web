@@ -13,8 +13,8 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Home', href: '/' },
-    { 
-      name: 'Subjects', 
+    {
+      name: 'Subjects',
       href: '#',
       subItems: [
         { name: 'Mathematics', href: '/subjects/mathematics' },
