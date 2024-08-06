@@ -116,7 +116,7 @@ document.write("Input from the user was: " + number);`}
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-gray-600">
                     <li>Number: 3, 3.14, 5.5e5</li>
-                    <li>String: "A", "AA", "AAA"</li>
+                    <li>String: &quot;A&quot;, &quot;AA&quot;, &quot;AAA&quot;</li>
                     <li>Boolean: true, false</li>
                 </ul>
                 <p className="mt-4 text-gray-600">
@@ -437,4 +437,4 @@ var z = true;`}
     )
 }
 
-export default page
+export default page             
