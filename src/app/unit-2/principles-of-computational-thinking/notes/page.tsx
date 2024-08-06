@@ -8,6 +8,7 @@ const Page = () => {
           <h1 className="text-3xl font-bold text-white">2.7 Principles of Computational Thinking</h1>
         </div>
         <div className="p-6 space-y-6">
+          <p>Abstraction is a technique used in computational thinking to simplify complex systems by focusing on the essential features and ignoring the irrelevant details. It involves creating a simplified model of a complex system that highlights its important aspects while hiding the unnecessary complexities.</p>
           <section>
             <h2 className="text-2xl font-semibold text-gray-800 mb-3">2.7.1 Logical Thinking</h2>
             <p className="text-gray-600 mb-4">
