@@ -316,7 +316,7 @@ var z = true;`}
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold mb-4 text-gray-700">3.4.6 Nested Loops</h2>
                     <p className="mb-4 text-gray-600">
-                        Multiple iterative statements (For Loops) can be incorporated in such a way that one loop can reside inside the other and are termed as "Nested Loop". In nested loop, initially the outer loop will start and then the inner loop will run and end, and again the outer loop will increment and the inner loop will start and end, and so forth until the outer loop terminates. Fig 31 demonstrates a nested loop.
+                        Multiple iterative statements (For Loops) can be incorporated in such a way that one loop can reside inside the other and are termed as &quot;Nested Loop&quot;. In nested loop, initially the outer loop will start and then the inner loop will run and end, and again the outer loop will increment and the inner loop will start and end, and so forth until the outer loop terminates. Fig 31 demonstrates a nested loop.
                     </p>
                     <div className="bg-gray-100 p-4 rounded-md mb-4">
                         <code className="text-sm text-gray-800 whitespace-pre">
