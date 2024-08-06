@@ -18,7 +18,7 @@ const CSSNotes = () => {
 
                 <h3 className="text-xl font-semibold mb-2 text-gray-700">1. Inline CSS</h3>
                 <p className="mb-4 text-gray-600">
-                    Any CSS attributes that we want to incorporate can be added using a "style" tag after the class definition of HTML tag.
+                    Any CSS attributes that we want to incorporate can be added using a &quot;style&quot; tag after the class definition of HTML tag.
                 </p>
                 <div className="bg-gray-100 p-4 rounded-md mb-4">
                     <code className="text-sm text-gray-800">
