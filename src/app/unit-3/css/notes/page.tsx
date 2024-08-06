@@ -95,6 +95,97 @@ const CSSNotes = () => {
                     </code>
                 </div>
             </section>
+            <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
+                <h1 className="text-3xl font-bold mb-6 text-gray-800">Advanced Web Features</h1>
+
+                <section className="mb-8">
+                    <h2 className="text-2xl font-semibold mb-4 text-gray-700">Scrolling Messages</h2>
+                    <p className="mb-4 text-gray-600">
+                        A simple and impressive decor on the website can be a scrolling message. To create this effect:
+                    </p>
+                    <ol className="list-decimal list-inside space-y-2 text-gray-600">
+                        <li>Define a container and assign the parameters of the text.</li>
+                        <li>Define the horizontal scrolling text using the marquee element.</li>
+                        <li>Adjust properties like direction, scrollamount, and loop to control the scrolling behavior.</li>
+                    </ol>
+                    <div className="bg-gray-100 p-4 rounded-md mt-4">
+                        <code className="text-sm text-gray-800 whitespace-pre-wrap">
+                            {`<body style="background-color:#E6E6FA;">
+  <div id="scroll-container">
+    <marquee direction="left" scrollamount="12" loop="">
+      <div id="scroll-text">Welcome message which continuously scrolls in blue</div>
+    </marquee>
+  </div>
+</body>`}
+                        </code>
+                    </div>
+                </section>
+
+                <section className="mb-8">
+                    <h2 className="text-2xl font-semibold mb-4 text-gray-700">Adding a Video Clip to Website</h2>
+                    <p className="mb-4 text-gray-600">
+                        To embed a video clip in a website, use the &lt;video&gt; tag and specify width and height attributes:
+                    </p>
+                    <div className="bg-gray-100 p-4 rounded-md">
+                        <code className="text-sm text-gray-800 whitespace-pre-wrap">
+                            {`<video width="320" height="240" controls>
+  <source src="Pakistan's First Ever Win in International Football.mp4" type="video/mp4">
+  Congratulations!
+  <p>Your browser doesn't support HTML5 video.</p>
+</video>`}
+                        </code>
+                    </div>
+                </section>
+
+                <section className="mb-8">
+                    <h2 className="text-2xl font-semibold mb-4 text-gray-700">Using Autoplay for Videos</h2>
+                    <p className="mb-4 text-gray-600">
+                        The autoplay parameter can be used instead of controls for automatic video playback:
+                    </p>
+                    <div className="bg-gray-100 p-4 rounded-md">
+                        <code className="text-sm text-gray-800 whitespace-pre-wrap">
+                            {`<video width="320" height="240" autoplay muted>
+  <source src="Pakistan's First Ever Win in International Football.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>`}
+                        </code>
+                    </div>
+                    <p className="mt-4 text-sm text-gray-500 italic">
+                        Note: Autoplay with sound is often blocked by browsers. Using the muted attribute ensures autoplay works in most cases.
+                    </p>
+                </section>
+
+                <section className="mb-8">
+                    <h2 className="text-2xl font-semibold mb-4 text-gray-700">Tips for Web Development</h2>
+                    <ul className="list-disc list-inside space-y-2 text-gray-600">
+                        <li>Use meaningful alt text for images to improve accessibility.</li>
+                        <li>Consider browser compatibility when using advanced features.</li>
+                        <li>Optimize video content for web performance.</li>
+                        <li>Provide additional video formats for better compatibility:
+                            <div className="bg-gray-100 p-2 mt-2 rounded-md">
+                                <code className="text-sm text-gray-800">
+                                    &lt;source src="video.mp4" type="video/mp4" /&gt;
+                                </code>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 className="text-2xl font-semibold mb-4 text-gray-700">Example Layout</h2>
+                    <div className="border-2 border-gray-300 p-4 rounded-lg">
+                        <h3 className="text-xl font-semibold text-center text-blue-600">My Teaching Academy</h3>
+                        <p className="text-center italic">Let's Learn</p>
+                        <div className="flex justify-center space-x-4 mt-4">
+                            <button className="bg-blue-500 text-white px-4 py-2 rounded">Subjects</button>
+                            <button className="bg-green-500 text-white px-4 py-2 rounded">E-Books</button>
+                        </div>
+                        <div className="mt-4 text-center">
+                            <span className="font-semibold">About Us</span> | <span className="font-semibold">Contact Us</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
     );
 };
