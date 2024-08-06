@@ -112,10 +112,10 @@ const page = () => {
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-4 text-gray-700">3.2.3 Manipulating Data with Tables</h2>
                 <p className="mb-4 text-gray-600">
-                    Tables are a good way to enlist data which is visually appealing. HTML provides 'table'
+                    Tables are a good way to enlist data which is visually appealing. HTML provides &apos;table&apos;
                     tag-pair to allocate and designate data within the table. The first row of the table is
-                    the header row and is generally used for headings and is defined with the 'th' tag-pair.
-                    Whereas data is manipulated through 'td' tag-pair.
+                    the header row and is generally used for headings and is defined with the &apos;th&apos; tag-pair.
+                    Whereas data is manipulated through &apos;td&apos; tag-pair.
                 </p>
                 <div className="bg-gray-100 p-4 rounded-md mb-4">
                     <code className="text-sm text-gray-800 whitespace-pre-wrap">
@@ -149,20 +149,20 @@ const page = () => {
                 <h2 className="text-2xl font-semibold mb-4 text-gray-700">3.2.4 Links to Resources</h2>
                 <p className="mb-4 text-gray-600">
                     Links are helpful components of a webpage, via which you can redirect to another
-                    webpage or a document. Links are called Hyperlinks in HTML with 'a' tag-pair. Hyperlinks
+                    webpage or a document. Links are called Hyperlinks in HTML with &apos;a&apos; tag-pair. Hyperlinks
                     are easy to identify on a webpage, as the mouse cursor changes as soon as the cursor
                     touches a link element. Hyperlinks can be associated not only to text, but to images as
                     well. The general syntax for defining a link is like:
                 </p>
                 <div className="bg-gray-100 p-4 rounded-md mb-4">
                     <code className="text-sm text-gray-800">
-                        &lt;a href="https://www.example.com" target="_blank"&gt;Link text&lt;/a&gt;
+                        &lt;a href=&apos;https://www.example.com&apos; target=&apos;_blank&apos;&gt;Link text&lt;/a&gt;
                     </code>
                 </div>
                 <p className="mb-4 text-gray-600">
-                    Here, 'href' refers to the address along with the path and link text is for user information. 'target'
+                    Here, &apos;href&apos; refers to the address along with the path and link text is for user information. &apos;target&apos;
                     is an optional parameter but its value defines where to open the webpage. If the value
-                    chosen is 'blank', it will open in a new tab or browser window for the value of 'self' the
+                    chosen is &apos;blank&apos;, it will open in a new tab or browser window for the value of &apos;self&apos; the
                     destination address will open in the same tab or window.
                 </p>
             </section>
