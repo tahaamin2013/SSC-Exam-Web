@@ -7,16 +7,60 @@ import Link from 'next/link';
 const data = [
   {
     id: "1",
-    title: "Items is empty",
+    title: "Data and Analysis",
     links: [
-      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
-      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
-      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
-      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
-      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+      { href: "unit-3/data-and-analysis/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-3/data-and-analysis/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-3/data-and-analysis/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-3/data-and-analysis/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-3/data-and-analysis/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "2",
+    title: "Data types in Data Science",
+    links: [
+      { href: "unit-3/data-types-in-data-science/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-3/data-types-in-data-science/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-3/data-types-in-data-science/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-3/data-types-in-data-science/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-3/data-types-in-data-science/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "3",
+    title: "Big Data(Volume, Velocity, Variety)",
+    links: [
+      { href: "unit-3/big-data-volume-and-velocity-and-variety/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-3/big-data-volume-and-velocity-and-variety/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-3/big-data-volume-and-velocity-and-variety/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-3/big-data-volume-and-velocity-and-variety/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-3/big-data-volume-and-velocity-and-variety/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "4",
+    title: "Big Data Challenges",
+    links: [
+      { href: "unit-3/big-data-challenges/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-3/big-data-challenges/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-3/big-data-challenges/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-3/big-data-challenges/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-3/big-data-challenges/detailed-questions", text: "Detailed Questions", icon: List },
     ],
   },
 
+  {
+    id: "5",
+    title: "Application of big data in business ",
+    links: [
+      { href: "unit-3/application-of-big-data-in-business/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-3/application-of-big-data-in-business/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-3/application-of-big-data-in-business/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-3/application-of-big-data-in-business/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-3/application-of-big-data-in-business/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
 ];
 
 const Section = ({ section }: any) => {
