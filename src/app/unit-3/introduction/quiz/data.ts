@@ -4,82 +4,270 @@ export const quiz = {
     {
       id: 1,
       question:
-        "For a problem, we face in real world situations. In what sequence we follow the steps",
-      description:
-        "I. Make some solution, II. understand the real-world problem, III. instruct the computer to behave accordingly",
+        "What was the primary revolution brought by the World Wide Web (WWW)?",
       answers: [
-        "a) I, II, III",
-        "b) I, III, II",
-        "c) II, I, III",
-        "d) II, III, I",
+        "A) Enhanced social media",
+        "B) Improved document sharing",
+        "C) Increased hardware capabilities",
+        "D) Better software development",
       ],
-      correctAnswer: "c) II, I, III",
+      correctAnswer: "B) Improved document sharing",
     },
     {
       id: 2,
-      question: "Following are types of computing problems",
-      description: "I. Counting Problem, II. Search Problem, Decision Problem",
+      question: "How does a webpage differ from a website?",
       answers: [
-        "a) I and II",
-        "b) I and III",
-        "c) II and III",
-        "d) I and II and III",
+        "A) A webpage is a single document, while a website is a collection of documents",
+        "B) A webpage contains multiple sections, while a website is a single document",
+        "C) A webpage is accessed via a browser, while a website is accessed via a URL",
+        "D) A website is a type of browser",
       ],
-      correctAnswer: "d) I and II and III",
+      correctAnswer:
+        "A) A webpage is a single document, while a website is a collection of documents",
     },
     {
       id: 3,
-      question: "Computational thinking is",
-      description: "",
+      question: "What is the primary function of a web application?",
       answers: [
-        "a) Programming",
-        "b) Thinking like a computer",
-        "c) Coding",
-        "d) Logically solving problems",
+        "A) To provide information only",
+        "B) To access and perform tasks using remote servers",
+        "C) To display static content",
+        "D) To manage hardware resources",
       ],
-      correctAnswer: "d) Logically solving problems",
+      correctAnswer: "B) To access and perform tasks using remote servers",
     },
     {
       id: 4,
-      question: "To solve Search problems, we need to",
-      description: "",
-
+      question:
+        "Which type of website has content that does not change unless manually updated?",
       answers: [
-        "a) Provide the moves.",
-        "b) Provide start state.",
-        "c) Provide the end state.",
-        "d) a, b and c",
+        "A) Dynamic website",
+        "B) Static website",
+        "C) Interactive website",
+        "D) Social media website",
       ],
-      correctAnswer: "d) a, b and c",
+      correctAnswer: "B) Static website",
     },
     {
       id: 5,
-      question: "The eight queens puzzle is the problem of",
-      description: "",
-
-      answers: ["a. Sorting", "b. Searching", "c. Counting", "d. Both a and b"],
-      correctAnswer: "c. Counting",
+      question:
+        "What type of websites often use scripts like JavaScript or PHP for customization?",
+      answers: [
+        "A) Static websites",
+        "B) Dynamic websites",
+        "C) Personal blogs",
+        "D) Informational websites",
+      ],
+      correctAnswer: "B) Dynamic websites",
     },
     {
       id: 6,
-      question: "Finding the location of the element with a given value is",
-      description: "",
-
-      answers: ["a) Search", "b) Traversal", "c) Sort", "d) None of above"],
-      correctAnswer: "a) Search",
+      question: "What is the focus of front-end development?",
+      answers: [
+        "A) Server-side operations",
+        "B) Database management",
+        "C) User interfaces and visible parts of a website",
+        "D) Network security",
+      ],
+      correctAnswer: "C) User interfaces and visible parts of a website",
     },
     {
       id: 7,
-      question: "In IPO Charts, we have",
-      description: "",
-
+      question: "Which languages are commonly used in front-end development?",
       answers: [
-        "a) Input, Plan, Output",
-        "b) Input, Program, Output",
-        "c) Input, Process, Output",
-        "d) Input, Proceed, Output",
+        "A) HTML, CSS, and JavaScript",
+        "B) Python, Ruby, and SQL",
+        "C) C++, Java, and PHP",
+        "D) Assembly, COBOL, and Fortran",
       ],
-      correctAnswer: "c) Input, Process, Output",
+      correctAnswer: "A) HTML, CSS, and JavaScript",
+    },
+    {
+      id: 8,
+      question: "What is the role of back-end development?",
+      answers: [
+        "A) Designing user interfaces",
+        "B) Handling server-side operations and databases",
+        "C) Styling webpages",
+        "D) Creating multimedia content",
+      ],
+      correctAnswer: "B) Handling server-side operations and databases",
+    },
+    {
+      id: 9,
+      question: "How do browsers access webpages?",
+      answers: [
+        "A) Via URLs",
+        "B) Via local file paths",
+        "C) Via network IP addresses",
+        "D) Via software applications",
+      ],
+      correctAnswer: "A) Via URLs",
+    },
+    {
+      id: 10,
+      question:
+        "What kind of website is suitable for showcasing personal or professional content without user modification?",
+      answers: [
+        "A) Static website",
+        "B) Dynamic website",
+        "C) E-commerce website",
+        "D) Social media website",
+      ],
+      correctAnswer: "A) Static website",
+    },
+    {
+      id: 11,
+      question: "Which of the following is NOT a feature of dynamic websites?",
+      answers: [
+        "A) Content changes based on user input",
+        "B) Uses scripts like JavaScript or PHP",
+        "C) Loads quickly",
+        "D) Often used for e-commerce",
+      ],
+      correctAnswer: "C) Loads quickly",
+    },
+    {
+      id: 12,
+      question:
+        "Which development process focuses on the visible and interactive parts of a website?",
+      answers: [
+        "A) Front-end development",
+        "B) Back-end development",
+        "C) Database management",
+        "D) Network security",
+      ],
+      correctAnswer: "A) Front-end development",
+    },
+    {
+      id: 13,
+      question:
+        "What type of website typically requires server-side programming and database interactions?",
+      answers: [
+        "A) Static website",
+        "B) Dynamic website",
+        "C) Personal website",
+        "D) Portfolio website",
+      ],
+      correctAnswer: "B) Dynamic website",
+    },
+    {
+      id: 14,
+      question: "Which example is considered a web application?",
+      answers: [
+        "A) A news website",
+        "B) A CRM system",
+        "C) An informational website",
+        "D) A static webpage",
+      ],
+      correctAnswer: "B) A CRM system",
+    },
+    {
+      id: 15,
+      question: "What distinguishes a website from a webpage?",
+      answers: [
+        "A) A website is a collection of webpages",
+        "B) A website is a single document",
+        "C) A webpage can contain multiple sections",
+        "D) A website is accessed via a URL",
+      ],
+      correctAnswer: "A) A website is a collection of webpages",
+    },
+    {
+      id: 16,
+      question:
+        "Which type of website would likely have a fixed layout and unchanging content?",
+      answers: [
+        "A) Dynamic website",
+        "B) Static website",
+        "C) E-commerce website",
+        "D) Social media website",
+      ],
+      correctAnswer: "B) Static website",
+    },
+    {
+      id: 17,
+      question: "What role does JavaScript play in dynamic websites?",
+      answers: [
+        "A) It styles the content",
+        "B) It manages server-side operations",
+        "C) It enables content changes based on user input",
+        "D) It handles database queries",
+      ],
+      correctAnswer: "C) It enables content changes based on user input",
+    },
+    {
+      id: 18,
+      question:
+        "In web development, what is the focus of back-end programming?",
+      answers: [
+        "A) Designing user interfaces",
+        "B) Handling server-side processes and databases",
+        "C) Creating multimedia content",
+        "D) Styling webpages",
+      ],
+      correctAnswer: "B) Handling server-side processes and databases",
+    },
+    {
+      id: 19,
+      question: "How does a dynamic website typically interact with the user?",
+      answers: [
+        "A) By displaying fixed content",
+        "B) By using scripts to update content based on user input",
+        "C) By serving static HTML pages",
+        "D) By providing downloadable content",
+      ],
+      correctAnswer:
+        "B) By using scripts to update content based on user input",
+    },
+    {
+      id: 20,
+      question:
+        "Which type of website is ideal for a simple informational page?",
+      answers: [
+        "A) Dynamic website",
+        "B) Static website",
+        "C) Web application",
+        "D) E-commerce site",
+      ],
+      correctAnswer: "B) Static website",
+    },
+    {
+      id: 21,
+      question:
+        "Which part of web development is concerned with HTML, CSS, and JavaScript?",
+      answers: [
+        "A) Front-end development",
+        "B) Back-end development",
+        "C) Database management",
+        "D) Network security",
+      ],
+      correctAnswer: "A) Front-end development",
+    },
+    {
+      id: 22,
+      question:
+        "What are typical examples of tasks performed by back-end development?",
+      answers: [
+        "A) Styling webpages",
+        "B) Managing user interfaces",
+        "C) Processing server requests and handling databases",
+        "D) Designing graphics",
+      ],
+      correctAnswer: "C) Processing server requests and handling databases",
+    },
+    {
+      id: 23,
+      question:
+        "What is a primary feature of a web application compared to a static website?",
+      answers: [
+        "A) Web applications perform tasks and interact with remote servers",
+        "B) Web applications have unchanging content",
+        "C) Web applications are accessed via URLs",
+        "D) Web applications are only used for displaying text",
+      ],
+      correctAnswer:
+        "A) Web applications perform tasks and interact with remote servers",
     },
   ],
 };
