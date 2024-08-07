@@ -67,13 +67,13 @@ const page = () => {
                     <tr>
                         <td className="py-3 px-6 border-b">3.2.3 Manipulating Data with Tables</td>
                         <td className="py-3 px-6 border-b">
-                            Tables are a good way to enlist data which is visually appealing. HTML provides 'table' tag-pair to allocate and designate data within the table. The first row of the table is the header row and is generally used for headings and is defined with the 'th' tag-pair. Whereas data is manipulated through 'td' tag-pair.
+                            Tables are a good way to enlist data which is visually appealing. HTML provides &apos;table&apos; tag-pair to allocate and designate data within the table. The first row of the table is the header row and is generally used for headings and is defined with the &apos;th&apos; tag-pair. Whereas data is manipulated through &apos;td&apos; tag-pair.
                         </td>
                     </tr>
                     <tr>
                         <td className="py-3 px-6 border-b">3.2.4 Links to Resources</td>
                         <td className="py-3 px-6 border-b">
-                            Links are helpful components of a webpage, via which you can redirect to another webpage or a document. Links are called Hyperlinks in HTML with 'a' tag-pair. Hyperlinks are easy to identify on a webpage, as the mouse cursor changes as soon as the cursor touches a link element. Hyperlinks can be associated not only to text, but to images as well. The general syntax for defining a link is like: &lt;a href='https://www.example.com' target='_blank'&gt;Link text&lt;/a&gt;
+                            Links are helpful components of a webpage, via which you can redirect to another webpage or a document. Links are called Hyperlinks in HTML with &apos;a&apos; tag-pair. Hyperlinks are easy to identify on a webpage, as the mouse cursor changes as soon as the cursor touches a link element. Hyperlinks can be associated not only to text, but to images as well. The general syntax for defining a link is like: &lt;a href=&apos;https://www.example.com&apos; target=&apos;_blank&apos;&gt;Link text&lt;/a&gt;
                         </td>
                     </tr>
                 </tbody>
