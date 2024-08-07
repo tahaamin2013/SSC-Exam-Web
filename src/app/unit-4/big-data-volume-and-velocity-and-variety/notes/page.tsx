@@ -26,7 +26,7 @@ const BigDataNotes = () => {
                 <p className="mb-4 text-lg">
                     Big data contains greater variety, arriving in increasing volumes and with more velocity.
                     This is also known as the three Vs. Big data is larger, more complex datasets, especially from new data sources.
-                    These data sets are so voluminous that traditional data processing software can't manage them.
+                    These data sets are so voluminous that traditional data processing software can&apos;t manage them.
                 </p>
             </div>
 
@@ -129,7 +129,7 @@ const BigDataNotes = () => {
                     <ColorfulCard title="Media and Entertainment" color="bg-pink-500">
                         <p>Targeting audiences and predicting content preferences.</p>
                         <Example title="Example">
-                            Spotify's personalized playlists based on listening habits.
+                            Spotify&apos;s personalized playlists based on listening habits.
                         </Example>
                     </ColorfulCard>
                     <ColorfulCard title="IoT" color="bg-yellow-500">

@@ -1,3 +1,4 @@
+
 'use client'
 
 import React, { useState } from 'react';
@@ -65,8 +66,7 @@ const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; is
         </a>
     );
 };
-
-export default function page() {
+const page = () => {
     const [searchTerm, setSearchTerm] = useState("");
     const [redirectingId, setRedirectingId] = useState<string | null>(null);
 
@@ -119,3 +119,5 @@ export default function page() {
         </div>
     );
 }
+
+export default page

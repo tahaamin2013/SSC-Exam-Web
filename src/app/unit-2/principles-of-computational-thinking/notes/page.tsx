@@ -18,7 +18,7 @@ const PrinciplesOfComputationThinking = () => {
             model of a complex system that highlights its important aspects
             while hiding the unnecessary complexities.
           </p>
-          
+
           <section className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 flex items-center">
               <LightbulbIcon className="w-8 h-8 mr-2 text-yellow-500" />
@@ -46,7 +46,7 @@ const PrinciplesOfComputationThinking = () => {
               One of the fundamental parts of computational thinking is to think
               logically. The computers use logic in their computation but it
               does not mean that they think logically. The computers themselves
-              can't perform logical thinking unless they are programmed to
+              can&apos;'t perform logical thinking unless they are programmed to
               do so. By developing the ability to align problem-solving with
               technology and focusing on the process as well as the outcome, we
               can enhance our computational thinking skills.
@@ -73,7 +73,7 @@ const PrinciplesOfComputationThinking = () => {
                 better problem solver.
               </p>
             </div>
-            
+
             <div className="bg-indigo-50 rounded-xl shadow-lg overflow-hidden">
               <div className="bg-indigo-600 p-4">
                 <h3 className="text-2xl font-bold text-white text-center">
@@ -118,7 +118,7 @@ const PrinciplesOfComputationThinking = () => {
                 ))}
               </div>
             </div>
-            
+
             <div className="space-y-4">
               <h3 className="text-xl font-bold text-gray-800">
                 Algorithm for Finding the Largest Number
