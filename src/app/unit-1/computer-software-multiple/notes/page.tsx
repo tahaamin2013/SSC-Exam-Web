@@ -182,6 +182,7 @@ const SoftwareAndLanguages: FC = () => {
                             <li>Examples: C++, Java, Visual Basic.</li>
                         </ul>
                     </li>
+                    <div className='bg-blue-100 rounded-sm p-5 font-bold'>Note: Javascript and Typescript like modern langauges are Procedural & Structured Langauges and Object-Oriented Programming Languages comes in both. It's too high level languages!</div>
                 </ul>
 
                 <h2 className="text-3xl font-semibold mb-4">4. Uses of Programming Languages</h2>
