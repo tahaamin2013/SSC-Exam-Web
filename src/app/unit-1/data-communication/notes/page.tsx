@@ -3,30 +3,33 @@ import React from "react";
 
 const DataCommunicationPage = () => {
   const umlCode = `
-@startuml
-skinparam backgroundColor transparent
-skinparam handwritten true
-
-rectangle "Sender/Transmitter" as sender #LightBlue
-rectangle "Receiver" as receiver #LightGreen
-rectangle "Message" as message #LightYellow
-
-cloud "Medium" as medium #LightCyan
-
-sender -[#red]right-> message : sends data
-message -[#red]-> medium : travels through
-medium -[#red]-> receiver : delivers to
-
-note top of sender : e.g. computer, cell phone
-note bottom of message : Data (text, audio, video)
-note top of medium : Wired or Wireless\nPath for data transmission
-note bottom of receiver : e.g. computer, TV
-
-note "Protocol\n(governs communication)" as protocol #LightPink
-protocol .. sender
-protocol .. receiver
-
-@enduml
+    @startuml
+    !define RECTANGLE class
+    
+    skinparam rectangle {
+        BackgroundColor White
+        BorderColor Black
+    }
+   
+    rectangle "Sender/Transmitter" as sender
+    rectangle "Receiver" as receiver
+    rectangle "Message" as message
+    rectangle "Medium" as medium
+    
+    sender -right-> message : sends data
+    message -right-> medium : travels through
+    medium -right-> receiver : delivers to
+    
+    note top of sender : e.g. computer, cell phone
+    note bottom of message : Data (text, audio, video)
+    note top of medium : Wired or Wireless
+    note bottom of receiver : e.g. computer, TV
+    
+    note "Protocol\\n(governs communication)" as protocol
+    protocol .. sender
+    protocol .. receiver
+    
+    @enduml
       `;
 
   return (

@@ -1,6 +1,9 @@
-"use client";
-import Link from "next/link";
-import { useState } from "react";
+'use client'
+
+import React, { useState } from 'react';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { Search, Book, ChevronRight } from 'lucide-react';
 
 type Section = {
   id: string;
@@ -9,98 +12,106 @@ type Section = {
 };
 
 const data: Section[] = [
-  { id: "1", link: "/unit-1", title: "Unit 1: Computer Systems" },
-  {
-    id: "2",
-    link: "/unit-2",
-    title: "Unit 2: Computational Thinking & Algorithms",
-  },
-  { id: "3", link: "/unit-3", title: "Unit 3: Prgramming Fundamentals" },
-  { id: "4", link: "/unit-4", title: "Unit 4: Data And Analysis" },
-  { id: "5", link: "/unit-5", title: "Unit 5: Application of Computer Science" },
-  { id: "6", link: "/unit-6", title: "Unit 6: Impacts of Computing" },
-  { id: "7", link: "/unit-7", title: "Unit 7: Entrepreneurship" },
-  {
-    id: "8",
-    link: "/introduction-to-computers",
-    title: "Unit 1S: Introduction to Computers",
-  },
-  {
-    id: "9",
-    link: "/computers-components",
-    title: "Unit 2S: Computer Components",
-  },
-  {
-    id: "9",
-    link: "/input-and-output-devices",
-    title: "Unit 3S: Input/Output Devices",
-  },
-  { id: "10", link: "/storage-devices", title: "Unit 4S: Storage devices" },
+  { id: "1", link: "/computer-sicence", title: "Computer Scince" },
+  { id: "2", link: "/chemistry", title: "Chemistry" },
+  { id: "3", link: "/physics", title: "Physics" },
+  { id: "4", link: "/pak-studies", title: "Pak Studies" },
+  { id: "5", link: "/islamic-studies", title: "Islamic Studies" },
+  { id: "6", link: "/english", title: "English" },
+  { id: "7", link: "/urdu", title: "Urdu" },
+  { id: "8", link: "/mathematics", title: "Mathematics" },
+  { id: "9", link: "/tarjuma-tul-guran-ul-majeed", title: "TARJUMA -TUL-QURAN -UL MAJEED" },
 ];
-const UnitCard = ({ section }: { section: Section }) => (
-  <Link
-    href={section.link}
-    className="group h-[130px] relative overflow-hidden rounded-xl bg-gradient-to-br from-purple-500 to-indigo-600 p-px shadow-xl transition-all hover:p-1 hover:shadow-2xl"
-  >
-    <div className="relative h-[128px] rounded-xl bg-white p-5 transition-all group-hover:bg-transparent">
-      <h2 className="text-xl font-bold text-gray-800 group-hover:text-white transition-colors">
-        {section.title}
-      </h2>
-      <div className="mt-1 text-xs font-medium text-gray-500 group-hover:text-purple-200">
-        Explore this unit
+
+const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; isRedirecting: boolean; onRedirect: () => void }) => {
+  const router = useRouter();
+
+  const handleClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    onRedirect();
+    setTimeout(() => {
+      router.push(section.link);
+    }, 1500); // Adjust this delay as needed
+  };
+
+  if (isRedirecting) {
+    return (
+      <div className="group relative overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:shadow-xl">
+        <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-indigo-600 opacity-100" />
+        <div className="relative z-10 p-6 flex items-center justify-center h-full">
+          <p className="text-xl font-bold text-white animate-pulse">
+            Redirecting...
+          </p>
+        </div>
       </div>
-      <div className="absolute bottom-3 right-2 rounded-full bg-purple-500 p-2 text-white opacity-0 transition-all group-hover:opacity-100">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-4 w-4"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-        >
-          <path
-            fillRule="evenodd"
-            d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-            clipRule="evenodd"
-          />
-        </svg>
+    );
+  }
+
+  return (
+    <Link href={section.link} onClick={handleClick} className="group relative overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:shadow-xl">
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-indigo-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+      <div className="relative z-10 p-6">
+        <Book className="mb-4 h-8 w-8 text-purple-500 transition-colors duration-300 group-hover:text-white" />
+        <h2 className="mb-2 text-xl font-bold text-gray-800 transition-colors duration-300 group-hover:text-white">
+          {section.title}
+        </h2>
+        <p className="text-sm text-gray-600 transition-colors duration-300 group-hover:text-purple-100">
+          Explore this Subject
+        </p>
+        <ChevronRight className="absolute bottom-4 right-4 h-6 w-6 text-purple-500 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:text-white" />
       </div>
-    </div>
-  </Link>
-);
+    </Link>
+  );
+};
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
+  const [redirectingId, setRedirectingId] = useState<string | null>(null);
 
   const filteredData = data.filter((section) =>
     section.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  const handleRedirect = (id: string) => {
+    setRedirectingId(id);
+  };
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 p-6">
-      <div className="mx-auto max-w-6xl">
-        <h1 className="mb-8 text-center text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-indigo-600">
-          Explore Our Units
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl">
+        <h1 className="mb-12 text-center text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-indigo-600">
+          SSC-1 (9th Class) Subjects <br /> FBISE Islamabad
         </h1>
-        <div className="relative mb-12 flex justify-center">
+        <div className="relative mb-16 flex justify-center">
           <input
             type="text"
             placeholder="Search units..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full max-w-xl rounded-full border-2 border-purple-300 bg-white py-3 pl-6 pr-12 text-lg shadow-lg focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-300"
+            className="w-full max-w-2xl rounded-full border-2 border-purple-300 bg-white py-4 pl-6 pr-12 text-lg shadow-lg focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-300 transition-all duration-300"
           />
-          {/* <Search className="absolute right-4 top-1/2 h-6 w-6 -translate-y-1/2 text-purple-500" /> */}
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {filteredData.map((section) => (
-            <UnitCard key={section.id} section={section} />
+            <UnitCard
+              key={section.id}
+              section={section}
+              isRedirecting={redirectingId === section.id}
+              onRedirect={() => handleRedirect(section.id)}
+            />
           ))}
         </div>
 
         {filteredData.length === 0 && (
-          <p className="mt-8 text-center text-xl text-gray-600">
-            No units found. Try a different search term.
-          </p>
+          <div className="mt-16 text-center">
+            <p className="text-2xl font-semibold text-gray-600">
+              No units found.
+            </p>
+            <p className="mt-2 text-gray-500">
+              Try a different search term or explore our available units.
+            </p>
+          </div>
         )}
       </div>
     </div>

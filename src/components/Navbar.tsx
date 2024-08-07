@@ -1,88 +1,51 @@
-"use client";
+'use client'
 
 import React, { useState } from 'react';
-import { Menu, X, ChevronDown, Search, Bell } from 'lucide-react';
 import Link from 'next/link';
+import { Menu, X, ChevronDown } from 'lucide-react';
+
+const subjects = [
+  { name: 'Mathematics', href: '/math' },
+  { name: 'Science', href: '/science' },
+  { name: 'English', href: '/english' },
+  { name: 'Social Studies', href: '/social-studies' },
+  { name: 'Computer Science', href: '/computer-science' },
+];
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const navItems = [
-    { name: 'Home', href: '/' },
-    {
-      name: 'Subjects',
-      href: '#',
-      subItems: [
-        { name: 'Mathematics', href: '/subjects/mathematics' },
-        { name: 'English', href: '/subjects/english' },
-        { name: 'Science', href: '/subjects/science' },
-        { name: 'Social Studies', href: '/subjects/social-studies' },
-      ]
-    },
-    { name: 'Study Materials', href: '/study-materials' },
-    { name: 'Mock Tests', href: '/mock-tests' },
-    { name: 'Community', href: '/community' },
-  ];
-
   return (
-    <nav className="bg-gradient-to-r from-blue-600 to-purple-600 shadow-lg">
+    <nav className="bg-gradient-to-r from-blue-600 to-indigo-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <span className="text-white text-2xl font-bold tracking-tight">SSC Study Hub</span>
+              <span className="text-white text-xl font-bold">SSC-1 Hub</span>
             </Link>
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              {navItems.map((item) => (
-                <div key={item.name} className="relative group">
-                  <Link
-                    href={item.href}
-                    className="text-white hover:bg-white hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out flex items-center"
-                  >
-                    {item.name}
-                    {item.subItems && <ChevronDown className="ml-1 h-4 w-4" />}
-                  </Link>
-                  {item.subItems && (
-                    <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-150 ease-in-out">
-                      <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                        {item.subItems.map((subItem) => (
-                          <Link
-                            key={subItem.name}
-                            href={subItem.href}
-                            className="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100 hover:text-blue-900"
-                            role="menuitem"
-                          >
-                            {subItem.name}
-                          </Link>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </div>
+              {subjects.map((subject) => (
+                <Link
+                  key={subject.name}
+                  href={subject.href}
+                  className="text-white hover:bg-indigo-500 hover:bg-opacity-75 px-3 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out"
+                >
+                  {subject.name}
+                </Link>
               ))}
             </div>
           </div>
-          <div className="hidden md:flex items-center">
-            <button className="text-white hover:bg-white hover:text-blue-600 p-1 rounded-full transition duration-150 ease-in-out mr-2">
-              <Search className="h-6 w-6" />
-            </button>
-            <button className="text-white hover:bg-white hover:text-blue-600 p-1 rounded-full transition duration-150 ease-in-out">
-              <Bell className="h-6 w-6" />
+          <div className="hidden md:block">
+            <button className="bg-indigo-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition duration-150 ease-in-out">
+              Login
             </button>
           </div>
           <div className="-mr-2 flex md:hidden">
             <button
-              onClick={toggleMenu}
-              type="button"
-              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-600 focus:ring-white"
-              aria-controls="mobile-menu"
-              aria-expanded="false"
+              onClick={() => setIsOpen(!isOpen)}
+              className="inline-flex items-center justify-center p-2 rounded-md text-indigo-200 hover:text-white hover:bg-indigo-500 hover:bg-opacity-75 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-600 focus:ring-white"
             >
               <span className="sr-only">Open main menu</span>
               {isOpen ? (
@@ -96,37 +59,22 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="md:hidden" id="mobile-menu">
+        <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            {navItems.map((item) => (
-              <React.Fragment key={item.name}>
-                <Link
-                  href={item.href}
-                  className="text-white hover:bg-white hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  {item.name}
-                </Link>
-                {item.subItems && (
-                  <div className="pl-4">
-                    {item.subItems.map((subItem) => (
-                      <Link
-                        key={subItem.name}
-                        href={subItem.href}
-                        className="text-gray-300 hover:bg-white hover:text-blue-600 block px-3 py-2 rounded-md text-sm font-medium"
-                      >
-                        {subItem.name}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </React.Fragment>
+            {subjects.map((subject) => (
+              <Link
+                key={subject.name}
+                href={subject.href}
+                className="text-white hover:bg-indigo-500 hover:bg-opacity-75 block px-3 py-2 rounded-md text-base font-medium"
+              >
+                {subject.name}
+              </Link>
             ))}
-            <div className="flex items-center justify-start px-3 py-2">
-              <button className="text-white hover:bg-white hover:text-blue-600 p-1 rounded-full transition duration-150 ease-in-out mr-2">
-                <Search className="h-6 w-6" />
-              </button>
-              <button className="text-white hover:bg-white hover:text-blue-600 p-1 rounded-full transition duration-150 ease-in-out">
-                <Bell className="h-6 w-6" />
+          </div>
+          <div className="pt-4 pb-3 border-t border-indigo-500">
+            <div className="px-2">
+              <button className="w-full bg-indigo-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                Login
               </button>
             </div>
           </div>
