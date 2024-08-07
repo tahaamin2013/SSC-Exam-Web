@@ -83,7 +83,7 @@ export default function Home() {
           transition={{ duration: 0.5 }}
           className="mb-12 text-center text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight text-white"
         >
-          SSC-1 (9th Class) Subjects
+          FBISE Islamabad SSC-1 (9th Class) Subjects
         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

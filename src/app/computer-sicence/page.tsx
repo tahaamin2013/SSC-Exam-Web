@@ -34,7 +34,8 @@ const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; is
 
     if (isRedirecting) {
         return (
-            <div className="bg-gradient-to-br rounded-lg from-purple-400 to-indigo-600 opacity-100">
+            <div className="group relative overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl">
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-indigo-600 opacity-100" />
                 <div className="relative z-10 p-6 flex items-center justify-center h-full">
                     <p className="text-xl font-bold text-white animate-pulse">
                         Redirecting...
@@ -45,12 +46,14 @@ const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; is
     }
 
     return (
-        <a href={section.link} onClick={handleClick} className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-purple-400 to-indigo-600 opacity-100 shadow-lg transition-all duration-300 text-white hover:shadow-xl">
+        <a href={section.link} onClick={handleClick} className="group relative overflow-hidden rounded-2xl  shadow-lg shadow-white/5 transition-all duration-300 hover:shadow-xl">
+            <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-indigo-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
             <div className="relative z-10 p-6">
-                <h2 className="mb-2 text-xl font-bold text-white transition-colors duration-300 group-hover:text-white">
+                <Book className="mb-4 h-8 w-8 text-purple-500 transition-colors duration-300 group-hover:text-white" />
+                <h2 className="mb-2 text-xl font-bold  text-zinc-200 transition-colors duration-300 group-hover:text-white">
                     {section.title}
                 </h2>
-                <p className="text-sm text-white transition-colors duration-300 group-hover:text-purple-100">
+                <p className="text-sm text-zinc-200 transition-colors duration-300 group-hover:text-purple-100">
                     Explore this unit
                 </p>
                 <ChevronRight className="absolute bottom-4 right-4 h-6 w-6 text-purple-500 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:text-white" />

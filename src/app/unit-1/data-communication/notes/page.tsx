@@ -25,12 +25,63 @@ const DataCommunicationPage = () => {
     note top of medium : Wired or Wireless
     note bottom of receiver : e.g. computer, TV
     
-    note "Protocol\\n(governs communication)" as protocol
+    note "Protocol\ (governs communication)" as protocol
     protocol .. sender
     protocol .. receiver
     
     @enduml
       `;
+
+  const umlCode2 = `
+@startuml
+
+skinparam defaultTextAlignment center
+skinparam roundCorner 20
+skinparam handwritten false
+
+title Network Communication Modes
+
+rectangle "Directional Modes" {
+  rectangle "Simplex Mode" as SM {
+    actor "Sender" as S1
+    actor "Receiver" as R1
+    S1 -right-> R1 : One-way
+  }
+  
+  rectangle "Half-Duplex Mode" as HDM {
+    actor "Person A" as A
+    actor "Person B" as B
+    A <-right-> B : Two-way, taking turns
+  }
+  
+  rectangle "Full-Duplex Mode" as FDM {
+    actor "Caller" as C
+    actor "Receiver" as R
+    C <-[#red]right-> R : Two-way, simultaneous
+  }
+    note bottom of SM : Like TV broadcast One-way only
+note bottom of HDM : Like walkie-talkies Two-way, taking turns
+note bottom of FDM : Like phone calls Two-way, simultaneous
+}
+
+rectangle "Timing Modes" {
+  rectangle "Asynchronous Transmission" as AT {
+    actor "Sender" as AS
+    actor "Receiver" as AR
+    AS .right.> AR : Variable time intervals
+  }
+  
+  rectangle "Synchronous Transmission" as ST {
+    actor "Sender" as SS
+    actor "Receiver" as SR
+    SS =right=> SR : Fixed time intervals
+  }
+}
+
+note bottom of AT : Like keyboard input Variable intervals between data
+note bottom of ST : Like network links Continuous data stream
+
+@enduml`;
 
   return (
     <div className="min-h-screen bg-gray-100 p-8">
@@ -143,6 +194,9 @@ const DataCommunicationPage = () => {
                 links.
               </li>
             </ul>
+            <div className="my-10">
+              <PlantUMLDiagram code={umlCode2} />
+            </div>
 
             <h2 className="text-2xl font-semibold mt-6 mb-3">
               Communication Devices
