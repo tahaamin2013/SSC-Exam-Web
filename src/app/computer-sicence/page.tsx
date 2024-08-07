@@ -1,4 +1,3 @@
-
 'use client'
 
 import React, { useState } from 'react';
@@ -20,10 +19,6 @@ const data: Section[] = [
     { id: "5", link: "/unit-5", title: "Unit 5: Application of Computer Science" },
     { id: "6", link: "/unit-6", title: "Unit 6: Impacts of Computing" },
     { id: "7", link: "/unit-7", title: "Unit 7: Entrepreneurship" },
-    // { id: "8", link: "/introduction-to-computers", title: "Unit 1S: Introduction to Computers" },
-    // { id: "9", link: "/computers-components", title: "Unit 2S: Computer Components" },
-    // { id: "10", link: "/input-and-output-devices", title: "Unit 3S: Input/Output Devices" },
-    // { id: "11", link: "/storage-devices", title: "Unit 4S: Storage devices" },
 ];
 
 const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; isRedirecting: boolean; onRedirect: () => void }) => {
@@ -66,7 +61,8 @@ const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; is
         </a>
     );
 };
-const page = () => {
+
+const Page = () => {
     const [searchTerm, setSearchTerm] = useState("");
     const [redirectingId, setRedirectingId] = useState<string | null>(null);
 
@@ -120,4 +116,4 @@ const page = () => {
     );
 }
 
-export default page
+export default Page;
