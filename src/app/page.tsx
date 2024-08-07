@@ -3,24 +3,25 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { Search, Book, ChevronRight } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 type Section = {
   id: string;
   link: string;
   title: string;
+  color: string;
 };
 
 const data: Section[] = [
-  { id: "1", link: "/computer-sicence", title: "Computer Scince" },
-  { id: "2", link: "/chemistry", title: "Chemistry" },
-  { id: "3", link: "/physics", title: "Physics" },
-  { id: "4", link: "/pak-studies", title: "Pak Studies" },
-  { id: "5", link: "/islamic-studies", title: "Islamic Studies" },
-  { id: "6", link: "/english", title: "English" },
-  { id: "7", link: "/urdu", title: "Urdu" },
-  { id: "8", link: "/mathematics", title: "Mathematics" },
-  { id: "9", link: "/tarjuma-tul-guran-ul-majeed", title: "TARJUMA -TUL-QURAN -UL MAJEED" },
+  { id: "1", link: "/computer-sicence", title: "Computer Science", color: "#FF6B6B" },
+  { id: "2", link: "/chemistry", title: "Chemistry", color: "#4ECDC4" },
+  { id: "3", link: "/physics", title: "Physics", color: "#45B7D1" },
+  { id: "4", link: "/pak-studies", title: "Pak Studies", color: "#F7B731" },
+  { id: "5", link: "/islamic-studies", title: "Islamic Studies", color: "#25CCF7" },
+  { id: "6", link: "/english", title: "English", color: "#54A0FF" },
+  { id: "7", link: "/urdu", title: "Urdu", color: "#5F27CD" },
+  { id: "8", link: "/mathematics", title: "Mathematics", color: "#FF9FF3" },
+  { id: "9", link: "/tarjuma-tul-guran-ul-majeed", title: "TARJUMA -TUL-QURAN -UL MAJEED", color: "#01a3a4" },
 ];
 
 const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; isRedirecting: boolean; onRedirect: () => void }) => {
@@ -31,36 +32,33 @@ const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; is
     onRedirect();
     setTimeout(() => {
       router.push(section.link);
-    }, 1500); // Adjust this delay as needed
+    }, 1500);
   };
 
-  if (isRedirecting) {
-    return (
-      <div className="group relative overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:shadow-xl">
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-indigo-600 opacity-100" />
-        <div className="relative z-10 p-6 flex items-center justify-center h-full">
-          <p className="text-xl font-bold text-white animate-pulse">
-            Redirecting...
-          </p>
-        </div>
-      </div>
-    );
-  }
-
   return (
-    <Link href={section.link} onClick={handleClick} className="group relative overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:shadow-xl">
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-indigo-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-      <div className="relative z-10 p-6">
-        <Book className="mb-4 h-8 w-8 text-purple-500 transition-colors duration-300 group-hover:text-white" />
-        <h2 className="mb-2 text-xl font-bold text-gray-800 transition-colors duration-300 group-hover:text-white">
-          {section.title}
-        </h2>
-        <p className="text-sm text-gray-600 transition-colors duration-300 group-hover:text-purple-100">
-          Explore this Subject
-        </p>
-        <ChevronRight className="absolute bottom-4 right-4 h-6 w-6 text-purple-500 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:text-white" />
-      </div>
-    </Link>
+    <motion.div
+      initial={{ opacity: 0, scale: 0.9 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.9 }}
+      transition={{ duration: 0.3 }}
+    >
+      <Link href={section.link} onClick={handleClick} className="block">
+        <div className="relative h-48 rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl">
+          <div className="absolute inset-0" style={{ backgroundColor: section.color }}></div>
+          <div className="absolute inset-0 bg-black bg-opacity-20 transition-opacity duration-300 hover:bg-opacity-30"></div>
+
+          {/* Circles */}
+          <div className="absolute top-3 left-4 w-[60px] h-[60px] bg-white opacity-10 rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
+          <div className="absolute top-1/4 right-0 w-24 h-24 bg-white opacity-10 rounded-full transform translate-x-1/2"></div>
+          <div className="absolute bottom-0 left-1/4 w-20 h-20 bg-white opacity-10 rounded-full transform translate-y-1/2"></div>
+          <div className="absolute top-1/2 left-1/2 w-12 h-12 bg-white opacity-10 rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
+
+          <div className="absolute inset-0 flex items-center justify-center">
+            <h2 className="text-2xl hover:text-3xl transition-all duration-500 h-full w-full flex justify-center items-centeraaa font-bold text-white text-center px-4">{section.title}</h2>
+          </div>
+        </div>
+      </Link>
+    </motion.div>
   );
 };
 
@@ -77,41 +75,61 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 py-12 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
-        <h1 className="mb-12 text-center text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-indigo-600">
-          SSC-1 (9th Class) Subjects <br /> FBISE Islamabad
-        </h1>
-        <div className="relative mb-16 flex justify-center">
+        <motion.h1
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="mb-12 text-center text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight text-white"
+        >
+          SSC-1 (9th Class) Subjects
+        </motion.h1>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="relative mb-16 flex justify-center"
+        >
           <input
             type="text"
-            placeholder="Search units..."
+            placeholder="Search subjects..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full max-w-2xl rounded-full border-2 border-purple-300 bg-white py-4 pl-6 pr-12 text-lg shadow-lg focus:border-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-300 transition-all duration-300"
+            className="w-full max-w-2xl rounded-full border-2 border-gray-700 bg-gray-800 py-4 px-6 text-lg text-white placeholder-gray-400 shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"
           />
-        </div>
+        </motion.div>
 
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {filteredData.map((section) => (
-            <UnitCard
-              key={section.id}
-              section={section}
-              isRedirecting={redirectingId === section.id}
-              onRedirect={() => handleRedirect(section.id)}
-            />
-          ))}
-        </div>
+        <AnimatePresence>
+          <motion.div
+            layout
+            className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3"
+          >
+            {filteredData.map((section) => (
+              <UnitCard
+                key={section.id}
+                section={section}
+                isRedirecting={redirectingId === section.id}
+                onRedirect={() => handleRedirect(section.id)}
+              />
+            ))}
+          </motion.div>
+        </AnimatePresence>
 
         {filteredData.length === 0 && (
-          <div className="mt-16 text-center">
-            <p className="text-2xl font-semibold text-gray-600">
-              No units found.
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="mt-16 text-center"
+          >
+            <p className="text-2xl font-semibold text-gray-300">
+              No subjects found.
             </p>
-            <p className="mt-2 text-gray-500">
-              Try a different search term or explore our available units.
+            <p className="mt-2 text-gray-400">
+              Try a different search term or explore our available subjects.
             </p>
-          </div>
+          </motion.div>
         )}
       </div>
     </div>
