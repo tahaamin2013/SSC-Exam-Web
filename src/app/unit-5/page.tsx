@@ -7,7 +7,7 @@ import Link from 'next/link';
 const data = [
   {
     id: "1",
-    title: "Items is empty",
+    title: "Artificial Intelligence and Machine Learning",
     links: [
       { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
       { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
@@ -17,7 +17,40 @@ const data = [
     ],
   },
 
-];
+  {
+    id: "2",
+    title: "Different Areas of AI",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "3",
+    title: "Applications of AI",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "4",
+    title: "Cloud Computing",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  ];
 
 const Section = ({ section }: any) => {
   return (

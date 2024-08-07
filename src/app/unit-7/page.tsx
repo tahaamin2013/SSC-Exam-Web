@@ -7,7 +7,31 @@ import Link from 'next/link';
 const data = [
   {
     id: "1",
-    title: "Items is empty",
+    title: "You will be your Own boss!",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+
+  {
+    id: "2",
+    title: "Cost of Production",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+
+  {
+    id: "3",
+    title: "Devising a Business plan.",
     links: [
       { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
       { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },

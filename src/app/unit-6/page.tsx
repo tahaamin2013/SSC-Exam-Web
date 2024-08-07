@@ -7,7 +7,7 @@ import Link from 'next/link';
 const data = [
   {
     id: "1",
-    title: "Items is empty",
+    title: "Safe and Responsible Use of Computer",
     links: [
       { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
       { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
@@ -16,6 +16,117 @@ const data = [
       { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
     ],
   },
+  {
+    id: "2",
+    title: "Responsible Use of hardware and software",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "3",
+    title: "Safe use of digital platform",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "4",
+    title: "Laws to protect user privacy and intellectual property",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "5",
+    title: "Computing Innovation",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "6",
+    title: "Malicious Software and Key concept",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "7",
+    title: "Information privacy, system security, and usability trade-offs",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "8",
+    title: "Disinformation and Fake News",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "9",
+    title: "Social Networking",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "10",
+    title: "Approaches to computing effects",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
+    id: "11",
+    title: "Intellectual property protection key terms",
+    links: [
+      { href: "unit-2/problems/notes", text: "Notes", icon: BookOpen },
+      { href: "unit-2/problems/mind-map", text: "Mind Map", icon: Brain },
+      { href: "unit-2/problems/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "unit-2/problems/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "unit-2/problems/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+
 
 ];
 
