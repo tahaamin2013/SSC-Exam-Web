@@ -54,7 +54,7 @@ const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; is
           <div className="absolute top-1/2 left-1/2 w-12 h-12 bg-white opacity-10 rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <h2 className="text-2xl hover:text-3xl transition-all duration-500 h-full w-full flex justify-center items-centeraaa font-bold text-white text-center px-4">{section.title}</h2>
+            <h2 className="text-2xl hover:text-3xl transition-all duration-500 h-full w-full flex justify-center items-center font-bold text-white text-center px-4">{section.title}</h2>
           </div>
         </div>
       </Link>
