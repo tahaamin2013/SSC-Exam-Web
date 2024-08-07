@@ -108,7 +108,8 @@ const ComputerSystemsDashboard = () => {
       backgroundColor: '#1111`', // Dark blue background
       fontFamily: '"Poppins", sans-serif'
     }}>
-      <h1 className="text-5xl font-extrabold mb-12 text-center text-black">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-12 text-center text-black">
+
         Prgramming Fundamentals
       </h1>
       <div className="flex flex-wrap gap-6 justify-center">
