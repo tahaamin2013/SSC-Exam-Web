@@ -3,8 +3,7 @@
 import React, { useState } from 'react';
 import PlantUMLDiagram from '@/components/PlantUMLDiagram'; // Ensure this component handles PlantUML code
 
-
-const page = () => {
+const MindMapOfCSS = () => {
     const [zoom, setZoom] = useState(1);
 
     const handleZoomIn = () => setZoom(prevZoom => Math.min(prevZoom + 0.1, 2));
@@ -195,4 +194,4 @@ const page = () => {
     )
 }
 
-export default page
+export default MindMapOfCSS

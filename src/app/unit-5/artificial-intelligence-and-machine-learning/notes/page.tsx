@@ -38,7 +38,7 @@ const AIApplications = () => {
 
       <Section title="2. Machine Learning">
         <p className="text-gray-700">
-          Machine Learning (ML) is a subset of AI that involves the use of statistical techniques to enable machines to improve their performance on tasks through experience. ML algorithms build a model based on sample data, known as "training data," to make predictions or decisions without being explicitly programmed to do so. ML is commonly categorized into supervised learning, unsupervised learning, and reinforcement learning.
+          Machine Learning (ML) is a subset of AI that involves the use of statistical techniques to enable machines to improve their performance on tasks through experience. ML algorithms build a model based on sample data, known as &quot;training data,&quot; to make predictions or decisions without being explicitly programmed to do so. ML is commonly categorized into supervised learning, unsupervised learning, and reinforcement learning.
         </p>
         <h3 className="text-xl font-semibold mt-4">Examples:</h3>
         <ul className="list-disc pl-5 space-y-2">
