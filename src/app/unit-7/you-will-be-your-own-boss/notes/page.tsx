@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const EntrepreneurshipConcept = () => {
@@ -124,11 +125,13 @@ const EntrepreneurshipConcept = () => {
                             <li>Prototype - Build sample models to learn quickly, cheaply, and early.</li>
                             <li>Test - Collect user feedback to refine the problem, solution, and user needs.</li>
                         </ol>
-                        <Image src='/1000223074.png' alt='goals' width={900} height={800} />
+                        <Link href='/unit-7/you-will-be-your-own-boss/mind-map' className='rounded-lg mb-5 bg-blue-600 text-white px-3 py-3'>See Mind Map</Link>
+                        <Image src='/1000223074.png' className='mt-5' alt='goals' width={900} height={800} />
                     </div>
                 </div>
                 <div className="my-3 pt-12 pb-3">
                     <h1 className="text-4xl mb-4 font-bold mt-2">Business Plan Development</h1>
+
                     <div >
                         <h2 className="text-3xl font-bold mb-6">Definition</h2>
                         <p className="mb-6">A written summary of the proposed business venture, including operational, financial, marketing, and management details. Serves as an entrepreneur&apos;s roadmap for building a successful business. Describes the company&apos;s direction, goals, and plans for achieving them. Reflects the specific strengths of the business model, team, culture, and entrepreneur&apos;s enthusiasm.</p>
@@ -142,6 +145,7 @@ const EntrepreneurshipConcept = () => {
                             <li>Serves as an important tool for attracting capital and financing.</li>
                             <li>Critical in today&apos;s competitive global environment.</li>
                         </ul>
+
                         <h2 className="text-3xl font-bold mb-6">Business Planning Tools</h2>
                         <p className="mb-6">Software options (e.g. LivePlan, PlanMaker, PlanWrite, Canva, WordPress) provide templates, instructions, and guided plan development. Automates much of the business plan writing process to save time.</p>
                     </div>

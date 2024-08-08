@@ -56,6 +56,7 @@ left side
 ** Volatile and Non-Volatile Memory <<volatile>>
 *** Volatile Memory
 **** RAM
+**** Registers
 **** Cache Memory
 *** Non-Volatile Memory
 **** ROM
@@ -142,7 +143,7 @@ left side
                         <tr className="bg-gray-50">
                             <td className="py-2 px-4 border-b font-semibold" rowSpan={2}>Memory Types</td>
                             <td className="py-2 px-4 border-b">Volatile Memory</td>
-                            <td className="py-2 px-4 border-b">Loses data when power is lost. Examples: RAM, Cache Memory</td>
+                            <td className="py-2 px-4 border-b">Loses data when power is lost. Examples: RAM, Registers, Cache Memory</td>
                         </tr>
                         <tr className="bg-gray-50">
                             <td className="py-2 px-4 border-b">Non-Volatile Memory</td>

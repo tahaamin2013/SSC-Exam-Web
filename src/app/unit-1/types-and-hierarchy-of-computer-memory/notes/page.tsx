@@ -96,6 +96,7 @@ const page = () => {
                 <li><strong>RAM (Random Access Memory):</strong> Volatile memory that provides temporary storage for data and instructions in use.</li>
                 <li><strong>Cache Memory:</strong> A smaller, faster type of volatile memory located close to the CPU, used to speed up access to frequently used data.</li>
                 <li><strong>ROM (Read-Only Memory):</strong> A type of non-volatile memory that is used to store firmware and system software. Once written, it cannot be modified or can only be modified with difficulty.</li>
+                <li><strong>Registers</strong></li>
             </ul>
 
             <h2 className="text-2xl font-semibold mt-6 mb-2">Volatile and Non-Volatile Memory</h2>
