@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const EntrepreneurshipConcept = () => {
@@ -215,6 +216,7 @@ const EntrepreneurshipConcept = () => {
                         <li>Industry, Innovation and Infrastructure</li>
                         <li>Sustainable Cities and Communities</li>
                     </ol>
+                    <Image src='/goals.png' alt='goals' width={900} height={800} />
                     <h2 className="text-3xl font-bold mb-6">Entrepreneurial Opportunity Identification</h2>
                     <p className="mb-4">
                         Analyzing the community&apos;s unmet needs and the entrepreneur&apos;s own skills/resources is key to developing promising small business ideas. Focusing on addressing genuine community difficulties increases the likelihood of identifying a viable, impactful opportunity. Aligning business ideas with broader sustainable development objectives can further enhance the venture&apos;s social and environmental value.
