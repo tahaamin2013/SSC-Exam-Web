@@ -124,6 +124,7 @@ const EntrepreneurshipConcept = () => {
                             <li>Prototype - Build sample models to learn quickly, cheaply, and early.</li>
                             <li>Test - Collect user feedback to refine the problem, solution, and user needs.</li>
                         </ol>
+                        <Image src='/1000223074.png' alt='goals' width={900} height={800} />
                     </div>
                 </div>
                 <div className="my-3 pt-12 pb-3">
