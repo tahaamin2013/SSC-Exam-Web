@@ -135,7 +135,7 @@ const EntrepreneurshipConcept = () => {
                             <li>Guides entrepreneurs in launching and financing their business.</li>
                             <li>Offers a systematic, realistic evaluation of the venture&apos;s market success potential.</li>
                             <li>Identifies the principal risks facing the venture.</li>
-                            <li>Provides a "game plan" for managing the business during start-up.</li>
+                            <li>Provides a &quot;game plan&quot; for managing the business during start-up.</li>
                             <li>Allows for comparing actual results against targeted performance.</li>
                             <li>Serves as an important tool for attracting capital and financing.</li>
                             <li>Critical in today&apos;s competitive global environment.</li>
