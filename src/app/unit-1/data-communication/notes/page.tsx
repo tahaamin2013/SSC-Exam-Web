@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image'
 import PlantUMLDiagram from "@/components/PlantUMLDiagram";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import React, { useState } from "react";
@@ -520,6 +521,8 @@ end note
               connections between them. It represents the layout of nodes and
               connections in the network.
             </p>
+            
+           <Image src="https://cdn.ttgtmedia.com/rms/onlineimages/whatis-network_topology_02-f.png" alt="Network Topologies Image" width={400} height={400} className='w-full my-5' />
 
             <div className="sm:grid grid-cols-2 gap-5">
               <div className="bg-blue-100 p-5">
@@ -688,6 +691,7 @@ end note
             <h2 className="text-2xl font-semibold mt-6 mb-3">
               Transmission Media
             </h2>
+            <p className='mt-2'>Transmission media are the “roads” that allow information to move between devices, like between your computer and the internet.</p>
             <p>
               Transmission Media refers to the physical pathways used to
               transmit data between devices in a network. It can be classified
@@ -696,7 +700,7 @@ end note
             <div className="grid gap-5 grid-cols-1 md:grid-cols-2">
               <div className="bg-teal-100 h-fit p-5 my-4">
                 <h3 className="text-xl font-semibold mb-2">
-                  <span className="text-teal-600">Guided </span> Media
+                  <span className="text-teal-600">Guided </span> Media (wire)
                 </h3>
                 <p className="mb-2">
                   Guided media involves physical cables that guide data signals
@@ -736,7 +740,7 @@ end note
               </div>
               <div className="bg-red-100 h-fit   p-5 my-4">
                 <h3 className="text-xl font-semibold mb-2">
-                  <span className="text-red-600">Unguided </span> Media
+                  <span className="text-red-600">Unguided </span> Media (wireless)
                 </h3>
                 <p className="mb-2">
                   Unguided media uses wireless signals to transmit data through the
@@ -761,7 +765,83 @@ end note
                 </ul>
               </div>
             </div>
-
+            <div className="container mx-auto">
+        <h1 className="text-2xl font-bold mb-6 text-center">Comparison of Twisted Pair, Coaxial, Fiber Optic, and Unguided Media</h1>
+        <table className="min-w-full bg-white border border-gray-200 rounded-lg overflow-hidden">
+            <thead>
+                <tr>
+                    <th className="px-6 py-3 border-b-2 border-gray-300 bg-gray-100 text-left text-sm font-semibold text-gray-700 uppercase">Type</th>
+                    <th className="px-6 py-3 border-b-2 border-gray-300 bg-gray-100 text-left text-sm font-semibold text-gray-700 uppercase">Description</th>
+                    <th className="px-6 py-3 border-b-2 border-gray-300 bg-gray-100 text-left text-sm font-semibold text-gray-700 uppercase">Use Cases</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700 font-medium">Unshielded Twisted Pair (UTP)</td>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700">
+                        Commonly used in telephones and computer networks, UTP consists of pairs of wires twisted together to reduce electromagnetic interference.
+                    </td>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700">
+                        Telephones, Ethernet networks.
+                    </td>
+                </tr>
+                <tr>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700 font-medium">Shielded Twisted Pair (STP)</td>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700">
+                        Similar to UTP but with an additional shielding layer to provide better protection against interference.
+                    </td>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700">
+                        Environments with higher electromagnetic interference, such as industrial settings.
+                    </td>
+                </tr>
+                <tr>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700 font-medium">Coaxial Cable</td>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700">
+                        Consists of a central conductor, an insulating layer, a metallic shield, and an outer protective layer.
+                    </td>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700">
+                        Cable TV, broadband internet connections.
+                    </td>
+                </tr>
+                <tr>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700 font-medium">Fiber Optic Cable</td>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700">
+                        Transmits data as light signals through thin strands of glass or plastic fibers.
+                    </td>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700">
+                        High-speed data transmission, long-distance communication, internet backbone.
+                    </td>
+                </tr>
+                <tr>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700 font-medium">Radio Waves</td>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700">
+                        Used for wireless communication over long distances.
+                    </td>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700">
+                        AM/FM radio, television broadcasting, mobile phones.
+                    </td>
+                </tr>
+                <tr>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700 font-medium">Microwaves</td>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700">
+                        Used for point-to-point communication over short and long distances.
+                    </td>
+                    <td className="px-6 py-4 border-b border-gray-200 text-sm text-gray-700">
+                        Satellite communications, wireless LANs.
+                    </td>
+                </tr>
+                <tr>
+                    <td className="px-6 py-4 text-sm text-gray-700 font-medium">Infrared</td>
+                    <td className="px-6 py-4 text-sm text-gray-700">
+                        Used for short-range communication between devices.
+                    </td>
+                    <td className="px-6 py-4 text-sm text-gray-700">
+                        Remote controls, computer peripherals.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 
             <h2 className="text-2xl font-semibold mt-6 mb-3">

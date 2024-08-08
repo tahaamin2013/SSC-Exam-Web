@@ -10,122 +10,147 @@ const Page = () => {
     }, []);
 
     const umlCode = `
- @startuml
-
-title Data Science Overview
-
-package "4.1 Data and Analysis" {
-    class "Data" {
-        + Information or facts (e.g., temperatures, survey responses)
+ @startmindmap
+<style>
+mindmapDiagram {
+    .components {
+        BackgroundColor lightskyblue
     }
-    class "Data Analytics" {
-        + Examining data to draw conclusions
+    .modes {
+        BackgroundColor lightgreen
     }
-    class "Data Science" {
-        + Combines multiple disciplines to analyze data and extract insights
+    .devices {
+        BackgroundColor lightpink
     }
-
-    Data -- Data Analytics : includes
-    Data Analytics -- Data Science : uses
+    .architecture {
+        BackgroundColor lightsalmon
+    }
+    .networks {
+        BackgroundColor plum
+    }
+    .topologies {
+        BackgroundColor lightcoral
+    }
+    .osi {
+        BackgroundColor lightseagreen
+    }
+    .media {
+        BackgroundColor wheat
+    }
+    .protocols {
+        BackgroundColor lavender
+    }
+    .security {
+        BackgroundColor paleturquoise
+    }
+    .cloud {
+        BackgroundColor peachpuff
+    }
+    .iot {
+        BackgroundColor lightsteelblue
+    }
 }
+</style>
 
-package "4.1.2 Concepts of Data Science" {
-    class "Data" {
-        + Observations, facts, or information collected
-    }
-    class "Dataset" {
-        + Structured collection of data on a specific topic
-    }
-    class "Statistics and Probability" {
-        + Data frequency and event likelihood analysis
-    }
-    class "Mathematics" {
-        + Fundamental tools for problem-solving
-    }
-    class "Machine Learning" {
-        + AI for data analysis
-    }
-    class "Deep Learning" {
-        + Neural networks subset of machine learning
-    }
-    class "Data Mining" {
-        + Extracting patterns from large datasets
-    }
-    class "Data Visualization" {
-        + Graphical representation of data
-    }
-    class "Big Data" {
-        + Handling large volumes of data
-    }
-    class "Predictive Analysis" {
-        + Forecasting and predictions
-    }
-    class "Natural Language Processing (NLP)" {
-        + Analyzing and processing human language
-    }
+* Data Communication
+** Network Components <<components>>
+*** Sender
+*** Message
+*** Medium
+*** Receiver
+*** Protocol
+left side
+** Communication Modes <<modes>>
+*** Simplex
+*** Half-Duplex
+*** Full-Duplex
+*** Asynchronous
+*** Synchronous
+** Communication Devices <<devices>>
+*** Hub
+*** Switch
+*** Router
+*** Gateway
+** Network Architecture <<architecture>>
+*** Client/Server
+*** Peer-to-Peer
+right side
+** Types of Networks <<networks>>
+*** LAN
+*** WAN
+*** MAN
+*** VPN
+*** Wireless Networks
+**** Wi-Fi
+**** Bluetooth
+**** Cellular
+**** Satellite
+left side
+** Network Topologies <<topologies>>
+*** Bus
+*** Star
+*** Ring
+*** Mesh
+*** Hybrid
+** OSI Model <<osi>>
+*** Data Link Layer
+*** Network Layer
+*** Transport Layer
+*** Session Layer
+*** Presentation Layer
+*** Application Layer
+right side
+** Transmission Media <<media>>
+*** Guided
+**** Twisted Pair
+**** Coaxial
+**** Fiber Optic
+*** Unguided
+**** Radio Waves
+**** Microwaves
+**** Infrared
+left side
+** Network Protocols <<protocols>>
+*** HTTP/HTTPS
+*** FTP
+*** SMTP
+*** POP3/IMAP
+*** DNS
+*** TCP/UDP
+*** IP
+** Network Security <<security>>
+*** Authentication
+*** Encryption
+*** Firewall
+*** IDPS
+*** VPN
+*** Access Control
+*** Antivirus
+right side
+** Cloud Computing <<cloud>>
+*** IaaS
+*** PaaS
+*** SaaS
+*** Deployment Models
+**** Public
+**** Private
+**** Hybrid
+**** Community
+left side
+** Internet of Things <<iot>>
+*** Devices and Sensors
+*** Connectivity
+*** Data Processing
+*** User Interface
+*** Applications
+**** Smart Home
+**** Healthcare
+**** Industrial IoT
+**** Agriculture
+**** Transportation
+**** Smart Cities
 
-    Data -- Dataset : includes
-    Dataset -- Statistics and Probability : uses
-    Statistics and Probability -- Mathematics : relies on
-    Machine Learning -- Deep Learning : subset of
-    Data Mining -- Big Data : involves
-    Data Visualization -- Predictive Analysis : supports
-    Data Visualization -- NLP : used in
-}
-
-package "4.1.3 Scope and Application of Data Science" {
-    class "Predictive Analytics" {
-        + Forecasting future trends
-    }
-    class "Machine Learning Implementation" {
-        + Applying algorithms for data analysis
-    }
-    class "Data Visualization Techniques" {
-        + Creating charts and graphs
-    }
-    class "Recommendation Systems Development" {
-        + Creating systems for product recommendations
-    }
-    class "Sentiment Analysis" {
-        + Analyzing opinions and sentiments
-    }
-    class "Fraud Detection Mechanisms" {
-        + Identifying fraudulent activities
-    }
-    class "Decision-Making Support" {
-        + Assisting in decision-making processes
-    }
-
-    Predictive Analytics -- Machine Learning Implementation : uses
-    Data Visualization Techniques -- Recommendation Systems Development : supports
-    Sentiment Analysis -- Fraud Detection Mechanisms : applies
-    Decision-Making Support -- Predictive Analytics : enhanced by
-}
-
-package "4.1.4 Industry Applications" {
-    class "Retail" {
-        + Data-driven decisions, trend prediction, marketing improvement
-    }
-    class "Supply Chain" {
-        + Inventory optimization, demand forecasting
-    }
-    class "Logistics" {
-        + Route optimization, load balancing, carrier selection
-    }
-    class "Stock Markets" {
-        + Algorithmic trading, sentiment analysis, risk management
-    }
-    class "E-commerce" {
-        + Recommendation systems, customer behavior analysis, fraud detection
-    }
-
-    Retail -- Supply Chain : benefits from
-    Supply Chain -- Logistics : includes
-    Logistics -- Stock Markets : influences
-    Stock Markets -- E-commerce : supports
-}
-
-@enduml
+@endmindmap
 `;
     const [zoomLevel1, setZoomLevel1] = useState(1);
     const [zoomLevel2, setZoomLevel2] = useState(1);
@@ -1242,7 +1267,7 @@ package "4.1.4 Industry Applications" {
 
                 <div className="p-4">
                     {/* Key Components of IoT */}
-                    <h2 className="text-2xl font-semibold mb-4">Internet of Things (IoT) (continued)
+                    <h2 className="text-2xl font-semibold mb-4">Internet of Things (IoT)
                     </h2>
                     <h2 className="text-xl font-semibold mb-4">Key Components of IoT</h2>
                     <table className="min-w-full bg-white border border-gray-300 mb-8">
