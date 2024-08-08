@@ -40,7 +40,7 @@ const EntrepreneurshipConcept = () => {
                         <div className="bg-indigo-100 rounded-lg p-6">
                             <h3 className="text-xl font-bold text-indigo-600 mb-2">Being Your Own Boss</h3>
                             <p className="text-gray-700">
-                                As an entrepreneur, you'll have the responsibility of using your own judgment and sense
+                                As an entrepreneur, you&apos;ll have the responsibility of using your own judgment and sense
                                 of ethics, with a responsibility to your community.
                             </p>
                         </div>
@@ -91,7 +91,7 @@ const EntrepreneurshipConcept = () => {
                         <div className="bg-indigo-100 rounded-lg p-6">
                             <h3 className="text-xl font-bold text-indigo-600 mb-2">Benefits</h3>
                             <ul className="list-disc pl-6 text-gray-700">
-                                <li>Gain control over one's life</li>
+                                <li>Gain control over one&apos;s life</li>
                                 <li>Pursue unlimited profit potential</li>
                                 <li>Contribute to society</li>
                                 <li>Do what one enjoys</li>
@@ -129,16 +129,16 @@ const EntrepreneurshipConcept = () => {
                     <h1 className="text-4xl mb-4 font-bold mt-2">Business Plan Development</h1>
                     <div >
                         <h2 className="text-3xl font-bold mb-6">Definition</h2>
-                        <p className="mb-6">A written summary of the proposed business venture, including operational, financial, marketing, and management details. Serves as an entrepreneur's roadmap for building a successful business. Describes the company's direction, goals, and plans for achieving them. Reflects the specific strengths of the business model, team, culture, and entrepreneur's enthusiasm.</p>
+                        <p className="mb-6">A written summary of the proposed business venture, including operational, financial, marketing, and management details. Serves as an entrepreneur&apos;s roadmap for building a successful business. Describes the company&apos;s direction, goals, and plans for achieving them. Reflects the specific strengths of the business model, team, culture, and entrepreneur&apos;s enthusiasm.</p>
                         <h2 className="text-3xl font-bold mb-6">Purpose and Benefits</h2>
                         <ul className="list-disc list-inside mb-6">
                             <li>Guides entrepreneurs in launching and financing their business.</li>
-                            <li>Offers a systematic, realistic evaluation of the venture's market success potential.</li>
+                            <li>Offers a systematic, realistic evaluation of the venture&apos;s market success potential.</li>
                             <li>Identifies the principal risks facing the venture.</li>
                             <li>Provides a "game plan" for managing the business during start-up.</li>
                             <li>Allows for comparing actual results against targeted performance.</li>
                             <li>Serves as an important tool for attracting capital and financing.</li>
-                            <li>Critical in today's competitive global environment.</li>
+                            <li>Critical in today&apos;s competitive global environment.</li>
                         </ul>
                         <h2 className="text-3xl font-bold mb-6">Business Planning Tools</h2>
                         <p className="mb-6">Software options (e.g. LivePlan, PlanMaker, PlanWrite, Canva, WordPress) provide templates, instructions, and guided plan development. Automates much of the business plan writing process to save time.</p>
@@ -200,7 +200,7 @@ const EntrepreneurshipConcept = () => {
                     </p>
                     <h2 className="text-3xl font-bold mb-6">Addressing Community Needs</h2>
                     <p className="mb-4">
-                        Once needs are identified, the entrepreneur should determine what products or services could help overcome those difficulties. This requires evaluating how the entrepreneur's own skills and resources could be leveraged to meet the community's needs. Collaborating with colleagues to develop business ideas based on community needs is also suggested.
+                        Once needs are identified, the entrepreneur should determine what products or services could help overcome those difficulties. This requires evaluating how the entrepreneur&apos;s own skills and resources could be leveraged to meet the community&apos;s needs. Collaborating with colleagues to develop business ideas based on community needs is also suggested.
                     </p>
                     <h2 className="text-3xl font-bold mb-6">Aligning with Sustainable Development Goals</h2>
                     <p className="mb-4">
@@ -217,7 +217,7 @@ const EntrepreneurshipConcept = () => {
                     </ol>
                     <h2 className="text-3xl font-bold mb-6">Entrepreneurial Opportunity Identification</h2>
                     <p className="mb-4">
-                        Analyzing the community's unmet needs and the entrepreneur's own skills/resources is key to developing promising small business ideas. Focusing on addressing genuine community difficulties increases the likelihood of identifying a viable, impactful opportunity. Aligning business ideas with broader sustainable development objectives can further enhance the venture's social and environmental value.
+                        Analyzing the community&apos;s unmet needs and the entrepreneur&apos;s own skills/resources is key to developing promising small business ideas. Focusing on addressing genuine community difficulties increases the likelihood of identifying a viable, impactful opportunity. Aligning business ideas with broader sustainable development objectives can further enhance the venture&apos;s social and environmental value.
                     </p>
                 </div>
                 <div className="container mx-auto py-16">
@@ -245,7 +245,7 @@ const EntrepreneurshipConcept = () => {
                         </p>
                         <h2 className="text-3xl font-bold mb-6">Factors to Consider when Setting Prices</h2>
                         <ol className="list-decimal list-inside mb-4">
-                            <li>Cost of Production: Includes the direct costs of materials, labor, and other expenses to produce the product or deliver the service, as well as the entrepreneur's own salary or compensation.</li>
+                            <li>Cost of Production: Includes the direct costs of materials, labor, and other expenses to produce the product or deliver the service, as well as the entrepreneur&apos;s own salary or compensation.</li>
                             <li>Overhead Costs: Indirect costs required to operate the business, such as rent, utilities, insurance, marketing, etc.</li>
                             <li>Profit Margin: The desired profit as a percentage of the cost price. The profit margin should be reasonable and competitive.</li>
                         </ol>
@@ -256,7 +256,7 @@ const EntrepreneurshipConcept = () => {
                         <h2 className="text-3xl font-bold mb-6">Pricing Strategies</h2>
                         <p className="mb-4">
                             Cost-plus pricing: Setting price by adding a markup percentage to the total cost.
-                            Competition-based pricing: Pricing in relation to competitors' offerings.
+                            Competition-based pricing: Pricing in relation to competitors&apos; offerings.
                             Value-based pricing: Pricing based on the perceived value to the customer.
                         </p>
                         <h2 className="text-3xl font-bold mb-6">Maintaining Profitability</h2>

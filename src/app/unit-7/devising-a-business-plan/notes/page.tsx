@@ -21,13 +21,13 @@ const BusinessPlanExecutiveSummary = () => {
                         <div>
                             <h3 className="text-2xl font-bold mb-2 mt-1">3. Market Analysis</h3>
                             <p>
-                                This section evaluates the market landscape, trends, and competition. A SWOT analysis is a useful tool to assess the business's Strengths, Weaknesses, Opportunities, and Threats. This ensures the entrepreneur has a realistic understanding of the market conditions.
+                                This section evaluates the market landscape, trends, and competition. A SWOT analysis is a useful tool to assess the business&apos;s Strengths, Weaknesses, Opportunities, and Threats. This ensures the entrepreneur has a realistic understanding of the market conditions.
                             </p>
                         </div>
                         <div>
                             <h3 className="text-2xl font-bold mb-2 mt-1">4. Products/Services</h3>
                             <p>
-                                This section provides detailed information about the offerings, their features, and unique value proposition. It demonstrates the entrepreneur's deep understanding of their products/services and helps potential stakeholders appreciate the business's capabilities.
+                                This section provides detailed information about the offerings, their features, and unique value proposition. It demonstrates the entrepreneur&apos;s deep understanding of their products/services and helps potential stakeholders appreciate the business&apos;s capabilities.
                             </p>
                         </div>
                         <div>
