@@ -51,7 +51,7 @@ const AIApplications = () => {
       <Section title="3. Usage of AI for Benefiting People">
         <h3 className="text-xl font-semibold mb-3">Applications of AI</h3>
         <p className="text-gray-700 mb-4">
-          AI has a broad range of applications that benefit society. From enhancing healthcare to transforming education, AI's potential is vast and varied. Here are some key areas where AI is making significant contributions:
+          AI has a broad range of applications that benefit society. From enhancing healthcare to transforming education, AI&apos;s potential is vast and varied. Here are some key areas where AI is making significant contributions:
         </p>
         <ul className="list-disc pl-5 space-y-2">
           {applications.map((app, index) => (

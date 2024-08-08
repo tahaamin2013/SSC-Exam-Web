@@ -80,7 +80,7 @@ const CloudComputing = () => {
 
         <SubSection title="2.2 Private Cloud">
           <p className="mb-4">
-            In this cloud computing model, resources are owned and used by a single organization. It's often hosted on-premises in the company's data center, but it can also be hosted by a third-party provider. Private cloud solutions provide more control over resources and hardware, software, network, etc. Private cloud solutions offer more custom-designed services and better security.
+            In this cloud computing model, resources are owned and used by a single organization. It&apos;s often hosted on-premises in the company&apos;s data center, but it can also be hosted by a third-party provider. Private cloud solutions provide more control over resources and hardware, software, network, etc. Private cloud solutions offer more custom-designed services and better security.
           </p>
           <div className="bg-yellow-50 p-4 rounded-lg shadow-md">
             <h4 className="font-semibold mb-2">Key Characteristics:</h4>

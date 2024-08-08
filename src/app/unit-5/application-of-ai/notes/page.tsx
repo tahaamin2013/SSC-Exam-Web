@@ -43,7 +43,7 @@ const AIApplications = () => {
           AI-based systems in education have many benefits for students, teachers, and schools/universities. They can provide personalized learning experiences, automate administrative tasks, and offer insights into student performance.
         </p>
         <ExampleBox title="Example: Personalized Learning">
-          <p>AI can analyze a student's learning patterns and tailor educational content to meet their individual needs. This personalized approach can improve learning outcomes and student engagement.</p>
+          <p>AI can analyze a student&apos;s learning patterns and tailor educational content to meet their individual needs. This personalized approach can improve learning outcomes and student engagement.</p>
         </ExampleBox>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-4">
           <div className="bg-blue-100 p-4 rounded-lg text-center">Global Access</div>
@@ -60,7 +60,7 @@ const AIApplications = () => {
           AI is extensively used in the gaming industry to create more immersive and challenging experiences. It powers non-player characters (NPCs), generates dynamic content, and adapts game difficulty based on player performance.
         </p>
         <ExampleBox title="Example: Adaptive Difficulty">
-          <p>Many modern games use AI to adjust the difficulty level in real-time based on the player's performance. This ensures that the game remains challenging and engaging for players of all skill levels.</p>
+          <p>Many modern games use AI to adjust the difficulty level in real-time based on the player&apos;s performance. This ensures that the game remains challenging and engaging for players of all skill levels.</p>
         </ExampleBox>
       </Section>
 
@@ -87,13 +87,13 @@ const AIApplications = () => {
           Self-driving cars use AI to navigate roads, detect obstacles, and make real-time decisions. This technology has the potential to revolutionize transportation, improving safety and efficiency on our roads.
         </p>
         <ExampleBox title="Example: Tesla Autopilot">
-          <p>Tesla's Autopilot system uses AI to analyze the car's surroundings, control speed, and navigate highways. It can change lanes, exit freeways, and park automatically, showcasing the potential of AI in automotive technology.</p>
+          <p>Tesla&apos;s Autopilot system uses AI to analyze the car&apos;s surroundings, control speed, and navigate highways. It can change lanes, exit freeways, and park automatically, showcasing the potential of AI in automotive technology.</p>
         </ExampleBox>
       </Section>
 
       <Section title="8. Business">
         <p className="mb-4">
-          AI is revolutionizing business operations across various sectors. It's used in data analysis, customer service, supply chain optimization, and predictive maintenance, among other applications.
+          AI is revolutionizing business operations across various sectors. It&apos;s used in data analysis, customer service, supply chain optimization, and predictive maintenance, among other applications.
         </p>
         <ExampleBox title="Example: Customer Service Chatbots">
           <p>Many businesses use AI-powered chatbots to handle customer inquiries 24/7. These chatbots can understand natural language, provide instant responses, and even learn from interactions to improve their performance over time.</p>
@@ -165,7 +165,7 @@ const AIApplications = () => {
           </div>
         </div>
         <ExampleBox title="Example: Customer Service Chatbot">
-          <p>Many businesses use AI-powered chatbots to handle initial customer inquiries. These chatbots can understand customer questions, provide relevant information, and even process simple transactions. They're available 24/7, can handle multiple customers simultaneously, and are much cheaper than hiring and training employees for the same tasks. This results in improved response times, increased customer satisfaction, and significant cost savings for businesses.</p>
+          <p>Many businesses use AI-powered chatbots to handle initial customer inquiries. These chatbots can understand customer questions, provide relevant information, and even process simple transactions. They&apos;re available 24/7, can handle multiple customers simultaneously, and are much cheaper than hiring and training employees for the same tasks. This results in improved response times, increased customer satisfaction, and significant cost savings for businesses.</p>
         </ExampleBox>
         <div className="bg-gray-100 p-6 rounded-lg shadow-md my-6">
           <h3 className="font-semibold text-lg mb-4">Chatbot Interaction Flow:</h3>
@@ -174,13 +174,13 @@ const AIApplications = () => {
               User: Hi, I need help with my order.
             </div>
             <div className="bg-green-100 p-3 rounded-lg self-end max-w-md">
-              Chatbot: Hello! I'd be happy to help you with your order. Could you please provide your order number?
+              Chatbot: Hello! I&apos;d be happy to help you with your order. Could you please provide your order number?
             </div>
             <div className="bg-blue-100 p-3 rounded-lg self-start max-w-md">
               User: My order number is #12345.
             </div>
             <div className="bg-green-100 p-3 rounded-lg self-end max-w-md">
-              Chatbot: Thank you. I've found your order #12345. What specific information do you need about this order?
+              Chatbot: Thank you. I&apos;ve found your order #12345. What specific information do you need about this order?
             </div>
           </div>
         </div>

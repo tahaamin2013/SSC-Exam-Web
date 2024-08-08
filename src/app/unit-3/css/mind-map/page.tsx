@@ -1,4 +1,5 @@
 "use client"
+
 import React, { useState } from 'react';
 import PlantUMLDiagram from '@/components/PlantUMLDiagram'; // Ensure this component handles PlantUML code
 
@@ -87,7 +88,7 @@ const page = () => {
                             CSS applied directly to an HTML element using the `style` attribute.
                         </td>
                         <td className="py-3 px-6 border-b">
-                            <code>&lt;h1 style="color:red; font-style:italic; text-align:center;"&gt;My Teaching Academy&lt;/h1&gt;</code>
+                            <code>&lt;h1 style=&quot;color:red; font-style:italic; text-align:center;&quot;&gt;My Teaching Academy&lt;/h1&gt;</code>
                         </td>
                     </tr>
                     <tr>
@@ -113,7 +114,7 @@ const page = () => {
                             CSS defined in an external `.css` file linked to the HTML document.
                         </td>
                         <td className="py-3 px-6 border-b">
-                            <code>&lt;link rel="stylesheet" href="styles.css" /&gt;</code>
+                            <code>&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.css&quot; /&gt;</code>
                         </td>
                     </tr>
                     <tr>
@@ -138,8 +139,8 @@ const page = () => {
                         </td>
                         <td className="py-3 px-6 border-b">
                             <code>
-                                &lt;body style="background-color:#E6E6FA;"&gt;<br />
-                                &lt;h1 style="text-align:center;color:green"&gt;My Teaching Academy&lt;/h1&gt;<br />
+                                &lt;body style=&quot;background-color:#E6E6FA;&quot;&gt;<br />
+                                &lt;h1 style=&quot;text-align:center;color:green&quot;&gt;My Teaching Academy&lt;/h1&gt;<br />
                                 &lt;/body&gt;
                             </code>
                         </td>
@@ -151,9 +152,9 @@ const page = () => {
                         </td>
                         <td className="py-3 px-6 border-b">
                             <code>
-                                &lt;div id="scroll-container"&gt;<br />
-                                &lt;marquee direction="left" scrollamount="12" loop&gt;<br />
-                                &lt;div id="scroll-text"&gt;Welcome message which continuously scrolls in blue&lt;/div&gt;<br />
+                                &lt;div id=&quot;scroll-container&quot;&gt;<br />
+                                &lt;marquee direction=&quot;left&quot; scrollamount=&quot;12&quot; loop&gt;<br />
+                                &lt;div id=&quot;scroll-text&quot;&gt;Welcome message which continuously scrolls in blue&lt;/div&gt;<br />
                                 &lt;/marquee&gt;<br />
                                 &lt;/div&gt;
                             </code>
@@ -166,8 +167,8 @@ const page = () => {
                         </td>
                         <td className="py-3 px-6 border-b">
                             <code>
-                                &lt;video width="320" height="240" controls&gt;<br />
-                                &lt;source src="video.mp4" type="video/mp4" /&gt;<br />
+                                &lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;<br />
+                                &lt;source src=&quot;video.mp4&quot; type=&quot;video/mp4&quot; /&gt;<br />
                                 Your browser doesn&apos;t support HTML5 video.<br />
                                 &lt;/video&gt;
                             </code>
@@ -180,8 +181,8 @@ const page = () => {
                         </td>
                         <td className="py-3 px-6 border-b">
                             <code>
-                                &lt;video width="320" height="240" autoplay muted&gt;<br />
-                                &lt;source src="video.mp4" type="video/mp4" /&gt;<br />
+                                &lt;video width=&quot;320&quot; height=&quot;240&quot; autoplay muted&gt;<br />
+                                &lt;source src=&quot;video.mp4&quot; type=&quot;video/mp4&quot; /&gt;<br />
                                 Your browser does not support the video tag.<br />
                                 &lt;/video&gt;
                             </code>
