@@ -68,7 +68,7 @@ const ScientificMethodComponent = () => {
                                 <td className="border p-2 font-semibold">Examples</td>
                                 <td className="border p-2">Varies by research</td>
                                 <td className="border p-2">Kinetic Molecular Theory, Theory of General Relativity</td>
-                                <td className="border p-2">Newton's Laws, Boyle's Law, Laws of Thermodynamics</td>
+                                <td className="border p-2">Newton&apos;s Laws, Boyle&apos;s Law, Laws of Thermodynamics</td>
                             </tr>
                         </tbody>
                     </table>

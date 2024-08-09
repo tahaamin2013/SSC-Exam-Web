@@ -10,7 +10,7 @@ const ScienceNotes = () => {
                     <section className="mb-8">
                         <h2 className="text-2xl font-semibold text-indigo-800 mb-4">I. Etymology and Definition of Science</h2>
                         <ul className="list-disc pl-6 space-y-2">
-                            <li><span className="font-medium">Origin:</span> Latin word "Scientia" meaning "to know"</li>
+                            <li><span className="font-medium">Origin:</span> Latin word &quot;Scientia&quot; meaning &quot;to know&quot;</li>
                             <li><span className="font-medium">Definition:</span> Study of physical nature and its aspects</li>
                             <li><span className="font-medium">Key components:</span> Imagination, experimentation, deduction</li>
                         </ul>
@@ -132,17 +132,17 @@ const ScienceNotes = () => {
                         <h2 className="text-2xl font-semibold text-indigo-800 mb-4">6. Evolution of Physics</h2>
                         <ul className="list-disc pl-6 space-y-2">
                             <li>
-                                <span className="font-medium">Example: Newton's laws of motion</span>
+                                <span className="font-medium">Example: Newton&apos;s laws of motion</span>
                                 <ul className="list-circle pl-6 mt-2 space-y-1">
                                     <li>Used for rocket design</li>
                                     <li>Limited at high speeds</li>
                                 </ul>
                             </li>
                             <li>
-                                <span className="font-medium">Einstein's theory of relativity</span>
+                                <span className="font-medium">Einstein&apos;s theory of relativity</span>
                                 <ul className="list-circle pl-6 mt-2 space-y-1">
                                     <li>More accurate at speeds approaching light</li>
-                                    <li>Consistent with Newton's laws at lower speeds</li>
+                                    <li>Consistent with Newton&apos;s laws at lower speeds</li>
                                 </ul>
                             </li>
                         </ul>

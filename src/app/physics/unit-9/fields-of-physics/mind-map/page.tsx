@@ -49,7 +49,7 @@ const PhysicsFields = () => {
               </tr>
               <tr>
                 <td className="border p-2 font-semibold">Astronomy</td>
-                <td className="border p-2">Study of everything in the universe beyond Earth's atmosphere</td>
+                <td className="border p-2">Study of everything in the universe beyond Earth&apos;s atmosphere</td>
               </tr>
               <tr>
                 <td className="border p-2 font-semibold">Astrophysics</td>
@@ -89,11 +89,11 @@ const PhysicsFields = () => {
               </tr>
               <tr>
                 <td className="border p-2 font-semibold">Geophysics</td>
-                <td className="border p-2">Study of Earth's structure, physical processes and phenomena</td>
+                <td className="border p-2">Study of Earth&apos;s structure, physical processes and phenomena</td>
               </tr>
               <tr>
                 <td className="border p-2 font-semibold">Climate Physics</td>
-                <td className="border p-2">Study of Earth's climate</td>
+                <td className="border p-2">Study of Earth&apos;s climate</td>
               </tr>
               <tr>
                 <td className="border p-2 font-semibold">Classical Mechanics</td>

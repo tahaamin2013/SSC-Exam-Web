@@ -41,8 +41,8 @@ const ScientificConcepts = () => {
                             <li>Developed from discoveries and tested hypotheses</li>
                             <li>Examples:
                                 <ul className="list-circle pl-6 mt-2">
-                                    <li>Newton's Law of Universal Gravitation</li>
-                                    <li>Boyle's Law</li>
+                                    <li>Newton&apos;s Law of Universal Gravitation</li>
+                                    <li>Boyle&apos;s Law</li>
                                     <li>Laws of Thermodynamics</li>
                                 </ul>
                             </li>

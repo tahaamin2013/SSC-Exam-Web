@@ -81,7 +81,7 @@ const MindMap = () => {
                                 </tr>
                                 <tr>
                                     <td className="border p-2 font-semibold">Origin</td>
-                                    <td className="border p-2">Latin word "Scientia" meaning "to know"</td>
+                                    <td className="border p-2">Latin word &quot;Scientia&quot; meaning &quot;to know&quot;</td>
                                 </tr>
                                 <tr>
                                     <td className="border p-2 font-semibold">Components</td>
