@@ -14,12 +14,14 @@ right side
 *** Observations
 *** Trials
 left side
-** Physical Sciences
+**:Physical Sciences
+(Study of non-living things);
 *** Physics
 *** Chemistry
 *** Geology
 *** Geography
-** Biological Sciences
+**:Biological Sciences
+(Study of living things);
 *** Botany
 *** Zoology
 *** Genetics

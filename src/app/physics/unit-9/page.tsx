@@ -9,6 +9,7 @@ const data = [
         id: "1",
         title: "9.1 Objectives of Physics",
         links: [
+            { href: "/physics/unit-9/objectives-of-physics/original-content", text: "Original Content", icon: List },
             { href: "/physics/unit-9/objectives-of-physics/notes", text: "Notes", icon: BookOpen },
             { href: "/physics/unit-9/objectives-of-physics/mind-map", text: "Mind Map", icon: Brain },
             { href: "/physics/unit-9/objectives-of-physics/quiz", text: "MCQs", icon: HelpCircle },
@@ -47,6 +48,17 @@ const data = [
             { href: "/physics/unit-9/scince-technology-and-engineering/quiz", text: "MCQs", icon: HelpCircle },
             { href: "/physics/unit-9/scince-technology-and-engineering/brief-questions", text: "Brief Questions", icon: FileText },
             { href: "/physics/unit-9/scince-technology-and-engineering/detailed-questions", text: "Detailed Questions", icon: List },
+        ],
+    },
+    {
+        id: "5",
+        title: "Chapter Round up",
+        links: [
+            { href: "/physics/unit-9/summary", text: "Summary", icon: BookOpen },
+            { href: "/physics/unit-9/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/physics/unit-9/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-9/detailed-questions", text: "Detailed Questions", icon: List },
+            { href: "/physics/unit-9/content", text: "Content", icon: List },
         ],
     },
 ];
