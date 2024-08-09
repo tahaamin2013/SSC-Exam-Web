@@ -6,10 +6,7 @@ const page = () => {
         { term: 'Byte (B)', size: '8 bits' },
         { term: 'Kilobyte (KB)', size: '1024 bytes / 10³ bytes' },
         { term: 'Megabyte (MB)', size: '1024 KB / 10⁶ bytes' },
-        { term: 'Gigabyte (GB)', size: '1024 MB / 10⁹ bytes' },
-        { term: 'Terabyte (TB)', size: '1024 GB / 10¹² bytes' },
-        { term: 'Petabyte (PB)', size: '1024 TB / 10¹⁵ bytes' },
-        { term: 'Exabyte (EB)', size: '1024 PB / 10¹⁸ bytes' },
+        
         { term: 'Zettabyte (ZB)', size: '1024 EB / 10²¹ bytes' },
         { term: 'Yottabyte (YB)', size: '1024 ZB / 10²⁴ bytes' },
     ];
@@ -19,7 +16,6 @@ const page = () => {
             <p className="mb-4">
                 Memory in computing refers to the physical devices used to store data and programs, both temporarily and permanently, for use by a computer. It is essential for the operation of the computer system and the execution of programs. The types and hierarchy of memory can be broadly classified into different categories.
             </p>
-
             <div className='grid grid-cols-1 md:grid-cols-2 gap-7'>
                 <div>
                     <h2 className="text-2xl font-semibold mt-6 mb-2">Memory Terminology</h2>
