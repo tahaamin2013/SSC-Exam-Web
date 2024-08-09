@@ -2,7 +2,8 @@ import PlantUMLDiagram from "@/components/PlantUMLDiagram";
 
 const umlCode = `
 @startmindmap
-* Science
+*:Science - Study of
+physical nature & its aspects;
 right side
 ** Origin: Latin "Scientia" (to know)
 ** Methods
