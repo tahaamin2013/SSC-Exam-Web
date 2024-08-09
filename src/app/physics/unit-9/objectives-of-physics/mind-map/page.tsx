@@ -134,7 +134,7 @@ const MindMap = () => {
                                 </tr>
                                 <tr>
                                     <td className="border p-2 font-semibold">Climate Moderation</td>
-                                    <td className="border p-2">Large water bodies moderate nearby climates due to water's heat capacity</td>
+                                    <td className="border p-2">Large water bodies moderate nearby climates due to water&apos;s heat capacity</td>
                                 </tr>
                                 <tr>
                                     <td className="border p-2 font-semibold">Vehicles</td>
