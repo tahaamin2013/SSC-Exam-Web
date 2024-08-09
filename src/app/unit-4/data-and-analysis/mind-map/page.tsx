@@ -3,52 +3,83 @@ import PlantUMLDiagram from '@/components/PlantUMLDiagram'; // Ensure this compo
 
 const page = () => {
     const umlCode = `
-@startuml
-title Data Science Overview
+@startmindmap
+skinparam handwritten true
+skinparam defaultFontName "Comic Sans MS"
+skinparam backgroundColor #FFFAF0
 
-package "Data Science Concepts" {
-    [Data] : Observations, facts, information
-    [Dataset] : Structured data collection
-    [Statistics and Probability] : Analysis of data frequency and likelihood
-    [Mathematics] : Fundamental problem-solving tools
-    [Machine Learning] : AI techniques for data analysis
-    [Deep Learning] : Neural networks and advanced ML
-    [Data Mining] : Pattern extraction from data
-    [Data Visualization] : Graphical data representation
-    [Big Data] : Managing large data volumes
-    [Predictive Analysis] : Forecasting future trends
-    [NLP] : Natural Language Processing
+<style>
+mindmapDiagram {
+  .keyconcepts {
+    BackgroundColor #FF9999
+    BorderColor #FF0000
+  }
+  .applications {
+    BackgroundColor #99FF99
+    BorderColor #00FF00
+  }
+  .businessproblems {
+    BackgroundColor #9999FF
+    BorderColor #0000FF
+  }
+  .industry {
+    BackgroundColor #FFFF99
+    BorderColor #FFFF00
+  }
 }
+</style>
 
-package "Data Science Applications" {
-    [Predictive Analytics] : Insight into future trends
-    [Machine Learning Implementation] : Deploying ML models
-    [Data Visualization Techniques] : Creating charts and graphs
-    [Recommendation Systems] : Personalized suggestions
-    [Sentiment Analysis] : Analyzing opinions
-    [Fraud Detection] : Identifying fraudulent activities
-    [Decision-Making Support] : Aiding business decisions
-}
+* Data Science
+** Key Concepts <<keyconcepts>>
+*** Data
+*** Data Analytics
+*** Statistics and Probability
+*** Mathematics
+*** Machine Learning
+**** Deep Learning
+*** Data Mining
+*** Data Visualization
+*** Big Data
+*** Predictive Analysis
+*** Natural Language Processing (NLP)
+** Applications <<applications>>
+*** Predictive Analytics
+*** Machine Learning Implementation
+*** Data Visualization Techniques
+*** Recommendation Systems Development
+*** Sentiment Analysis
+*** Fraud Detection Mechanisms
+*** Decision-Making Support
+** Business Problems <<businessproblems>>
+*** Optimizing Shipping Routes
+*** Product Selection Among Multiple Options
+*** Forecasting Delays in Transportation
+*** Optimizing Delivery Times
+*** Predicting Company Revenue
+*** Analyzing Health Benefits of Training Programs
+left side
+** Industry Applications <<industry>>
+*** Retail
+**** Data-driven decisions
+**** Trend prediction
+**** Marketing improvement
+*** Supply Chain
+**** Inventory optimization
+**** Demand forecasting
+*** Logistics
+**** Route optimization
+**** Load balancing
+**** Carrier selection
+*** Stock Markets
+**** Algorithmic trading
+**** Sentiment analysis
+**** Risk management
+*** E-commerce
+**** Recommendation systems
+**** Customer behavior analysis
+**** Fraud detection
 
-package "Business Problems Solved" {
-    [Optimize Shipping Routes] : Improving logistics efficiency
-    [Product Selection] : Choosing optimal products
-    [Forecasting Delays] : Predicting transportation delays
-    [Optimizing Delivery Times] : Reducing delivery costs
-    [Predicting Revenue] : Financial forecasting
-    [Health Benefits Analysis] : Evaluating physical training effects
-}
-
-package "Industry Applications" {
-    [Retail] : Trend analysis and marketing
-    [Supply Chain] : Optimizing inventory and demand
-    [Logistics] : Route optimization and load balancing
-    [Stock Markets] : Trading algorithms and risk management
-    [E-commerce] : Recommendations and fraud detection
-}
-
-@enduml
-
+@endmindmap
   `;
     return (
         <div>      <h2 className="text-2xl font-semibold mb-4">Data Science Overview</h2>
