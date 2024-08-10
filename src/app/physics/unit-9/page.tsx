@@ -21,6 +21,7 @@ const data = [
         id: "2",
         title: "9.2 Fields of Physics",
         links: [
+            { href: "/physics/unit-9/fields-of-physics/original-content", text: "Original Content", icon: List },
             { href: "/physics/unit-9/fields-of-physics/notes", text: "Notes", icon: BookOpen },
             { href: "/physics/unit-9/fields-of-physics/mind-map", text: "Mind Map", icon: Brain },
             { href: "/physics/unit-9/fields-of-physics/quiz", text: "MCQs", icon: HelpCircle },
@@ -32,6 +33,7 @@ const data = [
         id: "3",
         title: "9.3 Hypothesis Theory And Law",
         links: [
+            { href: "/physics/unit-9/hypothesis-thoery-and-law/original-content", text: "Original Content", icon: List },
             { href: "/physics/unit-9/hypothesis-thoery-and-law/notes", text: "Notes", icon: BookOpen },
             { href: "/physics/unit-9/hypothesis-thoery-and-law/mind-map", text: "Mind Map", icon: Brain },
             { href: "/physics/unit-9/hypothesis-thoery-and-law/quiz", text: "MCQs", icon: HelpCircle },
@@ -43,6 +45,7 @@ const data = [
         id: "4",
         title: "9.4 Science, Technology And Engineering",
         links: [
+            { href: "/physics/unit-9/scince-technology-and-engineering/original-content", text: "Original Content", icon: List },
             { href: "/physics/unit-9/scince-technology-and-engineering/notes", text: "Notes", icon: BookOpen },
             { href: "/physics/unit-9/scince-technology-and-engineering/mind-map", text: "Mind Map", icon: Brain },
             { href: "/physics/unit-9/scince-technology-and-engineering/quiz", text: "MCQs", icon: HelpCircle },

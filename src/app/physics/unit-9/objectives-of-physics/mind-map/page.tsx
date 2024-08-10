@@ -35,10 +35,13 @@ const umlCode2 = `
 * Physics
 ** Scope
 *** From atoms to galaxies
-*** Natural phenomena
+***:Natural phenomena
+(These are things or events in our
+world that can be seen or felt);
 *** Artificial creations
 ** Applications
-*** GPS and navigation
+***:GPS and navigation
+(e.g. cell phones, aeroplanes, and ships);
 *** Aeronautics
 *** Communication
 *** Climate and weather
