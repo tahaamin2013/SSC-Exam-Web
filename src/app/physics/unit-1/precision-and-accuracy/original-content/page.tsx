@@ -38,12 +38,12 @@ const PrecisionAndAccuracy = () => {
                         Precision focuses on the consistency and reproducibility of measurements, while accuracy assesses how close the average of those measurements is to the true value.
                     </p>
                     <p className="text-lg text-gray-800 leading-relaxed mt-4">
-                        Imagine throwing darts at a target as shown in figure 1.16. If your darts land close to the center of the target (hitting the bullseye is ideal), your aim will be referred to as accurate. Your darts are grouped tightly together, even if they're not in the center (a tight cluster off-center), your aim will be termed as precise. Therefore, it's possible for something to be:
+                        Imagine throwing darts at a target as shown in figure 1.16. If your darts land close to the center of the target (hitting the bullseye is ideal), your aim will be referred to as accurate. Your darts are grouped tightly together, even if they&apos;re not in the center (a tight cluster off-center), your aim will be termed as precise. Therefore, it&apos;s possible for something to be:
                     </p>
                     <ul className="list-disc list-inside mt-4">
                         <li><span className="font-semibold">Accurate and precise:</span> Your darts hit the bullseye and are tightly grouped.</li>
-                        <li><span className="font-semibold">Accurate but not precise:</span> Your darts land near the center, but they're scattered all over the place.</li>
-                        <li><span className="font-semibold">Precise but not accurate:</span> Your darts are tightly grouped, but they're all off-center in the same direction.</li>
+                        <li><span className="font-semibold">Accurate but not precise:</span> Your darts land near the center, but they&apos;re scattered all over the place.</li>
+                        <li><span className="font-semibold">Precise but not accurate:</span> Your darts are tightly grouped, but they&apos;re all off-center in the same direction.</li>
                     </ul>
                 </div>
 

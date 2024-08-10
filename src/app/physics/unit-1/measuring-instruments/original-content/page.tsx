@@ -30,7 +30,7 @@ const MeasuringInstruments = () => {
                 In physics, sometimes we need to measure a length smaller than 1 mm. A vernier caliper can help take readings smaller than a millimetre.
             </p>
             <p className="mb-4">
-                'Vernier caliper is a device used to measure a fraction of a smallest division on scale by sliding another scale over it'.
+                &apos;Vernier caliper is a device used to measure a fraction of a smallest division on scale by sliding another scale over it&apos;.
             </p>
             <p className="mb-4">
                 It can be used to measure the thickness, diameter, or width of an object and the internal and external diameter of a hollow cylinder.
@@ -70,7 +70,7 @@ const MeasuringInstruments = () => {
                 <li>Note the least count of the vernier (it is usually written on vernier caliper, or we can find it by the method already learned). Determine and correct zero error if any.</li>
                 <li>Fix the small sphere in the jaws and note the complete divisions of the main scale past by the zero of the vernier scale. This is the main scale reading as shown in figure 1.6.</li>
                 <li>Look for the division of the vernier scale that is coinciding with any division on the main scale. This is the vernier scale reading.</li>
-                <li>Multiply the vernier scale reading with the least count, which is the fraction to be added to the main scale reading. This fraction will be smaller than the main scale's least count, thus the vernier caliper measures the reading to the part of a millimeter.</li>
+                <li>Multiply the vernier scale reading with the least count, which is the fraction to be added to the main scale reading. This fraction will be smaller than the main scale&apos;s least count, thus the vernier caliper measures the reading to the part of a millimeter.</li>
             </ol>
             <h2 className="text-xl font-semibold mb-4">DIGITAL VERNIER CALIPER</h2>
             <p className="mb-4">
@@ -78,7 +78,7 @@ const MeasuringInstruments = () => {
             </p>
             <h2 className="text-xl font-semibold mb-4">1.7.3 SCREW GAUGE</h2>
             <p className="mb-4">
-                Screw gauge is also a length measuring device and is used for measurements even smaller than vernier calipers. 'Screw Gauge is a device used to measure a fraction of a smallest division on scale by rotating circular scale over it'.
+                Screw gauge is also a length measuring device and is used for measurements even smaller than vernier calipers. &apos;Screw Gauge is a device used to measure a fraction of a smallest division on scale by rotating circular scale over it&apos;.
             </p>
             <p className="mb-4">
                 The distance traveled by the circular scale on the linear (or main) scale in one rotation is called the pitch of the screw gauge. The minimum length which can be measured accurately by a screw gauge is called the least count of the screw gauge. The least count of screw gauge is found by dividing its pitch by the number of circular scale divisions.

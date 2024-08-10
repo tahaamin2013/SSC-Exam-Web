@@ -18,7 +18,7 @@ const ErrorsSection = () => {
             <ul className="list-disc list-inside text-lg text-gray-700">
                 <li>Instrumental errors, which result from imperfections in the design or calibration of the measuring instrument, as well as zero errors.</li>
                 <li>Imperfections in the experimental technique or procedure, such as changes in external conditions like temperature, humidity, or wind velocity, which can systematically affect the measurement.</li>
-                <li>Personal errors, which arise from an individual's bias, improper setup of the apparatus, or carelessness in taking observations without following proper precautions.</li>
+                <li>Personal errors, which arise from an individual&apos;   s bias, improper setup of the apparatus, or carelessness in taking observations without following proper precautions.</li>
             </ul>
             <p className="text-lg text-gray-700">
                 Systematic errors can be reduced by improving experimental techniques, choosing better instruments, and minimizing personal bias as much as possible. These errors can be estimated to some extent for a given setup, and the necessary adjustments can be made to the measurements.
