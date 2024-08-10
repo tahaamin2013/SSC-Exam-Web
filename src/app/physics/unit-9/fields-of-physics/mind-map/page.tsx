@@ -154,7 +154,7 @@ const PhysicsFields = () => {
             <tr className="border-b border-gray-200">
               <td className="px-6 py-4">Astronomy</td>
               <td className="px-6 py-4">
-                Study of celestial objects and the universe beyond Earth's
+                Study of celestial objects and the universe beyond Earth&apos;s
                 atmosphere.
               </td>
               <td className="px-6 py-4">
@@ -272,10 +272,10 @@ const PhysicsFields = () => {
             <tr className="border-b border-gray-200">
               <td className="px-6 py-4">Geophysics</td>
               <td className="px-6 py-4">
-                Study of Earth's physical processes and structure.
+                Study of Earth&apos;s physical processes and structure.
               </td>
               <td className="px-6 py-4">
-                Earth's interior and surface processes
+                Earth&apos;s interior and surface processes
               </td>
               <td className="px-6 py-4">
                 Seismic data, gravitational studies, and magnetic surveys
@@ -284,7 +284,7 @@ const PhysicsFields = () => {
             <tr className="border-b border-gray-200">
               <td className="px-6 py-4">Climate Physics</td>
               <td className="px-6 py-4">
-                Study of Earth's climate and its physical aspects.
+                Study of Earth&apos;s climate and its physical aspects.
               </td>
               <td className="px-6 py-4">Climate systems and processes</td>
               <td className="px-6 py-4">Climate models, observational data</td>

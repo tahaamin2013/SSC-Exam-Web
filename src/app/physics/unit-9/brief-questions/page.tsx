@@ -22,7 +22,7 @@ const Page = () => {
                             3. Why do scientists develop a hypothesis before conducting research?
                         </AccordionTrigger>
                         <AccordionContent>
-                            Scientists develop a hypothesis before conducting research because it helps to predict outcomes and define the parameters of the research. It provides direction on how to interpret results and decide which observations to record and which to ignore.
+                            Scientists develop a hypothesis before conducting research to predict outcomes and define the parameters of the research
                         </AccordionContent>
                     </AccordionItem>
 

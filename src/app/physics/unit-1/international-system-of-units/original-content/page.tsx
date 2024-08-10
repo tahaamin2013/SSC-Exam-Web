@@ -15,7 +15,7 @@ const Page = () => {
                     Introduction to SI Units
                 </h2>
                 <p>
-                    A complete set of units for all physical quantities is called a system of units. The International System of Units is known as "Système International" (SI), which is the French abbreviation for "Système International d'Unités," meaning "International System of Units."
+                    A complete set of units for all physical quantities is called a system of units. The International System of Units is known as &quot;Système International&quot; (SI), which is the French abbreviation for &quot;Système International d&apos;Unités,&quot; meaning &quot;International System of Units.&quot;
                 </p>
 
                 <h2 className="font-semibold text-2xl mt-6 mb-4">
@@ -71,7 +71,7 @@ const Page = () => {
                     SI Derived Units
                 </h2>
                 <p>
-                    Units of derived quantities are obtained by multiplying and/or dividing base quantities. In SI units, all other physical quantities can be derived from the seven base units. For example, the unit for area is "m²" (square meters), using the base unit of length. Similarly, velocity is measured in "m/s" (meters per second), and acceleration in "m/s²" (meters per second squared). Some derived units are given special names and symbols. For instance, force has the derived unit of "kg·m/s²," which is named "newton" and symbolized as "N." Here are some derived quantities and their SI derived units:
+                    Units of derived quantities are obtained by multiplying and/or dividing base quantities. In SI units, all other physical quantities can be derived from the seven base units. For example, the unit for area is &quot;m²&quot; (square meters), using the base unit of length. Similarly, velocity is measured in &quot;m/s&quot; (meters per second), and acceleration in &quot;m/s²&quot; (meters per second squared). Some derived units are given special names and symbols. For instance, force has the derived unit of &quot;kg·m/s²,&quot; which is named &quot;newton&quot; and symbolized as &quot;N.&quot; Here are some derived quantities and their SI derived units:
                 </p>
                 <table className="min-w-full divide-y divide-gray-200 mt-4">
                     <thead className="bg-gray-50">
