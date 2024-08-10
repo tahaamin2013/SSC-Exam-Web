@@ -53,6 +53,89 @@ const data = [
             { href: "/physics/unit-1/standard-from-scientific-notation/detailed-questions", text: "Detailed Questions", icon: List },
         ],
     },
+    {
+        id: "5",
+        title: "1.5 PREFIXES TO POWER OF TEN",
+        links: [
+            { href: "/physics/unit-1/prefixes-to-power-of-ten/original-content", text: "Original Content", icon: List },
+            { href: "/physics/unit-1/prefixes-to-power-of-ten/notes", text: "Notes", icon: BookOpen },
+            { href: "/physics/unit-1/prefixes-to-power-of-ten/mind-map", text: "Mind Map", icon: Brain },
+            { href: "/physics/unit-1/prefixes-to-power-of-ten/quiz", text: "MCQs", icon: HelpCircle },
+            { href: "/physics/unit-1/prefixes-to-power-of-ten/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-1/prefixes-to-power-of-ten/detailed-questions", text: "Detailed Questions", icon: List },
+        ],
+    },
+    {
+        id: "6",
+        title: "1.6 SCALARS AND VECTORS",
+        links: [
+            { href: "/physics/unit-1/scalars-and-vectors/original-content", text: "Original Content", icon: List },
+            { href: "/physics/unit-1/scalars-and-vectors/notes", text: "Notes", icon: BookOpen },
+            { href: "/physics/unit-1/scalars-and-vectors/mind-map", text: "Mind Map", icon: Brain },
+            { href: "/physics/unit-1/scalars-and-vectors/quiz", text: "MCQs", icon: HelpCircle },
+            { href: "/physics/unit-1/scalars-and-vectors/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-1/scalars-and-vectors/detailed-questions", text: "Detailed Questions", icon: List },
+        ],
+    },
+    {
+        id: "7",
+        title: "1.7 MEASURING INSTRUMENTS",
+        links: [
+            { href: "/physics/unit-1/measuring-instruments/original-content", text: "Original Content", icon: List },
+            { href: "/physics/unit-1/measuring-instruments/notes", text: "Notes", icon: BookOpen },
+            { href: "/physics/unit-1/measuring-instruments/mind-map", text: "Mind Map", icon: Brain },
+            { href: "/physics/unit-1/measuring-instruments/quiz", text: "MCQs", icon: HelpCircle },
+            { href: "/physics/unit-1/measuring-instruments/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-1/measuring-instruments/detailed-questions", text: "Detailed Questions", icon: List },
+        ],
+    },
+    {
+        id: "8",
+        title: "1.8 Errors",
+        links: [
+            { href: "/physics/unit-1/errors/original-content", text: "Original Content", icon: List },
+            { href: "/physics/unit-1/errors/notes", text: "Notes", icon: BookOpen },
+            { href: "/physics/unit-1/errors/mind-map", text: "Mind Map", icon: Brain },
+            { href: "/physics/unit-1/errors/quiz", text: "MCQs", icon: HelpCircle },
+            { href: "/physics/unit-1/errors/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-1/errors/detailed-questions", text: "Detailed Questions", icon: List },
+        ],
+    },
+    {
+        id: "9",
+        title: "1.9 PRECISION AND ACCURACY",
+        links: [
+            { href: "/physics/unit-1/precision-and-accuracy/original-content", text: "Original Content", icon: List },
+            { href: "/physics/unit-1/precision-and-accuracy/notes", text: "Notes", icon: BookOpen },
+            { href: "/physics/unit-1/precision-and-accuracy/mind-map", text: "Mind Map", icon: Brain },
+            { href: "/physics/unit-1/precision-and-accuracy/quiz", text: "MCQs", icon: HelpCircle },
+            { href: "/physics/unit-1/precision-and-accuracy/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-1/precision-and-accuracy/detailed-questions", text: "Detailed Questions", icon: List },
+        ],
+    },
+    {
+        id: "10",
+        title: "1.10 SIGNIFICANT FIGURES",
+        links: [
+            { href: "/physics/unit-1/significant-figures/original-content", text: "Original Content", icon: List },
+            { href: "/physics/unit-1/significant-figures/notes", text: "Notes", icon: BookOpen },
+            { href: "/physics/unit-1/significant-figures/mind-map", text: "Mind Map", icon: Brain },
+            { href: "/physics/unit-1/significant-figures/quiz", text: "MCQs", icon: HelpCircle },
+            { href: "/physics/unit-1/significant-figures/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-1/significant-figures/detailed-questions", text: "Detailed Questions", icon: List },
+        ],
+    },
+    {
+        id: "11",
+        title: "Chapter Round up",
+        links: [
+            { href: "/physics/unit-1/summary", text: "Summary", icon: BookOpen },
+            { href: "/physics/unit-1/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/physics/unit-1/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-1/detailed-questions", text: "Detailed Questions", icon: List },
+            { href: "/physics/unit-1/content", text: "Content", icon: List },
+        ],
+    },
 
 ];
 

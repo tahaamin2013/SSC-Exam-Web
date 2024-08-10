@@ -107,7 +107,7 @@ and behavior of atomic nuclei;
 *** Particle Physics(high energy physics)
 ****:study of fundamental particles and
 forces that create matter and radiation;
-** Interdisciplinary Physics
+** Physics in Multiple Areas
 *** Biophysics
 ****:Study of various characteristics and
 systems of the living body;
