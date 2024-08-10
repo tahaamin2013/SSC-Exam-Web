@@ -54,7 +54,7 @@ left side
 *** Time
 ** Objectives
 *** Understand physical world
-*** Develop theories
+*** Develop theories/laws
 *** Conduct experiments
 *** Express in mathematical formulas
 ** Notable Scientists

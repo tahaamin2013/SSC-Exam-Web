@@ -8,20 +8,32 @@ left-side
 ** Hypothesis
 *** Tentative assumption
 *** Can be verified
+**:Why do scientists
+develop a hypothesis;
+***:To predict outcomes and
+define the parameters
+of the research;
 right-side
-** Theory
+**:Theory
+A comprehensive set of ideas
+explaining a phenomenon in nature;
 *** Well-supported explanation
 *** Verified through rigorous testing
 *** Examples
 **** Kinetic Molecular Theory
 **** Theory of General Relativity
-** Law
+**:Law
+describe phenomena that scientists
+have found to be provably true;
 *** Observed regularity in nature
 *** Relationship between variables
 *** Examples
 **** Newton's Laws
 **** Boyle's Law
 **** Laws of Thermodynamics
+** Theory vs Law
+***:Laws describe phenomena,
+while theories explain why phenomena exist;
 @endmindmap
 `;
 
