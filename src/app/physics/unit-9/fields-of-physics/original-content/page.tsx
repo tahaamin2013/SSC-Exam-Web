@@ -6,7 +6,7 @@ export default function FieldsOfPhysics() {
         <div className="p-8">
             <h1 className="text-2xl font-bold mb-4">9.2 FIELDS OF PHYSICS</h1>
             <p className="mb-4">
-                Physics is considered to be the most fundamental of all the sciences. Physics has many sub-fields, and in today's world it involves interdisciplinary fields. In order to study biology, chemistry, or any other natural science, one should have a firm understanding of the principles of physics. For example, biology uses the physics principles of fluid movement to understand how the blood flows through the heart, arteries, and veins. Chemistry relies on the physics of subatomic particles to understand why chemical reactions take place. Geology uses the physics of seismic waves and energy transfer to determine the magnitude and location of earthquakes. Astronomy and cosmology rely on the laws of physics such as the theory of relativity to describe the workings of the universe. Some fields of physics are given below.
+                Physics is considered to be the most fundamental of all the sciences. Physics has many sub-fields, and in today&apos;s world it involves interdisciplinary fields. In order to study biology, chemistry, or any other natural science, one should have a firm understanding of the principles of physics. For example, biology uses the physics principles of fluid movement to understand how the blood flows through the heart, arteries, and veins. Chemistry relies on the physics of subatomic particles to understand why chemical reactions take place. Geology uses the physics of seismic waves and energy transfer to determine the magnitude and location of earthquakes. Astronomy and cosmology rely on the laws of physics such as the theory of relativity to describe the workings of the universe. Some fields of physics are given below.
             </p>
             <h2 className="text-xl font-semibold mb-2">BIOPHYSICS</h2>
             <p className="mb-4">
@@ -14,7 +14,7 @@ export default function FieldsOfPhysics() {
             </p>
             <h2 className="text-xl font-semibold mb-2">ASTRONOMY</h2>
             <p className="mb-4">
-                Astronomy is the study of everything in the universe beyond Earth's atmosphere. It deals with celestial objects (such as the Sun, the Moon, the planets, and the stars), space, and the physical universe as a whole. To study astronomy, astronomers have to stay up late at night to see the celestial objects with the help of a powerful telescope.
+                Astronomy is the study of everything in the universe beyond Earth&apos;s atmosphere. It deals with celestial objects (such as the Sun, the Moon, the planets, and the stars), space, and the physical universe as a whole. To study astronomy, astronomers have to stay up late at night to see the celestial objects with the help of a powerful telescope.
             </p>
             <h2 className="text-xl font-semibold mb-2">ASTROPHYSICS</h2>
             <p className="mb-4">
@@ -58,7 +58,7 @@ export default function FieldsOfPhysics() {
             </p>
             <h2 className="text-xl font-semibold mb-2">CLIMATE PHYSICS</h2>
             <p className="mb-4">
-                Climate physics is the branch of physics that deals with the study of the Earth's climate.
+                Climate physics is the branch of physics that deals with the study of the Earth&apos;s climate.
             </p>
             <h2 className="text-xl font-semibold mb-2">CLASSICAL MECHANICS</h2>
             <p className="mb-4">

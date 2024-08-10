@@ -34,14 +34,14 @@ export default function HypothesisTheoryLaw() {
                 Examples of some famous laws include:
             </p>
             <ul className="list-disc list-inside mb-4">
-                <li>Newton's Law of Universal Gravitation</li>
-                <li>Newton's Laws of Motion</li>
-                <li>Boyle's Law</li>
+                <li>Newton&apos;s Law of Universal Gravitation</li>
+                <li>Newton&apos;s Laws of Motion</li>
+                <li>Boyle&apos;s Law</li>
                 <li>Laws of Thermodynamics</li>
             </ul>
 
             <p className="mb-4">
-                Both scientific laws and theories are considered as facts. However, theories and laws can be disproven when new evidence appears. For example, certain accepted truths of Newtonian physics were partially disproven by Albert Einstein's theory of relativity. The work of Louis Pasteur disproved prior theories of disease in animals. If thorough scientific research upends a previously held belief, scientists must find new hypotheses that better describe how nature works.
+                Both scientific laws and theories are considered as facts. However, theories and laws can be disproven when new evidence appears. For example, certain accepted truths of Newtonian physics were partially disproven by Albert Einstein&apos;s theory of relativity. The work of Louis Pasteur disproved prior theories of disease in animals. If thorough scientific research upends a previously held belief, scientists must find new hypotheses that better describe how nature works.
             </p>
 
             <h2 className="text-xl font-semibold mb-2">DIFFERENCE BETWEEN THEORY AND LAW</h2>

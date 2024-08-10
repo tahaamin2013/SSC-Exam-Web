@@ -47,9 +47,9 @@ const Page = () => {
                     <AccordionItem value="item-4">
                         <AccordionTrigger>
                             4. Explain the terms, hypothesis, theory, and law with examples.
-                        </AccordionTrigger>
+                        </AccordionTrigger> 
                         <AccordionContent>
-                            A hypothesis is a proposed explanation for a phenomenon, which can be tested through experiments. For example, "Increasing the temperature of a gas will increase its pressure" is a hypothesis. A theory is a well-substantiated explanation of some aspect of the natural world, based on a body of evidence; for example, the theory of relativity. A law is a statement based on repeated experimental observations that describe some aspect of the world, like Newton&apos;s law of universal gravitation.
+                            A hypothesis is a proposed explanation for a phenomenon, which can be tested through experiments. For example, &quot;Increasing the temperature of a gas will increase its pressure&quot; is a hypothesis. A theory is a well-substantiated explanation of some aspect of the natural world, based on a body of evidence; for example, the theory of relativity. A law is a statement based on repeated experimental observations that describe some aspect of the world, like Newton&apos;s law of universal gravitation.
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
