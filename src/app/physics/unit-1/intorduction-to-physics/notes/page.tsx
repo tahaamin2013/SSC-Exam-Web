@@ -44,7 +44,7 @@ export default function PhysicsNotes() {
             content={
               <ul className="list-disc list-inside">
                 <li>Studies matter, energy, and their interactions</li>
-                <li>Helps understand nature's laws and principles</li>
+                <li>Helps understand nature&apos;s laws and principles</li>
                 <li>Foundation for other sciences (e.g., biology, chemistry)</li>
               </ul>
             }

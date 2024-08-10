@@ -87,7 +87,7 @@ const ScientificNotation: NextPage = () => {
           <div className="px-4 py-6 sm:px-6 border-t border-gray-200">
             <h2 className="text-2xl font-semibold text-gray-800">5. Applications in Physics</h2>
             <ul className="list-disc list-inside ml-6 mt-2 text-gray-600">
-              <li>Expressing universal constants (e.g., speed of light, Planck's constant)</li>
+              <li>Expressing universal constants (e.g., speed of light, Planck&apos;s constant)</li>
               <li>Representing astronomical distances</li>
               <li>Describing subatomic particle sizes</li>
               <li>Simplifying calculations in various physics domains</li>

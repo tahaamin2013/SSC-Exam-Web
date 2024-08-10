@@ -249,8 +249,8 @@ const MeasuringInstruments: React.FC = () => {
         concepts: (
             <div className="space-y-4">
                 <ul className="list-disc list-inside space-y-2">
-                    <li>Least count: Minimum value measurable on an instrument's scale</li>
-                    <li>Zero error: When the zero of the vernier scale doesn't coincide with the zero of the main scale</li>
+                    <li>Least count: Minimum value measurable on an instrument&apos;s scale</li>
+                    <li>Zero error: When the zero of the vernier scale doesn&apos;t coincide with the zero of the main scale</li>
                     <li>Precision comparison: Screw gauge (0.01 mm) &gt; Vernier caliper (0.1 mm) &gt; Ruler (1 mm)</li>
                 </ul>
                 <h3 className="text-lg font-semibold mt-4">Points to Ponder</h3>

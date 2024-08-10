@@ -89,7 +89,7 @@ right side
 
           <ul className="list-disc pl-6 mb-6">
             <li className="mb-2">
-              The width of the observable universe can be written as 8.8 × 10<sup>26</sup> meters, where '8.8' is the mantissa and '26' is the exponent.
+              The width of the observable universe can be written as 8.8 × 10<sup>26</sup> meters, where &apos;8.8&apos; is the mantissa and &apos;26&apos; is the exponent.
             </li>
             <li className="mb-2">
               The mass of Earth is 5,980,000,000,000,000,000,000,000 kg, which can be written as 5.98 × 10<sup>24</sup> kg.

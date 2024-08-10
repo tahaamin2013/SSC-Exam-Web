@@ -78,9 +78,9 @@ export default function SIUnitsNotes() {
             title="Introduction to SI Units"
             content={
               <p>
-                The International System of Units, known as "Système International" (SI) in French,
-                is a complete set of units for all physical quantities. It stands for "Système
-                International d'Unités," meaning "International System of Units."
+                The International System of Units, known as &quot;Système International&quot; (SI) in French,
+                is a complete set of units for all physical quantities. It stands for &quot;Système
+                International d&apos;Unités,&quot; meaning &quot;International System of Units.&quot;
               </p>
             }
           />
@@ -119,7 +119,7 @@ export default function SIUnitsNotes() {
                 </p>
                 <p className="mb-2">
                   Some derived units are given special names and symbols. For instance, force has
-                  the derived unit of "kg·m/s²," which is named "newton" and symbolized as "N."
+                  the derived unit of &quot;kg·m/s²,&quot; which is named &quot;newton&quot; and symbolized as &quot;N.&quot;
                 </p>
                 <Table
                   headers={['Derived Quantity', 'SI Derived Unit']}
