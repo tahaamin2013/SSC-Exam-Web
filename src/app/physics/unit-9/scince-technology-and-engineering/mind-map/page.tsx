@@ -7,18 +7,19 @@ const umlCode = `
 left side
 ** Science
 *** Pursuit of knowledge
-*** Systematic study
+**** Through Systematic study
 *** Example
 **** Physics: Study of motion and energy
 ** Technology
 *** Application of scientific knowledge
-*** Practical purposes
+**** To develop tools for practical use
+**** To develop systems for practical use
 *** Example
 **** Smartphone development
 right side
 ** Engineering
-*** Practical use of scientific principles
-*** Problem-solving
+*** Creatively uses scientific and math knowledge
+**** to design and build solutions to real-world problems
 *** Example
 **** Civil engineering: Infrastructure design
 ** Interconnection

@@ -17,6 +17,9 @@ const Page = () => {
                 <p>
                     In the nineteenth century, physical sciences were divided into five distinct disciplines: physics, chemistry, astronomy, geology, and meteorology. The most fundamental of these is physics. In physics, we study matter, energy, and their interactions. The laws and principles of physics help us understand nature.
                 </p>
+                <h2 className="font-semibold text-2xl mt-6 mb-4">
+                    Physics in Science
+                </h2>
                 <p>
                     Physics is the foundation of all the sciences. To study biology, chemistry, or any other natural science, a firm understanding of the principles of physics is essential. For example, biology uses physics principles to understand how blood flows through the cardiovascular system, and chemistry relies on physics to understand atomic interactions and chemical reactions.
                 </p>
