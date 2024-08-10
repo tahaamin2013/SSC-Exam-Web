@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from "next/head";
 
 const ScalarsAndVectorsPage = () => {
     return (
@@ -20,7 +20,7 @@ const ScalarsAndVectorsPage = () => {
                     Physical quantities which can be completely described only by their numerical magnitude (or size) with a proper unit are termed
                     as scalar quantities or simply scalars. For example, distance, speed, time, mass, energy, and temperature are scalar quantities.
                     Consider a man traveling a distance of 4.5 km but without specifying the direction. Since only the magnitude is given, it is a scalar
-                    quantity. Similarly, time is a scalar quantity; stating a time measurement of 30 seconds involves only the magnitude '&apos;30'&apos; and unit '&apos;s'&apos;.
+                    quantity. Similarly, time is a scalar quantity; stating a time measurement of 30 seconds involves only the magnitude &apos;30&apos; and unit &apos;s&apos;.
                     We do not need to state the direction of time.
                 </p>
                 <p className="mb-4 text-gray-700">
@@ -42,8 +42,8 @@ const ScalarsAndVectorsPage = () => {
                 <h2 className="text-2xl font-semibold mb-4 text-blue-500">Point to Ponder</h2>
                 <p className="mb-4 text-gray-700">
                     A coordinate system is used to locate the position of any point, which can be plotted as an ordered pair (x, y) known as coordinates.
-                    The horizontal number line is called the '&apos;X-axis,'&apos; and the vertical number line is called the '&apos;Y-axis.'&apos; The point of intersection of
-                    these two axes is known as the origin and is denoted as '&apos;O'&apos;. The reference frame is the coordinate system from which the positions of
+                    The horizontal number line is called the &apos;X-axis,&apos; and the vertical number line is called the &apos;Y-axis.&apos; The point of intersection of
+                    these two axes is known as the origin and is denoted as &apos;O&apos;. The reference frame is the coordinate system from which the positions of
                     objects are described.
                 </p>
                 <p className="mb-4 text-gray-700">
@@ -71,7 +71,7 @@ const ScalarsAndVectorsPage = () => {
 
                 <h2 className="text-2xl font-semibold mb-4 text-blue-500">Point to Ponder</h2>
                 <p className="mb-4 text-gray-700">
-                    Does vector addition depend on the order? Will it make any difference if we add vector '&apos;A'&apos; with vector '&apos;B'&apos; or vector '&apos;B'&apos; with vector '&apos;A'&apos;?
+                    Does vector addition depend on the order? Will it make any difference if we add vector &apos;A&apos; with vector &apos;B&apos; or vector &apos;B&apos; with vector &apos;A&apos;?
                 </p>
             </main>
         </>
