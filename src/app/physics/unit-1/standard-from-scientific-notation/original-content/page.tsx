@@ -33,7 +33,7 @@ const Page = () => {
                     For example:
                 </p>
                 <ul className="list-disc ml-5">
-                    <li>The width of the observable universe can be written as 8.8 × 10<sup>26</sup> meters, where '8.8' is the mantissa and '26' is the exponent.</li>
+                    <li>The width of the observable universe can be written as 8.8 × 10<sup>26</sup> meters, where &apos;8.8&apos; is the mantissa and &apos;26&apos; is the exponent.</li>
                     <li>The mass of Earth is 5,980,000,000,000,000,000,000,000 kg, which can be written as 5.98 × 10<sup>24</sup> kg.</li>
                     <li>The diameter of a hydrogen nucleus is about 0.0000000000000017 meters, which can be written as 1.7 × 10<sup>-15</sup> meters.</li>
                 </ul>
