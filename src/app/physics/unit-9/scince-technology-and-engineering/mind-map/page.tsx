@@ -101,7 +101,7 @@ const ScienceTechnologyEngineeringComponent = () => {
             3. Technology That Developed Smartphones:
           </h2>
           <p className="mb-4">
-            Smartphones weren't developed by a single technology, but rather
+            Smartphones weren&apos;t developed by a single technology, but rather
             through the convergence of multiple technologies and innovations.
             Key technologies include:
           </p>
@@ -123,7 +123,7 @@ const ScienceTechnologyEngineeringComponent = () => {
             computer-like functionality.
           </p>
           <p className="mt-4">
-            It's worth noting that while these specific fields (Solid State
+            It&apos;s worth noting that while these specific fields (Solid State
             Physics, Electronic Engineering) and technologies were crucial, the
             development of smartphones has been a highly interdisciplinary
             effort, involving contributions from many areas of science,
