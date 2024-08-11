@@ -61,6 +61,10 @@ cubic meter (kg/m³);
 ***** Unit: Pascal (Pa) (kg/m·s²)
 **** Energy (E, U)
 ***** Unit: Joule (J) (kg·m²/s²)
+**** Electric Charge
+***** Unit: Coulomb (C)
+**** Electrical Resistance
+***** Unit: Ohm (Ω)
 @endmindmap
 
 `;
