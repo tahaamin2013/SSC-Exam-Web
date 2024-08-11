@@ -5,11 +5,11 @@ import Link from 'next/link';
 import { Menu, X, ChevronDown } from 'lucide-react';
 
 const subjects = [
-  { name: 'Mathematics', href: '/math' },
-  { name: 'Science', href: '/science' },
-  { name: 'English', href: '/english' },
-  { name: 'Social Studies', href: '/social-studies' },
   { name: 'Computer Science', href: '/computer-science' },
+  { name: 'Physics', href: '/physics' },
+  { name: 'Chemistry', href: '/chemistry' },
+  { name: 'Islamic Studies', href: '/islamic-studies' },
+  { name: 'Pak Studies', href: '/pak-studies' },
 ];
 
 const Navbar = () => {

@@ -10,16 +10,16 @@ const Page = () => {
     }, []);
     const umlCode = `
 @startmindmap
-* #FFA500 Errors
-** #FF6347 Systematic Errors
-*** #FF4500 Instrumental errors: imperfections in the design or calibration of the measuring instrument, zero errors
-*** #FF4500 Imperfections in experimental technique: changes in external conditions like temperature, humidity, or wind velocity
-*** #FF4500 Personal errors: individual bias, improper setup, carelessness in observations
-** #8A2BE2 Random Errors
-*** #9370DB Unpredictable and uncontrollable errors
-*** #9370DB Caused by fluctuations in experimental conditions, imperfections in measuring instruments
-*** #9370DB Introduced by variability in technique or reaction time
-*** #9370DB Minimization: take repeated measurements, use statistical analysis
+* Errors
+** Systematic Errors
+*** Instrumental errors: imperfections in the design or calibration of the measuring instrument, zero errors
+*** Imperfections in experimental technique: changes in external conditions like temperature, humidity, or wind velocity
+*** Personal errors: individual bias, improper setup, carelessness in observations
+** Random Errors
+*** Unpredictable and uncontrollable errors
+*** Caused by fluctuations in experimental conditions, imperfections in measuring instruments
+*** Introduced by variability in technique or reaction time
+*** Minimization: take repeated measurements, use statistical analysis
 @endmindmap
 
 `;

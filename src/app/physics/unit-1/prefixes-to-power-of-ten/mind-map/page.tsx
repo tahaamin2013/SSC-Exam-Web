@@ -5,14 +5,14 @@ const PrefixesTable = () => {
   const umlCode = `
 @startmindmap
 * Prefixes to Power of Ten
-** Exa (E) - 10^18
-** Peta (P) - 10^15
-** Tera (T) - 10^12
-** Giga (G) - 10^9
-** Mega (M) - 10^6
-** Kilo (k) - 10^3
-** Hecto (h) - 10^2
 ** Deca (da) - 10^1
+** Hecto (h) - 10^2
+** Kilo (k) - 10^3
+** Mega (M) - 10^6
+** Giga (G) - 10^9
+** Tera (T) - 10^12
+** Peta (P) - 10^15
+** Exa (E) - 10^18
 left side
 ** Deci (d) - 10^-1
 ** Centi (c) - 10^-2
