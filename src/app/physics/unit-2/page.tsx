@@ -77,6 +77,18 @@ const data = [
       { href: "/physics/unit-2/graphical-analysis-of-motion/detailed-questions", text: "Detailed Questions", icon: List },
     ],
   },
+  {
+    id: "7",
+    title: "Chapter Round up",
+    links: [
+      { href: "/physics/unit-2/summary", text: "Summary", icon: BookOpen },
+      { href: "/physics/unit-2/quiz", text: "MCQS", icon: HelpCircle },
+      { href: "/physics/unit-2/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "/physics/unit-2/detailed-questions", text: "Detailed Questions", icon: List },
+      { href: "/physics/unit-2/content", text: "Content", icon: List },
+      { href: "/physics/unit-2/numeric", text: "Numerical Questions", icon: List },
+    ],
+  },
 ];
 
 const Section = ({ section }: any) => {
@@ -111,7 +123,7 @@ const ComputerSystemsDashboard = () => {
     }}>
       <h1 className="text-5xl font-extrabold mb-12 text-center text-white">
         KINEMATICS
-       </h1>
+      </h1>
       <div className="flex flex-wrap gap-6 justify-center">
         {data.map((section) => (
           <Section key={section.id} section={section} />

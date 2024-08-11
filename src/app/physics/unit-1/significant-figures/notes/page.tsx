@@ -23,15 +23,53 @@ const SignificantFigures = () => {
                 </ul>
             </section>
 
-            <section className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4">III. Rules for Determining Significant Figures</h2>
-                <ol className="list-decimal pl-6">
-                    <li>All digits from direct measurement are significant</li>
-                    <li>All nonzero digits (1-9) are always significant</li>
-                    <li>Zeros after decimal point before nonzero digits are not significant</li>
-                    <li>Zeros between significant digits are significant</li>
-                    <li>Trailing zeros after decimal point are significant</li>
-                </ol>
+            <section className="mb-8 flex flex-col lg:flex-row gap-8">
+                <div className="bg-white border h-fit rounded-xl shadow-2xl p-6 flex-1">
+                    <h2 className="text-3xl font-bold mb-6 text-indigo-600">III. Rules for Determining Significant Figures</h2>
+                    <ol className="list-decimal pl-6 space-y-4 text-lg">
+                        <li className="text-gray-700">All digits from direct measurement are significant</li>
+                        <li className="text-gray-700">All nonzero digits (1-9) are always significant</li>
+                        <li className="text-gray-700">Zeros after decimal point before nonzero digits are not significant</li>
+                        <li className="text-gray-700">Zeros between significant digits are significant</li>
+                        <li className="text-gray-700">Trailing zeros after decimal point are significant</li>
+                    </ol>
+                </div>
+
+                <div className="bg-gradient-to-br shadow-2xl from-blue-500 to-purple-600 rounded-xl p-6 flex-1 text-white">
+                    <h1 className="text-3xl font-bold mb-6 border-b pb-2">Detailed Rules</h1>
+                    <div className="space-y-6">
+                        <div>
+                            <h3 className="text-xl font-semibold mb-2">(i) Non-zero digits</h3>
+                            <p className="text-lg leading-relaxed">
+                                Digits other than zero are always significant.<br />
+                                <span className="font-mono bg-white/20 px-2 py-1 rounded">27</span> has 2 significant digits.<br />
+                                <span className="font-mono bg-white/20 px-2 py-1 rounded">275</span> has 3 significant digits.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 className="text-xl font-semibold mb-2">(ii) Zeros between significant digits</h3>
+                            <p className="text-lg leading-relaxed">
+                                Zeros between significant digits are also significant.<br />
+                                <span className="font-mono bg-white/20 px-2 py-1 rounded">2705</span> has 4 significant digits.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 className="text-xl font-semibold mb-2">(iii) Final zeros after decimal</h3>
+                            <p className="text-lg leading-relaxed">
+                                Final zero or zeros after decimal are significant.<br />
+                                <span className="font-mono bg-white/20 px-2 py-1 rounded">275.00</span> has 5 significant digits.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 className="text-xl font-semibold mb-2">(iv) Placeholder zeros</h3>
+                            <p className="text-lg leading-relaxed">
+                                Zeros used for spacing the decimal point are not significant. Here zeros are placeholders only.<br />
+                                <span className="font-mono bg-white/20 px-2 py-1 rounded">0.03</span> has 1 significant digit.<br />
+                                <span className="font-mono bg-white/20 px-2 py-1 rounded">0.027</span> has 2 significant digits.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section className="mb-8">
