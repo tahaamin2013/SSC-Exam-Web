@@ -14,14 +14,14 @@ const page = () => {
                                 <li>1234 m</li>
                                 <li>0.000023 s</li>
                                 <li>469.3 x 10m</li>
-                                <li>0.00985 x 10's</li>
+                                <li>0.00985 x 10&apos;s</li>
                             </ul>
                         </li>
                         <li>
                             <p className="font-medium">Express the following measurements using prefixes:</p>
                             <ul className="list-[lower-alpha] pl-6 mt-2">
                                 <li>27.5x10m</li>
-                                <li>0.00023 × 10's</li>
+                                <li>0.00023 × 10&apos;s</li>
                             </ul>
                         </li>
                         <li>
