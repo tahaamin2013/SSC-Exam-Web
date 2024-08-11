@@ -12,13 +12,17 @@ type Section = {
 };
 
 const data: Section[] = [
-    { id: "1", link: "/unit-1", title: "Unit 1: Computer Systems" },
-    { id: "2", link: "/unit-2", title: "Unit 2: Computational Thinking & Algorithms" },
-    { id: "3", link: "/unit-3", title: "Unit 3: Programming Fundamentals" },
-    { id: "4", link: "/unit-4", title: "Unit 4: Data And Analysis" },
-    { id: "5", link: "/unit-5", title: "Unit 5: Application of Computer Science" },
-    { id: "6", link: "/unit-6", title: "Unit 6: Impacts of Computing" },
-    { id: "7", link: "/unit-7", title: "Unit 7: Entrepreneurship" },
+    { id: "1", link: "/computer-sicence/unit-1", title: "Unit 1: Computer Systems" },
+    { id: "2", link: "/computer-sicence/unit-2", title: "Unit 2: Computational Thinking & Algorithms" },
+    { id: "3", link: "/computer-sicence/unit-3", title: "Unit 3: Programming Fundamentals" },
+    { id: "4", link: "/computer-sicence/unit-4", title: "Unit 4: Data And Analysis" },
+    { id: "5", link: "/computer-sicence/unit-5", title: "Unit 5: Application of Computer Science" },
+    { id: "6", link: "/computer-sicence/unit-6", title: "Unit 6: Impacts of Computing" },
+    { id: "7", link: "/computer-sicence/unit-7", title: "Unit 7: Entrepreneurship" },
+    // { id: "8", link: "/computer-sicence/introduction-to-computers", title: "Unit 1S: Introduction to Computers" },
+    // { id: "9", link: "/computer-sicence/computers-components", title: "Unit 2S: Computer Components" },
+    // { id: "10", link: "/computer-sicence/input-and-output-devices", title: "Unit 3S: Input/Output Devices" },
+    // { id: "11", link: "/computer-sicence/storage-devices", title: "Unit 4S: Storage devices" },
 ];
 
 const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; isRedirecting: boolean; onRedirect: () => void }) => {

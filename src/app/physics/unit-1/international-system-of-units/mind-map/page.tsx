@@ -52,7 +52,7 @@ second (m/s);
 **** Acceleration (a)
 *****:Unit: Meter per
 second squared (m/s²);
-**** Density (ρ)
+**** Density - rho (ρ)
 *****:Unit: Kilogram per
 cubic meter (kg/m³);
 **** Force (F)

@@ -20,7 +20,8 @@ left side
 *** Physics
 *** Chemistry
 *** Geology
-*** Geography
+*** Meterology
+*** Astronomy
 **:Biological Sciences
 (Study of living things);
 *** Botany
