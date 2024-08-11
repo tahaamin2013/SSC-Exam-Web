@@ -18,7 +18,7 @@ const GravityPage = () => {
             If you drop a ball and a large stone from the roof of your school building, which of them will reach the bottom first? All freely falling objects have the same acceleration called the acceleration due to gravity (g) and this is independent of their masses.
           </p>
           <p className="text-lg mb-4">
-            The acceleration due to gravity is directed downward, toward the center of the Earth. Near the Earth's surface, g is approximately <strong>g = 9.80 m/s²</strong> or <strong>32.2 ft/s²</strong>.
+            The acceleration due to gravity is directed downward, toward the center of the Earth. Near the Earth&apos;s surface, g is approximately <strong>g = 9.80 m/s²</strong> or <strong>32.2 ft/s²</strong>.
           </p>
           <p className="text-lg mb-4">
             For a large object, the presence of air resistance is neglected. However, if we drop a small piece of paper and a coin, the coin will fall faster than a sheet of paper due to air resistance, as shown in Figure 2.11 (a). However, when air is removed, as in Figure 2.11 (b), the coin and the paper will experience the same acceleration due to gravity, and both will fall at the same rate.

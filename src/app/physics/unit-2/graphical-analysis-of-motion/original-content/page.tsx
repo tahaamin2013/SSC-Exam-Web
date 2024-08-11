@@ -37,7 +37,7 @@ const GraphicalAnalysisPage = () => {
 
           <h3 className="text-xl font-semibold mb-4">EXAMPLE 2.5: PESHAWAR TO ISLAMABAD THROUGH M1</h3>
           <p className="text-lg mb-4">
-            A car travels from Peshawar to Islamabad on Motorway (M1), stopping for 30 minutes at a 'rest area'. Calculate the speed of the car in km/hr and m/s for:
+            A car travels from Peshawar to Islamabad on Motorway (M1), stopping for 30 minutes at a &apos;rest area&apos;. Calculate the speed of the car in km/hr and m/s for:
           </p>
           <ul className="list-disc list-inside mb-4">
             <li>The journey from Peshawar to the rest area.</li>

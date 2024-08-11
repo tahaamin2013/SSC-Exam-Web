@@ -68,13 +68,13 @@ const SpeedVelocityPage: React.FC = () => {
       <h2 className="text-2xl font-semibold mt-6 mb-4">INSTANTANEOUS SPEED</h2>
 
       <p className="mb-4">
-        We see sign boards on roads reading, "sharp turn ahead, reduce speed," or "speed limit 70 km/hr." These sign boards refer to our instantaneous speed, which is the speed at which we are moving at that particular instant of time. The speed at any specific instant of time is called the instantaneous speed.
+        We see sign boards on roads reading, &quot;sharp turn ahead, reduce speed,&quot; or &quot;speed limit 70 km/hr.&quot; These sign boards refer to our instantaneous speed, which is the speed at which we are moving at that particular instant of time. The speed at any specific instant of time is called the instantaneous speed.
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-4">UNIFORM AND VARIABLE SPEED</h2>
 
       <p className="mb-4">
-        "If an object covers equal distances in equal intervals of time, we say that the object is moving with uniform speed." In uniform speed, the object does not get slower or faster and maintains the same speed.
+        &quot;If an object covers equal distances in equal intervals of time, we say that the object is moving with uniform speed.&quot; In uniform speed, the object does not get slower or faster and maintains the same speed.
       </p>
 
       <p className="mb-4">
@@ -163,7 +163,7 @@ const SpeedVelocityPage: React.FC = () => {
       <h2 className="text-2xl font-semibold mt-6 mb-4">2.3.2 VELOCITY</h2>
 
       <p className="mb-4">
-        Velocity is similar to speed, but a direction is needed for the description of velocity. "Measure of displacement (Δd) with passage of time (Δt) is called velocity (denoted by v)." Mathematically:
+        Velocity is similar to speed, but a direction is needed for the description of velocity. &quot;Measure of displacement (Δd) with passage of time (Δt) is called velocity (denoted by v).&quot; Mathematically:
       </p>
 
       <p className="mb-4">
@@ -198,7 +198,7 @@ const SpeedVelocityPage: React.FC = () => {
       <h3 className="text-xl font-semibold mt-4 mb-2">C. UNIFORM AND VARIABLE VELOCITY</h3>
 
       <p className="mb-4">
-        "If an object covers equal displacements in equal intervals of time, we say that the object is moving with uniform velocity." Uniform velocity is the velocity that does not change; otherwise, it is called variable velocity.
+        &quot;If an object covers equal displacements in equal intervals of time, we say that the object is moving with uniform velocity.&quot; Uniform velocity is the velocity that does not change; otherwise, it is called variable velocity.
       </p>
 
       <p className="mb-4">
