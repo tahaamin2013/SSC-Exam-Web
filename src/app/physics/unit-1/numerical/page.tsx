@@ -60,6 +60,61 @@ const page = () => {
                             </ul>
                             <p className="mt-2">BARREL THIMBLE</p>
                         </li>
+                        <li>
+                            <p className="font-medium">Express the following quantities using prefixes:</p>
+                            <ul className="list-[lower-alpha] pl-6 mt-2">
+                                <li>5000 g</li>
+                                <li>2,000,000 W</li>
+                                <li>52 × 10^-10 kg</li>
+                                <li>225 × 10^-8 s</li>
+                            </ul>
+                            <p className="mt-2">Answers:</p>
+                            <ul className="list-[lower-alpha] pl-6 mt-2">
+                                <li>5 kg</li>
+                                <li>2 MW</li>
+                                <li>5.2 μg</li>
+                                <li>2.25 μs</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p className="font-medium">How do the prefixes micro, nano, and pico relate to each other?</p>
+                        </li>
+                        <li>
+                            <p className="font-medium">Your hair grows at the rate of 1 mm per day. Find the growth rate in nm/s.</p>
+                            <p className="mt-2">Answer: 11.57 nm/s</p>
+                        </li>
+                        <li>
+                            <p className="font-medium">Rewrite the following in standard form:</p>
+                            <ul className="list-[lower-alpha] pl-6 mt-2">
+                                <li>1168 × 10^-27</li>
+                                <li>32 × 10^-5</li>
+                                <li>725 × 10^-8 kg</li>
+                                <li>0.02 × 10^-5</li>
+                            </ul>
+                            <p className="mt-2">Answers:</p>
+                            <ul className="list-[lower-alpha] pl-6 mt-2">
+                                <li>1.168 × 10^-24</li>
+                                <li>3.2 × 10^-4</li>
+                                <li>7.25 × 10^-6 kg</li>
+                                <li>2 × 10^-7</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p className="font-medium">Write the following quantities in standard form:</p>
+                            <ul className="list-[lower-alpha] pl-6 mt-2">
+                                <li>6400 km</li>
+                                <li>380,000 km</li>
+                                <li>300,000,000 ms</li>
+                                <li>Seconds in a day</li>
+                            </ul>
+                            <p className="mt-2">Answers:</p>
+                            <ul className="list-[lower-alpha] pl-6 mt-2">
+                                <li>6.4 × 10^3 km</li>
+                                <li>3.8 × 10^5 km</li>
+                                <li>3 × 10^8 ms</li>
+                                <li>8.64 × 10^4 s</li>
+                            </ul>
+                        </li>
                     </ol>
                 </div>
             </div>
