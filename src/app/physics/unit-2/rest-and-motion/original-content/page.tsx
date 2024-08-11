@@ -10,7 +10,7 @@ const KinematicsPage: React.FC = () => {
         Mechanics is the study of motion. Everywhere we look, objects are moving. We see people moving on roads, some using vehicles. Actually, everything we know is constantly in motion. Celestial objects and our Earth are always moving. Even objects that appear to be still have atoms and molecules that vibrate in continuous motion.
       </p>
       <p className="mb-4">
-        Our formal study of physics starts with kinematics, which is the study of motion without considering its causes. The term "kinematics" comes from Greek and means motion. In this unit, we will only focus on the motion of objects, without concerning ourselves with the forces that cause or change their motion.
+        Our formal study of physics starts with kinematics, which is the study of motion without considering its causes. The term &quot;kinematics&quot; comes from Greek and means motion. In this unit, we will only focus on the motion of objects, without concerning ourselves with the forces that cause or change their motion.
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-4">2.1 REST AND MOTION</h2>
