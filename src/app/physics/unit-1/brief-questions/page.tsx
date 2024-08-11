@@ -17,6 +17,7 @@ const Page = () => {
             </h1>
             <div className="grid grid-cols-1 text-left gap-x-8 w-full">
                 <Accordion type="single" collapsible>
+                    {/* Existing Questions */}
                     <AccordionItem value="item-1">
                         <AccordionTrigger>1. How physics plays an important role in our life?</AccordionTrigger>
                         <AccordionContent>
@@ -106,6 +107,96 @@ const Page = () => {
                         <AccordionContent>
                             - **Precision:** Refers to the consistency or repeatability of measurements (how close multiple measurements are to each other).
                             - **Accuracy:** Refers to how close a measurement is to the true or accepted value.
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    {/* New Questions */}
+                    <AccordionItem value="item-13">
+                        <AccordionTrigger>13. What is the difference between base quantities and derived quantities? Give three examples in each case.</AccordionTrigger>
+                        <AccordionContent>
+                            - **Base Quantities:** Fundamental physical quantities that are not derived from other quantities. Examples: Length (meter), Mass (kilogram), Time (second).
+                            - **Derived Quantities:** Quantities derived from base quantities through mathematical operations. Examples: Velocity (meter/second), Force (Newton), Energy (Joule).
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-14">
+                        <AccordionTrigger>14. Pick out the base units in the following: joule, newton, kilogramme, hertz, mole, ampere, metre, kelvin, coulomb and watt.</AccordionTrigger>
+                        <AccordionContent>
+                            - **Base Units:** Kilogramme (kg), Metre (m), Ampere (A), Kelvin (K), Mole (mol), Second (s)
+                            - **Derived Units:** Joule (J), Newton (N), Hertz (Hz), Coulomb (C), Watt (W)
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-15">
+                        <AccordionTrigger>15. Find the base quantities involved in each of the following derived quantities: (a) speed (b) volume (c) force (d) work</AccordionTrigger>
+                        <AccordionContent>
+                            - **Speed:** Length, Time (e.g., meters/second)
+                            - **Volume:** Length (e.g., cubic meters)
+                            - **Force:** Length, Mass, Time (e.g., Newtons)
+                            - **Work:** Length, Mass, Time (e.g., Joules)
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-16">
+                        <AccordionTrigger>16. Estimate your age in seconds.</AccordionTrigger>
+                        <AccordionContent>
+                            To estimate age in seconds, multiply the number of years by 31,536,000 (seconds per year). For example, for a person who is 20 years old: 20 years x 31,536,000 seconds/year = 630,720,000 seconds.
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-17">
+                        <AccordionTrigger>17. What role SI units have played in the development of science?</AccordionTrigger>
+                        <AccordionContent>
+                            SI units provide a standardized system for measuring physical quantities, which allows for consistency and comparability in scientific research and communication globally. They help in reducing confusion and errors in measurement, facilitating advancements in technology and science.
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-18">
+                        <AccordionTrigger>18. What is meant by vernier constant?</AccordionTrigger>
+                        <AccordionContent>
+                            The vernier constant is the smallest length that can be measured with a vernier caliper. It is the difference between the main scale reading and the vernier scale reading per division. It determines the precision of the measurement.
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-19">
+                        <AccordionTrigger>19. What do you understand by the zero error of a measuring instrument?</AccordionTrigger>
+                        <AccordionContent>
+                            Zero error occurs when a measuring instrument does not read zero when the quantity being measured is zero. It leads to inaccuracies in measurements and needs to be corrected to ensure accurate readings.
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-20">
+                        <AccordionTrigger>20. Why is the use of zero error necessary in a measuring instrument?</AccordionTrigger>
+                        <AccordionContent>
+                            Correcting for zero error ensures that the instrument gives accurate readings. It prevents systematic errors that can skew results and affect the reliability of measurements.
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-21">
+                        <AccordionTrigger>21. What is a stopwatch? What is the least count of a mechanical stopwatch you have used in the laboratories?</AccordionTrigger>
+                        <AccordionContent>
+                            A stopwatch is a device used to measure time intervals. The least count of a mechanical stopwatch typically ranges from 0.1 seconds to 0.01 seconds, depending on the model.
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-22">
+                        <AccordionTrigger>22. Why do we need to measure extremely small intervals of time?</AccordionTrigger>
+                        <AccordionContent>
+                            Measuring extremely small intervals of time is crucial for precise experiments and high-speed processes where accurate timing is essential, such as in scientific research, engineering, and technology development.
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-23">
+                        <AccordionTrigger>23. What is meant by significant figures of a measurement?</AccordionTrigger>
+                        <AccordionContent>
+                            Significant figures refer to the digits in a number that carry meaningful information about its precision. They include all non-zero digits, any zeros between significant digits, and any trailing zeros in the decimal portion.
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-24">
+                        <AccordionTrigger>24. How is precision related to the significant figures in a measured quantity?</AccordionTrigger>
+                        <AccordionContent>
+                            Precision is indicated by the number of significant figures in a measurement. More significant figures imply higher precision, as they reflect a finer level of detail and accuracy in the measurement.
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>

@@ -86,5 +86,79 @@ export const quiz = {
       answers: ["0.0002 m", "0.001 m", "0.001 metre", "0.0002 metre"],
       correctAnswer: "0.0002 m",
     },
+    {
+      id: 14,
+      question: "The number of base units in SI are:",
+      answers: ["3", "6", "7", "9"],
+      correctAnswer: "7",
+    },
+    {
+      id: 15,
+      question: "Which one of the following unit is not a derived unit?",
+      answers: ["pascal", "kilogramme", "newton", "watt"],
+      correctAnswer: "kilogramme",
+    },
+    {
+      id: 16,
+      question: "Amount of a substance in terms of numbers is measured in:",
+      answers: ["gram", "kilogramme", "newton", "mole"],
+      correctAnswer: "mole",
+    },
+    {
+      id: 17,
+      question: "An interval of 200 µs is equivalent to:",
+      answers: ["0.2 s", "0.02 s", "2 x 10^-4 s", "2 x 10^-6 s"],
+      correctAnswer: "2 x 10^-4 s",
+    },
+    {
+      id: 18,
+      question: "Which one of the following is the smallest quantity?",
+      answers: ["0.01 g", "2 mg", "100 µg", "5000 ng"],
+      correctAnswer: "5000 ng",
+    },
+    {
+      id: 19,
+      question:
+        "Which instrument is most suitable to measure the internal diameter of a test tube?",
+      answers: [
+        "metre rule",
+        "Vernier Callipers",
+        "measuring tape",
+        "screw gauge",
+      ],
+      correctAnswer: "Vernier Callipers",
+    },
+    {
+      id: 20,
+      question:
+        "A student claimed the diameter of a wire as 1.032 cm using Vernier Callipers. Up to what extent do you agree with it?",
+      answers: ["1 cm", "1.0 cm", "1.03 cm", "1.032 cm"],
+      correctAnswer: "1.03 cm",
+    },
+    {
+      id: 20,
+      question: "A measuring cylinder is used to measure:",
+      answers: ["mass", "area", "volume", "level of a liquid"],
+      correctAnswer: "volume",
+    },
+    {
+      id: 21,
+      question:
+        "A student noted the thickness of a glass sheet using a screw gauge. On the main scale, it reads 3 divisions while 8 division on the circular scale coincides with the index line. Its thickness is:",
+      answers: ["3.8 cm", "3.08 mm", "3.8 mm", "3.08 m"],
+      correctAnswer: "3.08 mm",
+    },
+    {
+      id: 22,
+      question: "Significant figures in an expression are:",
+      answers: [
+        "all the digits",
+        "all the accurately known digits",
+        "all the accurately known digits and the first doubtful digit",
+        "all the accurately known and all the doubtful digits",
+      ],
+      correctAnswer:
+        "all the accurately known digits and the first doubtful digit",
+    },
   ],
 };
