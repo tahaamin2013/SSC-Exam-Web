@@ -16,7 +16,7 @@ const SubSection = ({ title, children }: any) => (
 
 const List = ({ items }: any) => (
     <ul className="list-disc pl-5 space-y-2">
-        {items.map((item, index: any) => (
+        {items.map((item: any, index: any) => (
             <li key={index} className="text-gray-600">
                 {typeof item === 'string' ? item : (
                     <>
