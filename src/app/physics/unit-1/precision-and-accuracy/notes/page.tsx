@@ -1,33 +1,33 @@
 import React from 'react';
 
-const Section = ({ title, children }) => (
+const Section = ({ title, children }: any) => (
     <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4 text-gray-800 border-b pb-2">{title}</h2>
         {children}
     </section>
 );
 
-const SubSection = ({ title, children }) => (
+const SubSection = ({ title, children }: any) => (
     <div className="mb-4">
         <h3 className="text-xl font-medium mb-3 text-gray-700">{title}</h3>
         {children}
     </div>
 );
 
-const List = ({ items }) => (
+const List = ({ items }: any) => (
     <ul className="list-disc pl-5 space-y-2">
-        {items.map((item, index) => (
+        {items.map((item: any, index: any) => (
             <li key={index} className="text-gray-600">{item}</li>
         ))}
     </ul>
 );
 
-const Table = ({ headers, rows }) => (
+const Table = ({ headers, rows }: any) => (
     <div className="overflow-x-auto">
         <table className="min-w-full bg-white border border-gray-300 shadow-sm rounded-lg overflow-hidden">
             <thead className="bg-gray-50">
                 <tr>
-                    {headers.map((header, index) => (
+                    {headers.map((header: any, index: any) => (
                         <th key={index} className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                             {header}
                         </th>
@@ -35,9 +35,9 @@ const Table = ({ headers, rows }) => (
                 </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
-                {rows.map((row, rowIndex) => (
+                {rows.map((row: any, rowIndex: any) => (
                     <tr key={rowIndex}>
-                        {row.map((cell, cellIndex) => (
+                        {row.map((cell: any, cellIndex: any) => (
                             <td key={cellIndex} className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                                 {cell}
                             </td>
