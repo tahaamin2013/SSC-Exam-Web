@@ -1,6 +1,6 @@
 // pages/distance-displacement.tsx
 
-import React from 'react';
+import React from "react";
 
 const DistanceDisplacementPage: React.FC = () => {
   return (
@@ -12,17 +12,17 @@ const DistanceDisplacementPage: React.FC = () => {
       </p>
 
       <p className="mb-4">
-        <strong>'The length of the path traveled between two positions is called distance.'</strong>
+        <strong>&apos;The length of the path traveled between two positions is called distance.&apos;</strong>
         Distance has no direction and therefore it is a scalar quantity. Distance is usually denoted by \( \Delta x, \Delta r, \Delta s, \Delta d \) or \( \Delta l \), and has SI unit as metre (m).
       </p>
 
       <p className="mb-4">
-        <strong>'The shortest distance from the initial position to the final position (or straight directed distance) is called displacement.'</strong>
+        <strong>&apos;The shortest distance from the initial position to the final position (or straight directed distance) is called displacement.&apos;</strong>
         Displacement has direction and therefore it is a vector quantity. Displacement has SI unit as metre (same as length).
       </p>
 
       <p className="mb-4">
-        If an object moves, then the object's position changes. This change in position vector \( \Delta d \) of an object, from initial position \( d_1 \) to final position \( d_2 \), is known as displacement as shown in figure 2.6 (b). Mathematically:
+        If an object moves, then the object&apos;s position changes. This change in position vector \( \Delta d \) of an object, from initial position \( d_1 \) to final position \( d_2 \), is known as displacement as shown in figure 2.6 (b). Mathematically:
       </p>
 
       <p className="mb-4">
@@ -30,7 +30,7 @@ const DistanceDisplacementPage: React.FC = () => {
         <br />
         \( \Delta d = d_2 - d_1 \)
         <br />
-        Here we used the symbol \( \Delta \) (Greek letter delta) for change in position; however, it is used to represent a 'change in' any quantity. For example, elapsed time \( \Delta t \) is the change in (or the difference between) the ending time \( t_2 \) and beginning time \( t_1 \):
+        Here we used the symbol \( \Delta \) (Greek letter delta) for change in position; however, it is used to represent a &apos;change in&apos; any quantity. For example, elapsed time \( \Delta t \) is the change in (or the difference between) the ending time \( t_2 \) and beginning time \( t_1 \):
         <br />
         \( \Delta t = t_2 - t_1 \)
       </p>

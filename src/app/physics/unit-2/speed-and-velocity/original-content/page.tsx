@@ -1,6 +1,6 @@
 // pages/speed-velocity.tsx
 
-import React from 'react';
+import React from "react";
 
 const SpeedVelocityPage: React.FC = () => {
   return (
@@ -19,14 +19,14 @@ const SpeedVelocityPage: React.FC = () => {
           <li>The distance we have traveled, and</li>
           <li>The time that has elapsed while we covered this distance.</li>
         </ul>
-        <strong>'Measure of the distance covered (Δs) with passage of time (Δt) is called speed (denoted by v)'.</strong> Mathematically:
+        <strong>&apos;Measure of the distance covered (Δs) with passage of time (Δt) is called speed (denoted by v)&apos;.</strong> Mathematically:
       </p>
 
       <p className="mb-4">
         <code className="block bg-gray-100 p-4 rounded-lg">
           speed = \\( \\frac﹛distance﹜﹛elapsed\\ time﹜ = \\frac﹛Δs﹛Δt﹜\\)
         </code>
-        Speed of an object shows us the rate at which the object is moving. Speed is a scalar quantity having SI unit of meter per second (m/s or ms⁻¹). The speed will be one 'meter per second' if an object covers one meter distance in one second.
+        Speed of an object shows us the rate at which the object is moving. Speed is a scalar quantity having SI unit of meter per second (m/s or ms⁻¹). The speed will be one &apos;meter per second&apos; if an object covers one meter distance in one second.
       </p>
 
       <p className="mb-4">
@@ -78,7 +78,7 @@ const SpeedVelocityPage: React.FC = () => {
       </p>
 
       <p className="mb-4">
-        When it comes to the fastest measured speed, the limit is set by the laws of physics themselves as the 'speed of light'. Albert Einstein realized that a light ray appears to move at the same speed, regardless of whether it's moving towards us or away from us. No matter how fast you travel or in what direction, all light always moves at the same speed. Moreover, anything that's made of matter can only approach, but never reach, the speed of light. If you don't have mass, you must move at the speed of light; if you do have mass, you can never reach it.
+        When it comes to the fastest measured speed, the limit is set by the laws of physics themselves as the &apos;speed of light&apos;. Albert Einstein realized that a light ray appears to move at the same speed, regardless of whether it&apos;s moving towards us or away from us. No matter how fast you travel or in what direction, all light always moves at the same speed. Moreover, anything that&apos;s made of matter can only approach, but never reach, the speed of light. If you don&apos;t have mass, you must move at the speed of light; if you do have mass, you can never reach it.
       </p>
 
       <p className="mb-4">
@@ -129,7 +129,7 @@ const SpeedVelocityPage: React.FC = () => {
       <h3 className="text-xl font-semibold mt-4 mb-2">EXAMPLE 2.2: FASTEST TRAIN IN THE WORLD</h3>
 
       <p className="mb-4">
-        Shanghai's Maglev, the fastest train, traveled a distance of 30 kilometers in 7 minutes and 30 seconds. What is its speed? Convert the speed to km/h.
+        Shanghai&apos;s Maglev, the fastest train, traveled a distance of 30 kilometers in 7 minutes and 30 seconds. What is its speed? Convert the speed to km/h.
       </p>
 
       <p className="mb-4">
@@ -209,7 +209,7 @@ const SpeedVelocityPage: React.FC = () => {
 
       <p className="mb-4">
         A car travels a curvy track of length 800 meters in 40 seconds. The straight path is about 600 meters between the starting point and ending point, which the same car travels in 36 seconds.
-        What is the car's (a) average speed and (b) average velocity?
+        What is the car&apos;s (a) average speed and (b) average velocity?
       </p>
 
       <p className="mb-4">

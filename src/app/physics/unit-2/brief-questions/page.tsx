@@ -142,7 +142,7 @@ const Page = () => {
                     <AccordionItem value="item-19">
                         <AccordionTrigger>19. Sketch a velocity-time graph for the motion of the body. From the graph, explain each step, calculate the total distance covered by the body.</AccordionTrigger>
                         <AccordionContent>
-                            <p>The velocity-time graph for uniformly accelerated motion will be a straight line. The total distance covered is the area under the graph. For a straight line, it's the area of the trapezoid formed by the graph.</p>
+                            <p>The velocity-time graph for uniformly accelerated motion will be a straight line. The total distance covered is the area under the graph. For a straight line, it&apos;s the area of the trapezoid formed by the graph.</p>
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>

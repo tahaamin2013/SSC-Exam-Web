@@ -1,6 +1,6 @@
 // pages/kinematics.tsx
 
-import React from 'react';
+import React from "react";
 
 const KinematicsPage: React.FC = () => {
   return (
@@ -36,10 +36,10 @@ const KinematicsPage: React.FC = () => {
 
       <h3 className="text-xl font-medium mt-4 mb-2">A. Translatory motion</h3>
       <p className="mb-4">
-        If all points of a moving object move uniformly in the same direction, such that there is no change in the object's orientation, the object is said to be undergoing translatory motion (also termed as translational motion).
+        If all points of a moving object move uniformly in the same direction, such that there is no change in the object&apos;s orientation, the object is said to be undergoing translatory motion (also termed as translational motion).
       </p>
       <p className="mb-4">
-        A basketball is shown in figure 2.1 as an example of translatory motion. All the three points 'P,' 'P,' and 'P,' move parallel to each other and there is no change in its orientation relative to a fixed point.
+        A basketball is shown in figure 2.1 as an example of translatory motion. All the three points &apos;P,&apos; &apos;P,&apos; and &apos;P,&apos; move parallel to each other and there is no change in its orientation relative to a fixed point.
       </p>
 
       <h3 className="text-xl font-medium mt-4 mb-2">B. Rotatory motion</h3>
@@ -47,7 +47,7 @@ const KinematicsPage: React.FC = () => {
         When an object rotates on its own axis (a line passing through the object), the object is said to be undergoing rotatory motion (also termed as rotational motion). A basketball in figure 2.2 is again shown as an illustration of rotational motion.
       </p>
       <p className="mb-4">
-        The point 'P' is rotated around an axis of rotation passing through the center of it.
+        The point &apos;P&apos; is rotated around an axis of rotation passing through the center of it.
       </p>
 
       <h3 className="text-xl font-medium mt-4 mb-2">C. Vibratory motion</h3>

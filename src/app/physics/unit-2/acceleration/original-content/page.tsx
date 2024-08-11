@@ -40,7 +40,7 @@ const AccelerationPage = () => {
             When an object is changing its velocity at the same rate each second, we call it uniform acceleration. A body has uniform acceleration if it has equal changes in velocity in equal intervals of time.
           </p>
           <p className="text-lg mb-4">
-            Non-uniform acceleration occurs when an object's velocity changes, but this change is not steady over time. In simple terms, the rate at which the object's velocity changes is not the same throughout its movement. Acceleration, which is the measure of velocity change, is therefore not constant in non-uniform acceleration. Understanding non-uniform acceleration is important in physics to explain the movement of objects affected by changing forces. This is a common and practical situation since many real-life scenarios involve forces that vary over time, resulting in non-uniform acceleration.
+            Non-uniform acceleration occurs when an object&apos;s velocity changes, but this change is not steady over time. In simple terms, the rate at which the object&apos;s velocity changes is not the same throughout its movement. Acceleration, which is the measure of velocity change, is therefore not constant in non-uniform acceleration. Understanding non-uniform acceleration is important in physics to explain the movement of objects affected by changing forces. This is a common and practical situation since many real-life scenarios involve forces that vary over time, resulting in non-uniform acceleration.
           </p>
         </section>
 
@@ -119,7 +119,7 @@ const AccelerationPage = () => {
         <section className="mb-6">
           <h2 className="text-2xl font-semibold mb-4">POINT TO PONDER</h2>
           <p className="text-lg mb-4">
-            The first scientist to measure speed as distance over time was Galileo. He dropped various objects of different masses from the Leaning Tower of Pisa. He found that all of them reached the ground at the same time. The acceleration of freely falling bodies is called gravitational acceleration or acceleration due to gravity denoted by 'g'.
+            The first scientist to measure speed as distance over time was Galileo. He dropped various objects of different masses from the Leaning Tower of Pisa. He found that all of them reached the ground at the same time. The acceleration of freely falling bodies is called gravitational acceleration or acceleration due to gravity denoted by &apos;g&apos;.
           </p>
         </section>
       </div>
