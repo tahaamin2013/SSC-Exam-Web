@@ -39,6 +39,7 @@ const SignificantFigures = () => {
           </section>
         </div>
 
+
         <section className="mt-12 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl shadow-xl p-8 text-white">
           <h2 className="text-3xl font-bold mb-6 border-b pb-2">III. Rules for Determining Significant Figures</h2>
           <ol className="list-decimal pl-6 space-y-4 text-lg">
