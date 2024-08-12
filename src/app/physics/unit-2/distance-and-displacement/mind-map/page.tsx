@@ -27,6 +27,7 @@ mindmapDiagram {
 *[#FFD700] Distance and Displacement
 left side
 ++[#FF6347] Distance
++++ always positive or zero because it measures the length between two points and cannot be negative
 +++[#FFA07A] Definition
 ++++_ The length of the path traveled between two positions
 ++++_ Scalar quantity (no direction)
