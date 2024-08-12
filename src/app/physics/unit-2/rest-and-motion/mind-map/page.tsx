@@ -79,6 +79,7 @@ mindmapDiagram {
 *** Translatory Motion <<translatory>>
 **** Rectilinear Motion
 **** Curvilinear Motion
+***** Circular motion is a special case of curvilinear motion
 **** Random Motion
 *** Rotatory Motion <<rotatory>>
 *** Vibratory Motion <<vibratory>>

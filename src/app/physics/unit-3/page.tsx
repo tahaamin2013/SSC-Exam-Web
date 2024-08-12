@@ -21,13 +21,13 @@ const data = [
         id: "2",
         title: "Newton's Laws of motion",
         links: [
-            { href: "/physics/unit-3/force/original-content", text: "Original Content", icon: List },
-            { href: "/physics/unit-3/force/notes", text: "Notes", icon: BookOpen },
-            { href: "/physics/unit-3/force/mind-map", text: "Mind Map", icon: Brain },
-            { href: "/physics/unit-3/force/quiz", text: "MCQs", icon: HelpCircle },
-            { href: "/physics/unit-3/force/brief-questions", text: "Brief Questions", icon: FileText },
-            { href: "/physics/unit-3/force/detailed-questions", text: "Detailed Questions", icon: List },
-                ],
+            { href: "/physics/unit-3/newtons-laws-of-motion/original-content", text: "Original Content", icon: List },
+            { href: "/physics/unit-3/newtons-laws-of-motion/notes", text: "Notes", icon: BookOpen },
+            { href: "/physics/unit-3/newtons-laws-of-motion/mind-map", text: "Mind Map", icon: Brain },
+            { href: "/physics/unit-3/newtons-laws-of-motion/quiz", text: "MCQs", icon: HelpCircle },
+            { href: "/physics/unit-3/newtons-laws-of-motion/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-3/newtons-laws-of-motion/detailed-questions", text: "Detailed Questions", icon: List },
+        ],
     },
 
     {
@@ -77,8 +77,11 @@ const data = [
             { href: "/physics/unit-3/quiz", text: "MCQS", icon: HelpCircle },
             { href: "/physics/unit-3/brief-questions", text: "Brief Questions", icon: FileText },
             { href: "/physics/unit-3/detailed-questions", text: "Detailed Questions", icon: List },
-            { href: "/physics/unit-3/content", text: "Content", icon: List },
-        ],
+            {
+                href: "/physics/unit-3/numerical",
+                text: "Numerical Questions",
+                icon: List,
+            },],
     },
 ];
 
