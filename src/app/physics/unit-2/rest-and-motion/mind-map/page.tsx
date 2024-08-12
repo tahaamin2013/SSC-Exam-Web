@@ -86,6 +86,28 @@ mindmapDiagram {
 @endmindmap
 `;
 
+const umlcode2 = `
+@startmindmap
+* Mechanics #red
+** Study of Motion #orange
+*** Objects are Moving #yellow
+**** People on Roads #lightgreen
+**** Vehicles #lightblue
+**** Celestial Objects #lightpink
+**** Earth's Motion #lightgray
+**** Atoms and Molecules #lightpurple
+** Physics #green
+*** Kinematics #blue
+**** Study of Motion #cyan
+***** Without Causes #magenta
+****** Greek Origin #lime
+******* Meaning: Motion #peach
+**** Focus #teal
+***** Motion of Objects #gold
+***** Ignoring Forces #lightcoral
+@endmindmap
+`
+
   const [zoomLevel, setZoomLevel] = useState(1);
   const zoomOut = () => setZoomLevel(prev => Math.max(prev - 0.1, 0.5));
   const zoomIn = () => setZoomLevel(prev => Math.min(prev + 0.1, 2));
@@ -124,6 +146,7 @@ mindmapDiagram {
         </tbody>
       </table>
 
+      <PlantUMLDiagram code={umlcode2} />
       <PlantUMLDiagram code={umlCode} />
 
     </div>
