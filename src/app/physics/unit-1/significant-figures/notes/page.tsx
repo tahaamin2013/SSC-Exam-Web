@@ -6,7 +6,7 @@ const SignificantFigures = () => {
   const [numberToRound, setNumberToRound] = useState(3.14159);
   const [result, setResult] = useState("");
 
-  const roundTo = (decimals) => {
+  const roundTo = (decimals: any) => {
     setResult(numberToRound.toFixed(decimals));
   };
 
