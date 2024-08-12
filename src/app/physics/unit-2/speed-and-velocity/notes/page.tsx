@@ -82,7 +82,7 @@ const SpeedVelocityNotes = () => {
                         <h2 className="text-2xl font-semibold text-purple-800 mb-4">Interesting Facts</h2>
                         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded-r-lg">
                             <ul className="list-disc pl-5 space-y-2">
-                                <li>Usain Bolt's top speed: 10.44 m/s or 37.58 km/h</li>
+                                <li>Usain Bolt&apos;s top speed: 10.44 m/s or 37.58 km/h</li>
                                 <li>Slowest animal (3-toed sloth): 0.00134112 m/s or 0.0048 km/h</li>
                                 <li>Fastest animal (Peregrine Falcon): 108.333 m/s or 390 km/h</li>
                                 <li>Speed of light: approximately 3×10⁸ m/s</li>

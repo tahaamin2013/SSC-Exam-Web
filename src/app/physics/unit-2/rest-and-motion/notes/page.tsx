@@ -23,11 +23,11 @@ const KinematicsNotes = () => {
                         <h2 className="text-2xl font-semibold text-blue-800 mb-4">Rest and Motion</h2>
                         <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-4">
                             <p className="text-blue-700">
-                                An object is at rest if it doesn't change position over time, and in motion if it does.
+                                An object is at rest if it doesn&apos;t change position over time, and in motion if it does.
                             </p>
                         </div>
                         <p className="text-gray-700 mb-2">
-                            Rest and motion are relative concepts and depend on the observer's frame of reference.
+                            Rest and motion are relative concepts and depend on the observer&apos;s frame of reference.
                         </p>
                     </section>
 

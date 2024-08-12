@@ -78,7 +78,7 @@ const AccelerationNotes = () => {
                     <section>
                         <h2 className="text-2xl font-semibold text-indigo-800 mb-4">Historical Note</h2>
                         <div className="bg-indigo-50 border-l-4 border-indigo-500 p-4 rounded-r-lg">
-                            <p><strong>Galileo's Contribution:</strong> First scientist to measure speed as distance over time. He discovered that objects of different masses fall at the same rate, introducing the concept of gravitational acceleration (g).</p>
+                            <p><strong>Galileo&apos;s Contribution:</strong> First scientist to measure speed as distance over time. He discovered that objects of different masses fall at the same rate, introducing the concept of gravitational acceleration (g).</p>
                         </div>
                     </section>
                 </div>

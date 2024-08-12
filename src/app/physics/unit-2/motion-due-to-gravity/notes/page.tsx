@@ -22,8 +22,8 @@ export default function GravityNotes() {
                 <h2 className="text-2xl font-semibold mb-3 text-blue-700">Key Points:</h2>
                 <ul className="list-disc pl-6 space-y-2">
                     <li>All freely falling objects have the same acceleration due to gravity (g), independent of their masses.</li>
-                    <li>Near Earth's surface, g ≈ 9.80 m/s² or 32.2 ft/s²</li>
-                    <li>Acceleration due to gravity is directed downward, toward the Earth's center.</li>
+                    <li>Near Earth&apos;s surface, g ≈ 9.80 m/s² or 32.2 ft/s²</li>
+                    <li>Acceleration due to gravity is directed downward, toward the Earth&apos;s center.</li>
                     <li>For large objects, air resistance is often neglected.</li>
                     <li>When an object moves with gravity: +g; against gravity: -g</li>
                 </ul>
