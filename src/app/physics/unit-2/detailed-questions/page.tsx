@@ -137,7 +137,7 @@ const QuestionDashboard = () => {
                                 **Freely Falling Bodies**: Objects that fall under the influence of gravity alone, with no other forces acting on them (e.g., air resistance is negligible).
                             </p>
                             <p>
-                                **Gravitational Acceleration (g)**: The acceleration experienced by an object due to the force of gravity. Near the Earth's surface, \( g \approx 9.8 \, \text﹛m / s﹜^2 \).
+                                **Gravitational Acceleration (g)**: The acceleration experienced by an object due to the force of gravity. Near the Earth&apos;s surface, \( g \approx 9.8 \, \text﹛m / s﹜^2 \).
                             </p>
                             <p>
                                 **Sign Conventions**: In the downward direction, \( g \) is positive, and in the upward direction, \( g \) is negative.
