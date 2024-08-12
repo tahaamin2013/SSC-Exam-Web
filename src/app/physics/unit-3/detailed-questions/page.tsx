@@ -23,13 +23,13 @@ const QuestionDashboard = () => {
                             State first law of motion. Explain with the help of examples. Why is it called law of inertia?
                         </AccordionTrigger>
                         <AccordionContent>
-                            Newton&apos;s First Law of Motion states: "An object at rest will remain at rest, and an object in motion will continue in motion at a constant velocity, unless acted upon by a net external force." This law is also known as the law of inertia, where inertia is the tendency of an object to resist changes in its state of motion.
+                            Newton&apos;s First Law of Motion states: &quot;An object at rest will remain at rest, and an object in motion will continue in motion at a constant velocity, unless acted upon by a net external force.&quot; This law is also known as the law of inertia, where inertia is the tendency of an object to resist changes in its state of motion.
 
                             **Examples:**
                             - A book lying on a table stays at rest until someone pushes it.
                             - A car moving at a steady speed will continue moving in the same direction unless the driver applies the brakes or turns the steering wheel.
 
-                            The term "law of inertia" is used because it describes the concept that objects will not change their motion unless an external force acts on them, highlighting the property of inertia.
+                            The term &quot;law of inertia&quot; is used because it describes the concept that objects will not change their motion unless an external force acts on them, highlighting the property of inertia.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -57,7 +57,7 @@ const QuestionDashboard = () => {
                             State and prove Newton&apos;s second law of motion. Deduce Newton&apos;s second law of motion from its first law?
                         </AccordionTrigger>
                         <AccordionContent>
-                            **Newton&apos;s Second Law of Motion** states: "The acceleration of an object is directly proportional to the net force acting on the object and inversely proportional to its mass." Mathematically, it is expressed as F = ma, where F is the force, m is the mass, and a is the acceleration.
+                            **Newton&apos;s Second Law of Motion** states: &quot;The acceleration of an object is directly proportional to the net force acting on the object and inversely proportional to its mass.&quot; Mathematically, it is expressed as F = ma, where F is the force, m is the mass, and a is the acceleration.
 
                             **Proof:**
                             - Consider an object with mass m subjected to a net force F, causing it to accelerate at rate a.
@@ -75,7 +75,7 @@ const QuestionDashboard = () => {
                             State Newton&apos;s 3rd law of motion. Explain with examples from daily life.
                         </AccordionTrigger>
                         <AccordionContent>
-                            **Newton&apos;s Third Law of Motion** states: "For every action, there is an equal and opposite reaction."
+                            **Newton&apos;s Third Law of Motion** states: &quot;For every action, there is an equal and opposite reaction.&quot;
 
                             **Examples:**
                             - **Walking:** When you walk, your foot exerts a backward force on the ground, and the ground exerts an equal and opposite forward force on your foot, propelling you forward.

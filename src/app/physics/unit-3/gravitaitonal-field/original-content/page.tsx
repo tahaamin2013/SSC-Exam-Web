@@ -19,7 +19,7 @@ const page = () => {
 
       <p className="mb-4">Since the gravitational field strength and the acceleration due to gravity are equal in magnitude, the same symbol, g, is used for both. Therefore, on Earth&apos;s surface, g = 9.8 N/kg [1] or g = 9.8 m/s² [2].</p>
 
-      <p className="mb-4"><strong>Gravitational field strength "g"</strong></p>
+      <p className="mb-4"><strong>Gravitational field strength &quot;g&quot;</strong></p>
       <h2 className="text-2xl font-bold text-blue-700 mb-4">TABLE 3.2: Gravitational Field Strength in the Solar System</h2>
 
       <table className="min-w-full bg-white border border-gray-300 rounded-lg shadow-md">

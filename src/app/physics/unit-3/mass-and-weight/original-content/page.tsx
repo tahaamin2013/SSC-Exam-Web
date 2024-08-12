@@ -88,7 +88,7 @@ const page = () => {
       <p className="mb-4">Putting values: W₂ = 8 kg × 1.625 m/s² = 13 kg m/s² = 13 N</p>
       <p className="mb-4"><strong>Answer:</strong> W₂ = 13 N</p>
 
-      <p className="mb-4">Due to the low value of "g" on the Moon&apos;s surface, it will be much easier for you to carry your bag to school. Similarly, it will be easier for you to do the routine work and you will not get tired easily on the Moon&apos;s surface.</p>
+      <p className="mb-4">Due to the low value of &quot;g&quot; on the Moon&apos;s surface, it will be much easier for you to carry your bag to school. Similarly, it will be easier for you to do the routine work and you will not get tired easily on the Moon&apos;s surface.</p>
     </div>
   )
 }
