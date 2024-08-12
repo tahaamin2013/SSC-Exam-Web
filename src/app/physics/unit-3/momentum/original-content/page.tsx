@@ -1,27 +1,27 @@
-import React from 'react'
+import React from "react"
 
 const page = () => {
   return (
-    <div className=' max-w-4xl mx-auto'> <h2 className="text-2xl font-bold text-blue-700 mb-4">Momentum and Impulse</h2>
+    <div className="max-w-4xl mx-auto"> <h2 className="text-2xl font-bold text-blue-700 mb-4">Momentum and Impulse</h2>
 
       <h3 className="text-xl font-semibold text-gray-800 mb-2">3.5 Momentum</h3>
-      <p className="mb-4">The product of an object's mass 'm' and velocity is called momentum, denoted by 'P'. Mathematically:</p>
+      <p className="mb-4">The product of an object&apos;s mass &apos;m&apos; and velocity is called momentum, denoted by &apos;P&apos;. Mathematically:</p>
       <pre className="bg-gray-200 p-4 rounded mb-4">
         p = mv
       </pre>
-      <p className="mb-4">Momentum is a vector quantity that points in the same direction as the velocity. The SI unit of momentum is kilogram-meter per second (kg·m/s) or newton-second (Ns). Newton's second law relates force and momentum.</p>
+      <p className="mb-4">Momentum is a vector quantity that points in the same direction as the velocity. The SI unit of momentum is kilogram-meter per second (kg·m/s) or newton-second (Ns). Newton&apos;s second law relates force and momentum.</p>
 
       <h4 className="font-bold text-gray-700 mb-2">Example 3.4: Golf Ball Momentum</h4>
       <p className="mb-4">A golfer hits a ball having a mass of 45 g. If after the shot, the ball travels with a speed of 80 m/s, what magnitude of momentum does the golfer impart to the ball?</p>
 
       <h4 className="font-bold text-gray-700 mb-2">Given:</h4>
       <ul className="list-disc list-inside mb-4">
-        <li>Mass of ball 'm' = 45 g = 0.045 kg</li>
-        <li>Velocity of ball 'v' = 80 m/s</li>
+        <li>Mass of ball &apos;m&apos; = 45 g = 0.045 kg</li>
+        <li>Velocity of ball &apos;v&apos; = 80 m/s</li>
       </ul>
 
       <h4 className="font-bold text-gray-700 mb-2">Required:</h4>
-      <p className="mb-4">Momentum of ball 'P' = ?</p>
+      <p className="mb-4">Momentum of ball &apos;P&apos; = ?</p>
 
       <h4 className="font-bold text-gray-700 mb-2">Solution:</h4>
       <p className="mb-4">From the mathematical form of linear momentum:</p>
@@ -36,11 +36,11 @@ const page = () => {
       <p className="mb-4">In order to increase the speed of the ball, the golfer needs to impart a greater momentum to the ball.</p>
 
       <h3 className="text-xl font-semibold text-gray-800 mb-2">3.5.1 Force and Change in Momentum</h3>
-      <p className="mb-4">A force 'F' produces acceleration 'a' in a body of mass 'm'. By Newton's second law of motion, it is written as:</p>
+      <p className="mb-4">A force &apos;F&apos; produces acceleration &apos;a&apos; in a body of mass &apos;m&apos;. By Newton&apos;s second law of motion, it is written as:</p>
       <pre className="bg-gray-200 p-4 rounded mb-4">
         F = ma
       </pre>
-      <p className="mb-4">The acceleration produced changes the velocity of the body from initial velocity 'v' to final velocity 'v' during time interval 'Δt'. Then by definition of acceleration:</p>
+      <p className="mb-4">The acceleration produced changes the velocity of the body from initial velocity &apos;v&apos; to final velocity &apos;v&apos; during time interval &apos;Δt&apos;. Then by definition of acceleration:</p>
       <pre className="bg-gray-200 p-4 rounded mb-4">
         a = Δv / Δt
       </pre>
@@ -51,7 +51,7 @@ const page = () => {
       </pre>
       <p className="mb-4">The time rate of change of linear momentum of a body is equal to the net force acting on the body. This means that for a sudden change in momentum, force is large and vice versa.</p>
 
-      <p className="mb-4">For example, catching a ball with your bare hands will hurt depending on the force of the ball. However, if you allow your hands to move with the ball as you catch it, the duration of time 'Δt' will increase, and the force will be smaller, and your hands will hurt less.</p>
+      <p className="mb-4">For example, catching a ball with your bare hands will hurt depending on the force of the ball. However, if you allow your hands to move with the ball as you catch it, the duration of time &apos;Δt&apos; will increase, and the force will be smaller, and your hands will hurt less.</p>
 
       <h4 className="font-bold text-gray-700 mb-2">Example 3.5: Force Required to Stop a Truck and Car</h4>
       <p className="mb-4">What is difficult to stop if their brakes fail and they are traveling from an inclined road:</p>
@@ -95,13 +95,13 @@ const page = () => {
       <p className="mb-4">Answer: The negative sign shows that force is applied opposite to the direction of motion (velocity).</p>
 
       <h3 className="text-xl font-semibold text-gray-800 mb-2">3.5.2 Impulse and Change in Momentum</h3>
-      <p className="mb-4">Newton's second law enables us to write the force and change in momentum relation as:</p>
+      <p className="mb-4">Newton&apos;s second law enables us to write the force and change in momentum relation as:</p>
       <pre className="bg-gray-200 p-4 rounded mb-4">
         F × Δt = Δp
       </pre>
-      <p className="mb-4">Equation 3.6 enables us to define a new quantity termed as 'impulse'. Impulse is the product of the force exerted on an object and the time interval over which the force acts, and is often given the symbol 'J'. Impulse is a vector quantity, and the direction of the impulse is the same as the direction of the force that causes it, and has the same SI units as momentum.</p>
+      <p className="mb-4">Equation 3.6 enables us to define a new quantity termed as &apos;impulse&apos;. Impulse is the product of the force exerted on an object and the time interval over which the force acts, and is often given the symbol &apos;J&apos;. Impulse is a vector quantity, and the direction of the impulse is the same as the direction of the force that causes it, and has the same SI units as momentum.</p>
 
-      <p className="mb-4">In many situations, the net force on the object is not constant, and the force applied to an object changes non-linearly during its time of application. The equation 3.8 still applies, provided the net force 'F' is equal to the average force acting on the object over the time interval Δt.</p>
+      <p className="mb-4">In many situations, the net force on the object is not constant, and the force applied to an object changes non-linearly during its time of application. The equation 3.8 still applies, provided the net force &apos;F&apos; is equal to the average force acting on the object over the time interval Δt.</p>
 
       <p className="mb-4">For example, when a batter hits a cricket ball, initially the force is very small. Within milliseconds, the force is large enough to deform the ball. The ball then begins to move by returning to its original shape and the force soon drops back to zero. The graph in figure 3.19 shows how the force changes with time. We can find the impulse by calculating the area under the curve in the force versus time graph.</p>
 
@@ -111,21 +111,21 @@ const page = () => {
       <p className="mb-4">A group of bodies or particles, under study, separated by a boundary is called a system.</p>
       <p className="mb-4">If the net external force on the system is zero, it is termed an isolated system. An isolated system is a collection of bodies that can interact with each other but whose interactions with the environment have no effect on their properties.</p>
 
-      <h3 className="text-xl font-semibold text-gray-800 mb-2">3.5.3 Newton's Laws and Conservation of Momentum</h3>
-      <p className="mb-4">For an isolated system, there is no net force acting ('F = 0'), therefore Newton's second law in terms of momentum (equation 3.8) can be written as:</p>
+      <h3 className="text-xl font-semibold text-gray-800 mb-2">3.5.3 Newton&apos;s Laws and Conservation of Momentum</h3>
+      <p className="mb-4">For an isolated system, there is no net force acting (&apos;F = 0&apos;), therefore Newton&apos;s second law in terms of momentum (equation 3.8) can be written as:</p>
       <pre className="bg-gray-200 p-4 rounded mb-4">
         ΔP = 0
       </pre>
-      <p className="mb-4">In the absence of external force (isolated system), the final momentum 'P' of the system must be equal to the initial momentum 'P'. If no net external force acts on a system of particles, the total momentum of the system cannot change. This enables us to write the law of conservation of momentum, which states:</p>
+      <p className="mb-4">In the absence of external force (isolated system), the final momentum &apos;P&apos; of the system must be equal to the initial momentum &apos;P&apos;. If no net external force acts on a system of particles, the total momentum of the system cannot change. This enables us to write the law of conservation of momentum, which states:</p>
       <pre className="bg-gray-200 p-4 rounded mb-4">
         The momentum of an isolated system remains constant.
       </pre>
 
-      <p className="mb-4">Consider an isolated system of a bullet of mass 'm' and a gun of mass 'M'. Before firing, the total initial momentum ('P₀') of the system is zero:</p>
+      <p className="mb-4">Consider an isolated system of a bullet of mass &apos;m&apos; and a gun of mass &apos;M&apos;. Before firing, the total initial momentum (&apos;P₀&apos;) of the system is zero:</p>
       <pre className="bg-gray-200 p-4 rounded mb-4">
         P₀ = 0
       </pre>
-      <p className="mb-4">After firing, the bullet moves with velocity 'v' in one direction and the rifle recoils with velocity 'V' in the other direction, such that the total final momentum ('P') is again zero:</p>
+      <p className="mb-4">After firing, the bullet moves with velocity &apos;v&apos; in one direction and the rifle recoils with velocity &apos;V&apos; in the other direction, such that the total final momentum (&apos;P&apos;) is again zero:</p>
       <pre className="bg-gray-200 p-4 rounded mb-4">
         P = 0
       </pre>
@@ -166,7 +166,7 @@ const page = () => {
         = - (0.017 kg × 350 m/s) / 3 kg
         = - 1.98 m/s
       </pre>
-      <p className="mb-4">The negative sign indicates the direction is opposite to that of the bullet's velocity. The gun will move in the opposite direction but with a smaller velocity compared to the bullet because of its greater mass than the bullet.</p>
+      <p className="mb-4">The negative sign indicates the direction is opposite to that of the bullet&apos;s velocity. The gun will move in the opposite direction but with a smaller velocity compared to the bullet because of its greater mass than the bullet.</p>
     </div>
   )
 }

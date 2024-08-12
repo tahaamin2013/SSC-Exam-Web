@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
     Accordion,
     AccordionContent,
@@ -23,7 +23,7 @@ const QuestionDashboard = () => {
                             State first law of motion. Explain with the help of examples. Why is it called law of inertia?
                         </AccordionTrigger>
                         <AccordionContent>
-                            Newton's First Law of Motion states: "An object at rest will remain at rest, and an object in motion will continue in motion at a constant velocity, unless acted upon by a net external force." This law is also known as the law of inertia, where inertia is the tendency of an object to resist changes in its state of motion.
+                            Newton&apos;s First Law of Motion states: "An object at rest will remain at rest, and an object in motion will continue in motion at a constant velocity, unless acted upon by a net external force." This law is also known as the law of inertia, where inertia is the tendency of an object to resist changes in its state of motion.
 
                             **Examples:**
                             - A book lying on a table stays at rest until someone pushes it.
@@ -54,10 +54,10 @@ const QuestionDashboard = () => {
                     {/* Question 3 */}
                     <AccordionItem value="item-3">
                         <AccordionTrigger>
-                            State and prove Newton's second law of motion. Deduce Newton's second law of motion from its first law?
+                            State and prove Newton&apos;s second law of motion. Deduce Newton&apos;s second law of motion from its first law?
                         </AccordionTrigger>
                         <AccordionContent>
-                            **Newton's Second Law of Motion** states: "The acceleration of an object is directly proportional to the net force acting on the object and inversely proportional to its mass." Mathematically, it is expressed as F = ma, where F is the force, m is the mass, and a is the acceleration.
+                            **Newton&apos;s Second Law of Motion** states: "The acceleration of an object is directly proportional to the net force acting on the object and inversely proportional to its mass." Mathematically, it is expressed as F = ma, where F is the force, m is the mass, and a is the acceleration.
 
                             **Proof:**
                             - Consider an object with mass m subjected to a net force F, causing it to accelerate at rate a.
@@ -72,10 +72,10 @@ const QuestionDashboard = () => {
                     {/* Question 4 */}
                     <AccordionItem value="item-4">
                         <AccordionTrigger>
-                            State Newton's 3rd law of motion. Explain with examples from daily life.
+                            State Newton&apos;s 3rd law of motion. Explain with examples from daily life.
                         </AccordionTrigger>
                         <AccordionContent>
-                            **Newton's Third Law of Motion** states: "For every action, there is an equal and opposite reaction."
+                            **Newton&apos;s Third Law of Motion** states: "For every action, there is an equal and opposite reaction."
 
                             **Examples:**
                             - **Walking:** When you walk, your foot exerts a backward force on the ground, and the ground exerts an equal and opposite forward force on your foot, propelling you forward.
@@ -87,13 +87,13 @@ const QuestionDashboard = () => {
                     {/* Question 5 */}
                     <AccordionItem value="item-5">
                         <AccordionTrigger>
-                            State the limitations of Newton's laws of motion.
+                            State the limitations of Newton&apos;s laws of motion.
                         </AccordionTrigger>
                         <AccordionContent>
-                            **Limitations of Newton's Laws of Motion:**
-                            - **Relativistic Speeds:** Newton’s laws are not accurate at speeds close to the speed of light. In such cases, Einstein's theory of relativity provides a more accurate description.
-                            - **Quantum Scales:** At atomic and subatomic scales, quantum mechanics is needed to describe motion, as Newton's laws do not apply.
-                            - **Non-Inertial Frames:** Newton's laws assume inertial reference frames. In non-inertial frames (accelerating frames), additional fictitious forces, like centrifugal forces, need to be considered.
+                            **Limitations of Newton&apos;s Laws of Motion:**
+                            - **Relativistic Speeds:** Newton’s laws are not accurate at speeds close to the speed of light. In such cases, Einstein&apos;s theory of relativity provides a more accurate description.
+                            - **Quantum Scales:** At atomic and subatomic scales, quantum mechanics is needed to describe motion, as Newton&apos;s laws do not apply.
+                            - **Non-Inertial Frames:** Newton&apos;s laws assume inertial reference frames. In non-inertial frames (accelerating frames), additional fictitious forces, like centrifugal forces, need to be considered.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -117,7 +117,7 @@ const QuestionDashboard = () => {
                             - **Strong Nuclear Force**
                             - **Weak Nuclear Force**
 
-                            **Dr. Abdus Salam's Contribution:**
+                            **Dr. Abdus Salam&apos;s Contribution:**
                             Dr. Abdus Salam, along with Sheldon Glashow and Steven Weinberg, developed the electroweak theory which unifies the electromagnetic force and the weak nuclear force into a single theoretical framework. This unification is a significant step towards understanding the fundamental forces of nature.
                         </AccordionContent>
                     </AccordionItem>
@@ -137,7 +137,7 @@ const QuestionDashboard = () => {
                             - **Frictional Force (if any):** An arrow pointing opposite to the direction of motion.
                             - **Applied Force (if any):** An arrow showing the direction of the applied force.
 
-                            The diagram helps in analyzing the forces to determine the object's motion or equilibrium.
+                            The diagram helps in analyzing the forces to determine the object&apos;s motion or equilibrium.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -173,7 +173,7 @@ const QuestionDashboard = () => {
                             **Mass:**
                             - Definition: The measure of the amount of matter in an object.
                             - Unit: Kilograms (kg).
-                            - It is constant regardless of the object's location.
+                            - It is constant regardless of the object&apos;s location.
 
                             **Weight:**
                             - Definition: The force exerted on an object due to gravity.
@@ -221,10 +221,10 @@ const QuestionDashboard = () => {
                     {/* Question 12 */}
                     <AccordionItem value="item-12">
                         <AccordionTrigger>
-                            State and prove Newton's second law of motion in terms of momentum.
+                            State and prove Newton&apos;s second law of motion in terms of momentum.
                         </AccordionTrigger>
                         <AccordionContent>
-                            **Newton's Second Law in Terms of Momentum:**
+                            **Newton&apos;s Second Law in Terms of Momentum:**
                             - **State:** The rate of change of momentum of an object is equal to the net force acting on it.
                             - **Mathematical Formulation:** F = dp/dt, where F is the force, and dp/dt is the rate of change of momentum.
 

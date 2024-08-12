@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
     Accordion,
     AccordionContent,
@@ -46,10 +46,10 @@ const Page = () => {
 
                     <AccordionItem value="item-4">
                         <AccordionTrigger>
-                            Deduce Newton's first law of motion from Newton's second law of motion.
+                            Deduce Newton&apos;s first law of motion from Newton&apos;s second law of motion.
                         </AccordionTrigger>
                         <AccordionContent>
-                            Newton's first law states that an object will remain at rest or in uniform motion unless acted upon by an external force. This is a special case of Newton's second law (F = ma), where if F = 0, the acceleration a = 0, meaning the object remains in its current state.
+                            Newton&apos;s first law states that an object will remain at rest or in uniform motion unless acted upon by an external force. This is a special case of Newton&apos;s second law (F = ma), where if F = 0, the acceleration a = 0, meaning the object remains in its current state.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -67,16 +67,16 @@ const Page = () => {
                             A man slips on the oily floor; he wants to move out of this area. He is alone. He throws his bag to move out of this slippery area. Why is it so?
                         </AccordionTrigger>
                         <AccordionContent>
-                            By throwing the bag, the man exerts a force on the bag, and due to Newton's third law, the bag exerts an equal and opposite force on him. This reaction force helps him gain momentum in the opposite direction, assisting him in moving out of the slippery area.
+                            By throwing the bag, the man exerts a force on the bag, and due to Newton&apos;s third law, the bag exerts an equal and opposite force on him. This reaction force helps him gain momentum in the opposite direction, assisting him in moving out of the slippery area.
                         </AccordionContent>
                     </AccordionItem>
 
                     <AccordionItem value="item-7">
                         <AccordionTrigger>
-                            How would you use Newton's 3rd law of motion and law of conservation of momentum to explain motion of rocket?
+                            How would you use Newton&apos;s 3rd law of motion and law of conservation of momentum to explain motion of rocket?
                         </AccordionTrigger>
                         <AccordionContent>
-                            A rocket's motion is explained by Newton's third law of motion: the rocket expels gas backward, and the gas exerts an equal and opposite force, propelling the rocket forward. The law of conservation of momentum ensures that the total momentum before and after the gas is expelled remains constant.
+                            A rocket&apos;s motion is explained by Newton&apos;s third law of motion: the rocket expels gas backward, and the gas exerts an equal and opposite force, propelling the rocket forward. The law of conservation of momentum ensures that the total momentum before and after the gas is expelled remains constant.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -103,7 +103,7 @@ const Page = () => {
                             When Ronaldo kicks the ball, at the highest point of ball both Earth and ball attract each other with the same magnitude of force. Why then the ball moves towards Earth and not the Earth?
                         </AccordionTrigger>
                         <AccordionContent>
-                            The ball moves towards the Earth because the Earth's mass is much larger, so the same magnitude of force results in a much smaller acceleration for the Earth compared to the ball, causing the ball to accelerate towards the Earth.
+                            The ball moves towards the Earth because the Earth&apos;s mass is much larger, so the same magnitude of force results in a much smaller acceleration for the Earth compared to the ball, causing the ball to accelerate towards the Earth.
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>

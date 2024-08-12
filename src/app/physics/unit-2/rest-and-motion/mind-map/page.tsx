@@ -88,23 +88,23 @@ mindmapDiagram {
 
 const umlcode2 = `
 @startmindmap
-* Mechanics #red
-** Study of Motion #orange
-*** Objects are Moving #yellow
-**** People on Roads #lightgreen
-**** Vehicles #lightblue
-**** Celestial Objects #lightpink
-**** Earth's Motion #lightgray
-**** Atoms and Molecules #lightpurple
-** Physics #green
-*** Kinematics #blue
-**** Study of Motion #cyan
-***** Without Causes #magenta
-****** Greek Origin #lime
-******* Meaning: Motion #peach
-**** Focus #teal
-***** Motion of Objects #gold
-***** Ignoring Forces #lightcoral
+*[#E60000] Mechanics
+**[#FF8C00] Study of Motion
+***[#FFA500] Objects are Moving
+****[#FFD700] People on Roads
+****[#FFD700] Vehicles
+****[#FFD700] Celestial Objects
+****[#FFD700] Earth's Motion
+****[#FFD700] Atoms and Molecules
+**[#4CAF50] Physics
+***[#45A049] Kinematics
+****[#3D8B40] Study of Motion
+*****[#357A38] Without Causes
+******[#2E6B31] Greek Origin
+*******[#265C29] Meaning: Motion
+****[#3D8B40] Focus
+*****[#357A38] Motion of Objects
+*****[#357A38] Ignoring Forces
 @endmindmap
 `
 

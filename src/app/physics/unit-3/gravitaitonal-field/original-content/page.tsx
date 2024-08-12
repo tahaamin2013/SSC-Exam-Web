@@ -1,23 +1,23 @@
-import React from 'react'
+import React from "react"
 
 const page = () => {
   return (
-    <div className='mx-auto my-4 max-w-4xl'>
+    <div className="mx-auto my-4 max-w-4xl">
       <h2 className="text-2xl font-bold text-blue-700 mb-4">3.4 Gravitational Field</h2>
 
       <p className="mb-4">The region around a non-contact force where a magnetic force is operative is termed as a <strong>magnetic field</strong>. Whereas, the region around a massive object (such as Earth, Sun, etc.) where gravitational force is operative is termed as a <strong>gravitational field</strong>.</p>
 
-      <p className="mb-4">The gravitational field strength is the amount of force per unit mass acting on objects in the gravitational field. The value of 'g' is equal to the magnitude of the gravitational force exerted on a unit mass at that point, mathematically:</p>
+      <p className="mb-4">The gravitational field strength is the amount of force per unit mass acting on objects in the gravitational field. The value of &apos;g&apos; is equal to the magnitude of the gravitational force exerted on a unit mass at that point, mathematically:</p>
 
-      <p className="mb-4">The gravitational field strength (g) is a vector with a magnitude of 'g' that points in the direction of the gravitational force.</p>
+      <p className="mb-4">The gravitational field strength (g) is a vector with a magnitude of &apos;g&apos; that points in the direction of the gravitational force.</p>
 
-      <p className="mb-4">The gravitational field strength 'g' for Earth is shown in figure 3.17. Since, from Newton's second law of motion:</p>
+      <p className="mb-4">The gravitational field strength &apos;g&apos; for Earth is shown in figure 3.17. Since, from Newton&apos;s second law of motion:</p>
 
       <p className="mb-4">Similarly:</p>
 
       <p className="mb-4">In SI units, gravitational field strength is measured in newtons per kilogram (N/kg). It is a vector quantity that has the direction downward or toward the center of Earth.</p>
 
-      <p className="mb-4">Since the gravitational field strength and the acceleration due to gravity are equal in magnitude, the same symbol, g, is used for both. Therefore, on Earth's surface, g = 9.8 N/kg [1] or g = 9.8 m/s² [2].</p>
+      <p className="mb-4">Since the gravitational field strength and the acceleration due to gravity are equal in magnitude, the same symbol, g, is used for both. Therefore, on Earth&apos;s surface, g = 9.8 N/kg [1] or g = 9.8 m/s² [2].</p>
 
       <p className="mb-4"><strong>Gravitational field strength "g"</strong></p>
       <h2 className="text-2xl font-bold text-blue-700 mb-4">TABLE 3.2: Gravitational Field Strength in the Solar System</h2>
