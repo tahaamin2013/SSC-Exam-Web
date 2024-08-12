@@ -54,7 +54,7 @@ const DistanceDisplacementNotes = () => {
                         <h2 className="text-2xl font-semibold text-green-800 mb-4">Point to Ponder</h2>
                         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4">
                             <p className="text-gray-800">
-                                The symbol Δ (Greek letter delta) is used to represent a 'change in' any quantity.
+                                The symbol Δ (Greek letter delta) is used to represent a &apos;change in&apos; any quantity.
                                 For example, elapsed time Δt is the difference between the ending time t₂ and beginning time t₁:
                             </p>
                             <p className="text-gray-800 font-mono mt-2">Δt = t₂ - t₁</p>
