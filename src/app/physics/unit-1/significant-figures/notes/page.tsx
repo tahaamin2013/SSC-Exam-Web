@@ -41,15 +41,52 @@ const SignificantFigures = () => {
 
 
         <section className="mt-12 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-xl shadow-xl p-8 text-white">
-          <h2 className="text-3xl font-bold mb-6 border-b pb-2">III. Rules for Determining Significant Figures</h2>
-          <ol className="list-decimal pl-6 space-y-4 text-lg">
-            <li>All digits from direct measurement are significant</li>
-            <li>All nonzero digits (1-9) are always significant</li>
-            <li>Zeros after decimal point before nonzero digits are not significant</li>
-            <li>Zeros between significant digits are significant</li>
-            <li>Trailing zeros after decimal point are significant</li>
-          </ol>
-        </section>
+  <h2 className="text-3xl font-bold mb-6 border-b pb-2">III. Rules for Determining Significant Figures</h2>
+  <ol className="list-decimal pl-6 space-y-4 text-lg">
+    <li>All digits from direct measurement are significant</li>
+    <li>
+      All nonzero digits (1-9) are always significant
+      <ul className="list-disc pl-6 mt-2 text-sm">
+        <li>27 has 2 significant digits</li>
+        <li>275 has 3 significant digits</li>
+      </ul>
+    </li>
+    <li>Zeros after decimal point before nonzero digits are not significant</li>
+    <li>
+      Zeros between significant digits are significant
+      <ul className="list-disc pl-6 mt-2 text-sm">
+        <li>2705 has 4 significant digits</li>
+      </ul>
+    </li>
+    <li>
+      Trailing zeros after decimal point are significant
+      <ul className="list-disc pl-6 mt-2 text-sm">
+        <li>275.00 has 5 significant digits</li>
+      </ul>
+    </li>
+    <li>
+      Zeros used for spacing the decimal point are not significant (placeholders only)
+      <ul className="list-disc pl-6 mt-2 text-sm">
+        <li>0.03 has 1 significant digit</li>
+        <li>0.027 has 2 significant digits</li>
+      </ul>
+    </li>
+    <li>
+      For large numbers, trailing zeros may or may not be significant
+      <ul className="list-disc pl-6 mt-2 text-sm">
+        <li>
+          In 84,000, the number of significant figures is ambiguous:
+          <ul className="list-circle pl-6 mt-1">
+            <li>It could be 2 significant figures (8.4 × 10^4)</li>
+            <li>It could be 3 significant figures (8.40 × 10^4)</li>
+            <li>It could be 5 significant figures (8.4000 × 10^4)</li>
+          </ul>
+        </li>
+        <li>To avoid ambiguity, use scientific notation or explicitly state the number of significant figures</li>
+      </ul>
+    </li>
+  </ol>
+</section>
 
         <section className="mt-12 bg-white rounded-xl shadow-lg p-6">
           <h2 className="text-2xl font-semibold mb-4 text-indigo-600">IV. Scientific Notation</h2>

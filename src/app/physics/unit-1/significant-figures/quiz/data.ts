@@ -36,7 +36,7 @@ export const quiz = {
       id: 6,
       question: "How many significant figures are in 0.0857?",
       answers: ["2", "3", "4", "5"],
-      correctAnswer: "4",
+      correctAnswer: "3",
     },
     {
       id: 7,
@@ -147,7 +147,7 @@ export const quiz = {
       id: 21,
       question: "What is the number of significant figures in 0.07683?",
       answers: ["3", "4", "5", "6"],
-      correctAnswer: "5",
+      correctAnswer: "4",
     },
     {
       id: 22,

@@ -24,6 +24,7 @@
     "lucide-react": "^0.416.0",
     "markdown-it": "^14.1.0",
     "markdown-it-plantuml": "^1.4.1",
+    "mathjs": "^13.0.3",
     "mermaid": "^10.9.1",
     "next": "14.2.5",
     "next-theme": "^0.1.5",
