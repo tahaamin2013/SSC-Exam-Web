@@ -1,6 +1,14 @@
+"use client"
 import React from 'react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
+const data = [
+    { time: 0, velocity: 0 },
+    { time: 2, velocity: 48 },
+    { time: 7, velocity: 48 },
+    { time: 10, velocity: 0 },
+];
 const Page = () => {
     return (
         <section id="problems" className="border mt-4 max-w-2xl mx-auto text-sm text-left sm:text-md mb-4 p-6">
@@ -181,6 +189,33 @@ const Page = () => {
                             <p>= 450 × 13.33</p>
                             <p>= 5998.5 ≈ 6000 m</p>
                             <p><strong>Result:</strong> Total distance traveled by the train ≈ 6000 m or 6 km</p>
+                            <h2 className="text-2xl font-bold mb-4 text-center">Train Velocity-Time Graph</h2>
+                            <ResponsiveContainer width="100%" height={400}>
+                                <LineChart
+                                    data={data}
+                                    margin={{
+                                        top: 5,
+                                        right: 30,
+                                        left: 20,
+                                        bottom: 5,
+                                    }}
+                                >
+                                    <CartesianGrid strokeDasharray="3 3" />
+                                    <XAxis
+                                        dataKey="time"
+                                        label={{ value: 'Time (minutes)', position: 'insideBottomRight', offset: -10 }}
+                                    />
+                                    <YAxis
+                                        label={{ value: 'Velocity (km/h)', angle: -90, position: 'insideLeft' }}
+                                    />
+                                    <Tooltip />
+                                    <Legend />
+                                    <Line type="linear" dataKey="velocity" stroke="#8884d8" activeDot={{ r: 8 }} />
+                                </LineChart>
+                            </ResponsiveContainer>
+                            <div className="mt-4 text-center">
+                                <p className="font-semibold">Total Distance: 6 km</p>
+                            </div>
                         </AccordionContent>
                     </AccordionItem>
 
@@ -248,7 +283,7 @@ const Page = () => {
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-1">
-                        <AccordionTrigger className="bg-blue-500 text-white p-4 rounded-md hover:bg-blue-600 transition duration-300">
+                        <AccordionTrigger>
                             When brakes are applied, the speed of a train decreases from 96 kmb to 48 kmh in 800 us. How much further will the train move before coming to rest? (Assuming the retardation to be constant)                        </AccordionTrigger>
                         <AccordionContent className="p-4 bg-white border border-gray-200 rounded-md shadow-sm">
                             <p className="text-lg font-semibold mb-2">
@@ -307,7 +342,7 @@ const Page = () => {
                     </AccordionItem>
                     {/* Problem 2.10 */}
                     <AccordionItem value="item-2">
-                        <AccordionTrigger className="bg-blue-500 text-white p-4 rounded-md hover:bg-blue-600 transition duration-300">
+                        <AccordionTrigger>
                             2.10 In the above problem, find the time taken by the train to stop after the application of the brakes.                        </AccordionTrigger>
                         <AccordionContent className="p-4 bg-white border border-gray-200 rounded-md shadow-sm">
                             <p className="text-lg font-semibold mb-2">
