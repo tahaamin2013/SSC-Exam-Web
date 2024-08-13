@@ -5,7 +5,7 @@ const NewtonLaws = () => {
     <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-2xl overflow-hidden">
         <div className="bg-indigo-600 py-6 px-8">
-          <h1 className="text-3xl font-extrabold text-white">Newton's Laws of Motion</h1>
+          <h1 className="text-3xl font-extrabold text-white">Newton&apos;s Laws of Motion</h1>
         </div>
 
         <div className="p-8 space-y-8">
@@ -13,13 +13,13 @@ const NewtonLaws = () => {
             <h2 className="text-2xl font-bold text-indigo-800 mb-4">Introduction</h2>
             <ul className="list-disc pl-5 text-gray-700 space-y-2">
               <li>Presented by Sir Isaac Newton in 1686</li>
-              <li>Published in "Philosophiæ Naturalis Principia Mathematica"</li>
+              <li>Published in &quot;Philosophiæ Naturalis Principia Mathematica&quot;</li>
             </ul>
           </section>
 
           {[
             {
-              title: "1. Newton's First Law of Motion",
+              title: "1. Newton&apos;s First Law of Motion",
               content: [
                 {
                   subtitle: "Statement",
@@ -41,14 +41,14 @@ const NewtonLaws = () => {
                 {
                   subtitle: "Applications",
                   list: [
-                    "Passengers' motion in vehicles",
+                    "Passengers&apos; motion in vehicles",
                     "Objects in space"
                   ]
                 }
               ]
             },
             {
-              title: "2. Newton's Second Law of Motion",
+              title: "2. Newton&apos;s Second Law of Motion",
               content: [
                 {
                   subtitle: "Statement",
@@ -76,7 +76,7 @@ const NewtonLaws = () => {
               ]
             },
             {
-              title: "3. Newton's Third Law of Motion",
+              title: "3. Newton&apos;s Third Law of Motion",
               content: [
                 {
                   subtitle: "Statement",
@@ -124,7 +124,7 @@ const NewtonLaws = () => {
           ))}
 
           <section className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
-            <h2 className="text-2xl font-bold text-indigo-800 mb-4">Limitations of Newton's Laws</h2>
+            <h2 className="text-2xl font-bold text-indigo-800 mb-4">Limitations of Newton&apos;s Laws</h2>
             <ol className="list-decimal pl-5 text-gray-700 space-y-2">
               <li>Not applicable at atomic scale (quantum mechanics applies)</li>
               <li>Not accurate for objects moving at speeds close to light speed (relativistic mechanics applies)</li>

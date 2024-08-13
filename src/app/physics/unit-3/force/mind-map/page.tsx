@@ -57,14 +57,14 @@ left side
                     <h3 className="text-xl font-semibold mb-2">1.1 Mass</h3>
                     <ul className="list-disc pl-5 mb-4">
                         <li>Definition: The amount of matter an object contains</li>
-                        <li>Characteristic: A measure of an object's inertia</li>
+                        <li>Characteristic: A measure of an object&apos;s inertia</li>
                         <li>Unit: Kilogram (kg)</li>
                     </ul>
 
                     <h3 className="text-xl font-semibold mb-2">1.2 Weight</h3>
                     <ul className="list-disc pl-5 mb-4">
                         <li>Definition: The gravitational force acting on a mass or object</li>
-                        <li>Calculation: Using Newton's second law</li>
+                        <li>Calculation: Using Newton&apos;s second law</li>
                         <li>Unit: Newton (N)</li>
                     </ul>
                 </div>
@@ -83,7 +83,7 @@ left side
                         <li>g = Acceleration due to gravity (m/s²)</li>
                     </ul>
 
-                    <h3 className="text-xl font-semibold mb-2">2.2 Earth's Surface</h3>
+                    <h3 className="text-xl font-semibold mb-2">2.2 Earth&apos;s Surface</h3>
                     <p className="mb-4">Acceleration due to gravity (g) ≈ 9.8 m/s²</p>
 
                     <h3 className="text-xl font-semibold mb-2">2.3 Variation by Location</h3>

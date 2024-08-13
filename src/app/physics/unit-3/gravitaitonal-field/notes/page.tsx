@@ -40,7 +40,7 @@ const GravitationalField = () => {
             <ul className="list-disc pl-5 mt-4 text-gray-700 space-y-2">
               <li>Measured in newtons per kilogram (N/kg)</li>
               <li>Vector quantity pointing toward the center of Earth</li>
-              <li>On Earth's surface: g = 9.8 N/kg or g = 9.8 m/s²</li>
+              <li>On Earth&apos;s surface: g = 9.8 N/kg or g = 9.8 m/s²</li>
             </ul>
           </section>
 

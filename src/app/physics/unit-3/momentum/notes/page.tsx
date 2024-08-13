@@ -7,7 +7,7 @@ const AcademicNotes = () => {
 
       <section className="mb-12 bg-white rounded-lg shadow-md p-6">
         <h2 className="text-2xl font-semibold mb-4 text-indigo-700">3.5 Momentum</h2>
-        <p className="mb-4">Momentum (p) is the product of an object's mass (m) and velocity (v):</p>
+        <p className="mb-4">Momentum (p) is the product of an object&apos;s mass (m) and velocity (v):</p>
         <div className="bg-gray-200 p-3 rounded-md text-center mb-4">
           <code className="text-lg font-mono">p = mv</code>
         </div>
@@ -25,7 +25,7 @@ const AcademicNotes = () => {
 
       <section className="mb-12 bg-white rounded-lg shadow-md p-6">
         <h2 className="text-2xl font-semibold mb-4 text-indigo-700">3.5.1 Force and Change in Momentum</h2>
-        <p className="mb-4">Newton's Second Law relates force and momentum:</p>
+        <p className="mb-4">Newton&apos;s Second Law relates force and momentum:</p>
         <div className="bg-gray-200 p-3 rounded-md text-center mb-4">
           <code className="text-lg font-mono">F = ma = m(Δv / Δt) = Δp / Δt</code>
         </div>

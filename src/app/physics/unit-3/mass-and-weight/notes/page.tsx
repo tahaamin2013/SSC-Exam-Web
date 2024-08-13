@@ -25,7 +25,7 @@ const MassAndWeight = () => {
 
           <section className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
             <h2 className="text-2xl font-bold text-blue-800 mb-4">Weight Calculation</h2>
-            <p className="text-gray-700 mb-4">On Earth's surface (g ≈ 9.80 m/s²):</p>
+            <p className="text-gray-700 mb-4">On Earth&apos;s surface (g ≈ 9.80 m/s²):</p>
             <div className="bg-gray-100 p-4 rounded-lg text-center">
               <p className="text-xl font-semibold text-blue-600">W = mg</p>
               <p className="text-gray-600 mt-2">Where: W = Weight, m = Mass, g = Acceleration due to gravity</p>
@@ -59,7 +59,7 @@ const MassAndWeight = () => {
             <h2 className="text-2xl font-bold text-blue-800 mb-4">Example: Weight on Earth vs Moon</h2>
             <div className="space-y-4">
               <p className="text-gray-700">Given: Mass of school bag = 8 kg</p>
-              <p className="text-gray-700">Earth's g = 9.8 m/s², Moon's g = 1.625 m/s²</p>
+              <p className="text-gray-700">Earth&apos;s g = 9.8 m/s², Moon&apos;s g = 1.625 m/s²</p>
               <div>
                 <h3 className="text-lg font-semibold text-blue-600">Weight on Earth:</h3>
                 <p className="text-gray-700">W₁ = 8 kg × 9.8 m/s² = 78.4 N</p>
