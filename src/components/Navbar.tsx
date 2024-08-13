@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Menu, X, ChevronDown } from 'lucide-react';
 
 const subjects = [
-  { name: 'Computer Science', href: '/computer-science' },
+  { name: 'Computer Science', href: '/computer-sicence' },
   { name: 'Physics', href: '/physics' },
   { name: 'Chemistry', href: '/chemistry' },
   { name: 'Islamic Studies', href: '/islamic-studies' },
