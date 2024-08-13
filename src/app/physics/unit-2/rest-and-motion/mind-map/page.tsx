@@ -87,7 +87,7 @@ mindmapDiagram {
 @endmindmap
 `;
 
-const umlcode2 = `
+  const umlcode2 = `
 @startmindmap
 *[#E60000] Mechanics
 **[#FF8C00] Study of Motion
@@ -95,7 +95,7 @@ const umlcode2 = `
 ****[#FFD700] People on Roads
 ****[#FFD700] Vehicles
 ****[#FFD700] Celestial Objects
-****[#FFD700] Earth's Motion
+****[#FFD700] Earth&apos;s Motion
 ****[#FFD700] Atoms and Molecules
 **[#4CAF50] Physics
 ***[#45A049] Kinematics

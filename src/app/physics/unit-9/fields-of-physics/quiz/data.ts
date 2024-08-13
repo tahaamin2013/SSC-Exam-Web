@@ -52,7 +52,7 @@ export const quiz = {
     {
       id: 5,
       question:
-        "Which field of physics studies everything in the universe beyond Earth's atmosphere?",
+        "Which field of physics studies everything in the universe beyond Earth&apos;s atmosphere?",
       answers: ["Cosmology", "Astrophysics", "Astronomy", "Geophysics"],
       correctAnswer: "Astronomy",
     },
@@ -70,7 +70,7 @@ export const quiz = {
         "The physical nature of stars and other celestial bodies",
         "The structure of the Earth",
         "The motion of macroscopic objects",
-        "The Earth's climate",
+        "The Earth&apos;s climate",
       ],
       correctAnswer: "The physical nature of stars and other celestial bodies",
     },
@@ -162,7 +162,7 @@ export const quiz = {
         "Studying light and its properties",
         "Using numerical analysis to solve complex physics problems",
         "Investigating the physical nature of stars",
-        "Analyzing the Earth's climate",
+        "Analyzing the Earth&apos;s climate",
       ],
       correctAnswer:
         "Using numerical analysis to solve complex physics problems",
@@ -170,7 +170,7 @@ export const quiz = {
     {
       id: 17,
       question:
-        "Which field of physics studies the Earth's structure and physical processes?",
+        "Which field of physics studies the Earth&apos;s structure and physical processes?",
       answers: [
         "Quantum Mechanics",
         "Geophysics",
@@ -185,10 +185,10 @@ export const quiz = {
       answers: [
         "The physical properties of light",
         "The motion of macroscopic objects",
-        "The Earth's climate",
+        "The Earth&apos;s climate",
         "The behavior of atomic nuclei",
       ],
-      correctAnswer: "The Earth's climate",
+      correctAnswer: "The Earth&apos;s climate",
     },
     {
       id: 19,
@@ -291,7 +291,7 @@ export const quiz = {
       id: 28,
       question: "What does the study of astronomy involve?",
       answers: [
-        "The Earth's structure",
+        "The Earth&apos;s structure",
         "The properties of sound",
         "Celestial objects and the universe",
         "The behavior of atomic nuclei",
@@ -306,7 +306,7 @@ export const quiz = {
     },
     {
       id: 30,
-      question: 
+      question:
         "Which field of physics combines computer science with physics?",
       answers: [
         "Quantum Mechanics",

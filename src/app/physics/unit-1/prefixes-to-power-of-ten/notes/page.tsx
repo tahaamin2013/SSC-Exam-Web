@@ -67,7 +67,7 @@ const sections: Section[] = [
         content: [
             "Sun's mass: 1.97 x 10^30 kg",
             "Hydrogen atom radius: 5 x 10^-11 m",
-            "Earth's age: 1.433 x 10^17 s",
+            "Earth&apos;s age: 1.433 x 10^17 s",
             "Paper thickness: 1 x 10^5 nm = 1 x 10^-4 m",
             "Pakistan power capacity: 4 x 10^4 MW",
             "Hard disk capacity: 30 x 10^12 bytes"

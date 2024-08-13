@@ -34,9 +34,9 @@ right side
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-6">Newton's Laws of Motion</h1>
+      <h1 className="text-3xl font-bold mb-6">Newton&apos;s Laws of Motion</h1>
 
-      <h2 className="text-2xl font-semibold mb-4">Summary of Newton's Laws</h2>
+      <h2 className="text-2xl font-semibold mb-4">Summary of Newton&apos;s Laws</h2>
       <div className="overflow-x-auto mb-8">
         <table className="min-w-full divide-y divide-gray-300">
           <thead>
@@ -66,7 +66,7 @@ right side
         </table>
       </div>
 
-      <h2 className="text-2xl font-semibold mb-4">Newton's Laws of Motion Mindmap</h2>
+      <h2 className="text-2xl font-semibold mb-4">Newton&apos;s Laws of Motion Mindmap</h2>
       <div className="transition-transform duration-300">
         <PlantUMLDiagram code={mindmapCode} />
       </div>

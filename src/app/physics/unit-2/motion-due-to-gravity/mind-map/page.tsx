@@ -14,7 +14,7 @@ left side
 * Motion Due to Gravity
 ** Acceleration due to Gravity (g)
 *** Same for all objects regardless of mass
-*** Directed downward towards Earth's center
+*** Directed downward towards Earth&apos;s center
 *** Value: g ≈ 9.80 m/s² or 32.2 ft/s²
 ** Air Resistance
 *** Large objects: Neglected

@@ -23,7 +23,7 @@ left side
 **** W = Weight (N)
 **** m = Mass (kg)
 **** g = Acceleration due to gravity (m/s²)
-*** On Earth's surface
+*** On Earth&apos;s surface
 **** g ≈ 9.8 m/s²
 *** Varies by location
 **** Less on Moon

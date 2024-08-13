@@ -4,7 +4,7 @@ export const quiz = {
     {
       id: 1,
       question:
-        "What is the approximate value of acceleration due to gravity near the Earth's surface?",
+        "What is the approximate value of acceleration due to gravity near the Earth&apos;s surface?",
       answers: ["9.8 m/s²", "32.2 m/s²", "10 m/s²", "5 m/s²"],
       correctAnswer: "9.8 m/s²",
     },

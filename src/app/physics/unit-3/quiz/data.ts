@@ -135,7 +135,7 @@ export const quiz = {
     {
       id: 17,
       question:
-        "An object of mass 1 kg placed at Earth's surface experiences a force of:",
+        "An object of mass 1 kg placed at Earth&apos;s surface experiences a force of:",
       answers: ["1 N", "9.8 N", "kg s", "any value"],
       correctAnswer: "9.8 N",
     },

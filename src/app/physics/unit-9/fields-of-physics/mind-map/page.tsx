@@ -9,7 +9,7 @@ import PlantUMLDiagram from "@/components/PlantUMLDiagram";
 // systems of the living body;
 // ** Astronomy
 // ***:study of everything in the universe
-// beyond Earth's atmosphere;
+// beyond Earth&apos;s atmosphere;
 // ** Astrophysics
 // ***:Study of celestical bodies
 // e.g. stars, planets, and galaxies;
@@ -42,7 +42,7 @@ import PlantUMLDiagram from "@/components/PlantUMLDiagram";
 // ***:study of structure of the Earth, physical processes,
 // and phenomena occurring especially in the Earth and in its vicinity;
 // ** Climate Physics
-// *** study of the Earth's climate
+// *** study of the Earth&apos;s climate
 // ** Classical Mechanics
 // ***:study of motion of macroscopic
 // objects under the action of forces;
@@ -86,11 +86,11 @@ and the construction of instruments that use or detect it;
 ****:study of structure of the Earth, physical processes,
 and phenomena occurring especially in the Earth and in its vicinity;
 *** Climate Physics
-****:study of the Earth's climate;
+****:study of the Earth&apos;s climate;
 ** Universe Studies
 *** Astronomy
 ****:study of everything in the universe
-beyond Earth's atmosphere;
+beyond Earth&apos;s atmosphere;
 *** Astrophysics
 ****:Study of celestical bodies
 e.g. stars, planets, and galaxies;

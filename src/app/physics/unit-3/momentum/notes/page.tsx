@@ -57,7 +57,7 @@ const AcademicNotes = () => {
           <code className="text-lg font-mono">ΔP = 0</code>
         </div>
         <p className="font-semibold mb-2">Law of Conservation of Momentum:</p>
-        <p className="italic mb-4">"The momentum of an isolated system remains constant."</p>
+        <p className="italic mb-4">&quot;The momentum of an isolated system remains constant.&quot;</p>
 
         <div className="bg-blue-100 border-l-4 border-blue-500 p-4">
           <h3 className="font-semibold text-lg mb-2">Application: Rocket Propulsion</h3>
