@@ -147,7 +147,7 @@ const Page = () => {
                             The total length/separation of a path between two points is known as distance between those points.
                             <br /><strong>Quantity:</strong> It is a scalar quantity.
                             <br /><strong>Unit:</strong> Its unit is meter (m).
-                            <br /><strong>Representation:</strong> It is represented by "S".
+                            <br /><strong>Representation:</strong> It is represented by &quot;S&quot;.
                         </AccordionContent>
                     </AccordionItem>
 
