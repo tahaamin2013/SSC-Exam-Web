@@ -158,7 +158,7 @@ const Page = () => {
                             The shortest path between two points is called displacement.
                             <br /><strong>Quantity:</strong> It is a vector quantity.
                             <br /><strong>Unit:</strong> The unit of displacement is meter (m).
-                            <br /><strong>Representation:</strong> It is represented by "d."
+                            <br /><strong>Representation:</strong> It is represented by &quot;d.&quot;
                         </AccordionContent>
                     </AccordionItem>
 
@@ -169,7 +169,7 @@ const Page = () => {
                             The distance covered by a moving body in unit time is called speed.
                             <br /><strong>Quantity:</strong> It is a scalar quantity.
                             <br /><strong>Unit:</strong> Its SI unit is meter per second (m/s).
-                            <br /><strong>Representation:</strong> It is represented by "v".
+                            <br /><strong>Representation:</strong> It is represented by &quot;v&quot;.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -224,7 +224,7 @@ const Page = () => {
                     <AccordionItem value="item-22">
                         <AccordionTrigger>Q22. Define acceleration.</AccordionTrigger>
                         <AccordionContent>
-                            The rate of change of velocity of a body with respect to time is called acceleration. It is represented by "a."
+                            The rate of change of velocity of a body with respect to time is called acceleration. It is represented by &quot;a.&quot;
                             <br /><strong>Mathematical Form:</strong> Acceleration = Change in velocity / Time taken.
                             <br /><strong>Quantity:</strong> It is a vector quantity.
                             <br /><strong>Unit:</strong> SI unit of acceleration is meter per second squared (m/s²).
@@ -253,7 +253,7 @@ const Page = () => {
                     <AccordionItem value="item-25">
                         <AccordionTrigger>Q25. Define momentum.</AccordionTrigger>
                         <AccordionContent>
-                            Momentum is the product of mass and velocity of a body. It is represented by "p".
+                            Momentum is the product of mass and velocity of a body. It is represented by &quot;p&quot;.
                             <br /><strong>Mathematical Form:</strong> Momentum = Mass x Velocity.
                             <br /><strong>Quantity:</strong> It is a vector quantity.
                             <br /><strong>Unit:</strong> SI unit of momentum is kilogram meter per second (kg m/s).
@@ -282,9 +282,9 @@ const Page = () => {
 
                     {/* Question 28 */}
                     <AccordionItem value="item-28">
-                        <AccordionTrigger>Q28. What is Newton's First Law of Motion?</AccordionTrigger>
+                        <AccordionTrigger>Q28. What is Newton&apos;s First Law of Motion?</AccordionTrigger>
                         <AccordionContent>
-                            Newton's First Law of Motion states that an object will remain at rest or in uniform motion in a straight line unless acted upon by an external force.
+                            Newton&apos;s First Law of Motion states that an object will remain at rest or in uniform motion in a straight line unless acted upon by an external force.
                             <br /><strong>Example:</strong> A book lying on a table will remain at rest until someone pushes it.
                         </AccordionContent>
                     </AccordionItem>
@@ -300,18 +300,18 @@ const Page = () => {
 
                     {/* Question 30 */}
                     <AccordionItem value="item-30">
-                        <AccordionTrigger>Q30. What is Newton's Second Law of Motion?</AccordionTrigger>
+                        <AccordionTrigger>Q30. What is Newton&apos;s Second Law of Motion?</AccordionTrigger>
                         <AccordionContent>
-                            Newton's Second Law of Motion states that the rate of change of momentum of an object is directly proportional to the applied force and occurs in the direction of the force.
+                            Newton&apos;s Second Law of Motion states that the rate of change of momentum of an object is directly proportional to the applied force and occurs in the direction of the force.
                             <br /><strong>Mathematical Form:</strong> Force = Mass x Acceleration.
                         </AccordionContent>
                     </AccordionItem>
 
                     {/* Question 31 */}
                     <AccordionItem value="item-31">
-                        <AccordionTrigger>Q31. What is Newton's Third Law of Motion?</AccordionTrigger>
+                        <AccordionTrigger>Q31. What is Newton&apos;s Third Law of Motion?</AccordionTrigger>
                         <AccordionContent>
-                            Newton's Third Law of Motion states that for every action, there is an equal and opposite reaction.
+                            Newton&apos;s Third Law of Motion states that for every action, there is an equal and opposite reaction.
                             <br /><strong>Example:</strong> When you jump off a small boat into water, the boat moves in the opposite direction.
                         </AccordionContent>
                     </AccordionItem>
