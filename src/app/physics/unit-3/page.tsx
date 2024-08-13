@@ -76,6 +76,7 @@ const data = [
             { href: "/physics/unit-3/summary", text: "Summary", icon: BookOpen },
             { href: "/physics/unit-3/quiz", text: "MCQS", icon: HelpCircle },
             { href: "/physics/unit-3/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-3/brief-questions2", text: "Brief Questions 2", icon: FileText },
             { href: "/physics/unit-3/detailed-questions", text: "Detailed Questions", icon: List },
             {
                 href: "/physics/unit-3/numerical",

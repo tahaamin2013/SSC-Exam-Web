@@ -188,5 +188,105 @@ export const quiz = {
       answers: ["31.25 m", "250 m", "500 m", "5000 m"],
       correctAnswer: "250 m",
     },
+    {
+      id: 23,
+      question: "A body has translatory motion if it moves along a:",
+      answers: [
+        "Straight line",
+        "Circle",
+        "Straight line without rotation",
+        "All of these",
+      ],
+      correctAnswer: "Straight line without rotation",
+    },
+    {
+      id: 24,
+      question: "The motion of a body around an axis is called motion:",
+      answers: ["Circular", "Rotatory", "Vibratory", "Random"],
+      correctAnswer: "Rotatory",
+    },
+    {
+      id: 25,
+      question: "Which of the following is a vector quantity?",
+      answers: ["Speed", "Distance", "Displacement", "Power"],
+      correctAnswer: "Displacement",
+    },
+    {
+      id: 26,
+      question:
+        "If an object is moving with constant speed then its distance-time graph will be a straight line:",
+      answers: [
+        "Along time-axis",
+        "Along distance-axis",
+        "Parallel to time-axis",
+        "Inclined to time-axis",
+      ],
+      correctAnswer: "Inclined to time-axis",
+    },
+    {
+      id: 27,
+      question:
+        "A straight line parallel to time-axis on a distance-time graph tells that the object is:",
+      answers: [
+        "Moving with constant speed",
+        "At rest",
+        "Moving with variable speed",
+        "In motion",
+      ],
+      correctAnswer: "At rest",
+    },
+    {
+      id: 28,
+      question:
+        "The speed-time graph of a car is shown in the figure, which of the following statement is true?",
+      answers: [
+        "Car has an acceleration of 1.5 m/s²",
+        "Car has constant speed of 7.5 m/s",
+        "Distance travelled by the car is 75 m",
+        "Average speed of the car is 25 m/s",
+      ],
+      correctAnswer: "Distance travelled by the car is 75 m",
+    },
+    {
+      id: 29,
+      question:
+        "Which of the following graphs is representing uniform acceleration?",
+      answers: ["Graph A", "Graph B", "Graph C", "Graph D"],
+      correctAnswer: "Graph A", // Assuming Graph A represents uniform acceleration
+    },
+    {
+      id: 30,
+      question:
+        "By dividing displacement of a moving body with time, we obtain:",
+      answers: ["Speed", "Acceleration", "Velocity", "Deceleration"],
+      correctAnswer: "Velocity",
+    },
+    {
+      id: 31,
+      question:
+        "A ball is thrown vertically upward. Its velocity at the highest point is:",
+      answers: ["-10 m/s²", "Zero", "10 m/s", "None of these"],
+      correctAnswer: "Zero",
+    },
+    {
+      id: 32,
+      question: "A change in position is called:",
+      answers: ["Speed", "Velocity", "Displacement", "Distance"],
+      correctAnswer: "Displacement",
+    },
+    {
+      id: 33,
+      question:
+        "A train is moving at a speed of 36 km/h. Its speed expressed in m/s is:",
+      answers: ["10 m/s", "20 m/s", "25 m/s", "30 m/s"],
+      correctAnswer: "10 m/s",
+    },
+    {
+      id: 34,
+      question:
+        "A car starts from rest. It acquires a speed of 25 m/s after 20 s. The distance moved by the car during this time is:",
+      answers: ["31.25 m", "250 m", "500 m", "5000 m"],
+      correctAnswer: "250 m",
+    },
   ],
 };

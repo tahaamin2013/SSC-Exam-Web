@@ -47,7 +47,7 @@ right side
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">2.4 ACCELERATION</h1>
+      <h1 className="text-2xl font-bold mb-4">Motion due to gravity</h1>
       <div className="overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-300">
           <thead className="bg-blue-100 text-blue-700">
