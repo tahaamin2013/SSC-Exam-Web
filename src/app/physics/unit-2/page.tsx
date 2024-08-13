@@ -82,7 +82,7 @@ const data = [
     title: "Chapter Round up",
     links: [
       { href: "/physics/unit-2/quiz", text: "MCQS", icon: HelpCircle },
-      { href: "/physics/uni t-2/quiz2", text: "MCQS 2", icon: HelpCircle },
+      { href: "/physics/unit-2/quiz2", text: "MCQS 2", icon: HelpCircle },
       { href: "/physics/unit-2/mini-excersise", text: "Mini Excersise", icon: HelpCircle },
       { href: "/physics/unit-2/problems", text: "Problems", icon: HelpCircle },
       { href: "/physics/unit-2/textbook-excersise-questions", text: "TextBook Excersise Questions", icon: HelpCircle },
