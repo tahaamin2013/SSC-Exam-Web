@@ -6,6 +6,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import PlantUMLDiagram from "@/components/PlantUMLDiagram";
+import Image from 'next/image'
 
 const Page = () => {
   const q1 = `
@@ -26,7 +27,7 @@ const Page = () => {
 @endmindmap
 `;
 
-const q2 = `
+  const q2 = `
 @startmindmap
 * Dynamics
 ** Definition
@@ -36,9 +37,9 @@ const q2 = `
 *** Forces
 *** Motion of bodies
 @endmindmap
-`
+`;
 
-const q3 = `
+  const q3 = `
 @startmindmap
 * Study of Motion
 ** Kinematics
@@ -50,9 +51,9 @@ const q3 = `
 **** Deals with forces
 **** Studies action of forces on motion of bodies
 @endmindmap
-`
+`;
 
-const q4 = `
+  const q4 = `
 @startmindmap
 * State of Rest
 ** Body
@@ -63,9 +64,9 @@ const q4 = `
 ** Conditions for Rest
 *** Position fixed relative to surroundings
 @endmindmap
-`
+`;
 
-const q5 = `
+  const q5 = `
 @startmindmap
 * Motion
 ** Definition
@@ -78,9 +79,9 @@ const q5 = `
 ** Types
 *** Linear
 *** Rotational
-@endmindmap`
+@endmindmap`;
 
-const q6 = `
+  const q6 = `
 @startmindmap
 * Relative Motion
 ** Definition
@@ -92,9 +93,9 @@ const q6 = `
 ** Key Factors
 *** Frame of reference
 *** Observer's position
-@endmindmap`
+@endmindmap`;
 
-const q7 = `
+  const q7 = `
 @startmindmap
 * Rotatory Motion
 ** Definition
@@ -106,9 +107,9 @@ const q7 = `
 *** Wheel spinning around its axis
 *** Steering wheel turning
 *** Ceiling electric fan blades spinning
-@endmindmap`
+@endmindmap`;
 
-const q8 = `
+  const q8 = `
 @startmindmap
 * Types of Motion
 ** Circular Motion
@@ -116,9 +117,9 @@ const q8 = `
 ** Rotatory Motion
 *** Axis of rotation passes through the body
 @endmindmap
-`
+`;
 
-const q9 = `
+  const q9 = `
 @startmindmap
 * Vibratory Motion
 ** Definition
@@ -131,9 +132,9 @@ const q9 = `
 *** Hammer of a ringing electric bell
 *** Strings of a sitar
 @endmindmap
-`
+`;
 
-const q10 = `
+  const q10 = `
 @startmindmap
 * Physical Quantities
 ** Scalar
@@ -158,9 +159,9 @@ const q10 = `
 **** Momentum
 **** Torque
 @endmindmap
-`
+`;
 
-const q11 = `
+  const q11 = `
 @startmindmap
 * Vectors and Direction
 ** Importance
@@ -172,8 +173,8 @@ const q11 = `
 *** Magnitude (e.g., distance)
 *** Direction
 @endmindmap
-`
-const q12 = `
+`;
+  const q12 = `
 @startmindmap
 * Vector Representation
 ** Symbolic
@@ -183,8 +184,8 @@ const q12 = `
 *** Line segment with arrowhead
 **** Length represents magnitude
 **** Direction of line shows vector direction
-@endmindmap`
-const q13 = `
+@endmindmap`;
+  const q13 = `
 @startmindmap
 * Position
 ** Definition
@@ -197,8 +198,8 @@ const q13 = `
 **** Home (H) is origin
 **** School (S) is position
 **** Represented by straight line from H to S
-@endmindmap`
-const q14 = `
+@endmindmap`;
+  const q14 = `
 @startmindmap
 * Distance
 ** Definition
@@ -209,8 +210,8 @@ const q14 = `
 *** Meter (m)
 ** Representation
 *** Symbol: S
-@endmindmap`
-const q15 = `
+@endmindmap`;
+  const q15 = `
 @startmindmap
 * Displacement
 ** Definition
@@ -221,9 +222,9 @@ const q15 = `
 *** Meter (m)
 ** Representation
 *** Symbol: d
-@endmindmap`
+@endmindmap`;
 
-const q16 = `
+  const q16 = `
 @startmindmap
 * Speed
 ** Definition
@@ -235,8 +236,8 @@ const q16 = `
 ** Representation
 *** Symbol: v
 @endmindmap
-`
-const q17 = `
+`;
+  const q17 = `
 @startmindmap
 * Average Speed
 ** Definition
@@ -244,8 +245,8 @@ const q17 = `
 ** Formula
 *** Average speed = Total distance / Total time
 @endmindmap
-`
-const q18 = `
+`;
+  const q18 = `
 @startmindmap
 * Instantaneous Speed
 ** Definition
@@ -253,8 +254,8 @@ const q18 = `
 ** Example
 *** Speedometer reading in a car
 @endmindmap
-`
-const q19 = `
+`;
+  const q19 = `
 @startmindmap
 * Velocity
 ** Definition
@@ -266,8 +267,8 @@ const q19 = `
 ** Mathematical Form
 *** Velocity = Displacement / Time
 @endmindmap
-`
-const q20 = `
+`;
+  const q20 = `
 @startmindmap
 * Uniform Velocity
 ** Definition
@@ -275,8 +276,8 @@ const q20 = `
 ** Example
 *** Car moving in straight line with constant speed
 @endmindmap
-`
-const q21 = `
+`;
+  const q21 = `
 @startmindmap
 * Variable Velocity
 ** Definition
@@ -285,8 +286,8 @@ const q21 = `
 ** Example
 *** Car moving on curved path with uniform speed
 @endmindmap
-`
-const q22 = `
+`;
+  const q22 = `
 @startmindmap
 * Acceleration (a)
 ** Definition
@@ -298,8 +299,8 @@ const q22 = `
 ** Unit
 *** SI unit: meter per second squared (m/s²)
 @endmindmap
-`
-const q23 = `
+`;
+  const q23 = `
 @startmindmap
 * Uniform Acceleration
 ** Definition
@@ -308,10 +309,10 @@ const q23 = `
 ** Example
 *** Ball rolling down an inclined plane
 @endmindmap
-`
+`;
 
   return (
-    <section    
+    <section
       id="FAQ"
       className="border mt-4 max-w-2xl mx-auto text-sm text-left sm:text-md mb-4 p-6"
     >
@@ -391,7 +392,6 @@ const q23 = `
               bus. But to an observer outside the bus, the passengers and
               objects are in motion because they are changing their positions.
               <PlantUMLDiagram code={q6} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -412,7 +412,6 @@ const q23 = `
               <br />- The axis of rotation is a line around which a body
               rotates.
               <PlantUMLDiagram code={q7} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -427,9 +426,9 @@ const q23 = `
               <br />
               <strong>Rotatory Motion:</strong> The line around which a body
               moves about passes through the body itself.
-            <PlantUMLDiagram code={q8} />
+              <PlantUMLDiagram code={q8} />
+              <Image src="/Rotation-and-Revolution.gif" alt="Rotation And Revolution" width={400} height={400} />
             </AccordionContent>
-
           </AccordionItem>
 
           {/* Question 9 */}
@@ -451,7 +450,6 @@ const q23 = `
               - Motion of the hammer of a ringing electric bell
               <br />- Motion of the strings of a sitar
               <PlantUMLDiagram code={q9} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -474,7 +472,6 @@ const q23 = `
               <strong>Examples of Vectors:</strong> Velocity, force,
               displacement, momentum, torque, etc.
               <PlantUMLDiagram code={q10} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -489,7 +486,6 @@ const q23 = `
               insufficient to locate that place. The direction of that place
               from the reference point is also necessary to locate it.
               <PlantUMLDiagram code={q11} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -508,7 +504,6 @@ const q23 = `
               the line gives the magnitude of the vector, and the direction of
               the line gives the direction of the vector.
               <PlantUMLDiagram code={q12} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -524,7 +519,6 @@ const q23 = `
               your school from your home, the position will be represented by a
               straight line from your home (H) to the school (S).
               <PlantUMLDiagram code={q13} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -542,7 +536,6 @@ const q23 = `
               <strong>Representation:</strong> It is represented by
               &quot;S&quot;.
               <PlantUMLDiagram code={q14} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -561,7 +554,6 @@ const q23 = `
               <strong>Representation:</strong> It is represented by
               &quot;d.&quot;
               <PlantUMLDiagram code={q15} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -592,7 +584,6 @@ const q23 = `
               <strong>Formula:</strong> Average speed = Total distance / Total
               time.
               <PlantUMLDiagram code={q17} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -608,7 +599,6 @@ const q23 = `
               <strong>Example:</strong> Speedometer reading in a car shows the
               instantaneous speed of the car at any particular instant.
               <PlantUMLDiagram code={q18} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -627,7 +617,6 @@ const q23 = `
               <strong>Mathematical Form:</strong> Velocity = Displacement /
               Time.
               <PlantUMLDiagram code={q19} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -641,7 +630,6 @@ const q23 = `
               <strong>Example:</strong> A car moving in a straight line with
               constant speed.
               <PlantUMLDiagram code={q20} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -656,7 +644,6 @@ const q23 = `
               <strong>Example:</strong> A car moving on a curved path with
               uniform speed.
               <PlantUMLDiagram code={q21} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -675,7 +662,6 @@ const q23 = `
               <strong>Unit:</strong> SI unit of acceleration is meter per second
               squared (m/s²).
               <PlantUMLDiagram code={q22} />
-
             </AccordionContent>
           </AccordionItem>
 
@@ -692,7 +678,6 @@ const q23 = `
               <strong>Example:</strong> Motion of a ball rolling down an
               inclined plane.
               <PlantUMLDiagram code={q23} />
-
             </AccordionContent>
           </AccordionItem>
         </Accordion>
