@@ -10,11 +10,15 @@ const KinematicsPage = () => {
     }, []);
     const mindmapCode = `
 @startmindmap
+* Point to Ponder
+***:He discovered that objects of
+different masses fall at the same rate;
 * Acceleration
 left side
 ** Definition
 *** Change in velocity (Δv) over time (Δt)
 *** Formula: a = Δv / Δt
+*** Galileo Galilei was the first to relate speed to distance and time.
 ** Vector Quantity
 *** Direction same as change in velocity
 *** SI Unit: m/s²
@@ -23,11 +27,16 @@ left side
 *** Negative (Deceleration): Decrease in velocity
 right side
 ** Uniform Acceleration
+*** not steady over time
 *** Equal changes in velocity in equal time intervals
 *** Example: Constant acceleration
 ** Non-uniform Acceleration
 *** Velocity changes at varying rates over time
 *** Common in real-life scenarios
+*** Constant Rate
+***:If you walk at different speeds, sometimes fast
+and sometimes slow, your movement is non-uniform because
+it's not steady or consistent;
 ** Example 2.4: Acceleration of Cheetah
 *** Given
 **** Initial velocity (v₁): 0 m/s (East)
