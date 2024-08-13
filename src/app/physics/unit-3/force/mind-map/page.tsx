@@ -1,105 +1,96 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import mermaid from 'mermaid';
 import PlantUMLDiagram from '@/components/PlantUMLDiagram';
 
-const MassAndWeightNotes = () => {
-    const [activeTab, setActiveTab] = useState('definitions');
+const DynamicsPage = () => {
+    useEffect(() => {
+        mermaid.initialize({ startOnLoad: true });
+        mermaid.contentLoaded();
+    }, []);
 
     const mindmapCode = `
 @startmindmap
-* Mass and Weight
+* Forces
 right side
-** Mass
-*** Amount of matter
-*** Measure of inertia
-*** Unit: Kilogram (kg)
-** Weight
-*** Gravitational force
-*** Calculated using Newton's 2nd law
-*** Unit: Newton (N)
-left side 
-** Relationship
-*** Formula: W = mg
-**** W = Weight (N)
-**** m = Mass (kg)
-**** g = Acceleration due to gravity (m/s²)
-*** On Earth&apos;s surface
-**** g ≈ 9.8 m/s²
-*** Varies by location
-**** Less on Moon
-**** More on Jupiter
+** Contact Forces
+*** Normal Force
+*** Thrust
+*** Friction
+*** Tension
+*** Elastic Forces
+** Non-Contact Forces
+*** Gravitational Force
+*** Electrostatic Force
+*** Magnetic Force
+left side
+** Fundamental Forces
+*** Strong Nuclear Force
+*** Electromagnetic Force
+*** Gravitational Force
+*** Weak Nuclear Force
 @endmindmap
 `;
 
-    return (
-        <div className="container mx-auto p-4">
-            <h1 className="text-3xl font-bold mb-6">Mass and Weight: Academic Notes</h1>
+    const [zoomLevel, setZoomLevel] = useState(1);
+    const zoomOut = () => setZoomLevel(prev => Math.max(prev - 0.1, 0.5));
+    const zoomIn = () => setZoomLevel(prev => Math.min(prev + 0.1, 2));
 
-            <div className="mb-4">
-                <button
-                    onClick={() => setActiveTab('definitions')}
-                    className={`px-4 py-2 mr-2 ${activeTab === 'definitions' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-                >
-                    Definitions
-                </button>
-                <button
-                    onClick={() => setActiveTab('relationship')}
-                    className={`px-4 py-2 ${activeTab === 'relationship' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-                >
-                    Relationship
-                </button>
+    return (
+        <div className="container overflow-x-hidden mx-auto p-4">
+            <h1 className="text-3xl font-bold mb-6">Dynamics - Forces</h1>
+
+            <h2 className="text-2xl font-semibold mb-4">Fundamental Forces in Nature</h2>
+            <div className="overflow-x-auto mb-8">
+                <table className="min-w-full divide-y divide-gray-300">
+                    <thead>
+                        <tr className="bg-gray-100">
+                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Force</th>
+                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Range (metre)</th>
+                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Relative strength</th>
+                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Function</th>
+                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Exchange Particles</th>
+                        </tr>
+                    </thead>
+                    <tbody className="bg-white divide-y divide-gray-200">
+                        <tr>
+                            <td className="px-6 py-4 whitespace-nowrap">Strong Force</td>
+                            <td className="px-6 py-4 whitespace-nowrap">10⁻¹⁵ (diameter of proton)</td>
+                            <td className="px-6 py-4 whitespace-nowrap">1</td>
+                            <td className="px-6 py-4 whitespace-nowrap">Proton - Proton, Proton - Neutron</td>
+                            <td className="px-6 py-4 whitespace-nowrap">Pions (Π) or others</td>
+                        </tr>
+                        <tr className="bg-gray-50">
+                            <td className="px-6 py-4 whitespace-nowrap">Electromagnetic Force</td>
+                            <td className="px-6 py-4 whitespace-nowrap">infinite</td>
+                            <td className="px-6 py-4 whitespace-nowrap">7.3 x 10⁻³</td>
+                            <td className="px-6 py-4 whitespace-nowrap">Proton - Electron</td>
+                            <td className="px-6 py-4 whitespace-nowrap">Photons (massless)</td>
+                        </tr>
+                        <tr>
+                            <td className="px-6 py-4 whitespace-nowrap">Weak Force</td>
+                            <td className="px-6 py-4 whitespace-nowrap">10⁻¹⁸</td>
+                            <td className="px-6 py-4 whitespace-nowrap">10⁻¹³</td>
+                            <td className="px-6 py-4 whitespace-nowrap">-</td>
+                            <td className="px-6 py-4 whitespace-nowrap">W+, W-, Z0 (vector bosons)</td>
+                        </tr>
+                        <tr className="bg-gray-50">
+                            <td className="px-6 py-4 whitespace-nowrap">Gravitational Force</td>
+                            <td className="px-6 py-4 whitespace-nowrap">infinite</td>
+                            <td className="px-6 py-4 whitespace-nowrap">6 x 10⁻³⁹</td>
+                            <td className="px-6 py-4 whitespace-nowrap">Mass - Mass</td>
+                            <td className="px-6 py-4 whitespace-nowrap">graviton (not yet detected)</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
-            {activeTab === 'definitions' && (
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                    <h2 className="text-2xl font-semibold mb-4">1. Definitions</h2>
-
-                    <h3 className="text-xl font-semibold mb-2">1.1 Mass</h3>
-                    <ul className="list-disc pl-5 mb-4">
-                        <li>Definition: The amount of matter an object contains</li>
-                        <li>Characteristic: A measure of an object&apos;s inertia</li>
-                        <li>Unit: Kilogram (kg)</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">1.2 Weight</h3>
-                    <ul className="list-disc pl-5 mb-4">
-                        <li>Definition: The gravitational force acting on a mass or object</li>
-                        <li>Calculation: Using Newton&apos;s second law</li>
-                        <li>Unit: Newton (N)</li>
-                    </ul>
-                </div>
-            )}
-
-            {activeTab === 'relationship' && (
-                <div className="bg-white p-6 rounded-lg shadow-md">
-                    <h2 className="text-2xl font-semibold mb-4">2. Relationship Between Mass and Weight</h2>
-
-                    <h3 className="text-xl font-semibold mb-2">2.1 Formula</h3>
-                    <p className="mb-4">W = mg</p>
-                    <p className="mb-4">Where:</p>
-                    <ul className="list-disc pl-5 mb-4">
-                        <li>W = Weight (N)</li>
-                        <li>m = Mass (kg)</li>
-                        <li>g = Acceleration due to gravity (m/s²)</li>
-                    </ul>
-
-                    <h3 className="text-xl font-semibold mb-2">2.2 Earth&apos;s Surface</h3>
-                    <p className="mb-4">Acceleration due to gravity (g) ≈ 9.8 m/s²</p>
-
-                    <h3 className="text-xl font-semibold mb-2">2.3 Variation by Location</h3>
-                    <ul className="list-disc pl-5 mb-4">
-                        <li>Weight is less on the Moon due to lower gravity</li>
-                        <li>Weight is more on Jupiter due to higher gravity</li>
-                    </ul>
-                </div>
-            )}
-
-            <div className="mt-6">
-                <h3 className="text-xl font-semibold mb-2">Mindmap: Mass and Weight Concepts</h3>
+            <h2 className="text-2xl font-semibold mb-4">Types of Forces Mindmap</h2>
+            <div className="transition-transform duration-300">
                 <PlantUMLDiagram code={mindmapCode} />
             </div>
         </div>
     );
 };
 
-export default MassAndWeightNotes;
+export default DynamicsPage;
