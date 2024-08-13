@@ -27,6 +27,7 @@ mindmapDiagram {
 *[#FFD700] Kinematics
 left side
 ++[#FF6347] Rest and Motion
++++ rest and motion are relative—they change depending on where you are and how you're looking at things.
 +++[#FFA07A] Rest
 ++++_ Object does not change position
 ++++_ Example: A parked car
