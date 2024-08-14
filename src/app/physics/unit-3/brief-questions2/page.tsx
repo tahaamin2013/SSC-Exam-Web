@@ -44,7 +44,7 @@ const Page = () => {
                     <AccordionItem value="item-4">
                         <AccordionTrigger>Q.4 What is momentum?</AccordionTrigger>
                         <AccordionContent>
-                            Momentum of a body is the quantity of motion it possesses due to its mass and velocity. The momentum "P" of a body is given by the product of its mass m and velocity v. Thus, P = m × v.
+                            Momentum of a body is the quantity of motion it possesses due to its mass and velocity. The momentum &quot;P&quot; of a body is given by the product of its mass m and velocity v. Thus, P = m × v.
                             <br />
                             Momentum is a vector quantity.
                             <br />
@@ -53,21 +53,21 @@ const Page = () => {
                     </AccordionItem>
 
                     <AccordionItem value="item-5">
-                        <AccordionTrigger>Q.5 State Newton's First law of motion.</AccordionTrigger>
+                        <AccordionTrigger>Q.5 State Newton&apos;s First law of motion.</AccordionTrigger>
                         <AccordionContent>
                             A body continues in its state of rest or of uniform motion in a straight line provided no net force acts on it.
                         </AccordionContent>
                     </AccordionItem>
 
                     <AccordionItem value="item-6">
-                        <AccordionTrigger>Q.6 Why Newton's First law of motion is also called law of inertia?</AccordionTrigger>
+                        <AccordionTrigger>Q.6 Why Newton&apos;s First law of motion is also called law of inertia?</AccordionTrigger>
                         <AccordionContent>
-                            Since Newton's first law of motion deals with the inertial property of matter, therefore, Newton's first law of motion is also known as the law of inertia.
+                            Since Newton&apos;s first law of motion deals with the inertial property of matter, therefore, Newton&apos;s first law of motion is also known as the law of inertia.
                         </AccordionContent>
                     </AccordionItem>
 
                     <AccordionItem value="item-7">
-                        <AccordionTrigger>Q.7 State Newton's Second law of motion.</AccordionTrigger>
+                        <AccordionTrigger>Q.7 State Newton&apos;s Second law of motion.</AccordionTrigger>
                         <AccordionContent>
                             When a net force acts upon a body, it produces an acceleration in the body in the direction of force, and the magnitude of acceleration is directly proportional to the force and is inversely proportional to the mass of the body.
                         </AccordionContent>
@@ -76,14 +76,14 @@ const Page = () => {
                     <AccordionItem value="item-8">
                         <AccordionTrigger>Q.8 What is the unit of force? Define it.</AccordionTrigger>
                         <AccordionContent>
-                            <strong>Unit of Force:</strong> In the System International, the unit of force is Newton, which is represented by the symbol 'N'.
+                            <strong>Unit of Force:</strong> In the System International, the unit of force is Newton, which is represented by the symbol &apos;N&apos;.
                             <br />
                             <strong>Newton:</strong> One Newton is that force which produces an acceleration of 1 m/s² in a body of mass 1 kg. This unit of force can also be written as, 1 N = 1 kg × 1 m/s² = 1 kg·m/s².
                         </AccordionContent>
                     </AccordionItem>
 
                     <AccordionItem value="item-9">
-                        <AccordionTrigger>Q.9 State Newton's Third law of motion.</AccordionTrigger>
+                        <AccordionTrigger>Q.9 State Newton&apos;s Third law of motion.</AccordionTrigger>
                         <AccordionContent>
                             To every action, there is always a reaction which is equal in magnitude but opposite in direction.
                         </AccordionContent>
@@ -92,7 +92,7 @@ const Page = () => {
                     <AccordionItem value="item-10">
                         <AccordionTrigger>Q.10 If a moving body has no acceleration; does it mean that no force is acting on it?</AccordionTrigger>
                         <AccordionContent>
-                            According to Newton's second law of motion, we have F = m × a. When acceleration a = 0, we get F = m × 0 = 0. Thus, when acceleration is zero, then the net force acting on the body is zero. However, this does not mean that no force is acting on the body. When a body is in motion, some forces may be acting on the body, but in the case of zero acceleration, the net (resultant) force should be zero.
+                            According to Newton&apos;s second law of motion, we have F = m × a. When acceleration a = 0, we get F = m × 0 = 0. Thus, when acceleration is zero, then the net force acting on the body is zero. However, this does not mean that no force is acting on the body. When a body is in motion, some forces may be acting on the body, but in the case of zero acceleration, the net (resultant) force should be zero.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -105,7 +105,7 @@ const Page = () => {
                             <br />
                             The quantity of motion of the body is determined by a quantity known as Momentum.
                             <br />
-                            <strong>Mathematical Form:</strong> If a body of mass 'm' is moving with velocity 'v' then mathematically it is written as P = m × v.
+                            <strong>Mathematical Form:</strong> If a body of mass &apos;m&apos; is moving with velocity &apos;v&apos; then mathematically it is written as P = m × v.
                             <br />
                             Momentum is a vector quantity.
                             <br />
@@ -256,9 +256,9 @@ const Page = () => {
                     </AccordionItem>
 
                     <AccordionItem value="item-28">
-                        <AccordionTrigger>Q.28 State Newton's First Law of Motion in terms of momentum.</AccordionTrigger>
+                        <AccordionTrigger>Q.28 State Newton&apos;s First Law of Motion in terms of momentum.</AccordionTrigger>
                         <AccordionContent>
-                            Newton's First Law of Motion in terms of momentum states that a body at rest or in uniform motion will remain in that state unless acted upon by an external force, implying that the momentum of the body remains constant if no external force is applied.
+                            Newton&apos;s First Law of Motion in terms of momentum states that a body at rest or in uniform motion will remain in that state unless acted upon by an external force, implying that the momentum of the body remains constant if no external force is applied.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -286,7 +286,7 @@ const Page = () => {
                     <AccordionItem value="item-32">
                         <AccordionTrigger>Q.32 What is the role of friction in walking?</AccordionTrigger>
                         <AccordionContent>
-                            Friction provides the necessary grip between our feet and the ground, allowing us to push against the ground and move forward. Without friction, walking would be impossible as our feet would slip, and we wouldn't be able to gain any traction.
+                            Friction provides the necessary grip between our feet and the ground, allowing us to push against the ground and move forward. Without friction, walking would be impossible as our feet would slip, and we wouldn&apos;t be able to gain any traction.
                         </AccordionContent>
                     </AccordionItem>
 

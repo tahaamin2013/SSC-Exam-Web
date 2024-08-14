@@ -20,7 +20,7 @@ const QuestionDashboard = () => {
                     {/* Question 1 */}
                     <AccordionItem value="item-1">
                         <AccordionTrigger>
-                            1. State and Explain Newton's First Law of Motion
+                            1. State and Explain Newton&apos;s First Law of Motion
                         </AccordionTrigger>
                         <AccordionContent>
                             <h2 className="font-semibold">Answer:</h2>
@@ -29,7 +29,7 @@ const QuestionDashboard = () => {
                             </p>
                             <h3 className="font-semibold">Explanation for Rest:</h3>
                             <p>
-                                Newton's first law of motion applies to bodies at rest or moving with uniform speed in a straight line. A body at rest remains at rest unless acted upon by a net force. For example, a book lying on a table remains at rest as long as no net force acts on it.
+                                Newton&apos;s first law of motion applies to bodies at rest or moving with uniform speed in a straight line. A body at rest remains at rest unless acted upon by a net force. For example, a book lying on a table remains at rest as long as no net force acts on it.
                             </p>
                             <h3 className="font-semibold">Explanation for Motion:</h3>
                             <p>
@@ -37,7 +37,7 @@ const QuestionDashboard = () => {
                             </p>
                             <h3 className="font-semibold">Law of Inertia:</h3>
                             <p>
-                                Since Newton's first law deals with the inertial property of matter, it is also known as the law of inertia. For example, passengers in a bus tend to fall forward when the driver suddenly applies the brakes because the upper parts of their bodies continue moving while the lower parts are in contact with the bus and stop with it.
+                                Since Newton&apos;s first law deals with the inertial property of matter, it is also known as the law of inertia. For example, passengers in a bus tend to fall forward when the driver suddenly applies the brakes because the upper parts of their bodies continue moving while the lower parts are in contact with the bus and stop with it.
                             </p>
                             <h3 className="font-semibold">Net Force:</h3>
                             <p>
@@ -49,7 +49,7 @@ const QuestionDashboard = () => {
                     {/* Question 2 */}
                     <AccordionItem value="item-2">
                         <AccordionTrigger>
-                            2. State and Explain Newton's Second Law of Motion
+                            2. State and Explain Newton&apos;s Second Law of Motion
                         </AccordionTrigger>
                         <AccordionContent>
                             <h2 className="font-semibold">Answer:</h2>
@@ -62,7 +62,7 @@ const QuestionDashboard = () => {
                             </p>
                             <h3 className="font-semibold">Mathematical Form:</h3>
                             <p>
-                                If the force 'F' is acting on a body of mass 'm', then the relation can be written as <i>F = ma</i>. Here, 'a' is the acceleration produced.
+                                If the force &apos;F&apos; is acting on a body of mass &apos;m&apos;, then the relation can be written as <i>F = ma</i>. Here, &apos;a&apos; is the acceleration produced.
                             </p>
                             <h3 className="font-semibold">Unit of Force:</h3>
                             <p>
@@ -105,7 +105,7 @@ const QuestionDashboard = () => {
                                     <tr>
                                         <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Variation with Location</td>
                                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Remains same everywhere</td>
-                                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Varies with the value of 'g'</td>
+                                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Varies with the value of &apos;g&apos;</td>
                                     </tr>
                                     <tr>
                                         <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Unit</td>
@@ -125,7 +125,7 @@ const QuestionDashboard = () => {
                     {/* Question 4 */}
                     <AccordionItem value="item-4">
                         <AccordionTrigger>
-                            4. State and Explain Newton's Third Law of Motion
+                            4. State and Explain Newton&apos;s Third Law of Motion
                         </AccordionTrigger>
                         <AccordionContent>
                             <h2 className="font-semibold">Answer:</h2>
@@ -134,7 +134,7 @@ const QuestionDashboard = () => {
                             </p>
                             <h3 className="font-semibold">Action and Reaction:</h3>
                             <p>
-                                Newton's third law of motion deals with the reaction of a body when a force acts on it. If body A exerts a force on body B, then body B exerts an equal and opposite force on body A. The force exerted by body A on B is called the action force, while the force exerted by B on A is called the reaction force. Action and reaction forces are equal in magnitude but opposite in direction and act on different bodies.
+                                Newton&apos;s third law of motion deals with the reaction of a body when a force acts on it. If body A exerts a force on body B, then body B exerts an equal and opposite force on body A. The force exerted by body A on B is called the action force, while the force exerted by B on A is called the reaction force. Action and reaction forces are equal in magnitude but opposite in direction and act on different bodies.
                             </p>
                             <h3 className="font-semibold">Examples:</h3>
                             <ul className="list-disc list-inside">
@@ -172,7 +172,7 @@ const QuestionDashboard = () => {
                                 <code>
                                     a = (m2 - m1) * g / (m1 + m2) <br />
                                     T = (2 * m1 * m2 * g) / (m1 + m2) <br />
-                                    where 'g' is the acceleration due to gravity.
+                                    where &apos;g&apos; is the acceleration due to gravity.
                                 </code>
                             </pre>
                             <p>
@@ -311,7 +311,7 @@ const QuestionDashboard = () => {
                                 </code>
                             </pre>
                             <p>
-                                According to Newton's second law, the centripetal force is:
+                                According to Newton&apos;s second law, the centripetal force is:
                             </p>
                             <pre>
                                 <code>
@@ -377,11 +377,11 @@ const QuestionDashboard = () => {
                                 </code>
                             </pre>
                             <p>
-                                After the collision, if the velocities of the bodies become <i>v<sub>1'</sub></i> and <i>v<sub>2'</sub></i>, the total momentum of the system is:
+                                After the collision, if the velocities of the bodies become <i>v<sub>1&apos;</sub></i> and <i>v<sub>2&apos;</sub></i>, the total momentum of the system is:
                             </p>
                             <pre>
                                 <code>
-                                    p<sub>final</sub> = m<sub>1</sub>v<sub>1'</sub> + m<sub>2</sub>v<sub>2'</sub>
+                                    p<sub>final</sub> = m<sub>1</sub>v<sub>1&apos;</sub> + m<sub>2</sub>v<sub>2&apos;</sub>
                                 </code>
                             </pre>
                             <p>

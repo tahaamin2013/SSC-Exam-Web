@@ -24,22 +24,22 @@ const Page = () => {
         Rotational motion is the turning or spinning motion of an object about an axis that passes through it. Axis of rotation is a line about which rotation takes place. This line remain fixed during rotational motion, while the other points of the body move in circles about it. It may be a pivot, hinges or any other support. The axis of rotation for earth and helicopter rotor spinning is shown in figure.
       </p>
       <p className="mb-4">
-        The moment of force or torque is equal to the magnitude of the force 'F' multiplied by the perpendicular distance from the axis of rotation to the line of action of force 'd'. Mathematically, τ = F × d (4.1)
+        The moment of force or torque is equal to the magnitude of the force &apos;F&apos; multiplied by the perpendicular distance from the axis of rotation to the line of action of force &apos;d&apos;. Mathematically, τ = F × d (4.1)
       </p>
       <p className="mb-4">
-        Here the perpendicular distance from the axis of rotation 'd' is termed as moment arm. So we can redefine moment of force as the product of force and moment arm.
+        Here the perpendicular distance from the axis of rotation &apos;d&apos; is termed as moment arm. So we can redefine moment of force as the product of force and moment arm.
       </p>
       <p className="mb-4">
         Moment of force can cause rotation in a wrench to tighten a nut, for a wrench the axis of rotation is at the center of the nut as shown in the figure 4.3 (a). Similarly moment of force can cause the rotation in a door, for door the axis of rotation is at its hinges as shown in the figure 4.3 (b).
       </p>
       <p className="mb-4">
-        Increasing the magnitude of applied force 'F' or the moment arm 'd' increases the moment of force and vice versa. Thus for same force we can use a long handle wrench to produce more moment of force or torque.
+        Increasing the magnitude of applied force &apos;F&apos; or the moment arm &apos;d&apos; increases the moment of force and vice versa. Thus for same force we can use a long handle wrench to produce more moment of force or torque.
       </p>
       <p className="mb-4">
         <strong>SICUENCIE TAPIBUTS</strong>
       </p>
       <p className="mb-4">
-        However moment arm 'd' and force 'F' is not always perpendicular, in this situation we have to extend the line of action of force applied 'F' and take the moment arm 'd' as perpendicular distance from the axis of rotation to the line of action of force as shown in figure.
+        However moment arm &apos;d&apos; and force &apos;F&apos; is not always perpendicular, in this situation we have to extend the line of action of force applied &apos;F&apos; and take the moment arm &apos;d&apos; as perpendicular distance from the axis of rotation to the line of action of force as shown in figure.
       </p>
       <p className="mb-4">
         Moment arm is key to the operation of the lever, pulley, gear, and many other simple machines. There are two senses of rotation. If the force is capable of rotating the body in clockwise direction, the moment is known as clockwise moment. Similarly, the force is capable of producing rotation in the anti-clockwise direction, the torque is known as anti-clockwise moment.
@@ -52,7 +52,7 @@ const Page = () => {
         Conventionally, clockwise moment is taken as negative, whereas anticlockwise moment is taken as positive..
       </p>
       <p className="mb-4">
-        Newton's laws when applied to rotating bodies we see that moment of force is rotational analogue for force. It implies that an object at rest tends to remain at rest, and an object that is rotating (or spinning) tends to spin with a constant angular velocity, unless it is acted on by a nonzero net external moment of force. Similarly the torque tend to produce acceleration in rotation (or spinning).
+        Newton&apos;s laws when applied to rotating bodies we see that moment of force is rotational analogue for force. It implies that an object at rest tends to remain at rest, and an object that is rotating (or spinning) tends to spin with a constant angular velocity, unless it is acted on by a nonzero net external moment of force. Similarly the torque tend to produce acceleration in rotation (or spinning).
       </p>
       <h2 className="text-xl font-semibold mb-2">EXAMPLE 4.1: TORQUE</h2>
       <p className="mb-4">
@@ -62,28 +62,28 @@ const Page = () => {
         <strong>GIVEN</strong>
       </p>
       <p className="mb-4">
-        Force 'F' 60 N
+        Force &apos;F&apos; 60 N
       </p>
       <p className="mb-4">
-        Moment arm 'd₁' = 0.40 m
+        Moment arm &apos;d₁&apos; = 0.40 m
       </p>
       <p className="mb-4">
-        Moment arm 'd₂' = 0.20 m
+        Moment arm &apos;d₂&apos; = 0.20 m
       </p>
       <p className="mb-4">
-        Moment arm 'd₃' = 0.0 m
+        Moment arm &apos;d₃&apos; = 0.0 m
       </p>
       <p className="mb-4">
         <strong>REQUIRED</strong>
       </p>
       <p className="mb-4">
-        (a) Torque 'T' =?
+        (a) Torque &apos;T&apos; =?
       </p>
       <p className="mb-4">
-        (b) Torque 'T' =?
+        (b) Torque &apos;T&apos; =?
       </p>
       <p className="mb-4">
-        (c) Torque 'T' =?
+        (c) Torque &apos;T&apos; =?
       </p>
       <p className="mb-4">
         <strong>SOLUTION</strong>

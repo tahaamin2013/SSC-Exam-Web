@@ -387,43 +387,82 @@ const questionsAndAnswers: QuestionAnswer[] = [
         <p class="mb-4">
           If we close the gap between the spindle and the stud of the screw gauge by rotating the ratchet in the clockwise direction, and if the zero of the circular scale coincides with the index line, then the zero error will be zero. If the zero of the circular scale does not coincide with the index line, then there is a zero error in the screw gauge.
         </p>
+        <div class="pb-6">
+  <h3 class="text-lg font-semibold mb-2">Positive Zero Error</h3>
+  <p class="mb-4">
+    If the zero of the circular scale is behind (below) the index line, it will measure slightly more than the actual thickness, and this is called positive zero error.
+  </p>
+  <p class="mb-4">
+    <strong>Zero Correction:</strong> In this case, multiply the number of divisions of the circular scale that have not crossed the index line by the least count of the screw gauge to find the zero error. This error will be subtracted from the observed measurement.
+  </p>
+
+  <h3 class="text-lg font-semibold mb-2">Negative Zero Error</h3>
+  <p class="mb-4">
+    If the zero of the circular scale has crossed (above) the index line, it will show slightly less than the actual thickness, and this is called negative zero error.
+  </p>
+  <p class="mb-4">
+    <strong>Zero Correction:</strong> In this case, multiply the number of divisions of the circular scale that have crossed the index line by the least count of the screw gauge to find the zero error. This error will be added to the observed measurement.
+  </p>
+</div>
+
       </div>
         </div>
         `,
     uml: `
-        @startmindmap
-* Base Units
-** Kilogram
-   *** Mass
-** Mole
-   *** Quantity of substance
-** Ampere
-   *** Electric current
-** Meter
-   *** Length
-** Kelvin
-   *** Temperature
+      @startmindmap
+* Screw Gauge
+** Definition
+*** Measures small lengths accurately up to 0.01 mm
+*** Also called micrometer screw gauge
+*** More accurate than vernier caliper
+** Construction
+*** U-shaped metal stud
+*** Hollow cylinder (sleeve) with millimeter scale
+**** Index line parallel to axis
+*** Circular scale (nut)
+*** Thimble with threaded spindle
+** Circular Scale
+*** 100 divisions around the thimble
+*** 1 rotation = 1 mm movement on main scale
+*** Each division = 0.01 mm movement
+** Pitch
+*** Distance between consecutive threads = 1 mm
+*** One rotation moves spindle by 1 mm
+** Least Count
+*** Formula: Least count = pitch / number of divisions
+*** Calculation: 1 mm / 100 = 0.01 mm = 0.001 cm
+** Zero Error
+*** Zero Error = difference between zero of circular scale and index line
+*** Positive Zero Error
+**** Zero below index line
+**** Measures more than actual thickness
+**** Correction: Subtract zero error (number of divisions not crossed * least count)
+*** Negative Zero Error
+**** Zero above index line
+**** Measures less than actual thickness
+**** Correction: Add zero error (number of divisions crossed * least count)
 @endmindmap
+
 `,
   },
-  {
-    question: "What are the types of zero errors in measurement instruments?",
-    answer: `
-        <ul class="list-disc list-inside space-y-2">
-            <li><strong>Positive Zero Error:</strong> Occurs if the zero of the scale is behind the index line.</li>
-            <li><strong>Negative Zero Error:</strong> Occurs if the zero of the scale is ahead of the index line.</li>
-        </ul>
-        `,
-    uml: `
-        @startmindmap
-* Types of Zero Errors
-** Positive Zero Error
-   *** Zero of the scale behind the index line
-** Negative Zero Error
-   *** Zero of the scale ahead of the index line
-@endmindmap
-`,
-  },
+//   {
+//     question: "What are the types of zero errors in measurement instruments?",
+//     answer: `
+//         <ul class="list-disc list-inside space-y-2">
+//             <li><strong>Positive Zero Error:</strong> Occurs if the zero of the scale is behind the index line.</li>
+//             <li><strong>Negative Zero Error:</strong> Occurs if the zero of the scale is ahead of the index line.</li>
+//         </ul>
+//         `,
+//     uml: `
+//         @startmindmap
+// * Types of Zero Errors
+// ** Positive Zero Error
+//    *** Zero of the scale behind the index line
+// ** Negative Zero Error
+//    *** Zero of the scale ahead of the index line
+// @endmindmap
+// `,
+//   },
   {
     question: "What is a Physical Balance? And how is it used?",
     uml: `@startmindmap

@@ -28,7 +28,7 @@ const Page = () => {
                             <p><strong>Required:</strong><br />
                                 Mass of the body m = ?</p>
                             <p><strong>Solution:</strong><br />
-                                From Newton's second law of motion, F = ma<br />
+                                From Newton&apos;s second law of motion, F = ma<br />
                                 m = F / a = 20 / 2 = 10 kg</p>
                             <p><strong>Result:</strong><br />
                                 Mass of the body m = 10 kg</p>
@@ -78,7 +78,7 @@ const Page = () => {
                             <p><strong>Required:</strong><br />
                                 Acceleration of the body a = ?</p>
                             <p><strong>Solution:</strong><br />
-                                From Newton's second law of motion, F = ma<br />
+                                From Newton&apos;s second law of motion, F = ma<br />
                                 a = F / m = 100 / 50 = 2 m/s²</p>
                             <p><strong>Result:</strong><br />
                                 Acceleration of the body a = 2 m/s²</p>
@@ -97,7 +97,7 @@ const Page = () => {
                                 Force acting on the body moving vertically upward F = ?</p>
                             <p><strong>Solution:</strong><br />
                                 Mass of the body m = W / g = 20 / 10 = 2 kg<br />
-                                From Newton's second law of motion, F = ma + W<br />
+                                From Newton&apos;s second law of motion, F = ma + W<br />
                                 F = (2 x 2) + 20 = 4 + 20 = 24 N</p>
                             <p><strong>Result:</strong><br />
                                 Force acting on the body moving vertically upward F = 24 N</p>

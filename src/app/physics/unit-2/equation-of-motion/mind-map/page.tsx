@@ -19,6 +19,7 @@ right side
 *** Line AB represents motion
 *** Slope of AB is acceleration
 *** Area under AB is distance covered
+left side
 ** Three Basic Equations
 *** First Equation: v = vi + at
 **** Relates velocity, acceleration, and time
@@ -26,7 +27,6 @@ right side
 **** vi: initial velocity
 **** a: acceleration
 **** t: time
-left side
 *** Second Equation: S = vi * t + 1/2 * a * t²
 **** Relates distance, velocity, acceleration, and time
 **** S: distance
