@@ -1,51 +1,78 @@
-import Head from 'next/head'
+import PlantUMLDiagram from '@/components/PlantUMLDiagram';
+import React from 'react';
 
-export default function EquationsOfMotion() {
+const MeasuringInstrumentsTable = () => {
+    const tableData = [
+        { name: 'First Equation', equation: 'v = vi + at', variables: 'v: final velocity, vi: initial velocity, a: acceleration, t: time' },
+        { name: 'Second Equation', equation: 'S = vi * t + 1/2 * a * t²', variables: 'S: distance, vi: initial velocity, a: acceleration, t: time' },
+        { name: 'Third Equation', equation: 'v² = vi² + 2aS', variables: 'v: final velocity, vi: initial velocity, a: acceleration, S: distance' },
+    ];
+    const umlCode = `
+@startmindmap
+* Equations of Motion
+right side
+** Basic Concepts
+*** Uniform Acceleration
+*** Straight Line Motion
+*** Magnitude of displacements, velocities, and acceleration
+** Speed-Time Graph
+*** Line AB represents motion
+*** Slope of AB is acceleration
+*** Area under AB is distance covered
+** Three Basic Equations
+*** First Equation: v = vi + at
+**** Relates velocity, acceleration, and time
+**** v: final velocity
+**** vi: initial velocity
+**** a: acceleration
+**** t: time
+left side
+*** Second Equation: S = vi * t + 1/2 * a * t²
+**** Relates distance, velocity, acceleration, and time
+**** S: distance
+**** vi: initial velocity
+**** a: acceleration
+**** t: time
+*** Third Equation: v² = vi² + 2aS
+**** Relates velocity, acceleration, and distance
+**** v: final velocity
+**** vi: initial velocity
+**** a: acceleration
+**** S: distance
+** Applications
+*** Calculating final velocity
+*** Finding acceleration
+*** Determining distance traveled
+*** Computing time taken
+** Conversion Factors
+*** 1 m/s = 3.6 km/h
+*** 1 km/h = 0.27778 m/s
+@endmindmap
+ `;
     return (
-        <div className="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
-            <Head>
-                <title>Equations of Motion</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-
-            <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-                <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
-                <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
-                    <div className="max-w-md mx-auto">
-                        <h1 className="text-2xl font-semibold mb-6">2.6 Equations of Motion</h1>
-
-                        <p className="mb-4">
-                            There are three basic equations of motion for bodies moving with uniform acceleration:
-                        </p>
-
-                        <h2 className="text-xl font-semibold mb-2">First Equation of Motion</h2>
-                        <p className="mb-4">v = v<sub>i</sub> + at</p>
-
-                        <h2 className="text-xl font-semibold mb-2">Second Equation of Motion</h2>
-                        <p className="mb-4">S = v<sub>i</sub>t + ½at²</p>
-
-                        <h2 className="text-xl font-semibold mb-2">Third Equation of Motion</h2>
-                        <p className="mb-4">v² = v<sub>i</sub>² + 2aS</p>
-
-                        <h2 className="text-xl font-semibold mt-6 mb-2">Example Problems</h2>
-
-                        <div className="bg-gray-100 p-4 rounded-lg mb-4">
-                            <h3 className="font-semibold mb-2">Example 2.11</h3>
-                            <p>A train slows down from 80 km/h with a uniform retardation of 2 m/s². Time to reach 20 km/h: 8.3 s</p>
-                        </div>
-
-                        <div className="bg-gray-100 p-4 rounded-lg mb-4">
-                            <h3 className="font-semibold mb-2">Example 2.12</h3>
-                            <p>A bicycle accelerates at 1 m/s² from 4 m/s for 10 s. Distance moved: 90 m</p>
-                        </div>
-
-                        <div className="bg-gray-100 p-4 rounded-lg">
-                            <h3 className="font-semibold mb-2">Example 2.13</h3>
-                            <p>A car accelerates from 5 m/s to 15 m/s over 50 m. Acceleration: 2 m/s², Time: 5 s</p>
-                        </div>
-                    </div>
-                </div>
+        <>
+            <div className="flex justify-center my-8">
+                <table className="min-w-full bg-white">
+                    <thead className="bg-gray-800 text-white">
+                        <tr>
+                            <th className="py-3 px-4 text-left">Equation Name</th>
+                            <th className="py-3 px-4 text-left">Equation</th>
+                            <th className="py-3 px-4 text-left">Variables</th>
+                        </tr>
+                    </thead>
+                    <tbody className="text-gray-700">
+                        {tableData.map((row, index) => (
+                            <tr key={index} className={index % 2 === 0 ? 'bg-gray-100' : 'bg-white'}>
+                                <td className="py-3 px-4 border-b">{row.name}</td>
+                                <td className="py-3 px-4 border-b font-mono">{row.equation}</td>
+                                <td className="py-3 px-4 border-b">{row.variables}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
             </div>
-        </div>
-    )
-}
+            <PlantUMLDiagram code={umlCode} /></>
+    );
+};
+
+export default MeasuringInstrumentsTable;

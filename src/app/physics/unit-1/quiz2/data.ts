@@ -118,7 +118,7 @@ export const quiz = {
       question:
         "Separation between division on the vernier scale of the vernier calipers is:",
       answers: ["1 mm", "0.9 mm", "Both", "All"],
-      correctAnswer: "0.9 mm",
+      correctAnswer: "1 mm",
     },
     {
       id: 19,
@@ -186,7 +186,7 @@ export const quiz = {
       question:
         "If the zero of the circular scale is above the horizontal line then the zero error is to be:",
       answers: ["Added", "Subtracted", "Multiplied", "Divided"],
-      correctAnswer: "Subtracted",
+      correctAnswer: "Added",
     },
     {
       id: 29,
@@ -224,7 +224,7 @@ export const quiz = {
     {
       id: 34,
       question: "Least count of digital stop watch is:",
-      answers: ["1 second", "1 minute", "0.1 second", "0.02 second"],
+      answers: ["1 second", "1 minute", "0.1 second", "0.01 second"],
       correctAnswer: "0.01 second",
     },
   ],

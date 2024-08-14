@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "lucide-react";
+import Image from 'next/image'
 
 interface Tab {
   id: string;
@@ -93,6 +94,9 @@ const MeasuringInstruments: React.FC = () => {
                     including internal and external diameters
                   </li>
                 </ul>
+                <Image src="/vernier-calliper-1.jpg" alt="Vernier Caliper Full Image" width={500} height={500} />
+                <Image src="/12362_Physics_62acc202e519b90dffc2272b_EL_Vernier_Caliper-22_065473.jpg_img_upload_solution_2022-09-21 17_50_30.486372.png" alt="Vernier Caliper" width={500} height={500} />
+                <Image src="/original_9.png" alt="Vernier Caliper Error" width={500} height={500} />
               </Disclosure.Panel>
             </>
           )}

@@ -1,5 +1,5 @@
 export const quiz = {
-  totalQuestions: 60,
+  totalQuestions: 67,
   questions: [
     {
       id: 1,
@@ -415,6 +415,90 @@ export const quiz = {
       question: "Product of force and time interval is called:",
       answers: ["Power", "Energy", "Impulse", "Work"],
       correctAnswer: "Impulse",
+    },
+    {
+      id: 61,
+      question: "Newton's first law of motion is valid only in the absence of:",
+      answers: ["Force", "net force", "friction", "momentum"],
+      correctAnswer: "net force",
+    },
+    {
+      id: 62,
+      question: "Inertia depends upon:",
+      answers: ["Force", "net force", "friction", "mass"],
+      correctAnswer: "mass",
+    },
+    {
+      id: 63,
+      question:
+        "A string is stretched by two equal and opposite forces of 10 N each. The tension in the string is:",
+      answers: ["Zero", "5 N", "10 N", "20 N"],
+      correctAnswer: "10 N",
+    },
+    {
+      id: 64,
+      question:
+        "A boy jumps out of a moving bus. There is a danger for him to fall:",
+      answers: [
+        "Towards the moving bus",
+        "Away from the bus",
+        "In the direction of motion",
+        "Opposite to the direction of motion",
+      ],
+      correctAnswer: "In the direction of motion",
+    },
+    {
+      id: 65,
+      question: "The mass of a body:",
+      answers: [
+        "Decreases when accelerated",
+        "Increases when accelerated",
+        "Decreases when moving with high velocity",
+        "None of the above",
+      ],
+      correctAnswer: "None of the above",
+    },
+    {
+      id: 66,
+      question:
+        "Two bodies of masses m₁ and m₂ attached to the ends of an inextensible string passing over a frictionless pulley such that both move vertically. The acceleration of the bodies is:",
+      answers: [
+        "a = (m₁ - m₂)g / (m₁ + m₂)",
+        "a = mg / (m₁ + m₂)",
+        "a = (m₁ + m₂)g",
+        "a = (m₂ - m₁)g / (m₁ + m₂)",
+      ],
+      correctAnswer: "a = (m₁ - m₂)g / (m₁ + m₂)",
+    },
+    {
+      id: 67,
+      question: "Which of the following is the unit of momentum?",
+      answers: ["Nm", "kg·m/s", "Ns", "Kgms"],
+      correctAnswer: "Ns",
+    },
+    {
+      id: 68,
+      question: "When a horse pulls a cart, the action is on the:",
+      answers: ["Cart", "Earth", "Horse", "Earth and cart"],
+      correctAnswer: "Cart",
+    },
+    {
+      id: 69,
+      question:
+        "Which of the following materials lowers friction when pushed between metal plates?",
+      answers: ["Water", "Fine marble powder", "Air", "Oil"],
+      correctAnswer: "Oil",
+    },
+    {
+    id: 70,
+      question: "The mass of a body:",
+      answers: [
+        "Decreases when accelerated",
+        "Increases when accelerated",
+        "Decreases when moving with high velocity",
+        "None of the above",
+      ],
+      correctAnswer: "None of the above",
     },
   ],
 };

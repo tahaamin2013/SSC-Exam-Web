@@ -32,6 +32,36 @@ left side
 @endmindmap
 `;
 
+    const mindmapCode2 = `
+@startmindmap
+* Unification of Forces (Electroweak Theory)
+right side
+** Proposed in late 1960s
+*** Abdus Salam
+*** Steven Weinberg
+*** Sheldon Lee Glashow
+** Incorporates Quantum Electrodynamics
+** Unifies Electromagnetic and Weak Forces
+left side
+** Four Carrier Particles (Gauge Bosons)
+*** Photon
+**** Associated with Electromagnetism
+**** Massless
+*** W+ Particle
+**** Associated with Weak Force
+**** Massive
+**** Electrically Charged
+*** W- Particle
+**** Associated with Weak Force
+**** Massive
+**** Electrically Charged
+*** Z Particle
+**** Associated with Weak Force
+**** Massive
+**** Neutral
+@endmindmap
+`;
+
     const [zoomLevel, setZoomLevel] = useState(1);
     const zoomOut = () => setZoomLevel(prev => Math.max(prev - 0.1, 0.5));
     const zoomIn = () => setZoomLevel(prev => Math.min(prev + 0.1, 2));
@@ -88,6 +118,7 @@ left side
             <h2 className="text-2xl font-semibold mb-4">Types of Forces Mindmap</h2>
             <div className="transition-transform duration-300">
                 <PlantUMLDiagram code={mindmapCode} />
+                <PlantUMLDiagram code={mindmapCode2} />
             </div>
         </div>
     );

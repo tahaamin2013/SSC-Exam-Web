@@ -15,7 +15,8 @@ const data: Section[] = [
     { id: "1", link: "/physics/unit-1", title: "Unit 1: Physical Quantities And Measurement" },
     { id: "2", link: "/physics/unit-2", title: "Unit 2: Kinamtics" },
     { id: "3", link: "/physics/unit-3", title: "Unit 3: Dynamics - 1" },
-    { id: "4", link: "/physics/unit-9", title: "Unit 9: Nature Of Science And Physics" },
+    { id: "4", link: "/physics/unit-4", title: "DYNAMICS-II" },
+    { id: "5", link: "/physics/unit-9", title: "Unit 9: Nature Of Science And Physics" },
 ];
 
 const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; isRedirecting: boolean; onRedirect: () => void }) => {
