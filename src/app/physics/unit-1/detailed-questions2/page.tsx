@@ -467,25 +467,74 @@ const questionsAndAnswers: QuestionAnswer[] = [
     question: "What is a Physical Balance? And how is it used?",
     uml: `@startmindmap
 * Physical Balance
-** Use
-   *** Measure mass
-   *** Compare with known masses
+** Definition
+*** Measures mass by comparison
 ** Construction
-   *** Beam
-   *** Fulcrum
-   *** Pans
-** Procedure
-   *** Adjust leveling screws
-   *** Place object and standard masses
-   *** Balance the beam
+*** Beam
+**** Resting on fulcrum
+**** Carries scale pans over hooks
+*** Fulcrum
+*** Pans
+**** Unknown mass on left pan
+**** Standard masses on right pan
+** Components
+*** Beam
+*** Balancing Screw
+*** Pillar
+*** Hook
+*** Pointer
+*** Scale
+*** Plumbline
+*** Pan
+*** Arrestment Knob
+*** Leveling Screw
+** Example: Finding Mass of a Small Stone
+*** Steps
+**** Adjust leveling screws using plumb line
+**** Raise beam with arresting knob
+**** Use balancing screws to set pointer at zero
+**** Place object on right pan
+**** Adjust with standard masses until pointer is at zero
 @endmindmap
 `,
     answer: `
-        <p><strong>A Physical Balance</strong> is an instrument used to measure mass by comparing it to known masses.</p>
-        <ul class="list-disc list-inside space-y-2">
-            <li><strong>Construction:</strong> Beam, fulcrum, and pans.</li>
-            <li><strong>Procedure:</strong> Adjust leveling screws, place object and standard masses, and balance the beam.</li>
-        </ul>
+      <div class="max-w-4xl mx-auto p-6">
+  <p class="mb-4">
+    A common physical balance is a laboratory instrument that is used to measure the mass of various objects by comparison.
+  </p>
+
+  <h2 class="text-xl font-semibold mb-2">Construction</h2>
+  <p class="mb-4">
+    It consists of a beam resting at the center on a fulcrum as shown in the figure. The beam carries scale pans over the hooks on either side. Unknown mass is placed on the left pan. Find some suitable standard masses that cause the pointer to remain at zero on raising the beam.
+  </p>
+
+  <div class="mb-4">
+    <p class="font-semibold mb-2">Components:</p>
+    <ul class="list-disc pl-5">
+      <li>Beam</li>
+      <li>Balancing Screw</li>
+      <li>Pillar</li>
+      <li>Hook</li>
+      <li>Pointer</li>
+      <li>Scale</li>
+      <li>Plumbline</li>
+      <li>Pan</li>
+      <li>Arrestment knob</li>
+      <li>Leveling Screw</li>
+    </ul>
+  </div>
+
+  <h2 class="text-xl font-semibold mb-2">Example: Find the mass of a small stone by a physical balance</h2>
+  <h3 class="text-lg font-semibold mb-2">Solution</h3>
+  <ol class="list-decimal pl-5 mb-4">
+    <li>Follow the steps to measure the mass of a given object.</li>
+    <li>Adjust leveling screws with the help of a plumb line to level the platform of the physical balance.</li>
+    <li>Raise the beam gently by turning the arresting knob clockwise. Using balancing screws at the ends of its beam, bring the pointer to the zero position.</li>
+    <li>Turn the arresting knob to bring the beam back on its support. Place the given object on the right pan. Raise the beam. Lower the beam if its point is not zero.</li>
+    <li>Repeat adding or removing suitable standard masses in the right pan till the pointer rests at zero on raising the beam.</li>
+  </ol>
+</div>
+
         `,
   },
   {

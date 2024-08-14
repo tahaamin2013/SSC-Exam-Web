@@ -54,7 +54,7 @@ const QuestionDashboard = () => {
                         <AccordionContent>
                             <h2 className="font-semibold">Answer:</h2>
                             <p>
-                                "When a net force acts upon a body, it produces an acceleration in the body in the direction of the force. The magnitude of the acceleration is directly proportional to the force and inversely proportional to the mass of the body."
+                                &quot;When a net force acts upon a body, it produces an acceleration in the body in the direction of the force. The magnitude of the acceleration is directly proportional to the force and inversely proportional to the mass of the body.&quot;
                             </p>
                             <h3 className="font-semibold">Dependence of Acceleration:</h3>
                             <p>
@@ -130,7 +130,7 @@ const QuestionDashboard = () => {
                         <AccordionContent>
                             <h2 className="font-semibold">Answer:</h2>
                             <p>
-                                "To every action, there is always an equal and opposite reaction."
+                                &quot;To every action, there is always an equal and opposite reaction.&quot;
                             </p>
                             <h3 className="font-semibold">Action and Reaction:</h3>
                             <p>

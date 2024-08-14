@@ -38,7 +38,7 @@ const Page = () => {
                         </AccordionTrigger>
                         <AccordionContent>
                             Mass of a body is the quantity of matter possessed by the body. It is a scalar quantity. It is measured by physical balance. It remains the same everywhere. It does not change with change of place. Unit of mass is kilogram (Kg). It is a base quantity. It can be calculated by using the formula F = ma.<br /><br />
-                            The weight of the body is equal to the force with which earth attracts it. It is a vector quantity and is directed toward the center of the earth. It is measured by spring balance. It does not remain the same at all places because the value of 'g' does not remain the same at all places. Unit of weight is Newton (N). It is a derived quantity. It can be calculated by using the formula W = mg.
+                            The weight of the body is equal to the force with which earth attracts it. It is a vector quantity and is directed toward the center of the earth. It is measured by spring balance. It does not remain the same at all places because the value of &apos;g&apos; does not remain the same at all places. Unit of weight is Newton (N). It is a derived quantity. It can be calculated by using the formula W = mg.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -58,7 +58,7 @@ const Page = () => {
                             Q.no.3.5 What is the law of inertia?
                         </AccordionTrigger>
                         <AccordionContent>
-                            Ans: Newton's first law of motion is also called the law of inertia because inertia is the characteristic of a body which resists any change in its state of rest or uniform motion.
+                            Ans: Newton&apos;s first law of motion is also called the law of inertia because inertia is the characteristic of a body which resists any change in its state of rest or uniform motion.
                         </AccordionContent>
                     </AccordionItem>
 
