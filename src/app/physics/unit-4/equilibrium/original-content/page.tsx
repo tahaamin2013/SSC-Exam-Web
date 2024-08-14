@@ -39,7 +39,7 @@ const Equilibrium: FC = () => {
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">4.4.2 PRINCIPLE OF MOMENTS</h2>
       <p className="mb-4">
-        Second condition of equilibrium is also called the principle of moments, which states that 'For an object in equilibrium, the sum of the clockwise moments taken about the pivot must be equal to the sum of anti-clockwise moments taken about the same pivot'.
+        Second condition of equilibrium is also called the principle of moments, which states that &apos;For an object in equilibrium, the sum of the clockwise moments taken about the pivot must be equal to the sum of anti-clockwise moments taken about the same pivot&apos;.
       </p>
       <p className="mb-4">
         To balance torques or moment of force, the perpendicular distance from the axis of rotation play an important role.
@@ -60,17 +60,17 @@ const Equilibrium: FC = () => {
       </p>
       <p className="mb-4">
         <strong>GIVEN</strong><br />
-        Weight of Kamil 'W₁' = 250 N<br />
-        Moment arm of Kamil 'd₁' = 0.6 m<br />
-        Weight of Bilal 'W₂' = 200 N
+        Weight of Kamil &apos;W₁&apos; = 250 N<br />
+        Moment arm of Kamil &apos;d₁&apos; = 0.6 m<br />
+        Weight of Bilal &apos;W₂&apos; = 200 N
       </p>
       <p className="mb-4">
         <strong>REQUIRED</strong><br />
-        Moment arm of Bilal 'd₂'?
+        Moment arm of Bilal &apos;d₂&apos;?
       </p>
       <p className="mb-4">
         <strong>SOLUTION</strong><br />
-        Kamil's weight is producing anticlockwise moment, while Bilal's weight is producing clockwise moment. Therefore, by principle of moments:
+        Kamil&apos;s weight is producing anticlockwise moment, while Bilal&apos;s weight is producing clockwise moment. Therefore, by principle of moments:
       </p>
       <p className="mb-4 text-center font-semibold">d₁ × W₁ = d₂ × W₂</p>
       <p className="mb-4">

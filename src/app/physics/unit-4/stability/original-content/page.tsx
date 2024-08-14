@@ -6,7 +6,7 @@ const Stability: FC = () => {
         <div className="p-8 max-w-3xl mx-auto">
             <h1 className="text-3xl font-bold mb-6">4.5 STABILITY</h1>
             <p className="mb-4">
-                'A measure of the ability of an object to return to its original position when the force that changed its position is removed is called stability'. Stable objects are very difficult to topple over, while unstable objects topple over very easily.
+                &apos;A measure of the ability of an object to return to its original position when the force that changed its position is removed is called stability&apos;. Stable objects are very difficult to topple over, while unstable objects topple over very easily.
             </p>
             <p className="mb-4">
                 The position of the Center of gravity or center of mass (CG/CM) of a body affects whether or not it topples over easily. This is important in the design of such things as tall vehicles (which tend to overturn when rounding a corner), racing cars, reading lamps and even drinking glasses.
@@ -31,22 +31,22 @@ const Stability: FC = () => {
             </p>
 
             <p className="mb-4">
-                An object's stability can be improved by:
+                An object&apos;s stability can be improved by:
                 <br />(a) lowering the center of mass; or
                 <br />(b) increasing the area of support; or
                 <br />(c) by both.
             </p>
             <p className="mb-4">
-                When the object's center of mass is directly beneath the point of support, it is in a stable equilibrium state. The center of mass represents the average position of the mass distribution within the object. In simple terms, "vertically below" means that the center of mass is aligned vertically beneath the point of support.
+                When the object's center of mass is directly beneath the point of support, it is in a stable equilibrium state. The center of mass represents the average position of the mass distribution within the object. In simple terms, &quot;vertically below&quot; means that the center of mass is aligned vertically beneath the point of support.
             </p>
             <p className="mb-4">
                 When an object is in stable equilibrium, it means that if it is slightly disturbed or tilted, it has a tendency to return to its original position. This is because the gravitational force acting on the object causes it to rotate around the point of support, and the object's weight acts through its center of mass. As a result, the object naturally realigns itself to maintain its stable equilibrium state.
             </p>
             <p className="mb-4">
-                Various toys and equipment use the principle of stable equilibrium to regain their balance after being disturbed. These objects are often called "self-righting" or "self-balancing" toys. They are designed with their center of mass below the support point and have a specific weight distribution that helps them restore their original position. These objects might include balancing birds, wobbling dolls, or weighted-bottom drinking cups, all of which exhibit the stable equilibrium principle as shown in figure 4.13.
+                Various toys and equipment use the principle of stable equilibrium to regain their balance after being disturbed. These objects are often called &quot;self-righting&quot; or &quot;self-balancing&quot; toys. They are designed with their center of mass below the support point and have a specific weight distribution that helps them restore their original position. These objects might include balancing birds, wobbling dolls, or weighted-bottom drinking cups, all of which exhibit the stable equilibrium principle as shown in figure 4.13.
             </p>
             <p className="mb-4">
-                Once such toy is of shape of an egg, when it is tilted, the position of the pivot changes because of its round bottom. In figure 14.14 (a), when tilted to the left, the weight 'W' from the center of gravity (CG) is to the right of the pivot with moment arm (perpendicular distance) 'd'. This creates a clockwise moment that makes the toy turn clockwise. Due to inertia, the toy will go past the vertical position and tilt to the right, as shown in figure 14.14 (b). Similarly, since the weight is to the left of the pivot, it creates an anti-clockwise moment.
+                Once such toy is of shape of an egg, when it is tilted, the position of the pivot changes because of its round bottom. In figure 14.14 (a), when tilted to the left, the weight &apos;W&apos; from the center of gravity (CG) is to the right of the pivot with moment arm (perpendicular distance) &apos;d&apos;. This creates a clockwise moment that makes the toy turn clockwise. Due to inertia, the toy will go past the vertical position and tilt to the right, as shown in figure 14.14 (b). Similarly, since the weight is to the left of the pivot, it creates an anti-clockwise moment.
             </p>
             <p className="mb-4">
                 Therefore, this toy always has a restoring mechanism that brings it back to its vertical position, where the weight is directly above the pivot. In this position, the weight passing through the pivot does not create any moment (no perpendicular distance). Hence, the toy will be at rest.

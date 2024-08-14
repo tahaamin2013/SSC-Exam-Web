@@ -19,7 +19,7 @@ const Page = () => {
                 <Accordion type="single" collapsible>
                     {/* Question 1 */}
                     <AccordionItem value="item-1">
-                        <AccordionTrigger>Why is a long spanner used to open or tighten nuts of a vehicle's tire? Why is a small nut not suitable for an extra-long wrench?</AccordionTrigger>
+                        <AccordionTrigger>Why is a long spanner used to open or tighten nuts of a vehicle&apos;s tire? Why is a small nut not suitable for an extra-long wrench?</AccordionTrigger>
                         <AccordionContent>
                             A long spanner provides greater leverage, making it easier to apply more torque to open or tighten nuts. For a small nut, an extra-long wrench might be cumbersome and less precise.
                         </AccordionContent>
@@ -29,7 +29,7 @@ const Page = () => {
                     <AccordionItem value="item-2">
                         <AccordionTrigger>Why are door knobs fixed at the edge of the door? What happens if the door knob is at the middle of the door?</AccordionTrigger>
                         <AccordionContent>
-                            Door knobs are fixed at the edge to ensure easy operation and proper alignment with the latch. If placed in the middle, it would be inconvenient to reach and would disrupt the door's functionality.
+                            Door knobs are fixed at the edge to ensure easy operation and proper alignment with the latch. If placed in the middle, it would be inconvenient to reach and would disrupt the door&apos;s functionality.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -51,7 +51,7 @@ const Page = () => {
 
                     {/* Question 5 */}
                     <AccordionItem value="item-5">
-                        <AccordionTrigger>Explain why it's easier to push a car on flat tires than inflated ones. What happens to the frictional force between the tires and the road?</AccordionTrigger>
+                        <AccordionTrigger>Explain why it&apos;s easier to push a car on flat tires than inflated ones. What happens to the frictional force between the tires and the road?</AccordionTrigger>
                         <AccordionContent>
                             Pushing a car on flat tires is easier due to reduced rolling resistance. Inflated tires have more contact with the road, increasing frictional force and making it harder to push.
                         </AccordionContent>

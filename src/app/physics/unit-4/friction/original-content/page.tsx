@@ -5,7 +5,7 @@ const FrictionPage: React.FC = () => {
         <div className="max-w-4xl mx-auto p-6">
             <h1 className="text-2xl font-bold mb-4">4.6 FRICTION</h1>
             <p className="mb-4">
-                Friction (denoted by letter 'f') is the resistance to relative motion that occurs whenever
+                Friction (denoted by letter &apos;f&apos;) is the resistance to relative motion that occurs whenever
                 two materials are in contact with each other, whether they are solids, liquids, or gases.
                 Since it is a force therefore it is a vector quantity and has unit as newton (N).
             </p>
@@ -29,7 +29,7 @@ const FrictionPage: React.FC = () => {
             </p>
             <p className="mb-4">
                 Rim brakes, are the most effective and most popular bicycle brakes, as they provide
-                adequate braking power without too much malintenance. They are controlled by hand lewer's
+                adequate braking power without too much malintenance. They are controlled by hand lewer&apos;s
                 which are attached to the actual brake by a cable. When the rider pulls on the brake lever
                 the cable attached to it moves the two pads, ome on each side of rim. These pads attached
                 to break leather press against the rim, causing the wheel to slow down due to friction as
@@ -82,7 +82,7 @@ const FrictionPage: React.FC = () => {
             <p className="mb-4">
                 When an object moves through a fluid, the fluid exerts a retarding force that tends to reduce
                 the speed of the object. The moving body exerts a force on the fluid to push it out of the way.
-                By Newton's third law, the fluid pushes back on the body with an equal and opposite force.
+                By Newton&apos;s third law, the fluid pushes back on the body with an equal and opposite force.
                 This retarding force experienced by an object moving through a fluid is called the drag force,
                 which is the result of fluid friction.
             </p>
@@ -97,7 +97,7 @@ const FrictionPage: React.FC = () => {
                 In winter when we rub our hands together we feel the sensation of warmth as shown in figure
                 4.21 (a). It is because friction causes the increase in the temperature our hands, which makes
                 our hands warm. Similarly you would have noticed shooting stars (a small piece of rock or dust
-                that hits Earth's atmosphere from space) as shown in figure 4.21 (b). When they plow through
+                that hits Earth&apos;s atmosphere from space) as shown in figure 4.21 (b). When they plow through
                 the atmosphere, meteors are heated, and they glow. A meteor compresses air in front of it. The
                 air heats up, in turn heating the meteor. The intense heat vaporizes most meteors, creating
                 what we call shooting stars.

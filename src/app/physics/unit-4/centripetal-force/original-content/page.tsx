@@ -35,7 +35,7 @@ const CentripetalForce: FC = () => {
                     Equation 4.4 gives the magnitude of centripetal force, where negative sign indicates that force is directed towards the center of the circular path.
                 </p>
                 <p className="text-lg">
-                    Perhaps you have swung a ball on the end of a string in a circle over your head. Once you have the ball moving, the tension on the string keeps it moving in a circular path as you twirl it. That tension is centripetal force, which pulls the ball from its natural straight-line path into a circular path as shown in figure 4.24 (a). The force that keeps planets in orbit around the Sun is centripetal force, which, in this case, is the 'gravitational force'. This center is exactly where the Sun is located. In the case of the Moon, the centripetal force acting on it is directed towards the center of the Earth as shown in figure 4.24 (b).
+                    Perhaps you have swung a ball on the end of a string in a circle over your head. Once you have the ball moving, the tension on the string keeps it moving in a circular path as you twirl it. That tension is centripetal force, which pulls the ball from its natural straight-line path into a circular path as shown in figure 4.24 (a). The force that keeps planets in orbit around the Sun is centripetal force, which, in this case, is the &apos;gravitational force&apos;. This center is exactly where the Sun is located. In the case of the Moon, the centripetal force acting on it is directed towards the center of the Earth as shown in figure 4.24 (b).
                 </p>
             </section>
 
@@ -80,7 +80,7 @@ const CentripetalForce: FC = () => {
                     <strong>Answer</strong>
                 </p>
                 <p className="text-lg">
-                    This means that Bilal's hand must apply a centripetal force of 2083.3 N on the metal in order to give a velocity of 25 m/s to the ball.
+                    This means that Bilal&apos;s hand must apply a centripetal force of 2083.3 N on the metal in order to give a velocity of 25 m/s to the ball.
                 </p>
             </section>
         </div>
