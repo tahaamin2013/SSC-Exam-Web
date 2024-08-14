@@ -55,6 +55,66 @@ const data = [
         ],
     },
     {
+        id: "4",
+        title: "4.5 STABILITY",
+        links: [
+            { href: "/physics/unit-4/stability/original-content", text: "Original Content", icon: List },
+            { href: "/physics/unit-4/stability/notes", text: "Notes", icon: BookOpen },
+            { href: "/physics/unit-4/stability/mind-map", text: "Mind Map", icon: Brain },
+            { href: "/physics/unit-4/stability/quiz", text: "MCQs", icon: HelpCircle },
+            { href: "/physics/unit-4/stability/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-4/stability/detailed-questions", text: "Detailed Questions", icon: List },
+        ],
+    },
+    {
+        id: "5",
+        title: "4.6 FRICTION",
+        links: [
+            { href: "/physics/unit-4/friction/original-content", text: "Original Content", icon: List },
+            { href: "/physics/unit-4/friction/notes", text: "Notes", icon: BookOpen },
+            { href: "/physics/unit-4/friction/mind-map", text: "Mind Map", icon: Brain },
+            { href: "/physics/unit-4/friction/quiz", text: "MCQs", icon: HelpCircle },
+            { href: "/physics/unit-4/friction/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-4/friction/detailed-questions", text: "Detailed Questions", icon: List },
+        ],
+    },
+    {
+        id: "6",
+        title: "4.7 CENTRIPETAL FORCE",
+        links: [
+            { href: "/physics/unit-4/centripetal-force/original-content", text: "Original Content", icon: List },
+            { href: "/physics/unit-4/centripetal-force/notes", text: "Notes", icon: BookOpen },
+            { href: "/physics/unit-4/centripetal-force/mind-map", text: "Mind Map", icon: Brain },
+            { href: "/physics/unit-4/centripetal-force/quiz", text: "MCQs", icon: HelpCircle },
+            { href: "/physics/unit-4/centripetal-force/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-4/centripetal-force/detailed-questions", text: "Detailed Questions", icon: List },
+        ],
+    },
+    {
+        id: "7",
+        title: "4.8 ORBITAL MOTION",
+        links: [
+            { href: "/physics/unit-4/orbital-motion/original-content", text: "Original Content", icon: List },
+            { href: "/physics/unit-4/orbital-motion/notes", text: "Notes", icon: BookOpen },
+            { href: "/physics/unit-4/orbital-motion/mind-map", text: "Mind Map", icon: Brain },
+            { href: "/physics/unit-4/orbital-motion/quiz", text: "MCQs", icon: HelpCircle },
+            { href: "/physics/unit-4/orbital-motion/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-4/orbital-motion/detailed-questions", text: "Detailed Questions", icon: List },
+        ],
+    },
+    {
+        id: "7",
+        title: "4.9 PLANETARY DATA",
+        links: [
+            { href: "/physics/unit-4/planetary-data/original-content", text: "Original Content", icon: List },
+            { href: "/physics/unit-4/planetary-data/notes", text: "Notes", icon: BookOpen },
+            { href: "/physics/unit-4/planetary-data/mind-map", text: "Mind Map", icon: Brain },
+            { href: "/physics/unit-4/planetary-data/quiz", text: "MCQs", icon: HelpCircle },
+            { href: "/physics/unit-4/planetary-data/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-4/planetary-data/detailed-questions", text: "Detailed Questions", icon: List },
+        ],
+    },
+    {
         id: "6",
         title: "Chapter Round up",
         links: [
