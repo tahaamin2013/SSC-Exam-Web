@@ -540,78 +540,216 @@ const questionsAndAnswers: QuestionAnswer[] = [
     question:
       "Which one of the following is the most accurate: Beam balance, Physical balance, and Electronic balance?",
     answer: `
-        <p><strong>The Electronic Balance</strong> is the most accurate, with precision up to 0.001 g or 1 mg.</p>
+        <div class="max-w-4xl mx-auto p-6">
+  <p class="mb-4">
+    The mass of one rupee coin is measured using different balances as given below:
+  </p>
+
+  <div class="mb-4">
+    <h3 class="text-lg font-semibold mb-2">Beam Balance</h3>
+    <p class="mb-2">
+      Mass of coin = 3.2 g. A sensitive balance may be able to measure mass accurately as small as 0.1 g or 100 mg.
+    </p>
+  </div>
+
+  <div class="mb-4">
+    <h3 class="text-lg font-semibold mb-2">Physical Balance</h3>
+    <p class="mb-2">
+      Mass of the coin = 3.24 g. The least count of a physical balance is 0.01 g or 10 mg. Therefore, the measurement taken by a physical balance would be more precise than that of a sensitive beam balance.
+    </p>
+  </div>
+
+  <div class="mb-4">
+    <h3 class="text-lg font-semibold mb-2">Electronic Balance</h3>
+    <p class="mb-2">
+      Mass of coin = 3.247 g. The least count of an electronic balance is 0.001 g or 1 mg. Therefore, the measurement would be more precise than that of a sensitive physical balance. The electronic balance is the most sensitive balance among all the balances given above.
+    </p>
+  </div>
+</div>
+
         `,
     uml: `@startmindmap
-* Most Accurate Balance
+* Measurement of One Rupee Coin
+** Beam Balance
+*** Mass of Coin: 3.2 g
+*** Least Count: 0.1 g or 100 mg
+*** Accuracy: Less precise
+** Physical Balance
+*** Mass of Coin: 3.24 g
+*** Least Count: 0.01 g or 10 mg
+*** Accuracy: More precise than beam balance
 ** Electronic Balance
-   *** Precision up to 0.001 g
-   *** 1 mg
+*** Mass of Coin: 3.247 g
+*** Least Count: 0.001 g or 1 mg
+*** Accuracy: Most precise among all balances
 @endmindmap
 `,
   },
   {
     question: "Write a note on the Stopwatch.",
     answer: `
-        <p><strong>A Stopwatch</strong> measures time intervals.</p>
-        <ul class="list-disc list-inside space-y-2">
-            <li><strong>Mechanical Stopwatch:</strong> Measures up to 0.1 seconds.</li>
-            <li><strong>Electronic/Digital Stopwatch:</strong> Measures up to 0.01 seconds.</li>
-        </ul>
+       <div class="max-w-4xl mx-auto p-6">
+  <p class="mb-4">
+    "An instrument used to measure the time interval or specific period of an event is known as a stop watch."
+  </p>
+
+  <h3 class="text-lg font-semibold mb-2">Types of Stop Watch</h3>
+  <p class="mb-4">There are two types of stop watches:</p>
+
+  <ul class="list-disc pl-5 mb-4">
+    <li>Mechanical stop watch</li>
+    <li>Electronic stop watch (digital stop watch)</li>
+  </ul>
+
+  <h4 class="text-lg font-semibold mb-2">Mechanical Stop Watch</h4>
+  <p class="mb-4">
+    A mechanical stop watch can measure a time interval up to a minimum of 0.1 seconds.
+  </p>
+  <p class="mb-4">
+    <strong>How to Use:</strong> A mechanical stop watch has a knob that is used to wind the spring that powers the watch. It can also be used as the start, stop, and reset button. The watch starts when the knob is pressed once. When pressed a second time, it stops the watch, while the third press brings the needle back to the zero position.
+  </p>
+
+  <h4 class="text-lg font-semibold mb-2">Electronic/Digital Stop Watch</h4>
+  <p class="mb-4">
+    A digital stop watch, commonly used in laboratories, can measure a time interval accurately up to 1/100 second or 0.01 seconds.
+  </p>
+  <p class="mb-4">
+    <strong>How to Use:</strong> The digital stop watch starts to indicate the time elapsed when the start/stop button is pressed. As soon as the start/stop button is pressed again, it stops and indicates the time interval recorded between the start and stop of an event. A reset button restores its initial zero settings.
+  </p>
+
+  <p class="mb-4">
+    The watch is named "stop watch" because it can be started or stopped at will as required when the duration of the time is to be measured.
+  </p>
+</div>
         `,
     uml: `
-        @startmindmap
-* Stopwatch
-** Measures Time Intervals
-** Mechanical Stopwatch
-   *** Measures up to 0.1 seconds
-** Electronic/Digital Stopwatch
-   *** Measures up to 0.01 seconds
+@startmindmap
+* Stop Watch
+** Definition
+*** Measures time interval or specific period of an event
+** Types
+*** Mechanical Stop Watch
+**** Measures time interval up to 0.1 seconds
+**** How to Use
+***** Knob winds the spring and functions as start, stop, and reset button
+***** Press knob once to start
+***** Press again to stop
+***** Press third time to reset to zero
+*** Electronic/Digital Stop Watch
+**** Measures time interval up to 0.01 seconds (1/100 second)
+**** How to Use
+***** Start/stop button initiates and halts time measurement
+***** Press button to start and stop
+***** Reset button restores zero settings
+** Name Origin
+*** "Stop watch" refers to its ability to start or stop at will
 @endmindmap
+
 `,
   },
   {
     question:
       "What do you know about the Measuring Cylinder? How is the volume of liquids measured using this cylinder?",
     answer: `
-        <p><strong>A Measuring Cylinder</strong> measures volumes of liquids and powders.</p>
-        <ul class="list-disc list-inside space-y-2">
-            <li><strong>Construction:</strong> Transparent cylinder with a scale.</li>
-            <li><strong>Measurement:</strong> Read volume at the bottom of the meniscus on a horizontal surface.</li>
-        </ul>
+      <div class="max-w-4xl mx-auto p-6">
+  <p class="mb-4">
+    A measuring cylinder is a cylindrical tube that is used to measure the volume of liquid or powdered substances. It is also used to find the volume of an irregular-shaped solid insoluble in a liquid by the displacement method.
+  </p>
+
+  <h3 class="text-lg font-semibold mb-2">Construction</h3>
+  <p class="mb-4">
+    It is made of transparent plastic or glass, and it has a vertical scale in milliliters (ml) or cubic centimeters (cm³). Measuring cylinders have different capacities ranging from 100 ml to 2500 ml.
+  </p>
+
+  <h3 class="text-lg font-semibold mb-2">Measurement of Volume</h3>
+  <p class="mb-4">
+    When a liquid is put into it, the volume is noted on the scale in front of the meniscus of the liquid. The meniscus of most liquids curves downwards, while the meniscus of mercury curves upwards.
+  </p>
+
+  <h3 class="text-lg font-semibold mb-2">Precautions</h3>
+  <p class="mb-4">
+    To measure the volume of the liquid correctly, the following precautions should be kept in mind:
+  </p>
+  <ul class="list-disc pl-5 mb-4">
+    <li>The cylinder must be placed on a horizontal surface.</li>
+    <li>The eye should be kept level with the bottom of the meniscus (curved surface). When the eye is above the liquid level, the meniscus appears higher on the scale. Similarly, when the eye is below the liquid level, the meniscus appears lower than the actual height of the liquid.</li>
+  </ul>
+
+  <div class="mb-4">
+    <p class="font-semibold mb-2">Incorrect Position</p>
+    <img src="/path-to-image/incorrect-position.png" alt="Incorrect position" class="w-full h-auto mb-2" />
+    <p class="font-semibold mb-2">Correct Position</p>
+    <img src="/path-to-image/correct-position.png" alt="Correct position" class="w-full h-auto" />
+  </div>
+</div>
+
         `,
     uml: `@startmindmap
 * Measuring Cylinder
-** Purpose
-   *** Measures volumes of liquids and powders
+** Definition
+*** Cylindrical tube used to measure volume of liquids or powdered substances
+*** Used to find volume of irregular-shaped solids by displacement
 ** Construction
-   *** Transparent cylinder
-   *** Scale
-** Measurement
-   *** Read bottom of the meniscus
-   *** Use horizontal surface
+*** Made of transparent plastic or glass
+*** Vertical scale in milliliters (ml) or cubic centimeters (cm³)
+*** Capacities range from 100 ml to 2500 ml
+** Measurement of Volume
+*** Volume noted on the scale at the meniscus
+*** Meniscus of most liquids curves downward
+*** Meniscus of mercury curves upward
+** Precautions
+*** Place cylinder on a horizontal surface
+*** Eye level with the bottom of the meniscus
+**** Incorrect Position: Eye above or below liquid level
+**** Correct Position: Eye level with liquid surface
 @endmindmap
+
 `,
   },
   {
     question:
       "How is the volume of irregular shapes measured using the displacement method?",
     answer: `
-        <ol class="list-decimal list-inside space-y-2">
-            <li>Fill a measuring cylinder with liquid and note the initial volume.</li>
-            <li>Immerse the irregular solid and note the new volume.</li>
-            <li>Volume of the solid = New volume *** Initial volume.</li>
-        </ol>
+       <div class="max-w-4xl mx-auto p-6">
+  <p class="mb-4">
+    Volume of irregular-shaped solids is found by the displacement method.
+  </p>
+
+  <h3 class="text-lg font-semibold mb-2">Displacement Method</h3>
+  <p class="mb-4">
+    The solid is lowered into a measuring cylinder containing a liquid. The level of the liquid rises. The increase in the volume of the liquid is equal to the volume of the given solid object.
+  </p>
+
+  <h3 class="text-lg font-semibold mb-2">Method</h3>
+  <p class="mb-4">
+    Let us find the volume of a small stone. 
+  </p>
+  <ol class="list-decimal pl-5 mb-4">
+    <li>Take the initial volume <code class="bg-gray-100 p-1 rounded">Vi</code> of water in the cylinder.</li>
+    <li>Tie the solid with a thread.</li>
+    <li>Lower the solid into the cylinder until it is fully immersed in water.</li>
+    <li>Note the final volume <code class="bg-gray-100 p-1 rounded">Vf</code> of water and the solid.</li>
+    <li>The volume of the solid will be <code class="bg-gray-100 p-1 rounded">Vf - Vi</code>.</li>
+  </ol>
+</div>
+
         `,
     uml: `@startmindmap
-* Volume of Irregular Shapes
-** Displacement Method
+* Displacement Method
+** Definition
+*** Measures volume of irregular-shaped solids by the change in liquid level
+** Method
+*** Example: Finding Volume of a Small Stone
+**** Take initial volume (Vi) of water in the cylinder
+**** Tie the solid with a thread
+**** Lower solid into the cylinder until fully immersed
+**** Note final volume (Vf) of water and solid
+**** Calculate volume of solid as Vf - Vi
 ** Steps
-   *** Fill measuring cylinder with liquid
-   *** Note initial volume
-   *** Immerse irregular solid
-   *** Note new volume
-   *** Volume of solid = New volume *** Initial volume
+*** Initial Volume (Vi)
+*** Immersion of Solid
+*** Final Volume (Vf)
+*** Volume of Solid = Vf - Vi
 @endmindmap
 `,
   },
@@ -619,59 +757,131 @@ const questionsAndAnswers: QuestionAnswer[] = [
     question:
       "Define and explain Significant figures. What are the main points to be kept in mind while determining the significant figures of a result?",
     answer: `
-        <p><strong>Significant figures</strong> are digits in a measurement that convey precision.</p>
-        <ul class="list-disc list-inside space-y-2">
-            <li>Non-zero digits are always significant.</li>
-            <li>Zeros between significant digits are significant.</li>
-            <li>Leading zeros are not significant.</li>
-            <li>Trailing zeros in decimals are significant.</li>
-            <li>Trailing zeros in whole numbers may or may not be significant.</li>
-            <li>Scientific notation ensures all digits before the power of 10 are significant.</li>
-        </ul>
+        <div class="max-w-4xl mx-auto p-6">
+  <p class="mb-4">
+    In any measurement, the accurately known digits and the first doubtful digit in an expression are called significant figures. They reflect the precision of a measured value of a physical quantity.
+  </p>
+
+  <h3 class="text-lg font-semibold mb-2">Accuracy of Measurement</h3>
+  <p class="mb-4">
+    The value of a physical quantity is expressed by a number followed by some suitable unit. Every measurement is an attempt to find the true value. The accuracy in measuring a physical quantity depends upon various factors:
+  </p>
+  <ul class="list-disc pl-5 mb-4">
+    <li>The quality of the measuring instrument</li>
+    <li>The skill of the observer</li>
+    <li>The number of observations made</li>
+  </ul>
+
+  <h3 class="text-lg font-semibold mb-2">Example</h3>
+  <p class="mb-4">
+    A student measures the length of a book as 18 cm using a measuring tape. The number of significant figures in this measurement is two. The left digit is the accurately known digit, while the digit 8 is a doubtful digit, which the student may not be sure about.
+  </p>
+  <p class="mb-4">
+    Another student measures the same book using a ruler and claims its length to be 18.4 cm. In this case, all three figures are significant. The two left digits 1 and 8 are accurately known, while the digit 4 is the doubtful digit.
+  </p>
+  <p class="mb-4">
+    A third student records the length of the book as 18.425 cm using the same ruler. The number of significant figures is again three, consisting of the two accurately known digits 1 and 8, and the first doubtful digit 4. The digits 2 and 5 are not significant because the measurement is limited by the instrument.
+  </p>
+  <p class="mb-4">
+    An improvement in the quality of measurement by using a better instrument increases the significant figures in the measured result. Significant figures include all the digits that are known accurately and the one estimated digit. More significant figures mean greater precision.
+  </p>
+
+  <h3 class="text-lg font-semibold mb-2">Rules for Determining Significant Figures</h3>
+  <p class="mb-4">The following rules are helpful in identifying significant figures:</p>
+  <ul class="list-disc pl-5 mb-4">
+    <li>Non-zero digits are always significant.</li>
+    <li>Zeros in between two significant figures are also significant. For example, in <code class="bg-gray-100 p-1 rounded">1.406</code>, the number of significant figures is 4.</li>
+    <li>In any observation, the zeros on the left side of the decimal point for the purpose of spacing the decimal point are not significant. For example, in <code class="bg-gray-100 p-1 rounded">0.0036</code>, the number of significant figures is 2.</li>
+    <li>Final or ending zeros on the right side of decimal fractions are considered significant. For example, the number of significant figures in <code class="bg-gray-100 p-1 rounded">2.450</code> is four.</li>
+    <li>In whole numbers that end in one or more zeros without a decimal point, these zeros may or may not be significant. In such cases, express the quantity using scientific notation.</li>
+    <li>If numbers are recorded in scientific notation, then all the digits before the power of 10 are significant. For example, in <code class="bg-gray-100 p-1 rounded">1.40 x 10<sup>3</sup></code>, the number of significant figures is three.</li>
+  </ul>
+</div>
+
         `,
     uml: `@startmindmap
 * Significant Figures
 ** Definition
-   *** Digits conveying precision
-** Rules
-   *** Non-zero digits are significant
-   *** Zeros between significant digits are significant
-   *** Leading zeros are not significant
-   *** Trailing zeros in decimals are significant
-   *** Trailing zeros in whole numbers may or may not be significant
-   *** Scientific notation ensures all digits before the power of 10 are significant
+*** Accurately known digits + first doubtful digit
+*** Reflect precision of a measured value
+** Accuracy of Measurement
+*** Dependent on:
+**** Quality of the measuring instrument
+**** Skill of the observer
+**** Number of observations
+** Examples
+*** Measurement of 18 cm
+**** Significant Figures: 2 (18)
+*** Measurement of 18.4 cm
+**** Significant Figures: 3 (18.4)
+*** Measurement of 18.425 cm
+**** Significant Figures: 5 (18.42)
+** Rules for Determining Significant Figures
+*** Non-zero digits are always significant
+**** Example: 1.406 (4 significant figures)
+*** Zeros between significant figures are significant
+**** Example: 1.406 (4 significant figures)
+*** Leading zeros are not significant
+**** Example: 0.0036 (2 significant figures)
+*** Trailing zeros in decimal fractions are significant
+**** Example: 2.450 (4 significant figures)
+*** Trailing zeros in whole numbers without decimal points may or may not be significant
+**** Use scientific notation to clarify
+*** In scientific notation, all digits before the power of 10 are significant
+**** Example: 1.40 x 10^3 (3 significant figures)
 @endmindmap
 `,
   },
   {
     question: "Write down the rules to round off the numbers.",
     answer: `
-        <ul class="list-disc list-inside space-y-2">
-            <li>If the last digit is less than 5, drop it.</li>
-            <li>If the last digit is more than 5, increase the preceding digit by 1.</li>
-            <li>If the last digit is exactly 5, round to the nearest even number.</li>
-        </ul>
-        <p><strong>Examples:</strong></p>
-        <ul class="list-disc list-inside space-y-2">
-            <li>1.943 rounded to 1.94</li>
-            <li>1.35 rounded to 1.4</li>
-            <li>1.45 rounded to 1.4</li>
-        </ul>
+       <div class="max-w-4xl mx-auto p-6">
+  <p class="mb-4">
+    The following rules are used to round off numbers:
+  </p>
+  <ol class="list-decimal pl-5 mb-4">
+    <li>
+      If the last digit is less than 5, then it is simply dropped. This decreases the number of significant digits in the figure.
+      <br /> 
+      <strong>Example:</strong> 1.943 is rounded to 1.94 (3 significant figures)
+    </li>
+    <li>
+      If the last digit is greater than 5, then the digit on its left is increased by one. This also decreases the number of significant digits in the figure.
+      <br /> 
+      <strong>Example:</strong> 1.47 is rounded to 1.5 (two significant digits)
+    </li>
+    <li>
+      If the last digit is 5, then it is rounded to get the nearest even number.
+      <br />
+      <strong>Example:</strong>
+      <ul class="list-disc pl-5 mt-2">
+        <li>1.35 is rounded to 1.4</li>
+        <li>1.45 is rounded to 1.4</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+
         `,
     uml: `
-    @startmindmap
-* Rules for Rounding Off Numbers
-** Last Digit Less than 5
-   *** Drop it
-** Last Digit More than 5
-   *** Increase preceding digit by 1
-** Last Digit Exactly 5
-   *** Round to nearest even number
-** Examples
-   *** 1.943 → 1.94
-   *** 1.35 → 1.4
-   *** 1.45 → 1.4
+@startmindmap
+* Rounding Off Numbers
+** Rules
+*** Last Digit Less Than 5
+**** Simply dropped
+**** Decreases the number of significant digits
+**** Example: 1.943 → 1.94 (3 significant figures)
+*** Last Digit Greater Than 5
+**** Digit on its left increased by one
+**** Decreases the number of significant digits
+**** Example: 1.47 → 1.5 (2 significant figures)
+*** Last Digit is 5
+**** Rounded to the nearest even number
+**** Example:
+***** 1.35 → 1.4
+***** 1.45 → 1.4
 @endmindmap
+
 `,
   },
 ];
