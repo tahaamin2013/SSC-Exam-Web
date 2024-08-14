@@ -78,6 +78,18 @@ const data = [
     ],
   },
   {
+    id: "6",
+    title: "2.7 EQUATIONS OF MOTION",
+    links: [
+      { href: "/physics/unit-2/equation-of-motion/original-content", text: "Original Content", icon: List },
+      { href: "/physics/unit-2/equation-of-motion/notes", text: "Notes", icon: BookOpen },
+      { href: "/physics/unit-2/equation-of-motion/mind-map", text: "Mind Map", icon: Brain },
+      { href: "/physics/unit-2/equation-of-motion/quiz", text: "MCQs", icon: HelpCircle },
+      { href: "/physics/unit-2/equation-of-motion/brief-questions", text: "Brief Questions", icon: FileText },
+      { href: "/physics/unit-2/equation-of-motion/detailed-questions", text: "Detailed Questions", icon: List },
+    ],
+  },
+  {
     id: "7",
     title: "Chapter Round up",
     links: [
@@ -99,7 +111,7 @@ const data = [
 
 const Section = ({ section }: any) => {
   return (
-    <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1rem)] mb-6 p-4 rounded-2xl transition-all duration-300 hover:shadow-lg"
+    <div className="w-full h-fit md:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1rem)] mb-6 p-4 rounded-2xl transition-all duration-300 hover:shadow-lg"
       style={{
         backdropFilter: 'blur(10px)',
         border: '1px solid rgba(255, 255, 255, 0.2)',

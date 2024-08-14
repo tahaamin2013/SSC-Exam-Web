@@ -73,8 +73,8 @@ export const quiz = {
     {
       id: 11,
       question: "One meter is equal to:",
-      answers: ["10 mm", "10 km", "10 cm", "All"],
-      correctAnswer: "10 cm",
+      answers: ["10^3 mm", "10^-3 km", "10^2 cm", "All"],
+      correctAnswer: "All",
     },
     {
       id: 12,

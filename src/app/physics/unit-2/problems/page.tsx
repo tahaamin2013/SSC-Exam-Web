@@ -388,6 +388,22 @@ const Page = () => {
                             </p>
                         </AccordionContent>
                     </AccordionItem>
+                    <AccordionItem value="item-11">
+                        <AccordionTrigger>
+                        A cyclist is moving at a constant speed of 20 km/h. How much time will it take for the cyclist to cover a distance of 5 km?</AccordionTrigger>
+                        <AccordionContent className="p-4 bg-white border border-gray-200 rounded-md shadow-sm">
+                           
+                        </AccordionContent>
+                    </AccordionItem>
+                    <AccordionItem value="item-12">
+                        <AccordionTrigger>
+                        A train travels a distance of 120 km at a speed of 60 km/h, then continues for another 80 km at 80 km/h. What is the average speed of the train over the entire journey?
+
+</AccordionTrigger>
+                        <AccordionContent className="p-4 bg-white border border-gray-200 rounded-md shadow-sm">
+                           
+                        </AccordionContent>
+                    </AccordionItem>
                 </Accordion>
             </div>
         </section>

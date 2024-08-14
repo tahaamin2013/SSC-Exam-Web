@@ -73,22 +73,25 @@ const data = [
         id: "6",
         title: "Chapter Round up",
         links: [
-            { href: "/physics/unit-3/summary", text: "Summary", icon: BookOpen },
             { href: "/physics/unit-3/quiz", text: "MCQS", icon: HelpCircle },
+            { href: "/physics/unit-3/quiz2", text: "MCQS 2", icon: HelpCircle },
+            { href: "/physics/unit-3/mini-excersise", text: "Mini Excersise", icon: HelpCircle },
+            { href: "/physics/unit-3/problems", text: "Problems", icon: HelpCircle },
+            { href: "/physics/unit-3/textbook-excersise-questions", text: "TextBook Excersise Questions", icon: HelpCircle },
+            { href: "/physics/unit-3/summary", text: "Summary", icon: BookOpen },
             { href: "/physics/unit-3/brief-questions", text: "Brief Questions", icon: FileText },
             { href: "/physics/unit-3/brief-questions2", text: "Brief Questions 2", icon: FileText },
             { href: "/physics/unit-3/detailed-questions", text: "Detailed Questions", icon: List },
-            {
-                href: "/physics/unit-3/numerical",
-                text: "Numerical Questions",
-                icon: List,
-            },],
+            { href: "/physics/unit-3/detailed-questions2", text: "Detailed Questions 2", icon: List },
+            { href: "/physics/unit-3/content", text: "Content", icon: List },
+            { href: "/physics/unit-3/numeric", text: "Numerical Questions", icon: List },
+        ],
     },
 ];
 
 const Section = ({ section }: any) => {
     return (
-        <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1rem)] mb-6 p-4 rounded-2xl transition-all duration-300 hover:shadow-lg"
+        <div className="w-full h-fit md:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1rem)] mb-6 p-4 rounded-2xl transition-all duration-300 hover:shadow-lg"
             style={{
                 backdropFilter: 'blur(10px)',
                 border: '1px solid rgba(255, 255, 255, 0.2)',
