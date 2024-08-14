@@ -7,7 +7,7 @@ const NumericalQuestions: FC = () => {
                 <h1 className="text-2xl font-bold mb-4">Numerical Response Questions</h1>
                 <ol className="list-decimal pl-6 space-y-4">
                     <li>
-                        Calculate the length of a spanner if a nut of length 20 cm requires a force of 50 N to turn, and if the same nut's torque is set by a force of 110 N, what should be the length of the spanner?
+                        Calculate the length of a spanner if a nut of length 20 cm requires a force of 50 N to turn, and if the same nut&apos;s torque is set by a force of 110 N, what should be the length of the spanner?
                         <br />
                         **Answer:** 10 cm and 110 cm
                     </li>

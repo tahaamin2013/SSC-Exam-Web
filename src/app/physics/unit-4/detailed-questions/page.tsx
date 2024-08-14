@@ -94,7 +94,7 @@ const QuestionDashboard = () => {
                             **Equilibrium** is a state where an object is at rest or moving with a constant velocity, with no net force or torque acting on it.
 
                             **Conditions of Equilibrium**:
-                            1. **First Condition (Translational Equilibrium)**: The sum of all forces acting on an object must be zero (\( \sum \vec    F = 0 \)).
+                            1. **First Condition (Translational Equilibrium)**: The sum of all forces acting on an object must be zero (\( \sum \vec F = 0 \)).
                             2. **Second Condition (Rotational Equilibrium)**: The sum of all torques acting on an object about any axis must be zero (\( \sum \tau = 0 \)).
 
                             **Principle of Moments**: The principle states that for an object to be in rotational equilibrium, the sum of the clockwise moments (torques) about any point must equal the sum of the counterclockwise moments about the same point.
@@ -183,8 +183,8 @@ const QuestionDashboard = () => {
 
                             **Motion Description**:
                             - **Constant Speed**: The object moves at a constant speed.
-                            - **Changing Direction**: The direction of the object's velocity vector continuously changes, resulting in centripetal acceleration.
-                            - **Force Direction**: The centripetal force acts radially inward, constantly changing the object's direction but not its speed.
+                            - **Changing Direction**: The direction of the object&apos;s velocity vector continuously changes, resulting in centripetal acceleration.
+                            - **Force Direction**: The centripetal force acts radially inward, constantly changing the object&apos;s direction but not its speed.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -204,7 +204,7 @@ const QuestionDashboard = () => {
                     <AccordionItem value="item-13">
                         <AccordionTrigger>Define orbital velocity. How do scientists use the concept of orbital speed to launch satellites into specific orbits? What factors influence the chosen speed?</AccordionTrigger>
                         <AccordionContent>
-                            **Orbital Velocity**: It is the speed required for an object to stay in a stable orbit around a celestial body, such as Earth. It ensures that the object's centripetal force due to gravity matches the necessary centripetal force for circular motion.
+                            **Orbital Velocity**: It is the speed required for an object to stay in a stable orbit around a celestial body, such as Earth. It ensures that the object&apos;s centripetal force due to gravity matches the necessary centripetal force for circular motion.
 
                             **Launching Satellites**:
                             - **Calculating Velocity**: Scientists calculate the required orbital velocity based on the altitude of the orbit and the mass of the celestial body.

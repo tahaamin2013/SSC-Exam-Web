@@ -9,7 +9,7 @@ const Summary: NextPage = () => {
                 <section className="mb-8">
                     <h2 className="text-2xl font-semibold text-indigo-500 mb-2">Moment of a Force (Torque)</h2>
                     <p className="text-lg mb-4">
-                        Moment of a force or Torque is the measure of an object's tendency to rotate about some point O.
+                        Moment of a force or Torque is the measure of an object&apos;s tendency to rotate about some point O.
                         <br />
                         <strong>Moment of a force = force x perpendicular distance of the force to the point.</strong>
                     </p>

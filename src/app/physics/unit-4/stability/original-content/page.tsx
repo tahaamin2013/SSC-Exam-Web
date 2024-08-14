@@ -37,10 +37,10 @@ const Stability: FC = () => {
                 <br />(c) by both.
             </p>
             <p className="mb-4">
-                When the object's center of mass is directly beneath the point of support, it is in a stable equilibrium state. The center of mass represents the average position of the mass distribution within the object. In simple terms, &quot;vertically below&quot; means that the center of mass is aligned vertically beneath the point of support.
+                When the object&apos;s center of mass is directly beneath the point of support, it is in a stable equilibrium state. The center of mass represents the average position of the mass distribution within the object. In simple terms, &quot;vertically below&quot; means that the center of mass is aligned vertically beneath the point of support.
             </p>
             <p className="mb-4">
-                When an object is in stable equilibrium, it means that if it is slightly disturbed or tilted, it has a tendency to return to its original position. This is because the gravitational force acting on the object causes it to rotate around the point of support, and the object's weight acts through its center of mass. As a result, the object naturally realigns itself to maintain its stable equilibrium state.
+                When an object is in stable equilibrium, it means that if it is slightly disturbed or tilted, it has a tendency to return to its original position. This is because the gravitational force acting on the object causes it to rotate around the point of support, and the object&apos;s weight acts through its center of mass. As a result, the object naturally realigns itself to maintain its stable equilibrium state.
             </p>
             <p className="mb-4">
                 Various toys and equipment use the principle of stable equilibrium to regain their balance after being disturbed. These objects are often called &quot;self-righting&quot; or &quot;self-balancing&quot; toys. They are designed with their center of mass below the support point and have a specific weight distribution that helps them restore their original position. These objects might include balancing birds, wobbling dolls, or weighted-bottom drinking cups, all of which exhibit the stable equilibrium principle as shown in figure 4.13.
