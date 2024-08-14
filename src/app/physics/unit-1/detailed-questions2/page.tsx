@@ -347,8 +347,7 @@ const questionsAndAnswers: QuestionAnswer[] = [
 `,
   },
   {
-    question:
-      "Write a note on the Screw Gauge",
+    question: "Write a note on the Screw Gauge",
     answer: `
         <div>
   <div className="max-w-4xl mx-auto p-6">
@@ -445,24 +444,24 @@ const questionsAndAnswers: QuestionAnswer[] = [
 
 `,
   },
-//   {
-//     question: "What are the types of zero errors in measurement instruments?",
-//     answer: `
-//         <ul class="list-disc list-inside space-y-2">
-//             <li><strong>Positive Zero Error:</strong> Occurs if the zero of the scale is behind the index line.</li>
-//             <li><strong>Negative Zero Error:</strong> Occurs if the zero of the scale is ahead of the index line.</li>
-//         </ul>
-//         `,
-//     uml: `
-//         @startmindmap
-// * Types of Zero Errors
-// ** Positive Zero Error
-//    *** Zero of the scale behind the index line
-// ** Negative Zero Error
-//    *** Zero of the scale ahead of the index line
-// @endmindmap
-// `,
-//   },
+  //   {
+  //     question: "What are the types of zero errors in measurement instruments?",
+  //     answer: `
+  //         <ul class="list-disc list-inside space-y-2">
+  //             <li><strong>Positive Zero Error:</strong> Occurs if the zero of the scale is behind the index line.</li>
+  //             <li><strong>Negative Zero Error:</strong> Occurs if the zero of the scale is ahead of the index line.</li>
+  //         </ul>
+  //         `,
+  //     uml: `
+  //         @startmindmap
+  // * Types of Zero Errors
+  // ** Positive Zero Error
+  //    *** Zero of the scale behind the index line
+  // ** Negative Zero Error
+  //    *** Zero of the scale ahead of the index line
+  // @endmindmap
+  // `,
+  //   },
   {
     question: "What is a Physical Balance? And how is it used?",
     uml: `@startmindmap
