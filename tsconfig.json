@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/textupdater.js", "src/components/reactflow.tsx", "src/components/sif.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/textupdater.js", "src/components/reactflow.tsx", "src/components/sif.js", "src/app/physics/unit-1/measuring-instruments/notes/VernierCaliper.js"],
   "exclude": ["node_modules"]
 }

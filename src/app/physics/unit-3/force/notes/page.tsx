@@ -1,4 +1,5 @@
 import React from 'react'
+import FundamentalForcesComponent from '../mind-map/fundamentalforcecomponent'
 
 const Page = () => {
   return (
@@ -53,7 +54,7 @@ const Page = () => {
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">3. Fundamental Forces in Nature</h2>
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               {[
                 { name: "Strong Nuclear Force", description: "Strongest fundamental force, keeps protons together in nucleus, very short range. Exchange particles: pions." },
                 { name: "Electromagnetic Force", description: "Acts between electric charges, includes electric and magnetic forces, infinite range. Exchange particle: photon." },
@@ -65,7 +66,8 @@ const Page = () => {
                   <p className="text-gray-600">{force.description}</p>
                 </div>
               ))}
-            </div>
+            </div> */}
+            <FundamentalForcesComponent />
           </section>
 
           <section className="mb-8">

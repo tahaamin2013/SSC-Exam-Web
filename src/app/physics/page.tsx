@@ -12,11 +12,12 @@ type Section = {
 };
 
 const data: Section[] = [
-    { id: "1", link: "/physics/unit-1", title: "Unit 1: Physical Quantities And Measurement" },
-    { id: "2", link: "/physics/unit-2", title: "Unit 2: Kinamtics" },
-    { id: "3", link: "/physics/unit-3", title: "Unit 3: Dynamics - 1" },
+    { id: "1", link: "/physics/unit-1", title: "Physical Quantities And Measurement" },
+    { id: "2", link: "/physics/unit-2", title: "Kinamtics" },
+    { id: "3", link: "/physics/unit-3", title: "Dynamics - 1" },
     { id: "4", link: "/physics/unit-4", title: "DYNAMICS-II" },
-    { id: "5", link: "/physics/unit-9", title: "Unit 9: Nature Of Science And Physics" },
+    { id: "5", link: "/physics/unit-5", title: "PRESSURE AND DEFORMATION IN SOLIDS" },
+    { id: "6", link: "/physics/unit-9", title: "Unit 9: Nature Of Science And Physics" },
 ];
 
 const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; isRedirecting: boolean; onRedirect: () => void }) => {
@@ -48,7 +49,7 @@ const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; is
             <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-indigo-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
             <div className="relative z-10 p-6">
                 <Book className="mb-4 h-8 w-8 text-purple-500 transition-colors duration-300 group-hover:text-white" />
-                <h2 className="mb-2 text-xl font-bold  text-zinc-200 transition-colors duration-300 group-hover:text-white">
+                <h2 className="mb-2 capitalize text-xl font-bold  text-zinc-200 transition-colors duration-300 group-hover:text-white">
                     {section.title}
                 </h2>
                 <p className="text-sm text-zinc-200 transition-colors duration-300 group-hover:text-purple-100">
