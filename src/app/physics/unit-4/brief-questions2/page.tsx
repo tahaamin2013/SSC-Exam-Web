@@ -21,6 +21,7 @@ const Page = () => {
                     <AccordionItem value="item-1">
                         <AccordionTrigger>fds</AccordionTrigger>
                         <AccordionContent>
+                            fds
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
