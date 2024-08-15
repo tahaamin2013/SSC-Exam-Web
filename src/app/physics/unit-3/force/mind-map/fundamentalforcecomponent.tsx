@@ -15,28 +15,28 @@ interface Force {
 const forces: Force[] = [
   {
     name: "Strong Nuclear Force",
-    description: "Strongest force, keeps protons packed in atomic nucleus.",
+    description: "it binds the fundamental particles of matter together to form larger particles. It holds together the quarks that make up protons and neutrons, and part of the strong force also keeps the protons and neutrons of an atom's nucleus together. The strongest force, but also has a short range. It governs nuclear interactions inside atoms. Strongest force, keeps protons packed in atomic nucleus.",
     exchangeParticles: "Pions and other heavy particles",
     range: "10^-15 m (≈ diameter of a proton)",
     relativeStrength: "1",
   },
   {
     name: "Electromagnetic Force",
-    description: "Acts between electric charges, includes electric and magnetic forces.",
+    description: "Stronger than gravity, but also has infinite range. For example, the electromagnetic force keeps a book from falling off a table because the electrons in the table's atoms repel the electrons in the book's atoms. Acts between electric charges, includes electric and magnetic forces.",
     exchangeParticles: "Photons",
     range: "Infinite",
     relativeStrength: "7.3 x 10^-3",
   },
   {
     name: "Gravitational Force",
-    description: "Force of attraction between all objects, weakest of the four.",
+    description: "The weakest force, but has infinite range. It's always attractive and acts between any two pieces of matter in the universe. For example, gravity causes the moon to revolve around the Earth and tides to form in the ocean. Force of attraction between all objects, weakest of the four.",
     exchangeParticles: "Graviton (not yet detected)",
     range: "Infinite",
     relativeStrength: "6 x 10^-39",
   },
   {
     name: "Weak Nuclear Force",
-    description: "Responsible for radioactive decay, changes flavor of quarks.",
+    description: "The weak force, also called the weak nuclear interaction, is responsible for particle decay. The next weakest force, but has a short range. It's responsible for radioactive decay and neutrino interactions, and is also critical for the nuclear fusion reactions that power the sun. Responsible for radioactive decay, changes flavor of quarks.",
     exchangeParticles: "W+, W-, Z0 (vector bosons)",
     range: "10^-18 m",
     relativeStrength: "10^-13",
@@ -48,6 +48,7 @@ const FundamentalForcesComponent: React.FC = () => {
 
   return (
     <div className="p-4 max-w-4xl mx-auto">
+        <iframe width="600" height="500" scrolling="yes" frameBorder="0" data-lazy-priority="low" data-lazy-src="https://view.genial.ly/61c460b39d7e660de754a3cf" data-lazy-report="lazily loaded with low priority" src="https://view.genial.ly/61c460b39d7e660de754a3cf"></iframe>
       <Tabs defaultValue={forces[0].name} className="mb-6">
         <TabsList className="grid w-full grid-cols-2 lg:grid-cols-4">
           {forces.map((force) => (

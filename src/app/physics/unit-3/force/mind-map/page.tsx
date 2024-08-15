@@ -1,15 +1,15 @@
 "use client";
-import React, { useEffect, useRef, useState } from 'react';
-import mermaid from 'mermaid';
-import PlantUMLDiagram from '@/components/PlantUMLDiagram';
+import React, { useEffect, useRef, useState } from "react";
+import mermaid from "mermaid";
+import PlantUMLDiagram from "@/components/PlantUMLDiagram";
 
 const DynamicsPage = () => {
-    useEffect(() => {
-        mermaid.initialize({ startOnLoad: true });
-        mermaid.contentLoaded();
-    }, []);
+  useEffect(() => {
+    mermaid.initialize({ startOnLoad: true });
+    mermaid.contentLoaded();
+  }, []);
 
-    const mindmapCode1 = `
+  const mindmapCode1 = `
 @startmindmap
 * Force and Motion
 right side
@@ -37,9 +37,9 @@ left side
 *** Change direction of motion
 ** Examples
 *** Moving a trolley
-@endmindmap`
+@endmindmap`;
 
-const mindmapCode3 = `
+  const mindmapCode3 = `
 @startmindmap
 * Types of Forces
 left side
@@ -78,56 +78,10 @@ right side
 **** Between magnetic poles
 **** Can be attractive or repulsive
 **** Example: Repulsion between two North poles
-@endmindmap`
+@endmindmap`;
 
-const mindmapCode4 = `
-@startmindmap
-* Fundamental Forces in Nature
-right side
-** Electromagnetic Force
-*** Acts between electric charges
-*** Includes electric and magnetic forces
-*** Exchange particle: photon
-*** Infinite range
-*** Relative strength: 7.3 x 10^-3
-*** Causes normal force, friction, tension
-** Gravitational Force
-*** Weakest fundamental force
-*** Attraction between all objects
-*** Theorized exchange particle: graviton (undetected)
-*** Infinite range
-*** Relative strength: 6 x 10^-39
-*** Noticeable for large masses (stars, planets)
-** Weak Nuclear Force
-*** Weakest after gravitational force
-*** Shortest range (~10^-18 m)
-*** Exchange particles: W+, W-, Z0 (vector bosons)
-*** Relative strength: 10^-13
-*** Responsible for radioactive decay
-*** Changes quark flavors
-left side
-** Strong Nuclear Force
-*** Strongest of all forces
-*** Keeps protons in nucleus
-*** Exchange particles: pions
-*** Very short range (~10^-15 m)
-*** Relative strength: 1
-** Unification Attempts
-*** Electroweak theory
-**** Unifies electromagnetic and weak forces
-**** Proposed by Salam, Weinberg, Glashow
-**** Incorporates quantum electrodynamics
-**** Four carrier particles
-***** Photon
-***** W+, W-, Z particles
-** Comparison Table
-*** Range
-*** Relative strength
-*** Function
-*** Exchange Particles
-@endmindmap`
-
-const mindmapCode5 = `
+  
+  const mindmapCode5 = `
 @startmindmap
 * Force Diagrams
 right side
@@ -154,69 +108,260 @@ left side
 *** Figure 3.5
 **** Three examples of SDs and FBDs
 @endmindmap
-`
+`;
 
+  const [zoomLevel, setZoomLevel] = useState(1);
+  const zoomOut = () => setZoomLevel((prev) => Math.max(prev - 0.1, 0.5));
+  const zoomIn = () => setZoomLevel((prev) => Math.min(prev + 0.1, 2));
 
-    const [zoomLevel, setZoomLevel] = useState(1);
-    const zoomOut = () => setZoomLevel(prev => Math.max(prev - 0.1, 0.5));
-    const zoomIn = () => setZoomLevel(prev => Math.min(prev + 0.1, 2));
+  return (
+    <div className="container overflow-x-hidden mx-auto p-4">
+      <h1 className="text-3xl font-bold mb-6">Dynamics - Forces</h1>
 
-    return (
-        <div className="container overflow-x-hidden mx-auto p-4">
-            <h1 className="text-3xl font-bold mb-6">Dynamics - Forces</h1>
+      <h2 className="text-2xl font-semibold mb-4">
+        Force and Motion
+      </h2>
 
-            <h2 className="text-2xl font-semibold mb-4">Fundamental Forces in Nature</h2>
-            <div className="overflow-x-auto mb-8">
-                <table className="min-w-full divide-y divide-gray-300">
-                    <thead>
-                        <tr className="bg-gray-100">
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Force</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Range (metre)</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Relative strength</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Function</th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Exchange Particles</th>
-                        </tr>
-                    </thead>
-                    <tbody className="bg-white divide-y divide-gray-200">
-                        <tr>
-                            <td className="px-6 py-4 whitespace-nowrap">Strong Force</td>
-                            <td className="px-6 py-4 whitespace-nowrap">10⁻¹⁵ (diameter of proton)</td>
-                            <td className="px-6 py-4 whitespace-nowrap">1</td>
-                            <td className="px-6 py-4 whitespace-nowrap">Proton - Proton, Proton - Neutron</td>
-                            <td className="px-6 py-4 whitespace-nowrap">Pions (Π) or others</td>
-                        </tr>
-                        <tr className="bg-gray-50">
-                            <td className="px-6 py-4 whitespace-nowrap">Electromagnetic Force</td>
-                            <td className="px-6 py-4 whitespace-nowrap">infinite</td>
-                            <td className="px-6 py-4 whitespace-nowrap">7.3 x 10⁻³</td>
-                            <td className="px-6 py-4 whitespace-nowrap">Proton - Electron</td>
-                            <td className="px-6 py-4 whitespace-nowrap">Photons (massless)</td>
-                        </tr>
-                        <tr>
-                            <td className="px-6 py-4 whitespace-nowrap">Weak Force</td>
-                            <td className="px-6 py-4 whitespace-nowrap">10⁻¹⁸</td>
-                            <td className="px-6 py-4 whitespace-nowrap">10⁻¹³</td>
-                            <td className="px-6 py-4 whitespace-nowrap">-</td>
-                            <td className="px-6 py-4 whitespace-nowrap">W+, W-, Z0 (vector bosons)</td>
-                        </tr>
-                        <tr className="bg-gray-50">
-                            <td className="px-6 py-4 whitespace-nowrap">Gravitational Force</td>
-                            <td className="px-6 py-4 whitespace-nowrap">infinite</td>
-                            <td className="px-6 py-4 whitespace-nowrap">6 x 10⁻³⁹</td>
-                            <td className="px-6 py-4 whitespace-nowrap">Mass - Mass</td>
-                            <td className="px-6 py-4 whitespace-nowrap">graviton (not yet detected)</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-                <PlantUMLDiagram code={mindmapCode1} />
-                <PlantUMLDiagram code={mindmapCode3} />
-                <PlantUMLDiagram code={mindmapCode4} />
-                <h1 className='text-2xl text-blue-500 font-bold'>Force Diagrams</h1>
-                <PlantUMLDiagram code={mindmapCode5} />
-                <h1 className='text-2xl text-blue-500 font-bold'>Concept of Net Force</h1>
-                <PlantUMLDiagram code={`
+      <PlantUMLDiagram code={mindmapCode1} />
+      <h2 className="text-2xl font-semibold mb-4">
+        Types of Forces
+      </h2>
+      <PlantUMLDiagram code={mindmapCode3} />
+      <PlantUMLDiagram
+        code={`
+      @startmindmap
+* Fundamental Forces of Nature
+right side
+** 4 categories of classification
+*** Gravitational Force
+*** Electromagnetic Force
+*** Strong Nuclear Force
+*** Weak Nuclear Force
+** Basis of classification
+*** How objects interact with one another
+left side
+** Exchange Particles
+*** Explain fundamental forces
+*** Elementary particles
+*** Less massive than a proton
+*** Travel between objects
+*** "Carry" the force
+** Force Mediation
+*** Each force is carried or mediated
+*** by the exchange of a particle
+@endmindmap`}
+      />
+      <h1 className="text-2xl font-bold text-blue-500">Strong Nuclear Force</h1>
+      <PlantUMLDiagram code={`@startmindmap
+* Strong Nuclear Force
+** Strength
+*** Strongest of all fundamental forces
+** Function
+*** Keeps positively charged protons
+*** Tightly packed in nucleus
+*** Overcomes repulsion between protons
+left side
+** Exchange Particles
+*** Pions
+*** Other heavy particles
+** Range
+*** Very short
+*** Nearly equal to diameter of a proton
+@endmindmap`} />
+    <h1 className="text-2xl font-bold text-blue-500">Electromagnetic Force</h1>
+      <PlantUMLDiagram code={`@startmindmap
+* Electromagnetic Force
+** Nature/Function
+*** Acts between electric charges
+*** Includes electric and magnetic forces
+** Interaction
+*** Can exert attraction or repulsion
+*** Forces tend to cancel out on average
+*** Effect not always observed
+left side
+** Range
+*** Effective range is infinite
+*** Strength decreases rapidly with distance
+** Exchange Particle/Mediation
+*** Photon
+**** Massless particle
+** Related Forces
+*** Normal force
+*** Friction
+*** Tension
+**** Result from particle interactions on contact surfaces
+**** Caused by electromagnetic force
+@endmindmap`} />
+    <h1 className="text-2xl font-bold text-blue-500">Gravitational Force</h1>
+      <PlantUMLDiagram code={`@startmindmap
+* Gravitational Force
+** Definition
+*** Force of attraction between all objects in universe
+** Characteristics
+*** Weakest of four fundamental forces
+*** Least relative strength
+*** Noticeable with large mass objects
+**** Stars
+**** Planets
+**** Moons
+left side
+** Functions
+*** Holds objects together
+*** Controls motions
+**** Celestial bodies
+**** Falling objects on Earth
+** Theory
+*** Exchange force
+*** Mediating particle: Graviton
+**** Massless
+**** Allows infinite range
+**** Not yet detected
+** Range
+*** Similar range to electromagnetic force
+@endmindmap`} />
+    <h1 className="text-2xl font-bold text-blue-500">Weak Nuclear Force</h1>
+      <PlantUMLDiagram code={`@startmindmap
+* Weak Nuclear Force
+** Strength
+*** Very weak
+*** 10,000 times weaker than strong nuclear force
+** Range
+*** Shortest range of fundamental forces
+** Importance
+*** Plays major role in universe structure
+left side
+** Mechanism
+*** Exchange force
+*** Mediated by vector bosons
+**** Three different types
+** Function
+*** Responsible for radioactive decay
+** Particle Interaction
+*** Changes flavor (type) of quarks
+*** Neutron transformation
+**** Neutron in nucleus becomes proton
+@endmindmap`} />
+      <div className="overflow-x-auto mb-8">
+        <table className="min-w-full divide-y divide-gray-300">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Force
+              </th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Range (metre)
+              </th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Relative strength
+              </th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Function
+              </th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Exchange Particles
+              </th>
+            </tr>
+          </thead>
+          <tbody className="bg-white divide-y divide-gray-200">
+            <tr>
+              <td className="px-6 py-4 whitespace-nowrap">Strong Force</td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                10⁻¹⁵ (diameter of proton)
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">1</td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Binds protons and neutrons in nuclei <br /> Strongest of all
+                forces
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Pions (Π) or others
+              </td>
+            </tr>
+            <tr className="bg-gray-50">
+              <td className="px-6 py-4 whitespace-nowrap">
+                Electromagnetic Force
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">infinite</td>
+              <td className="px-6 py-4 whitespace-nowrap">7.3 x 10⁻³</td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Acts between charged particles <br /> Can be attractive or
+                repulsive
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Photons (massless)
+              </td>
+            </tr>
+            <tr>
+              <td className="px-6 py-4 whitespace-nowrap">Weak Force</td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                10<sup>-17</sup>
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                10<sup>-5</sup>
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Responsible for radioactive decay <br /> Short-range force
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                W+, W-, Z<sub>0</sub> (vector bosons)
+              </td>
+            </tr>
+            <tr className="bg-gray-50">
+              <td className="px-6 py-4 whitespace-nowrap">
+                Gravitational Force
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">infinite</td>
+              <td className="px-6 py-4 whitespace-nowrap">6 x 10⁻³⁹</td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Attractive force between masses <br /> Long-range force
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                graviton (not yet detected)
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <PlantUMLDiagram code={`
+        @startmindmap
+* Unification of Forces
+** Goal
+*** Show four basic forces as manifestations of one fundamental force
+** Most Successful Attempt
+*** Electroweak Theory
+**** Proposed late 1960s
+**** Physicists involved
+***** Abdus Salam (Pakistani)
+***** Steven Weinberg
+***** Sheldon Lee Glashow
+** Electroweak Theory Details
+*** Incorporates quantum electrodynamics
+**** Quantum field theory of electromagnetism
+*** Unifies electromagnetic and weak forces
+**** Treated as aspects of more-basic electroweak force
+*** Transmission
+**** Four carrier particles (gauge bosons)
+***** Photon
+****** Associated with electromagnetism
+****** Massless
+***** W+ particle
+****** Electrically charged
+****** Massive
+***** W- particle
+****** Electrically charged
+****** Massive
+***** Z particle
+****** Electrically neutral
+****** Massive
+*** Implications
+**** Mass of weak gauge bosons
+***** Limits effective range of weak force
+@endmindmap`} />
+      <h1 className="text-2xl text-blue-500 font-bold">Force Diagrams</h1>
+      <PlantUMLDiagram code={mindmapCode5} />
+      <h1 className="text-2xl text-blue-500 font-bold">Concept of Net Force</h1>
+      <PlantUMLDiagram
+        code={`
                     @startmindmap
 * Concept of Net Force
 right side
@@ -257,10 +402,10 @@ left side
 **** Subtract magnitudes
 *** Non-parallel forces
 **** Use head-to-tail rule on coordinate axis
-@endmindmap`} />
-
-        </div>
-    );
+@endmindmap`}
+      />
+    </div>
+  );
 };
 
 export default DynamicsPage;
