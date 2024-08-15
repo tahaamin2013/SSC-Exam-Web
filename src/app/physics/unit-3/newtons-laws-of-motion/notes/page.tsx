@@ -41,14 +41,14 @@ const NewtonLaws = () => {
                 {
                   subtitle: "Applications",
                   list: [
-                    "Passengers&apos; motion in vehicles",
+                    "Passengers' motion in vehicles",
                     "Objects in space"
                   ]
                 }
               ]
             },
             {
-              title: "2. Newton&apos;s Second Law of Motion",
+              title: "2. Newton's Second Law of Motion",
               content: [
                 {
                   subtitle: "Statement",
@@ -76,7 +76,7 @@ const NewtonLaws = () => {
               ]
             },
             {
-              title: "3. Newton&apos;s Third Law of Motion",
+              title: "3. Newton's Third Law of Motion",
               content: [
                 {
                   subtitle: "Statement",

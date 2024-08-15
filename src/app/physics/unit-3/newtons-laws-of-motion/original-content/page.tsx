@@ -27,7 +27,6 @@ const page = () => {
       <p className="mb-4">An external force is an applied force on the object or system. There are also internal forces. For example, suppose the object is a train and you are a passenger traveling inside it. You can push (apply a force) on the floor or the walls of the cabin, but this has no effect on the train&apos;s velocity because your push is an internal force.</p>
 
       <p className="mb-4">This means that an object in motion would continue to move in a straight line forever. However, on Earth, it is difficult to observe an object in a state of uniform motion due to the presence of forces (like gravity and friction) which continually retard the motion of the objects. But in free space, where there is no friction and negligible gravitational attraction, an object initially in motion maintains a constant velocity.</p>
-      <h2 className="text-2xl font-bold text-blue-700 mb-4 mt-3">3.2.1 NEWTON&apos;S FIRST LAW OF MOTION</h2>
 
       <p className="mb-4">An object can continue to move when the unbalanced forces are removed. For example, when a soccer ball is kicked, it experiences an unbalanced force. The ball keeps rolling on the ground until another unbalanced force alters its movement as shown in Figure 3.9.</p>
 
