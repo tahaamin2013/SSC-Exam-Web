@@ -59,7 +59,7 @@ const Page = () => {
                     </AccordionItem>
                     <AccordionItem value="item-6">
                         <AccordionTrigger>
-                            6. Why wouldn't we be able to sip water with a straw on the moon?
+                            6. Why wouldn&apos;t we be able to sip water with a straw on the moon?
                         </AccordionTrigger>
                         <AccordionContent>
                             On the moon, the lack of atmospheric pressure makes it impossible to create the necessary pressure difference for drawing liquid up a straw. The reduced pressure prevents the liquid from being lifted effectively.
@@ -75,7 +75,7 @@ const Page = () => {
                     </AccordionItem>
                     <AccordionItem value="item-8">
                         <AccordionTrigger>
-                            8. A spring, having a spring constant k, when loaded with mass 'm', is cut into two equal parts. One of the parts is loaded with the same mass m again. What will be its spring constant now?
+                            8. A spring, having a spring constant k, when loaded with mass &apos;m&apos;, is cut into two equal parts. One of the parts is loaded with the same mass m again. What will be its spring constant now?
                         </AccordionTrigger>
                         <AccordionContent>
                             When the spring is cut into two equal parts, each part will have a spring constant of 2k. If one part is loaded with the same mass, it will now exhibit a spring constant of 2k.
@@ -94,7 +94,7 @@ const Page = () => {
                             10. How can a small car lifter lift a load heavier than itself?
                         </AccordionTrigger>
                         <AccordionContent>
-                            A small car lifter can lift a heavier load by using hydraulic systems that amplify force. According to Pascal's principle, the pressure applied to a smaller piston is transmitted to a larger piston, magnifying the force exerted and allowing the lifter to handle heavier loads.
+                            A small car lifter can lift a heavier load by using hydraulic systems that amplify force. According to Pascal&apos;s principle, the pressure applied to a smaller piston is transmitted to a larger piston, magnifying the force exerted and allowing the lifter to handle heavier loads.
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>

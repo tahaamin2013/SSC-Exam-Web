@@ -5,7 +5,7 @@ const PressurePage = () => {
         <div className="p-4">
             <h1 className="text-xl font-bold">5.2 PRESSURE</h1>
             <p className="text-base">
-                Pressure is defined as force per unit area. Pressure is represented by letter 'P', if force 'F' is applied on area 'A', the pressure is given by
+                Pressure is defined as force per unit area. Pressure is represented by letter &apos;P&apos;, if force &apos;F&apos; is applied on area &apos;A&apos;, the pressure is given by
             </p>
             <p className="text-base font-bold">P=</p>
             <p className="text-base font-bold">A</p>
@@ -27,11 +27,11 @@ const PressurePage = () => {
             </p>
             <h3 className="text-base font-bold">GIVEN</h3>
             <p className="text-base font-bold">REQUIRED</p>
-            <p className="text-base">Mass of Abdullah 'm' = 50 kg</p>
-            <p className="text-base">(a) Pressure with both feet 'P,' =?</p>
-            <p className="text-base">Area of two feet 'A,' = 400 cm² = 400 x 10m² = 0.04 m²</p>
-            <p className="text-base">(b) Pressure with one foot 'P,' =?</p>
-            <p className="text-base">Area of one foot 'A,' = A,/2 = 0.04 m²/2 = 0.02 m²</p>
+            <p className="text-base">Mass of Abdullah &apos;m&apos; = 50 kg</p>
+            <p className="text-base">(a) Pressure with both feet &apos;P,&apos; =?</p>
+            <p className="text-base">Area of two feet &apos;A,&apos; = 400 cm² = 400 x 10m² = 0.04 m²</p>
+            <p className="text-base">(b) Pressure with one foot &apos;P,&apos; =?</p>
+            <p className="text-base">Area of one foot &apos;A,&apos; = A,/2 = 0.04 m²/2 = 0.02 m²</p>
             <h3 className="text-base font-bold">SOLUTION:</h3>
             <p className="text-base">
                 Weight of Abdurrahman will be given by: W = mg = 40 kg x 9.8 m/s² = 490 N

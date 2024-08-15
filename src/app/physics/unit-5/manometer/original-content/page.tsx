@@ -1,5 +1,4 @@
 import React from 'react'
-
 const ManometerPage = () => {
     return (
         <div className="p-4">
@@ -15,7 +14,7 @@ const ManometerPage = () => {
             </p>
             <p className="text-base font-bold">P = ρgh 5.4</p>
             <p className="text-base">
-                Where 'P' is the pressure of the fluid, 'ρ' is the density of the fluid, 'g' is the gravitational acceleration exerted by the earth, and 'h' is the height till which the fluid rises in a manometer.
+                Where &apos;P&apos; is the pressure of the fluid, &apos;ρ&apos; is the density of the fluid, &apos;g&apos; is the gravitational acceleration exerted by the earth, and &apos;h&apos; is the height till which the fluid rises in a manometer.
             </p>
             <p className="text-base">
                 The working principle of a manometer is that one end is connected to a seal-tight gas to measure the source of pressure. Whereas, its other end is left open to the atmospheric pressure of the earth. If the pressure present in it is greater than 1 atm then the fluid present in the column will be forced down by that pressure. However, it will cause an increase in equal amounts in the present column.
@@ -40,8 +39,8 @@ const ManometerPage = () => {
                 </thead>
                 <tbody>
                     <tr>
-                        <td className="border border-gray-300 p-2">It is a device that is used to measure the pressure of the fluid but that of a liquid concerning the earth's atmospheric pressure.</td>
-                        <td className="border border-gray-300 p-2">It is a device that is used to measure fluid pressure but that of air as it can differ with distance when it's below or above sea level</td>
+                        <td className="border border-gray-300 p-2">It is a device that is used to measure the pressure of the fluid but that of a liquid concerning the earth&apos;s atmospheric pressure.</td>
+                        <td className="border border-gray-300 p-2">It is a device that is used to measure fluid pressure but that of air as it can differ with distance when it&apos;s below or above sea level</td>
                     </tr>
                     <tr>
                         <td className="border border-gray-300 p-2">It comes in different forms</td>
@@ -58,4 +57,3 @@ const ManometerPage = () => {
 }
 
 export default ManometerPage
-    

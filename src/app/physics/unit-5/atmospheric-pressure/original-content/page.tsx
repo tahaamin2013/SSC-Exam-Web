@@ -5,10 +5,10 @@ const AtmosphericPressurePage = () => {
         <div className="p-4">
             <h1 className="text-xl font-bold">5.3 ATMOSPHERIC PRESSURE</h1>
             <p className="text-base">
-                Pressure is particularly useful for dealing with liquids and gases, as it exerts pressure in every direction. That's why during swimming we feel pressure on all parts of our body. Similarly we live at the bottom of the earth's atmosphere, which pushes inward on our bodies just like the water in a swimming pool.
+                Pressure is particularly useful for dealing with liquids and gases, as it exerts pressure in every direction. That&apos;s why during swimming we feel pressure on all parts of our body. Similarly we live at the bottom of the earth&apos;s atmosphere, which pushes inward on our bodies just like the water in a swimming pool.
             </p>
             <p className="text-base">
-                'The pressure that atmospheric particles exert on the surface of earth and all over the surface of objects on the earth is called atmospheric pressure'. The pressure of the air at a given place varies slightly according to the weather and height from sea level. At sea level, the pressure of the atmosphere on average is 1.013 x 10⁵ Nm² (or 1.013 x 10⁵ Pa). This value lets us define a commonly used unit of pressure, the atmosphere (abbreviated atm), such that
+                &apos;The pressure that atmospheric particles exert on the surface of earth and all over the surface of objects on the earth is called atmospheric pressure&apos;. The pressure of the air at a given place varies slightly according to the weather and height from sea level. At sea level, the pressure of the atmosphere on average is 1.013 x 10⁵ Nm² (or 1.013 x 10⁵ Pa). This value lets us define a commonly used unit of pressure, the atmosphere (abbreviated atm), such that
             </p>
             <p className="text-base font-bold">1 atm = 1.013 x 10⁵ Pa</p>
             <p className="text-base">

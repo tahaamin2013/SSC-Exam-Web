@@ -32,14 +32,14 @@ const QuestionDashboard = () => {
                     {/* Question 2 */}
                     <AccordionItem value="item-2">
                         <AccordionTrigger>
-                            2. What is Hooke's law? Illustrate its applications. Also, define and calculate the spring constant.
+                            2. What is Hooke&apos;s law? Illustrate its applications. Also, define and calculate the spring constant.
                         </AccordionTrigger>
                         <AccordionContent>
-                            Hooke's law states that the force required to extend or compress a spring is directly proportional to the displacement from its equilibrium position. Mathematically, it is expressed as:
+                            Hooke&apos;s law states that the force required to extend or compress a spring is directly proportional to the displacement from its equilibrium position. Mathematically, it is expressed as:
                             \[ F = kx \]
                             where \( F \) is the force applied, \( k \) is the spring constant, and \( x \) is the displacement.
 
-                            Applications of Hooke's law include the design of springs in various mechanical devices such as car suspensions, watches, and measuring instruments.
+                            Applications of Hooke&apos;s law include the design of springs in various mechanical devices such as car suspensions, watches, and measuring instruments.
 
                             The spring constant \( k \) is defined as the ratio of the force applied to the displacement caused. To calculate it:
                             \[ k = \frac｛F｝｛x｝ \]
@@ -56,10 +56,10 @@ const QuestionDashboard = () => {
                         <AccordionContent>
                             The force-extension graph for elastic solids typically shows a linear relationship within the elastic limit. The graph plots force (F) on the y-axis and extension (x) on the x-axis.
 
-                            Initially, as the force increases, the extension of the solid also increases linearly. This linear portion of the graph represents Hooke's law, where the slope of the graph indicates the spring constant. Beyond the elastic limit, the graph starts to curve, indicating plastic deformation, where the material does not return to its original shape.
+                            Initially, as the force increases, the extension of the solid also increases linearly. This linear portion of the graph represents Hooke&apos;s law, where the slope of the graph indicates the spring constant. Beyond the elastic limit, the graph starts to curve, indicating plastic deformation, where the material does not return to its original shape.
 
                             The graph can be divided into three regions:
-                            - Elastic Region: Linear part where Hooke's law applies.
+                            - Elastic Region: Linear part where Hooke&apos;s law applies.
                             - Yield Point: The point at which deformation becomes permanent.
                             - Plastic Region: Where the material undergoes irreversible changes.
                         </AccordionContent>
@@ -124,12 +124,12 @@ const QuestionDashboard = () => {
                     {/* Question 8 */}
                     <AccordionItem value="item-8">
                         <AccordionTrigger>
-                            8. State Pascal's law. Describe the working principle of a hydraulic lift using Pascal's law. What do you mean by a force multiplier?
+                            8. State Pascal&apos;s law. Describe the working principle of a hydraulic lift using Pascal&apos;s law. What do you mean by a force multiplier?
                         </AccordionTrigger>
                         <AccordionContent>
-                            Pascal's law states that an external pressure applied to a confined fluid is transmitted equally in all directions within the fluid.
+                            Pascal&apos;s law states that an external pressure applied to a confined fluid is transmitted equally in all directions within the fluid.
 
-                            A hydraulic lift operates on Pascal's law. It consists of two cylinders connected by a tube, filled with hydraulic fluid. When force is applied to a small piston, it creates pressure in the fluid that is transmitted to a larger piston. Due to the larger area of the second piston, the force is multiplied, allowing a small force to lift a heavier load.
+                            A hydraulic lift operates on Pascal&apos;s law. It consists of two cylinders connected by a tube, filled with hydraulic fluid. When force is applied to a small piston, it creates pressure in the fluid that is transmitted to a larger piston. Due to the larger area of the second piston, the force is multiplied, allowing a small force to lift a heavier load.
 
                             A force multiplier refers to the ability of a hydraulic system to amplify a small input force into a larger output force, thanks to the principle of pressure transmission in fluids.
                         </AccordionContent>

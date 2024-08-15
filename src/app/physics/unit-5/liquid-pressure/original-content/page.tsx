@@ -1,5 +1,4 @@
 import React from 'react'
-
 const LiquidPressurePage = () => {
     return (
         <div className="p-4">
@@ -8,7 +7,7 @@ const LiquidPressurePage = () => {
                 Just like gases liquids also exert pressure. The pressure in liquid is due to its weight. We will determine that how pressure of incompressible liquid increases with depth.
             </p>
             <p className="text-base">
-                Consider a column of liquid of height 'h', base area 'A' at the bottom of a tank in liquid and density 'ρ' as shown in figure 5.14. The force acting on a base area is the weight of the cylindrical column of liquid of mass 'm' is, The mass 'm' of the cylindrical liquid, in terms of density 'ρ' is given by,
+                Consider a column of liquid of height &apos;h&apos;, base area &apos;A&apos; at the bottom of a tank in liquid and density &apos;ρ&apos; as shown in figure 5.14. The force acting on a base area is the weight of the cylindrical column of liquid of mass &apos;m&apos; is, The mass &apos;m&apos; of the cylindrical liquid, in terms of density &apos;ρ&apos; is given by,
             </p>
             <p className="text-base font-bold">F = W = mg</p>
             <p className="text-base">

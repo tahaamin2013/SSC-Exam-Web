@@ -1,5 +1,5 @@
 // pages/index.js
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Home() {
     return (
@@ -21,8 +21,8 @@ export default function Home() {
                                 <p className="text-gray-700">Elasticity is the property of a body, which enables the body to regain its original dimension when the deforming force acting on it is removed.</p>
                             </li>
                             <li>
-                                <h2 className="text-2xl font-semibold text-indigo-600 mb-2">Hooke's Law</h2>
-                                <p className="text-gray-700">Hooke's law states that within elastic limits the extension (or compression) is directly proportional to the force applied.</p>
+                                <h2 className="text-2xl font-semibold text-indigo-600 mb-2">Hooke&apos;s Law</h2>
+                                <p className="text-gray-700">Hooke&apos;s law states that within elastic limits the extension (or compression) is directly proportional to the force applied.</p>
                             </li>
                             <li>
                                 <h2 className="text-2xl font-semibold text-indigo-600 mb-2">Pressure</h2>
@@ -41,8 +41,8 @@ export default function Home() {
                                 <p className="text-gray-700">Manometer is one of the most accurate devices for measuring pressure, including atmospheric pressure in the lower ranges.</p>
                             </li>
                             <li>
-                                <h2 className="text-2xl font-semibold text-indigo-600 mb-2">Pascal's Principle</h2>
-                                <p className="text-gray-700">Pascal's Principle states that if the pressure at one point of a confined fluid is increased by an amount, the pressure increases by the same amount at all other parts throughout the fluid.</p>
+                                <h2 className="text-2xl font-semibold text-indigo-600 mb-2">Pascal&apos;s Principle</h2>
+                                <p className="text-gray-700">Pascal&apos;s Principle states that if the pressure at one point of a confined fluid is increased by an amount, the pressure increases by the same amount at all other parts throughout the fluid.</p>
                             </li>
                         </ul>
                     </div>
