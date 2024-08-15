@@ -79,7 +79,7 @@ const Page = () => {
                     <AccordionItem value="item-8">
                         <AccordionTrigger>(8) Ladder and Second Condition of Equilibrium</AccordionTrigger>
                         <AccordionContent>
-                            <p>The ladder satisfies the second condition of equilibrium because both torques produced by the weight of the ladder and the wall's push are equal in magnitude and opposite in direction.</p>
+                            <p>The ladder satisfies the second condition of equilibrium because both torques produced by the weight of the ladder and the wall&apos;s push are equal in magnitude and opposite in direction.</p>
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
