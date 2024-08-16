@@ -13,210 +13,245 @@ const Page = () => {
             className="border mt-4 max-w-2xl mx-auto text-sm text-left sm:text-md mb-4 p-6"
         >
             <h1 className="font-bold text-3xl text-center mb-4">
-                Textbook Questions
+                Brief Questions and Answers (3 marks each)
             </h1>
             <div className="grid grid-cols-1 text-left gap-x-8 w-full">
                 <Accordion type="single" collapsible>
-                    {/* Question 4.1 */}
+
+                    {/* Short Questions */}
                     <AccordionItem value="item-1">
-                        <AccordionTrigger>4.1 Multiple Choice Questions</AccordionTrigger>
+                        <AccordionTrigger>Q.1 What is meant by parallel forces?</AccordionTrigger>
                         <AccordionContent>
-                            <p>Encircle the correct answer from the given choices:</p>
-                            <ol className="list-decimal list-inside ml-4">
-                                <li>
-                                    Two equal but unlike parallel forces having different lines of action produce:
-                                    <ul className="list-disc ml-6">
-                                        <li>a) Torque</li>
-                                        <li>b) Couple</li>
-                                        <li>c) Equilibrium</li>
-                                        <li>d) Neutral equilibrium</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    The number of forces that can be added by the head-to-tail rule is:
-                                    <ul className="list-disc ml-6">
-                                        <li>a) 2</li>
-                                        <li>b) 3</li>
-                                        <li>c) 4</li>
-                                        <li>d) Any number</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    The number of perpendicular components of forces is:
-                                    <ul className="list-disc ml-6">
-                                        <li>a) 1</li>
-                                        <li>b) 2</li>
-                                        <li>c) 3</li>
-                                        <li>d) 4</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    A force of 10 N is making an angle of 30° with the horizontal. Its horizontal component will be:
-                                    <ul className="list-disc ml-6">
-                                        <li>a) 4 N</li>
-                                        <li>b) 5 N</li>
-                                        <li>c) 7 N</li>
-                                        <li>d) 8.7 N</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    A couple is formed by:
-                                    <ul className="list-disc ml-6">
-                                        <li>a) Two forces perpendicular to each other</li>
-                                        <li>b) Two like parallel forces</li>
-                                        <li>c) Two equal and opposite forces in the same line</li>
-                                        <li>d) Two equal and opposite forces not in the same line</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    A body is in equilibrium when its:
-                                    <ul className="list-disc ml-6">
-                                        <li>a) Acceleration is uniform</li>
-                                        <li>b) Speed is uniform</li>
-                                        <li>c) Speed and acceleration are uniform</li>
-                                        <li>d) Acceleration is zero</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    A body is in neutral equilibrium when its center of gravity:
-                                    <ul className="list-disc ml-6">
-                                        <li>a) Is at its highest position</li>
-                                        <li>b) Is at the lowest position</li>
-                                        <li>c) Keeps its height if displaced</li>
-                                        <li>d) Is situated at its bottom</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    Racing cars are made stable by:
-                                    <ul className="list-disc ml-6">
-                                        <li>a) Increasing their speed</li>
-                                        <li>b) Decreasing their mass</li>
-                                        <li>c) Lowering their center of gravity</li>
-                                        <li>d) Decreasing their width</li>
-                                    </ul>
-                                </li>
-                            </ol>
+                            <p>
+                                Ans: In a plane, if number of parallel forces act on a body such that points of action are different but lines of action are parallel to each other, then these forces are called parallel forces. In the given figure, the force Fi, Fi, Fs are acting at points A, B, C are parallel forces.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    {/* Question 4.2 */}
                     <AccordionItem value="item-2">
-                        <AccordionTrigger>4.2 Define the following:</AccordionTrigger>
+                        <AccordionTrigger>Q.2 What is meant by like parallel forces? Also give examples.</AccordionTrigger>
                         <AccordionContent>
-                            <p><strong>(i) Resultant Vector:</strong> A resultant force is a single force that has the same effect as the combined effect of all the forces to be added.</p>
-                            <p><strong>(ii) Torque:</strong> The rotational effect of a force is measured by a quantity known as torque.</p>
-                            <p><strong>(iii) Center of Mass:</strong> The center of mass of a system is such a point where an applied force causes the system to move without rotation.</p>
-                            <p><strong>(iv) Center of Gravity:</strong> A point where the whole weight of the body appears to act vertically downward is called the center of gravity of a body.</p>
+                            <p>
+                                Ans: Like parallel forces are the forces that are parallel to each other and have the same direction. Examples: In the second figure, the direction of the parallel forces F₁ and F₂ is the same, so these are like parallel forces.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    {/* Question 4.3 */}
                     <AccordionItem value="item-3">
-                        <AccordionTrigger>4.3 Differentiate the following:</AccordionTrigger>
+                        <AccordionTrigger>Q.3 What are unlike parallel forces? Also give examples.</AccordionTrigger>
                         <AccordionContent>
-                            <p><strong>(i) Like and Unlike Parallel Forces</strong></p>
-                            <p><strong>Like Parallel Forces:</strong> Forces that are parallel to each other and have the same direction.</p>
-                            <p><strong>Unlike Parallel Forces:</strong> Forces that are parallel but have opposite directions.</p>
-                            <p><strong>(ii) Torque and Couple</strong></p>
-                            <p><strong>Torque:</strong> The rotational effect of a force is measured by a quantity known as torque.</p>
-                            <p><strong>Couple:</strong> A couple is formed by two unlike parallel forces of the same magnitude but not along the same line.</p>
-                            <p><strong>(iii) Stable and Neutral Equilibrium</strong></p>
-                            <p><strong>Stable Equilibrium:</strong> A body is in stable equilibrium if, after a slight tilt, it returns to its
-                                previous position.</p>
-                            <p><strong>Neutral Equilibrium:</strong> A body is in neutral equilibrium if it remains in its new position when disturbed from its previous position.</p>
+                            <p>
+                                Ans: Unlike parallel forces are the forces that are parallel but have direction opposite to each other. Example: In the second figure, the parallel forces F₁, F₂ and F₃ are acting in opposite directions, so these are unlike parallel forces.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    php
-                    Copy code
-                    {/* Question 4.4 */}
                     <AccordionItem value="item-4">
-                        <AccordionTrigger>4.4 How does the head-to-tail rule help to find the resultant of forces?</AccordionTrigger>
+                        <AccordionTrigger>Q.4 Define head to tail rule.</AccordionTrigger>
                         <AccordionContent>
-                            <p>In the head-to-tail rule, the resultant force is found by joining the tail of the first force with the head of the last force. This method helps to visually determine the combined effect of multiple forces.</p>
+                            <p>
+                                According to this rule, vectors are drawn in such a way that the head of the first vector is joined with the tail of the second vector. When forces are added, we get the resultant force. A resultant force is a single force that has the same effect as the combined effect of all the forces to be added. The resultant vector is drawn in such a way that the tail of the first vector is joined with the head of the last vector.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    {/* Question 4.5 */}
                     <AccordionItem value="item-5">
-                        <AccordionTrigger>4.5 How can a force be resolved into its rectangular components?</AccordionTrigger>
+                        <AccordionTrigger>Q.5 Define resolution of vectors.</AccordionTrigger>
                         <AccordionContent>
-                            <p>This question is explained in detail in Q. no. 2 of the Long Questions section.</p>
+                            <p>
+                                Ans: The decomposition or division of a vector into its rectangular components is called resolution of a vector. OR The splitting of a single vector into two mutually perpendicular components is called the resolution of that force.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    {/* Question 4.6 */}
                     <AccordionItem value="item-6">
-                        <AccordionTrigger>4.6 When is a body said to be in equilibrium?</AccordionTrigger>
+                        <AccordionTrigger>Q.6 Define torque or moment of force.</AccordionTrigger>
                         <AccordionContent>
-                            <p>A body is said to be in equilibrium when no net force acts on it. A body in equilibrium remains at rest or moves with uniform velocity.</p>
+                            <p>
+                                Ans: The rotational effect of a force is measured by a quantity, known as torque.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    {/* Question 4.7 */}
                     <AccordionItem value="item-7">
-                        <AccordionTrigger>4.7 Explain the first condition for equilibrium.</AccordionTrigger>
+                        <AccordionTrigger>Q.7 Define centre of mass.</AccordionTrigger>
                         <AccordionContent>
-                            <p>This question is explained in detail in Q. no. 8 of the Long Questions section.</p>
+                            <p>
+                                Ans: Centre of mass of a system is such a point where an applied force causes the system to move without rotation.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    {/* Question 4.8 */}
                     <AccordionItem value="item-8">
-                        <AccordionTrigger>4.8 Why is there a need for the second condition for equilibrium if a body satisfies the first condition?</AccordionTrigger>
+                        <AccordionTrigger>Q.8 Define centre of gravity.</AccordionTrigger>
                         <AccordionContent>
-                            <p>Two equal and opposite (unlike) forces having different lines of action form a couple, which produces angular acceleration. Although the first condition of equilibrium is being satisfied, the second condition is necessary to prevent rotation.</p>
+                            <p>
+                                Ans: A point in a body where the weight of the body appears to act vertically downward is called the centre of gravity. The centre of gravity can exist inside a body or outside the body. Position of the centre of gravity depends upon the shape of the body.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    {/* Question 4.9 */}
                     <AccordionItem value="item-9">
-                        <AccordionTrigger>4.9 What is the second condition of equilibrium?</AccordionTrigger>
+                        <AccordionTrigger>Q.9 Define couple and give examples.</AccordionTrigger>
                         <AccordionContent>
-                            <p>A body satisfies the second condition of equilibrium when the resultant torque acting on it is zero, ensuring that there is no rotational motion.</p>
+                            <p>
+                                Ans: A couple is formed by two unlike parallel forces of the same magnitude but not along the same line. Examples:
+                                - While turning a car, the forces applied on the steering wheel by hands provide the necessary couple.
+                                - While opening or closing a water tap.
+                                - While locking or opening the stopper of a bottle or a jar.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    {/* Question 4.10 */}
                     <AccordionItem value="item-10">
-                        <AccordionTrigger>4.10 Give an example of a moving body that is in equilibrium.</AccordionTrigger>
+                        <AccordionTrigger>Q.10 Define equilibrium.</AccordionTrigger>
                         <AccordionContent>
-                            <p>(i) A body moving with uniform velocity in a straight line is in equilibrium.</p>
-                            <p>(ii) A paratrooper descending with terminal velocity is also in equilibrium.</p>
+                            <p>
+                                Ans: If no force is acting on the body or a number of forces act on a body in such a way that their resultant is zero, then if the body is at rest it will remain at rest and if the body is in motion, it will continue moving with a uniform velocity. This condition of the body is called equilibrium.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    {/* Question 4.11 */}
                     <AccordionItem value="item-11">
-                        <AccordionTrigger>4.11 Give an example where a body is at rest but not in equilibrium.</AccordionTrigger>
+                        <AccordionTrigger>Q.11 State conditions of equilibrium.</AccordionTrigger>
                         <AccordionContent>
-                            <p>A ball thrown upward becomes at rest at the top of its trajectory. At this state, it is not in equilibrium, although it is at rest.</p>
+                            <p>
+                                First Condition of equilibrium: A body will be in equilibrium if the resultant of all the forces acting on it is zero. This is the first condition of equilibrium.
+                                Second Condition of equilibrium: If a number of forces act on a body so that the total sum of the torques of these forces is zero, the body will be in equilibrium.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    {/* Question 4.12 */}
                     <AccordionItem value="item-12">
-                        <AccordionTrigger>4.12 When can a body not be in equilibrium due to a single force on it?</AccordionTrigger>
+                        <AccordionTrigger>Q.12 Define stable equilibrium.</AccordionTrigger>
                         <AccordionContent>
-                            <p>A single force acting on a body is not balanced and produces acceleration. Therefore, in the presence of a single force, a body cannot be in equilibrium.</p>
+                            <p>
+                                Ans: A body is said to be in stable equilibrium if after a slight tilt it returns to its previous position. When a body is in stable equilibrium, its centre of gravity is at the lowest position. When it is tilted, its centre of gravity rises. It returns to its stable state by lowering its centre of gravity. A body remains in stable equilibrium as long as the centre of gravity acts through the base of the body. Examples: Table, chair, box and brick lying on a floor.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    {/* Question 4.13 */}
                     <AccordionItem value="item-13">
-                        <AccordionTrigger>4.13 Why is the height of vehicles kept as low as possible?</AccordionTrigger>
+                        <AccordionTrigger>Q.13 Define unstable equilibrium.</AccordionTrigger>
                         <AccordionContent>
-                            <p>Vehicles are made heavy at the bottom. This lowers their center of gravity and helps their stability, reducing the chance of toppling over.</p>
+                            <p>
+                                Ans: If a body does not return to its previous position after the slightest tilt, it is said to be in unstable equilibrium. The centre of gravity of the body is at its highest point in the state of unstable equilibrium. As the body topples over about its base, its centre of gravity moves towards its lower position and does not return to its previous position. Examples: A stick standing vertically on the tip of a finger, a cone standing on the tip of a finger.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
 
-                    {/* Question 4.14 */}
                     <AccordionItem value="item-14">
-                        <AccordionTrigger>4.14 Explain what is meant by stable, unstable, and neutral equilibrium. Give one example in each case.</AccordionTrigger>
+                        <AccordionTrigger>Q.14 Define neutral equilibrium.</AccordionTrigger>
                         <AccordionContent>
-                            <p>This question is explained in detail in Q. no. 9 of the Long Questions section.</p>
+                            <p>
+                                Ans: If a body remains in its new position when disturbed from its previous position, it is said to be in a state of neutral equilibrium. Examples: A ball lying on the horizontal surface, motion of a wheel on a plane surface.
+                            </p>
                         </AccordionContent>
                     </AccordionItem>
+
+                    <AccordionItem value="item-15">
+                        <AccordionTrigger>Q.15 Define rigid body and axis of rotation.</AccordionTrigger>
+                        <AccordionContent>
+                            <p>
+                                Rigid Body: A body composed of a large number of particles. If the distance between all these pairs of particles of the body does not change by applying a force, then it is called a rigid body.
+                                Axis of Rotation: During rotation, the particles of the rigid body move in circles with their centres all lying on a line. This straight line is called the axis of rotation of the body.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-16">
+                        <AccordionTrigger>Q.16 What is meant by the principle of moments?</AccordionTrigger>
+                        <AccordionContent>
+                            <p>
+                                Ans: In a balanced body, if the sum of the clockwise moments acting on the body is equal to the sum of the anticlockwise moments acting on it, then a body initially at rest does not rotate if the sum of all the clockwise moments acting on it is balanced by the sum of all the anticlockwise moments acting on it. This is known as the principle of moments. Examples: A pencil, a sphere, a cylinder, a roller, an egg lying horizontally on a flat surface.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-17">
+                        <AccordionTrigger>Q.17 How is the stability of a body related to the position of its centre of mass?</AccordionTrigger>
+                        <AccordionContent>
+                            <p>
+                                Ans: To make the body stable, its centre of mass must be kept as low as possible. For this reason, racing cars are made heavy at the bottom and their height is kept to a minimum.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-18">
+                        <AccordionTrigger>Q.18 Differentiate between axis of rotation and point of rotation.</AccordionTrigger>
+                        <AccordionContent>
+                            <p>
+                                Axis of Rotation: Axis of rotation is a line about which the whole body rotates. Example: When we open the door, the door will move about its hinges or axis of rotation.
+                                Point of Rotation: Point of rotation is just a point about which the body rotates. Example: If we move a stick about its centre of gravity, then that point becomes the point of rotation.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-19">
+                        <AccordionTrigger>Q.19 On what factors does rotation produced in a body depend?</AccordionTrigger>
+                        <AccordionContent>
+                            <p>
+                                Ans: Rotation produced in a body depends on the following two factors:
+                                (i) Magnitude of the force
+                                (ii) The perpendicular distance between the line of action of the force and the axis of rotation, known as the moment arm.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-20">
+                        <AccordionTrigger>Q.20 How can we increase torque by keeping the force constant?</AccordionTrigger>
+                        <AccordionContent>
+                            <p>
+                                Ans: We can increase the torque by increasing the perpendicular distance from the line of action of the force to the point of rotation, known as the moment arm, by keeping the force constant, according to the relation: Torque = Force × Moment Arm.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-21">
+                        <AccordionTrigger>Q.21 Can a moving body be in equilibrium? Explain.</AccordionTrigger>
+                        <AccordionContent>
+                            <p>
+                                Ans: Yes, if a body is moving with uniform velocity, then the body is in equilibrium because neither linear nor rotational acceleration is produced in the body.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-22">
+                        <AccordionTrigger>Q.22 Will a body be in equilibrium under the action of a single force?</AccordionTrigger>
+                        <AccordionContent>
+                            <p>
+                                Ans: No, the body will not be in equilibrium because the first condition of equilibrium will not be fulfilled. Since a single force can never be zero and linear acceleration will be produced, therefore we can say that a body cannot be in equilibrium under the action of a single force.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-23">
+                        <AccordionTrigger>Q.23 Can a body be in equilibrium if it is revolving clockwise under the action of a single force?</AccordionTrigger>
+                        <AccordionContent>
+                            <p>
+                                Ans: No, the body will not be in equilibrium because the second condition of equilibrium will not be fulfilled. Since a single torque can never be zero and rotational acceleration will be produced, therefore we can say that a body cannot be in equilibrium under the action of a single torque.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-24">
+                        <AccordionTrigger>Q.24 Give an example of a case when the resultant force is zero but resultant torque is not zero.</AccordionTrigger>
+                        <AccordionContent>
+                            <p>
+                                Ans: In the case of a couple, two equal and opposite forces are acting on the same body, but the body still rotates. In this case, the resultant force is zero but the resultant torque is not zero. Example: While turning a car, the forces applied on the steering wheel by hands produce rotation in the steering wheel.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
+                    <AccordionItem value="item-25">
+                        <AccordionTrigger>Q.25 How do we know whether a body is in stable or unstable equilibrium due to the position of its centre of gravity?</AccordionTrigger>
+                        <AccordionContent>
+                            <p>
+                                Ans: If after disturbance, the centre of gravity of the body is raised compared to the initial position, then the body will be in a state of stable equilibrium. If after disturbance, the centre of gravity of the body is lowered compared to the initial position, then the body will be in a state of unstable equilibrium.
+                            </p>
+                        </AccordionContent>
+                    </AccordionItem>
+
                 </Accordion>
             </div>
         </section>

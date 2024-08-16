@@ -381,5 +381,76 @@ export const quiz = {
       ],
       correctAnswer: "Rotational and translational motion",
     },
+    {
+      id: 48,
+      question:
+        "Two equal but unlike parallel forces having different line of action produces:",
+      answers: ["Torque", "Couple", "Equilibrium", "Neutral equilibrium"],
+      correctAnswer: "Couple",
+    },
+    {
+      id: 49,
+      question:
+        "The number of forces that can be added by head to tail rule are:",
+      answers: ["2", "3", "4", "Any number"],
+      correctAnswer: "Any number",
+    },
+    {
+      id: 50,
+      question: "The number of perpendicular components of forces are:",
+      answers: ["1", "2", "3", "4"],
+      correctAnswer: "2",
+    },
+    {
+      id: 51,
+      question:
+        "A force of 10 N is making an angle of 30° with the horizontal. Its horizontal component will be:",
+      answers: ["4 N", "5 N", "7 N", "8.7 N"],
+      correctAnswer: "8.7 N",
+    },
+    {
+      id: 52,
+      question: "A couple is formed by:",
+      answers: [
+        "Two forces perpendicular to each other",
+        "Two like parallel forces",
+        "Two equal and opposite forces in the same line",
+        "Two equal and opposite forces not in the same line",
+      ],
+      correctAnswer: "Two equal and opposite forces not in the same line",
+    },
+    {
+      id: 52,
+      question: "A body is in equilibrium when its:",
+      answers: [
+        "Acceleration is uniform",
+        "Speed is uniform",
+        "Speed and acceleration is uniform",
+        "Acceleration is zero",
+      ],
+      correctAnswer: "Acceleration is zero",
+    },
+    {
+      id: 53,
+      question: "A body is in neutral equilibrium when its centre of gravity:",
+      answers: [
+        "Is at its highest position",
+        "Is at the lowest position",
+        "Keeps its height if displaced",
+        "Is situated at its bottom",
+      ],
+      correctAnswer: "Keeps its height if displaced",
+    },
+    {
+      id: 54,
+      question: "Racing cars are made stable by:",
+      answers: [
+        "Increasing their speed",
+        "Decreasing their mass",
+        "Lowering their centre of gravity",
+        "Decreasing their width",
+      ],
+      correctAnswer: "Lowering their centre of gravity",
+    },
   ],
 };
