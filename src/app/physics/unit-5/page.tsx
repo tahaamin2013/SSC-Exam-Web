@@ -83,7 +83,6 @@ const data = [
         links: [
             { href: "/physics/unit-5/quiz", text: "MCQS", icon: HelpCircle },
             { href: "/physics/unit-5/quiz2", text: "MCQS 2", icon: HelpCircle },
-            { href: "/physics/unit-5/mini-excersise", text: "Mini Excersise", icon: HelpCircle },
             { href: "/physics/unit-5/problems", text: "Problems", icon: HelpCircle },
             { href: "/physics/unit-5/textbook-excersise-questions", text: "TextBook Excersise Questions", icon: HelpCircle },
             { href: "/physics/unit-5/summary", text: "Summary", icon: BookOpen },
