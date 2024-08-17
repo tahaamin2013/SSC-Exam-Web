@@ -16,8 +16,9 @@ const data: Section[] = [
     { id: "2", link: "/physics/unit-2", title: "Kinamtics" },
     { id: "3", link: "/physics/unit-3", title: "Dynamics - 1" },
     { id: "4", link: "/physics/unit-4", title: "DYNAMICS-II" },
-    { id: "5", link: "/physics/unit-5", title: "PRESSURE AND DEFORMATION IN SOLIDS" },
-    { id: "6", link: "/physics/unit-9", title: "Unit 9: Nature Of Science And Physics" },
+    { id: "5", link: "/physics/unit-5", title: "Pressure and Deformation in Solids" },
+    { id: "6", link: "/physics/unit-6", title: "Work And Energy" },
+    { id: "7", link: "/physics/unit-9", title: "Unit 9: Nature Of Science And Physics" },
 ];
 
 const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; isRedirecting: boolean; onRedirect: () => void }) => {
