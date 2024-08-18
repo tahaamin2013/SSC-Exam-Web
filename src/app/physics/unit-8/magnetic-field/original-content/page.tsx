@@ -10,7 +10,7 @@ const MagnetismContent = () => {
                 Mono-pole never exist in magnets, magnets are always bipolar i.e. they have two poles N-pole and S-pole. Every magnet has a space around it where it has its influence on other magnets in the form of attraction or repulsion.
             </p>
             <blockquote className="mb-4">
-                "The region or space around a magnet where it exerts a force on other magnetic poles is called magnetic field."
+                &quot;The region or space around a magnet where it exerts a force on other magnetic poles is called magnetic field.&quot;
             </blockquote>
             <p className="mb-4">
                 The intensity of magnetic field (B) at any point in the field can be measured in the unit called tesla (T). Graphically the magnetic field is represented by the field lines. The direction of the magnetic field of a material at any point can be found by the direction of force acting on the N-pole placed at that point. Magnetic field lines are curved in general, hence the direction of magnetic field on a point at such a curved line can be found by drawing a tangent at that point.
@@ -39,7 +39,7 @@ const MagnetismContent = () => {
                 The strength of magnetic field at any point due to a magnetic pole can be found by the field lines. The field is stronger where the field lines are closer, while the field is weaker where the field lines are farther apart.
             </p>
             <blockquote className="mb-4">
-                "The relative strength of a magnetic field is the degree of closeness of the field lines."
+                &quot;The relative strength of a magnetic field is the degree of closeness of the field lines.&quot;
             </blockquote>
             <p className="mb-4">
                 Hence magnetic field lines give the direction and the strength of magnetic field. The relative strength of magnetic field due to like poles and unlike poles is shown in figure 8.7. By placing two N-poles close to each other we can decrease the field similarly by placing N-pole near an S-pole we can make magnetic field strengthen.
@@ -47,10 +47,10 @@ const MagnetismContent = () => {
 
             <h3 className="font-bold text-xl mb-4">8.2.4 Magnetic Shielding</h3>
             <p className="mb-4">
-                There may be different orientation of magnetic field by suitably adjusting the magnets. We can find a field-free region called 'neutral zone' by placing two N-poles side by side, such that their field lines seem to repel each other by making a field-free region, this phenomenon is called shielding of magnetic field. In daily life we deal with a lot of devices which have to work in strong magnetic environment but this external magnetic field can alter the functioning of the device. So we have to shield the device from external magnetic field.
+                There may be different orientation of magnetic field by suitably adjusting the magnets. We can find a field-free region called &apos;neutral zone&apos; by placing two N-poles side by side, such that their field lines seem to repel each other by making a field-free region, this phenomenon is called shielding of magnetic field. In daily life we deal with a lot of devices which have to work in strong magnetic environment but this external magnetic field can alter the functioning of the device. So we have to shield the device from external magnetic field.
             </p>
             <blockquote className="mb-4">
-                "Materials used for magnetic shielding are called shields. These materials are used for protecting sensitive circuits from unwanted parasitic magnetic fields including power inverters, magnetic immunity, magnetic sensors and EMI. The commonly used materials as shield are Iron, Nickel and Cobalt. Shields are usually made rounded corners because it is difficult for magnetic field lines to turn an angle of 90°."
+                &quot;Materials used for magnetic shielding are called shields. These materials are used for protecting sensitive circuits from unwanted parasitic magnetic fields including power inverters, magnetic immunity, magnetic sensors and EMI. The commonly used materials as shield are Iron, Nickel and Cobalt. Shields are usually made rounded corners because it is difficult for magnetic field lines to turn an angle of 90°.&quot;
             </blockquote>
         </section>
     );

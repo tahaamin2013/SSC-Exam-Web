@@ -27,7 +27,7 @@ const MagnetismSummary = () => {
                             <li><span className="font-bold">Diamagnetic Materials:</span> Materials with zero net magnetic fields per atom.</li>
                             <li><span className="font-bold">Paramagnetic Materials:</span> Materials with a small net magnetic field per atom.</li>
                             <li><span className="font-bold">Ferromagnetic Materials:</span> Materials with a large net magnetic field per atom.</li>
-                            <li><span className="font-bold">Earth's Magnetic Field:</span> Resembles a bar magnet's field, protecting life from cosmic rays and solar radiation. Earth's geographic and magnetic poles differ by 11.3 degrees, and migratory animals use Earth's magnetic field for navigation.</li>
+                            <li><span className="font-bold">Earth&apos;s Magnetic Field:</span> Resembles a bar magnet&apos;s field, protecting life from cosmic rays and solar radiation. Earth&apos;s geographic and magnetic poles differ by 11.3 degrees, and migratory animals use Earth&apos;s magnetic field for navigation.</li>
                         </ul>
                     </div>
                 </div>

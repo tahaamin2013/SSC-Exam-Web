@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC } from 'react'
 
 const Magnetism: FC = () => {
     return (
@@ -12,9 +12,9 @@ const Magnetism: FC = () => {
                 <h2 className="text-xl font-semibold mt-4">HAMMERING METHOD:</h2>
                 <p>In this method a bar of metal is placed inside a strong magnetic field and hammered gently. The domains will begin to line up in the direction of applied magnetic field and hence metal bar becomes magnetized. This method is mainly used for magnetization of steel. The magnetization can be increased by heating the metal bar slightly before hammering. This method is shown in figure 8.9.</p>
                 <h2 className="text-xl font-semibold mt-4">HEATING METHOD:</h2>
-                <p>This method is usually used to demagnetize a material, as heat speeds up the movements of already aligned domains which results in misalignment of domains and hence material loses its magnetization. However in recent past scientists have provided the evidences of generating magnetic field by the process of heating. This phenomenon is referred to as the 'magnetic Seebeck effect' or 'thermo-magnetism'.</p>
+                <p>This method is usually used to demagnetize a material, as heat speeds up the movements of already aligned domains which results in misalignment of domains and hence material loses its magnetization. However in recent past scientists have provided the evidences of generating magnetic field by the process of heating. This phenomenon is referred to as the &apos;magnetic Seebeck effect&apos; or &apos;thermo-magnetism&apos;.</p>
                 <h2 className="text-xl font-semibold mt-4">FOR YOUR INFORMATION</h2>
-                <p>"A material that becomes a magnet when it is placed in a magnetic field is called induced magnet".</p>
+                <p>&quot;A material that becomes a magnet when it is placed in a magnetic field is called induced magnet&quot;.</p>
                 <h2 className="text-xl font-semibold mt-4">SOLENOID:</h2>
                 <p>This is the most common method used for the magnetization of metals. A solenoid is a coil of wire wrapped around a cylindrical coil as shown in figure 8.10. The magnetic field of the solenoid resembles with the field of a bar magnet, as shown in figure 8.11. When we wrap a conducting wire (say a copper wire) around a metal with insulation the domains of the metal get aligned. In this process when a current flows through the wire it generates a magnetic field which behaves as external field to the domains of metal placed inside, which aligns the domains. The coil of wire acts as a magnet as long as the current is flowing through it. When current stops it no longer behaves as a magnet. For direct current (DC) the polarity of coil remains the same and hence it magnetizes the material in one direction. For alternating current the polarity of solenoid changes after every half cycle and hence in first half cycle it magnetizes the material in one direction then demagnetizes it. In second half cycle it magnetizes the material in opposite direction and then demagnetizes it. Materials which easily magnetize and demagnetize are called soft magnetic materials (like soft iron), on the other hand materials which cannot magnetize and demagnetize easily are called hard magnetic materials (like steel).</p>
                 <h2 className="text-xl font-semibold mt-4">FOR YOUR INFORMATION</h2>
@@ -23,29 +23,29 @@ const Magnetism: FC = () => {
                 <pre className="bg-gray-200 p-4 rounded-lg">
                     {`B = μ₀ n I
 8.1
-Here 'B' is the strength of magnetic field having unit tesla (T) which is also equal to newton per ampere per meter (N/A m), while μ₀ is the permeability of the material (Permeability is the property of a material to its response towards a magnetic field, i.e. how much a material permits magnetic field to pass through it), 'I' is the current flowing through the solenoid and 'n' is the number of turns of the solenoid per unit length given by the relation as,
+Here &apos;B&apos; is the strength of magnetic field having unit tesla (T) which is also equal to newton per ampere per meter (N/A m), while μ₀ is the permeability of the material (Permeability is the property of a material to its response towards a magnetic field, i.e. how much a material permits magnetic field to pass through it), &apos;I&apos; is the current flowing through the solenoid and &apos;n&apos; is the number of turns of the solenoid per unit length given by the relation as,
 
 n = N / L
 8.2
-Here 'N' is the total number of turns of the solenoid and 'L' is the length of solenoid. The value of the permeability for vacuum 'μ₀' is given as: μ₀ = 4π × 10⁻⁷ N/A²
+Here &apos;N&apos; is the total number of turns of the solenoid and &apos;L&apos; is the length of solenoid. The value of the permeability for vacuum &apos;μ₀&apos; is given as: μ₀ = 4π × 10⁻⁷ N/A²
 
 Similarly the magnetic field due to a wire carrying current can be given as:
 
 B = μ₀ I / (2π r)
 8.3
-Here 'r' is the distance from the center of the wire and I is the magnitude of current flowing through the wire as shown in figure 8.12.`}
+Here &apos;r&apos; is the distance from the center of the wire and I is the magnitude of current flowing through the wire as shown in figure 8.12.`}
                 </pre>
                 <h2 className="text-xl font-semibold mt-4">EXAMPLE 8.1: MAGNETIC FIELD OF A SOLENOID</h2>
                 <p>A student takes a long straight copper wire (with insulation on it) from his physics lab, he wraps the wire on an iron rod of 50 cm, to make it solenoid of 15 turns. He connects the ends of copper wire with the battery, which provides 1.2 A current. Find the magnetic field he produces in solenoid by doing so.</p>
                 <h2 className="text-xl font-semibold mt-4">GIVEN</h2>
                 <ul className="list-disc pl-6">
-                    <li>Length 'L' 50 cm = 0.5 m</li>
-                    <li>Number of turns 'N' = 15</li>
-                    <li>Current 'I' = 1.2 A</li>
-                    <li>Permeability 'μ₀' = 4π × 10⁻⁷ N/A²</li>
+                    <li>Length &apos;L&apos; 50 cm = 0.5 m</li>
+                    <li>Number of turns &apos;N&apos; = 15</li>
+                    <li>Current &apos;I&apos; = 1.2 A</li>
+                    <li>Permeability &apos;μ₀&apos; = 4π × 10⁻⁷ N/A²</li>
                 </ul>
                 <h2 className="text-xl font-semibold mt-4">REQUIRED</h2>
-                <p>Magnetic Field Strength 'B' = ?</p>
+                <p>Magnetic Field Strength &apos;B&apos; = ?</p>
                 <h2 className="text-xl font-semibold mt-4">SOLUTION</h2>
                 <p>To find magnetic Field Strength we have to find number of turns per unit length first by using equation 8.2</p>
                 <pre className="bg-gray-200 p-4 rounded-lg">
@@ -60,7 +60,7 @@ B = μ₀ n I
   = 0.0015 T`}
                 </pre>
                 <h2 className="text-xl font-semibold mt-4">FOR YOUR INFORMATION</h2>
-                <p>"Magnetic materials which do not retain their magnetization after removal of external magnetic field or applied current (as in case of solenoid) are called temporary magnets".</p>
+                <p>&quot;Magnetic materials which do not retain their magnetization after removal of external magnetic field or applied current (as in case of solenoid) are called temporary magnets&quot;.</p>
                 <h2 className="text-xl font-semibold mt-4">8.3.1 TEMPORARY AND PERMANENT MAGNETICS:</h2>
                 <p>The solenoid as stated earlier behaves like a magnet as long as a current flows through it, just after removal of current it loses its magnetic field, hence it is a temporary magnet. It is also called as electromagnet. Electromagnet is type of magnet in which the magnetic field is produced due to an electric current. Examples of temporary magnetics include iron nails, screws, metal bolts, kitchen utensils etc.</p>
                 <p>Examples of permanent magnetic materials include iron ore, cobalt, nickel and Alnico. Temporary and permanent magnets are shown in figure 8.13. Some of the differences are listed below.</p>
@@ -85,8 +85,8 @@ B = μ₀ n I
                             <td className="py-2 px-4 border">Magnetism can be varied in strength according to need</td>
                         </tr>
                         <tr>
-                            <td className="py-2 px-4 border">Magnets' poles can not be altered</td>
-                            <td className="py-2 px-4 border">Magnets' poles can be changed</td>
+                            <td className="py-2 px-4 border">Magnets&apos; poles can not be altered</td>
+                            <td className="py-2 px-4 border">Magnets&apos; poles can be changed</td>
                         </tr>
                     </tbody>
                 </table>

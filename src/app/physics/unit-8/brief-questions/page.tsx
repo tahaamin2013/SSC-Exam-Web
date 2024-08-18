@@ -33,7 +33,7 @@ const Page = () => {
                             2. A freely suspended magnet always points along north-south direction. Why?
                         </AccordionTrigger>
                         <AccordionContent className="bg-white text-black rounded-md p-4 shadow-custom">
-                            A freely suspended magnet aligns itself along the Earth's magnetic field, which has a north-south direction. This alignment occurs because the magnet's poles align with the Earth's magnetic poles.
+                            A freely suspended magnet aligns itself along the Earth&apos;s magnetic field, which has a north-south direction. This alignment occurs because the magnet&apos;s poles align with the Earth&apos;s magnetic poles.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -73,7 +73,7 @@ const Page = () => {
                             6. What is the geomagnetic reversal phenomenon? Explain.
                         </AccordionTrigger>
                         <AccordionContent className="bg-white text-black rounded-md p-4 shadow-custom">
-                            Geomagnetic reversal is the phenomenon where the Earth's magnetic field reverses its polarity. During a reversal, the magnetic north and south poles switch places, which occurs over long geological timescales.
+                            Geomagnetic reversal is the phenomenon where the Earth&apos;s magnetic field reverses its polarity. During a reversal, the magnetic north and south poles switch places, which occurs over long geological timescales.
                         </AccordionContent>
                     </AccordionItem>
 
@@ -83,17 +83,17 @@ const Page = () => {
                             7. Why does the Earth spin about its geographical axis instead of its magnetic axis? Explain.
                         </AccordionTrigger>
                         <AccordionContent className="bg-white text-black rounded-md p-4 shadow-custom">
-                            The Earth spins about its geographical axis because this axis is aligned with the planet's rotation and is related to its angular momentum. The magnetic axis is not aligned with the rotational axis and changes over time.
+                            The Earth spins about its geographical axis because this axis is aligned with the planet&apos;s rotation and is related to its angular momentum. The magnetic axis is not aligned with the rotational axis and changes over time.
                         </AccordionContent>
                     </AccordionItem>
 
                     {/* Question 8 */}
                     <AccordionItem value="item-8">
                         <AccordionTrigger className="bg-primary-bg text-white font-semibold rounded-md p-2 mb-1">
-                            8. Why are the Earth's geographical and magnetic axes not coincident? Explain.
+                            8. Why are the Earth&apos;s geographical and magnetic axes not coincident? Explain.
                         </AccordionTrigger>
                         <AccordionContent className="bg-white text-black rounded-md p-4 shadow-custom">
-                            The Earth's geographical and magnetic axes are not coincident due to the complex nature of Earth's core dynamics and the movement of molten iron, which generates the magnetic field but is not perfectly aligned with the rotation axis.
+                            The Earth&apos;s geographical and magnetic axes are not coincident due to the complex nature of Earth&apos;s core dynamics and the movement of molten iron, which generates the magnetic field but is not perfectly aligned with the rotation axis.
                         </AccordionContent>
                     </AccordionItem>
 
