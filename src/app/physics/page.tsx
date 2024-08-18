@@ -9,17 +9,19 @@ type Section = {
     id: string;
     link: string;
     title: string;
+    unit: string;
 };
 
 const data: Section[] = [
-    { id: "1", link: "/physics/unit-1", title: "Physical Quantities And Measurement" },
-    { id: "2", link: "/physics/unit-2", title: "Kinamtics" },
-    { id: "3", link: "/physics/unit-3", title: "Dynamics - 1" },
-    { id: "4", link: "/physics/unit-4", title: "DYNAMICS-II" },
-    { id: "5", link: "/physics/unit-5", title: "Pressure and Deformation in Solids" },
-    { id: "6", link: "/physics/unit-6", title: "Work And Energy" },
-    { id: "7", link: "/physics/unit-7", title: "Density and Temperature" },
-    { id: "7", link: "/physics/unit-9", title: "Unit 9: Nature Of Science And Physics" },
+    { id: "1", link: "/physics/unit-1", unit: "1", title: "Physical Quantities And Measurement" },
+    { id: "2", link: "/physics/unit-2", unit: "2", title: "Kinamtics" },
+    { id: "3", link: "/physics/unit-3", unit: "3", title: "Dynamics - 1" },
+    { id: "4", link: "/physics/unit-4", unit: "4", title: "DYNAMICS-II" },
+    { id: "5", link: "/physics/unit-5", unit: "5", title: "Pressure and Deformation in Solids" },
+    { id: "6", link: "/physics/unit-6", unit: "6", title: "Work And Energy" },
+    { id: "7", link: "/physics/unit-7", unit: "7", title: "Density and Temperature" },
+    { id: "8", link: "/physics/unit-8", unit: "8", title: "Magnetish" },
+    { id: "9", link: "/physics/unit-9", unit: "9", title: "Nature Of Science And Physics" },
 ];
 
 const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; isRedirecting: boolean; onRedirect: () => void }) => {
@@ -47,9 +49,15 @@ const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; is
     }
 
     return (
-        <Link href={section.link} onClick={handleClick} className="group relative overflow-hidden rounded-2xl  shadow-lg shadow-white/5 transition-all duration-300 hover:shadow-xl">
-            <div className="absolute inset-0 bg-gradient-to-br from-purple-400 to-indigo-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-            <div className="relative z-10 p-6">
+        <Link href={section.link} onClick={handleClick} className="group relative overflow-hidden rounded-2xl  shadow-lg border-white/40 border shadow-white/5 transition-all duration-300 hover:shadow-xl">
+            <div className='flex items-end'>
+
+                <div className='bg-gradient-to-br from-purple-400 to-indigo-600  rounded-sm text-white font-bold z-50 px-2 h-fit w-fit'>
+                    {section.unit}
+                </div>
+            </div>
+            <div className="absolute border inset-0 bg-gradient-to-br from-purple-400 to-indigo-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+            <div className="relative z-10 p-6 pt-3">
                 <Book className="mb-4 h-8 w-8 text-purple-500 transition-colors duration-300 group-hover:text-white" />
                 <h2 className="mb-2 capitalize text-xl font-bold  text-zinc-200 transition-colors duration-300 group-hover:text-white">
                     {section.title}
