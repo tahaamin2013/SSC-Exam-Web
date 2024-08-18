@@ -8,7 +8,7 @@ const Efficiency = () => {
         The principle of conservation of energy suggests that energy can neither be created nor destroyed. That is, the total energy output of a machine must be equal to its energy input. However, it is found that the energy output is always less than the energy input. This is mainly due to the work that must be done against frictional forces.
       </p>
       <p className="text-lg mb-4">
-        A car engine is designed to convert chemical energy stored in the fuel into kinetic energy for the car. A light bulb is designed to convert electric energy into light energy. While the car engine and the light bulb are transforming some of the potential energy into the desired form of energy, part of the energy is 'lost'.
+        A car engine is designed to convert chemical energy stored in the fuel into kinetic energy for the car. A light bulb is designed to convert electric energy into light energy. While the car engine and the light bulb are transforming some of the potential energy into the desired form of energy, part of the energy is &apos;lost&apos;.
       </p>
       <p className="text-lg mb-4">
         The lost energy is converted into a form that does not serve the intended purpose. Often, the lost energy is transformed into heat. The efficiency <code className="bg-gray-100 p-2 rounded">η</code> of a machine or device describes the extent to which it converts input energy or work into useful output energy or work.

@@ -25,7 +25,7 @@ const MajorEnergyResources = () => {
 
             <h3 className="text-2xl font-semibold mt-6 mb-4">6.3.2 Nuclear Fuel</h3>
             <p className="text-lg mb-4">
-                Nuclear energy is often considered a nonrenewable energy source, even though nuclear energy itself is renewable. The material used in nuclear power plants, such as uranium, is not renewable. Nuclear power plants harness the energy in the nucleus of an atom through nuclear fission, where the atom's nucleus splits.
+                Nuclear energy is often considered a nonrenewable energy source, even though nuclear energy itself is renewable. The material used in nuclear power plants, such as uranium, is not renewable. Nuclear power plants harness the energy in the nucleus of an atom through nuclear fission, where the atom&apos;s nucleus splits.
             </p>
 
             <h3 className="text-2xl font-semibold mt-6 mb-4">6.3.3 Biomass Fuel</h3>
@@ -45,7 +45,7 @@ const MajorEnergyResources = () => {
 
             <h3 className="text-2xl font-semibold mt-6 mb-4">6.3.6 Geothermal Resources</h3>
             <p className="text-lg mb-4">
-                Geothermal energy comes from the Earth's core and is formed by the trapped energy from billions of years ago and the heat produced by decaying radioactive elements.
+                Geothermal energy comes from the Earth&apos;s core and is formed by the trapped energy from billions of years ago and the heat produced by decaying radioactive elements.
             </p>
 
             <h3 className="text-2xl font-semibold mt-6 mb-4">6.3.7 Wind</h3>

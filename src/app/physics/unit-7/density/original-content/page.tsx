@@ -11,7 +11,7 @@ const DensityPage: React.FC = () => {
             </p>
             <p className="mb-4">
                 We define density of a material as:
-                <strong>"Mass per unit volume of the substance is called its density".</strong>
+                <strong>&quot;Mass per unit volume of the substance is called its density&quot;.</strong>
             </p>
             <p className="mb-4">
                 <strong>Density = Mass / Volume</strong>

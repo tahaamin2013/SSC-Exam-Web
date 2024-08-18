@@ -15,7 +15,7 @@ const StatesOfMatterPage: React.FC = () => {
                 <li>Solids are made up of particles (atoms or molecules).</li>
                 <li>There is a strong attractive force between particles.</li>
                 <li>Due to the strong attractive force, particles of solids are closely packed and they have a fixed lattice pattern.</li>
-                <li>Solid particles cannot freely move like gas particles or slide past one another like liquid particles due to their fixed location. Solids' particles can only vibrate about their mean positions.</li>
+                <li>Solid particles cannot freely move like gas particles or slide past one another like liquid particles due to their fixed location. Solids&apos; particles can only vibrate about their mean positions.</li>
                 <li>Solids have a fixed shape.</li>
                 <li>Solids have high density.</li>
             </ul>
