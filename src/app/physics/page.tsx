@@ -59,13 +59,14 @@ const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; is
             <div className="absolute border inset-0 bg-gradient-to-br from-purple-400 to-indigo-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
             <div className="relative z-10 p-6 pt-3">
                 <Book className="mb-4 h-8 w-8 text-purple-500 transition-colors duration-300 group-hover:text-white" />
-                <h2 className="mb-2 capitalize text-xl font-bold  text-zinc-200 transition-colors duration-300 group-hover:text-white">
-                    {section.title}
-                </h2>
-                <p className="text-sm text-zinc-200 transition-colors duration-300 group-hover:text-purple-100">
-                    Explore this unit
-                </p>
-                <ChevronRight className="absolute bottom-4 right-4 h-6 w-6 text-purple-500 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:text-white" />
+                    <h2 className="mb-2 capitalize text-xl font-bold  text-zinc-200 transition-colors duration-300 group-hover:text-white">
+                        {section.title}
+                    </h2>
+                    <p className="text-sm text-zinc-200 transition-colors duration-300 group-hover:text-purple-100">
+                        Explore this unit
+                    </p>
+                    <ChevronRight className="absolute bottom-4 right-4 h-6 w-6 text-purple-500 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:text-white" />
+             
             </div>
         </Link>
     );
