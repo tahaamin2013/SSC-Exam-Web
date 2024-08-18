@@ -2,6 +2,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import mermaid from "mermaid";
 import PlantUMLDiagram from "@/components/PlantUMLDiagram";
+import Image from 'next/image'
+import ForcesDiagram from "./Conceptofnetforce";
 
 const DynamicsPage = () => {
   useEffect(() => {
@@ -476,6 +478,9 @@ left side
       </p>
       <PlantUMLDiagram code={mindmapCode5} />
       <h1 className="text-2xl text-blue-500 font-bold">Concept of Net Force</h1>
+     
+          <ForcesDiagram />
+
       <p className="text-lg">
         <span className="font-bold">Question For You: </span>
         Write a short note on concept of net forces in detail.
