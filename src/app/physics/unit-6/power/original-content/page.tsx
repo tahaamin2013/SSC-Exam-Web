@@ -16,7 +16,7 @@ const Power = () => {
         Like work, power is a scalar quantity. The SI unit of power is the watt (W), in honor of James Watt, a Scottish physicist who invented the first steam engine. From the equations above, the unit of power is given by <code className="bg-gray-100 p-2 rounded">1 watt = 1 joule / 1 second</code>, or in symbols, <code className="bg-gray-100 p-2 rounded">1 W = 1 J/s</code>.
       </p>
       <p className="text-lg mb-4">
-        The power rating (sometimes called the "wattage") of a light bulb tells you how fast it will convert electric energy into heat and light. For example, a 100 W filament bulb and a 40 W tube light are shown in the figure 6.20.
+        The power rating (sometimes called the &quot;wattage&quot;) of a light bulb tells you how fast it will convert electric energy into heat and light. For example, a 100 W filament bulb and a 40 W tube light are shown in the figure 6.20.
       </p>
       <p className="text-lg mb-4">
         For practical purposes, a larger unit is often used: the horsepower (hp). One horsepower (hp) is defined as 550 ft·lbf/s, which equals 746 W. Therefore, <code className="bg-gray-100 p-2 rounded">1 hp = 746 W</code>.
@@ -35,7 +35,7 @@ const Power = () => {
 
       <h2 className="text-2xl font-semibold mt-8 mb-4">EXAMPLE 6.5: POWER OF AN ENGINE</h2>
       <p className="text-lg mb-4">
-        How powerful will a Tesla Car's engine be if it does <code className="bg-gray-100 p-2 rounded">3 × 10<sup>6</sup> J</code> of work in 1 minute? What will be its power in hp?
+        How powerful will a Tesla Car&apos;s engine be if it does <code className="bg-gray-100 p-2 rounded">3 × 10<sup>6</sup> J</code> of work in 1 minute? What will be its power in hp?
       </p>
       <p className="text-lg mb-4">
         <strong>GIVEN:</strong><br />

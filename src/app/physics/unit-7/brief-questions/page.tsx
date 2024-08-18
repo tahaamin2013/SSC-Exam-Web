@@ -90,7 +90,7 @@ const Page = () => {
                         <AccordionContent>
                             {/* Add detailed answer here */}
                             <p>
-                                Fixed point scales are required for thermometers to provide accurate and reliable temperature measurements by calibrating the thermometer against known temperatures, such as the freezing and boiling points of water. Difficulties in setting fixed points include achieving precise and stable temperatures, as well as dealing with the potential for calibration errors and variations in the thermometer's material properties.
+                                Fixed point scales are required for thermometers to provide accurate and reliable temperature measurements by calibrating the thermometer against known temperatures, such as the freezing and boiling points of water. Difficulties in setting fixed points include achieving precise and stable temperatures, as well as dealing with the potential for calibration errors and variations in the thermometer&apos;s material properties.
                             </p>
                         </AccordionContent>
                     </AccordionItem>
@@ -142,7 +142,7 @@ const Page = () => {
                         <AccordionContent>
                             {/* Add detailed answer here */}
                             <p>
-                                Yes, sensitivity can be increased without changing the range by using a narrower capillary tube. This would make the liquid's movement more pronounced for small temperature changes, thus improving sensitivity, while the range remains unchanged if the volume and type of liquid are constant.
+                                Yes, sensitivity can be increased without changing the range by using a narrower capillary tube. This would make the liquid&apos;s movement more pronounced for small temperature changes, thus improving sensitivity, while the range remains unchanged if the volume and type of liquid are constant.
                             </p>
                         </AccordionContent>
                     </AccordionItem>
@@ -155,7 +155,7 @@ const Page = () => {
                         <AccordionContent>
                             {/* Add detailed answer here */}
                             <p>
-                                The student's claim can be verified by comparing the thermometer's performance to a standard thermometer. This can be done by measuring the same temperature changes with both thermometers and checking if the new thermometer shows more precise or smaller temperature increments. Calibration against known fixed points can also help verify the sensitivity.
+                                The student&apos;s claim can be verified by comparing the thermometer&apos;s performance to a standard thermometer. This can be done by measuring the same temperature changes with both thermometers and checking if the new thermometer shows more precise or smaller temperature increments. Calibration against known fixed points can also help verify the sensitivity.
                             </p>
                         </AccordionContent>
                     </AccordionItem>

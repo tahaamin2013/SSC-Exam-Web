@@ -1,4 +1,3 @@
-import React from 'react';
 
 const EnergyAndItsForms = () => {
   return (
@@ -8,7 +7,7 @@ const EnergyAndItsForms = () => {
         We can identify things around us that are capable of doing work, that is, exerting a force to move an object.
         A boy is pushing a toy car. The boy exerts a force on the toy car to move on the floor. The work done on the toy car is a transfer of energy from the boy to the toy car.
         A sharpening a pencil by a child is due to energy transfer to the sharpener. Riding a bicycle is possible due to transfer of energy to the bicycle by a person.
-        So energy is defined as 'the capacity of a body to do work'.
+        So energy is defined as &apos;the capacity of a body to do work&apos;.
         Energy has many different forms as shown in table 6.1
       </p>
 
@@ -60,7 +59,7 @@ const EnergyAndItsForms = () => {
               The energy of sound waves. Sound waves travel through the air or another medium.
             </td>
             <td className="text-base">
-              Sound vibrations cause a person's eardrums to vibrate.
+              Sound vibrations cause a person&apos;s eardrums to vibrate.
             </td>
           </tr>
           <tr>
@@ -79,11 +78,11 @@ const EnergyAndItsForms = () => {
       <p className="text-base">
         The energy possessed by a body due to its motion is called Kinetic energy.
         A moving bullet is able to do work by overcoming forces when it strikes something e.g. wood. Similarly, kinetic energy is felt during a collision.
-        A football is kicked by a boy, it moves because it possesses Kinetic energy. Now think of a tennis ball and a football moving at the same speed. Which possesses a greater ability to do work? Of course, it is the football with a larger mass, which is difficult to stop. Similarly, now two footballs are approaching you at different speeds, which can do more work? Again it is easy to answer as the football with greater speed is difficult to stop. Thus the object's mass and its speed contribute to its Kinetic energy. Like all energies, Kinetic energy is also a scalar quantity.
+        A football is kicked by a boy, it moves because it possesses Kinetic energy. Now think of a tennis ball and a football moving at the same speed. Which possesses a greater ability to do work? Of course, it is the football with a larger mass, which is difficult to stop. Similarly, now two footballs are approaching you at different speeds, which can do more work? Again it is easy to answer as the football with greater speed is difficult to stop. Thus the object&apos;s mass and its speed contribute to its Kinetic energy. Like all energies, Kinetic energy is also a scalar quantity.
       </p>
 
       <p className="text-base">
-        Consider a constant force 'F' acting on an object of mass 'm' and as a result, the object moves on a frictionless surface. The kinetic energy of an object will be equal to the work done.
+        Consider a constant force &apos;F&apos; acting on an object of mass &apos;m&apos; and as a result, the object moves on a frictionless surface. The kinetic energy of an object will be equal to the work done.
         The work done on the force-displacement graph can be calculated by finding the area of the figure under the force-displacement graph as shown in figure 6.2.
       </p>
 
@@ -109,11 +108,11 @@ const EnergyAndItsForms = () => {
 
       <h3 className="text-base font-bold mt-4">GIVEN:</h3>
       <p className="text-base">
-        Mass of ball 'm' = 120 g = 0.12 kg
+        Mass of ball &apos;m&apos; = 120 g = 0.12 kg
         <br />
-        Kinetic energy of ball 'E' = 50 J
+        Kinetic energy of ball &apos;E&apos; = 50 J
         <br />
-        Speed of cricket ball 'v' = ?
+        Speed of cricket ball &apos;v&apos; = ?
       </p>
 
       <h3 className="text-base font-bold mt-4">SOLUTION:</h3>

@@ -13,7 +13,7 @@ const TemperatureRelationshipPage: React.FC = () => {
                 When a material is heated, one of the two things may happen: (1) The strength of the attractive force between particles can decrease, and bonds between particles may break (as it happens during melting and boiling processes of a material), or (2) it can speed up the particles and hence increase the kinetic energy (K.E.) of the particles.
             </p>
             <p className="mb-4">
-                <strong>"The temperature of a substance is the measure of its hotness or coldness, and the temperature of a substance is directly proportional to the average K.E. of its particles."</strong>
+                <strong>&quot;The temperature of a substance is the measure of its hotness or coldness, and the temperature of a substance is directly proportional to the average K.E. of its particles.&quot;</strong>
             </p>
             <p className="mb-4">
                 When we heat a substance (at room temperature), the speed and kinetic energy of its particles increase. That is why the temperature of the substance will also increase. Conversely, when we remove heat from a substance (for example, by placing hot water on ice or in a refrigerator), the speed and kinetic energy of the particles will become slower and slower. Therefore, the temperature of the substance will also decrease.
@@ -22,7 +22,7 @@ const TemperatureRelationshipPage: React.FC = () => {
                 If we keep removing heat energy from a substance, its particles will continue to slow down and lose kinetic energy. At some point, the molecules will no longer be moving and will have least or no kinetic energy. Particles cannot collide with each other or with the container, and therefore cannot exert pressure (P=0 Pa). At this point, the temperature of the substance is called absolute zero.
             </p>
             <p className="mb-4">
-                <strong>"Absolute zero is the lowest possible temperature of a substance at which its particles have least kinetic energy."</strong>
+                <strong>&quot;Absolute zero is the lowest possible temperature of a substance at which its particles have least kinetic energy.&quot;</strong>
             </p>
             <p className="mb-4">
                 Its value is zero Kelvin (0 K), while on the Celsius scale, it is -273.15°C. At absolute zero, there is no heat energy available to move the particles of the substance.

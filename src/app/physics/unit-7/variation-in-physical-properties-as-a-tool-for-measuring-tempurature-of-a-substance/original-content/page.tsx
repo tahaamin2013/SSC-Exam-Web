@@ -21,10 +21,10 @@ const TemperatureMeasurementPage: React.FC = () => {
                 When a gas is heated, its volume and pressure may change. These variations are used in gas thermometers to measure temperature. There are two types of gas thermometers: constant pressure gas thermometers and constant volume gas thermometers.
             </p>
             <p className="mb-4">
-                A constant volume gas thermometer uses the principle that the pressure of a gas is directly proportional to the temperature, while the volume is kept constant (Gay-Lussac's law). As the temperature of the thermometer bulb increases, the kinetic energy of gas particles increases, causing a rise in pressure. This pressure variation is used to measure temperature.
+                A constant volume gas thermometer uses the principle that the pressure of a gas is directly proportional to the temperature, while the volume is kept constant (Gay-Lussac&apos;s law). As the temperature of the thermometer bulb increases, the kinetic energy of gas particles increases, causing a rise in pressure. This pressure variation is used to measure temperature.
             </p>
             <p className="mb-4">
-                A constant pressure gas thermometer operates on the principle that the volume of a gas is directly proportional to the temperature, while the pressure is kept constant (Charles's law). The gas in the bulb expands and pushes a piston according to the increase in volume, which is used to measure temperature.
+                A constant pressure gas thermometer operates on the principle that the volume of a gas is directly proportional to the temperature, while the pressure is kept constant (Charles&apos;s law). The gas in the bulb expands and pushes a piston according to the increase in volume, which is used to measure temperature.
             </p>
 
             <h2 className="text-2xl font-semibold mb-4">7.8.3 Variation in Colour of Crystals</h2>

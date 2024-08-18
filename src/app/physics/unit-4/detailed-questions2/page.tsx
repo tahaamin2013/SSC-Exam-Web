@@ -292,7 +292,7 @@ const QuestionDashboard = () => {
                             - **Unstable Equilibrium**: When the centre of mass is high and outside the base of support, the body is in unstable equilibrium. A small displacement will cause the body to move further away from its original position.
                             - **Neutral Equilibrium**: When the centre of mass is neither particularly high nor low with respect to the base of support, and the body remains in the new position after displacement.
                             <br /><br />
-                            The position of the centre of mass relative to the base of support determines the body's tendency to return to its original position or move further away when displaced. A lower centre of mass generally increases stability, while a higher centre of mass decreases stability.
+                            The position of the centre of mass relative to the base of support determines the body&apos;s tendency to return to its original position or move further away when displaced. A lower centre of mass generally increases stability, while a higher centre of mass decreases stability.
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>

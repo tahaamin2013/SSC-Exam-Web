@@ -108,7 +108,7 @@ const QuestionDashboard = () => {
                                 <b>Expected Weather Changes Due to Variation of Atmospheric Pressure:</b> The changes in atmospheric pressure at a certain place indicate the expected changes in the weather conditions at that place.
                             </p>
                             <p>
-                                <b>Decrease in Atmospheric Pressure:</b> A gradual and average drop in atmospheric pressure means low pressure in a neighboring locality. A minor but rapid fall in atmospheric pressure indicates a windy and showery condition in the nearby region. A decrease in atmospheric pressure accompanied by a breeze and rain indicates that rain is likely to occur in a few hours' time. A sudden fall in atmospheric pressure is often followed by a storm, rain, and typhoon.
+                                <b>Decrease in Atmospheric Pressure:</b> A gradual and average drop in atmospheric pressure means low pressure in a neighboring locality. A minor but rapid fall in atmospheric pressure indicates a windy and showery condition in the nearby region. A decrease in atmospheric pressure accompanied by a breeze and rain indicates that rain is likely to occur in a few hours&apos; time. A sudden fall in atmospheric pressure is often followed by a storm, rain, and typhoon.
                             </p>
                             <p>
                                 <b>Increase in Atmospheric Pressure:</b> An increasing atmospheric pressure with a decline later on predicts intense weather conditions. A gradual large increase in the atmospheric pressure indicates a long spell of pleasant weather. A rapid increase in atmospheric pressure means that it will soon be followed by a sudden storm or bad weather.
@@ -172,7 +172,7 @@ const QuestionDashboard = () => {
                                 <br />
                                 (iii) Real gases occupy more space than ideal gases due to the finite size of their molecules.
                                 <br />
-                                (iv) Real gases do not obey Boyle's Law and Charles's Law perfectly, while ideal gases obey these laws perfectly.
+                                (iv) Real gases do not obey Boyle&apos;s Law and Charles&apos;s Law perfectly, while ideal gases obey these laws perfectly.
                             </p>
                             <p>
                                 <b>Deviation from Ideal Gas Behavior:</b>
@@ -241,7 +241,7 @@ const QuestionDashboard = () => {
                         </AccordionTrigger>
                         <AccordionContent>
                             <p>
-                                Ans: Charles's Law states that the volume of a given mass of gas is directly proportional to its temperature when pressure is held constant. This can be derived from the kinetic molecular theory as follows:
+                                Ans: Charles&apos;s Law states that the volume of a given mass of gas is directly proportional to its temperature when pressure is held constant. This can be derived from the kinetic molecular theory as follows:
                             </p>
                             <p>
                                 (i) As the temperature of a gas increases, the average kinetic energy of the gas molecules also increases.
@@ -265,13 +265,13 @@ const QuestionDashboard = () => {
                         </AccordionTrigger>
                         <AccordionContent>
                             <p>
-                                Ans: Avogadro's Law states that equal volumes of gases, at the same temperature and pressure, contain an equal number of molecules. This law is significant because it helps relate the volume of a gas to the number of molecules it contains.
+                                Ans: Avogadro&apos;s Law states that equal volumes of gases, at the same temperature and pressure, contain an equal number of molecules. This law is significant because it helps relate the volume of a gas to the number of molecules it contains.
                             </p>
                             <p>
                                 <b>Avogadro’s Law:</b> V ∝ n, where V is the volume and n is the number of moles of the gas.
                             </p>
                             <p>
-                                <b>Ideal Gas Equation:</b> The ideal gas equation combines Boyle’s Law, Charles’s Law, and Avogadro’s Law into one equation: PV = nRT, where P is the pressure, V is the volume, n is the number of moles, R is the universal gas constant, and T is the temperature. Avogadro's Law is directly related to the ideal gas equation, as it provides the relationship between the volume and number of moles of a gas.
+                                <b>Ideal Gas Equation:</b> The ideal gas equation combines Boyle’s Law, Charles’s Law, and Avogadro’s Law into one equation: PV = nRT, where P is the pressure, V is the volume, n is the number of moles, R is the universal gas constant, and T is the temperature. Avogadro&apos;s Law is directly related to the ideal gas equation, as it provides the relationship between the volume and number of moles of a gas.
                             </p>
                         </AccordionContent>
                     </AccordionItem>
@@ -286,7 +286,7 @@ const QuestionDashboard = () => {
                                 Ans:
                             </p>
                             <p>
-                                (i) <b>Thermodynamic Equilibrium:</b> Thermodynamic equilibrium refers to a state in which all parts of a system are at the same temperature and there are no net changes in the energy or matter within the system. In this state, the system's properties do not change over time.
+                                (i) <b>Thermodynamic Equilibrium:</b> Thermodynamic equilibrium refers to a state in which all parts of a system are at the same temperature and there are no net changes in the energy or matter within the system. In this state, the system&apos;s properties do not change over time.
                             </p>
                             <p>
                                 (ii) <b>Heat:</b> Heat is the energy transferred between systems or objects with different temperatures. It flows from the hotter object to the cooler one until thermal equilibrium is reached. Heat is measured in joules (J).

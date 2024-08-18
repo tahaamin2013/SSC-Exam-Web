@@ -1,11 +1,9 @@
-import React from 'react';
-
 const Page = () => {
   return (
     <div className="bg-white text-black p-8">
       <p className="text-lg font-bold">Work And Energy</p>
       <p className="text-base">
-        In our daily life work means "to do anything". But in science, work has specific meaning, i.e.
+        In our daily life work means &quot;to do anything&quot;. But in science, work has specific meaning, i.e.
         when force is applied and some distance is covered. For example, a man carrying a physics book is doing work but he is not doing work if he is not moving while keeping the physics book on his head. Scientifically, work is done only when an effort or force moves an object. When work is done, energy is used. Thus, work and energy are related to each other. The concept of energy is an important concept in Physics. It helps us to explain the changes that occur when work is done This unit deals with the concepts of work, energy and power.
       </p>
       <p className="text-lg font-bold">6.1 WORK</p>
@@ -24,7 +22,7 @@ const Page = () => {
       <p className="text-base font-bold">X</p>
       <p className="text-lg font-bold">VECTOR REPRESENTATION</p>
       <p className="text-base">
-        Force is not always applied perfectly in the direction of motion. For example consider a toy car which is moving in horizontal direction and force 'F' is applied making certain angle '0' with the horizontal. In such situations the force is resolved into its rectangular components as shown in figure 6.2.
+        Force is not always applied perfectly in the direction of motion. For example consider a toy car which is moving in horizontal direction and force &apos;F&apos; is applied making certain angle &apos;0&apos; with the horizontal. In such situations the force is resolved into its rectangular components as shown in figure 6.2.
       </p>
       <p className="text-lg font-bold">CAN YOU TELL?</p>
       <p className="text-base">
@@ -36,14 +34,14 @@ const Page = () => {
       </p>
       <p className="text-lg font-bold">GIVEN</p>
       <p className="text-base">
-        Force 'F' = 100 N
+        Force &apos;F&apos; = 100 N
       </p>
       <p className="text-base">
-        Distance 'd' = 200 m
+        Distance &apos;d&apos; = 200 m
       </p>
       <p className="text-lg font-bold">REQUIRED</p>
       <p className="text-base">
-        Work 'W' =?
+        Work &apos;W&apos; =?
       </p>
       <p className="text-lg font-bold">SOLUTION</p>
       <p className="text-base">

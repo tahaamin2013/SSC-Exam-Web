@@ -50,7 +50,7 @@ const Page = () => {
                     {/* Question 4 */}
                     <AccordionItem value="item-4">
                         <AccordionTrigger>
-                            4. A car has kinetic energy 'E'. By what factor does its kinetic energy change if its velocity is doubled?
+                            4. A car has kinetic energy &apos;E&apos;. By what factor does its kinetic energy change if its velocity is doubled?
                         </AccordionTrigger>
                         <AccordionContent>
                             If the velocity of a car is doubled, its kinetic energy increases by a factor of four. This is because kinetic energy is proportional to the square of the velocity (E = 1/2 mv^2). So, if velocity v is doubled, the kinetic energy becomes E = 1/2 m (2v)^2 = 4 × (1/2 mv^2) = 4E.

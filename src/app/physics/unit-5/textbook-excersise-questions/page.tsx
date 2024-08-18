@@ -57,12 +57,12 @@ const Page = () => {
                             </ul>
                             <p>The density of a substance can be found with the help of:</p>
                             <ul>
-                                <li>a) Pascal's law</li>
-                                <li>b) Hooke's law</li>
+                                <li>a) Pascal&apos;s law</li>
+                                <li>b) Hooke&apos;s law</li>
                                 <li>c) Archimedes principle</li>
                                 <li>d) Principle of floatation</li>
                             </ul>
-                            <p>According to Hooke's law:</p>
+                            <p>According to Hooke&apos;s law:</p>
                             <ul>
                                 <li>a) Stress x strain = constant</li>
                                 <li>b) Stress/strain constant</li>
@@ -140,7 +140,7 @@ const Page = () => {
                     <AccordionItem value="item-13">
                         <AccordionTrigger>7.13 What does it mean when the atmospheric pressure at a place falls suddenly?</AccordionTrigger>
                         <AccordionContent>
-                            <p>Ans: A sudden fall in atmospheric pressure is often followed by a storm, rain, and typhoon to occur in a few hours' time.</p>
+                            <p>Ans: A sudden fall in atmospheric pressure is often followed by a storm, rain, and typhoon to occur in a few hours&apos; time.</p>
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-14">
@@ -150,7 +150,7 @@ const Page = () => {
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-15">
-                        <AccordionTrigger>7.15 State Pascal's law.</AccordionTrigger>
+                        <AccordionTrigger>7.15 State Pascal&apos;s law.</AccordionTrigger>
                         <AccordionContent>
                             <p>Ans: Pressure applied at any point of a liquid enclosed in a container is transmitted without loss to all other parts of the liquid.</p>
                         </AccordionContent>
@@ -168,7 +168,7 @@ const Page = () => {
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-18">
-                        <AccordionTrigger>7.18 State Archimedes' principle.</AccordionTrigger>
+                        <AccordionTrigger>7.18 State Archimedes&apos; principle.</AccordionTrigger>
                         <AccordionContent>
                             <p>Ans: When an object is totally or partially immersed in a liquid, an upthrust acts on it equal to the weight of the liquid it displaces.</p>
                         </AccordionContent>
@@ -192,9 +192,9 @@ const Page = () => {
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-22">
-                        <AccordionTrigger>7.22 What is Hooke's law? What is meant by the elastic limit?</AccordionTrigger>
+                        <AccordionTrigger>7.22 What is Hooke&apos;s law? What is meant by the elastic limit?</AccordionTrigger>
                         <AccordionContent>
-                            <p>Ans: Hooke's Law: The strain produced in a body by the stress applied to it is directly proportional to the stress within the elastic limit of the body.</p>
+                            <p>Ans: Hooke&apos;s Law: The strain produced in a body by the stress applied to it is directly proportional to the stress within the elastic limit of the body.</p>
                             <p>Elastic Limit: It is the limit within which a body recovers its original length, volume, or shape after the deforming force is removed. When a body crosses this limit, it is permanently deformed and unable to restore its original state after the stress is removed.</p>
                         </AccordionContent>
                     </AccordionItem>

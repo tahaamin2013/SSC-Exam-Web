@@ -57,7 +57,7 @@ const Page = () => {
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-6">
-                        <AccordionTrigger>Q.6 State Pascal's Law.</AccordionTrigger>
+                        <AccordionTrigger>Q.6 State Pascal&apos;s Law.</AccordionTrigger>
                         <AccordionContent>
                             <p>Ans: Pressure applied at any point of a liquid enclosed in a container is transmitted without loss to all other parts of the liquid. An external force applied on the surface of a liquid increases the liquid pressure at the surface, and this increase is transmitted equally in all directions and to the walls of the container.</p>
                         </AccordionContent>
@@ -65,7 +65,7 @@ const Page = () => {
                     <AccordionItem value="item-7">
                         <AccordionTrigger>Q.7 Explain the braking system of vehicles.</AccordionTrigger>
                         <AccordionContent>
-                            <p>Ans: The brakes of cars, buses, etc., work on the principle of Pascal's law. When the brake pedal is pushed, it exerts pressure on the master cylinder, increasing the liquid pressure in the cylinder. This pressure is transmitted equally through the liquid in the metal pipes. Due to the increased pressure, the pistons in the cylinder move outward, pressing the brake pads against the brake drums. The force of friction between the brake pads and the brake drum stops the wheels.</p>
+                            <p>Ans: The brakes of cars, buses, etc., work on the principle of Pascal&apos;s law. When the brake pedal is pushed, it exerts pressure on the master cylinder, increasing the liquid pressure in the cylinder. This pressure is transmitted equally through the liquid in the metal pipes. Due to the increased pressure, the pistons in the cylinder move outward, pressing the brake pads against the brake drums. The force of friction between the brake pads and the brake drum stops the wheels.</p>
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-8">
@@ -133,19 +133,19 @@ const Page = () => {
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-18">
-                        <AccordionTrigger>Q.18 What is Hooke's Law?</AccordionTrigger>
+                        <AccordionTrigger>Q.18 What is Hooke&apos;s Law?</AccordionTrigger>
                         <AccordionContent>
                             <p>Ans: The strain produced in a body by the stress applied to it is directly proportional to the stress within the elastic limit of the body.</p>
                             <p>Stress ∝ Strain</p>
                             <p>Or Stress = Constant x Strain</p>
-                            <p>Hooke's law is applicable to all kinds of deformation and types of matter (solids, liquids, or gases) within certain limits.</p>
+                            <p>Hooke&apos;s law is applicable to all kinds of deformation and types of matter (solids, liquids, or gases) within certain limits.</p>
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-19">
-                        <AccordionTrigger>Q.19 Define Young's Modulus.</AccordionTrigger>
+                        <AccordionTrigger>Q.19 Define Young&apos;s Modulus.</AccordionTrigger>
                         <AccordionContent>
-                            <p>Ans: Young's Modulus is the ratio of stress to strain within the elastic limit. It is a constant for a given material.</p>
-                            <p>SI unit of Young's Modulus is Newton per square meter (N/m²).</p>
+                            <p>Ans: Young&apos;s Modulus is the ratio of stress to strain within the elastic limit. It is a constant for a given material.</p>
+                            <p>SI unit of Young&apos;s Modulus is Newton per square meter (N/m²).</p>
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-20">
@@ -167,21 +167,21 @@ const Page = () => {
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-23">
-                        <AccordionTrigger>Q.23 Prove that the SI unit of Young's modulus is Pascal or N/m².</AccordionTrigger>
+                        <AccordionTrigger>Q.23 Prove that the SI unit of Young&apos;s modulus is Pascal or N/m².</AccordionTrigger>
                         <AccordionContent>
-                            <p>Ans: Pressure is defined as Force / Area, with SI unit of pressure being Pascal (Pa) or Newton per square meter (N/m²). Since Young's Modulus is the ratio of stress to strain, and stress has the same units as pressure, its unit is also Pascal (Pa) or N/m².</p>
+                            <p>Ans: Pressure is defined as Force / Area, with SI unit of pressure being Pascal (Pa) or Newton per square meter (N/m²). Since Young&apos;s Modulus is the ratio of stress to strain, and stress has the same units as pressure, its unit is also Pascal (Pa) or N/m².</p>
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-24">
                         <AccordionTrigger>Q.24 Prove that liquid pressure does not depend upon the mass of the liquid.</AccordionTrigger>
                         <AccordionContent>
-                            <p>Ans: Liquid pressure is given by P = ρgh, where ρ is the density, g is the acceleration due to gravity, and h is the height of the liquid column. This formula shows that pressure depends on height and density but not on the total mass of the liquid.</p>
+                            <p>Ans: Liquid pressure is given by P = ρgh, where ρ is the density, g is the acceleration due to gravit    y, and h is the height of the liquid column. This formula shows that pressure depends on height and density but not on the total mass of the liquid.</p>
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-25">
                         <AccordionTrigger>Q.25 Under what condition does an object float in water?</AccordionTrigger>
                         <AccordionContent>
-                            <p>Ans: An object floats in water when the buoyant force is equal to the weight of the object. If the buoyant force (upward force) is greater than the object's weight, it will float, and some part of the object will be above the water surface to balance the forces.</p>
+                            <p>Ans: An object floats in water when the buoyant force is equal to the weight of the object. If the buoyant force (upward force) is greater than the object&apos;s weight, it will float, and some part of the object will be above the water surface to balance the forces.</p>
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
