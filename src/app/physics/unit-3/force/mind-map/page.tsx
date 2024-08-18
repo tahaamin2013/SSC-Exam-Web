@@ -4,12 +4,12 @@ import mermaid from "mermaid";
 import PlantUMLDiagram from "@/components/PlantUMLDiagram";
 
 const DynamicsPage = () => {
-    useEffect(() => {
-        mermaid.initialize({ startOnLoad: true });
-        mermaid.contentLoaded();
-    }, []);
+  useEffect(() => {
+    mermaid.initialize({ startOnLoad: true });
+    mermaid.contentLoaded();
+  }, []);
 
-    const mindmapCode1 = `
+  const mindmapCode1 = `
 @startmindmap
 * Force and Motion
 right side
@@ -39,7 +39,7 @@ left side
 *** Moving a trolley
 @endmindmap`;
 
-    const mindmapCode3 = `
+  const mindmapCode3 = `
 @startmindmap
 * Types of Forces
 left side
@@ -80,8 +80,7 @@ right side
 **** Example: Repulsion between two North poles
 @endmindmap`;
 
-
-    const mindmapCode5 = `
+  const mindmapCode5 = `
 @startmindmap
 * Force Diagrams
 right side
@@ -110,36 +109,106 @@ left side
 @endmindmap
 `;
 
-    const [zoomLevel, setZoomLevel] = useState(1);
-    const zoomOut = () => setZoomLevel((prev) => Math.max(prev - 0.1, 0.5));
-    const zoomIn = () => setZoomLevel((prev) => Math.min(prev + 0.1, 2));
+  const [zoomLevel, setZoomLevel] = useState(1);
+  const zoomOut = () => setZoomLevel((prev) => Math.max(prev - 0.1, 0.5));
+  const zoomIn = () => setZoomLevel((prev) => Math.min(prev + 0.1, 2));
 
-    return (
-        <div className="container overflow-x-hidden mx-auto p-4">
-            <h1 className="text-3xl font-bold mb-6">Dynamics - Forces</h1>
+  return (
+    <div className="container overflow-x-hidden mx-auto p-4">
+      <h1 className="text-3xl font-bold mb-6">Dynamics - Forces</h1>
 
-            <h2 className="text-2xl font-semibold mb-4">
-                Force and Motion
-            </h2>
-            <p className="text-lg"><span className="font-bold">Question For You:</span> What causes an object to start moving, change speed, or alter its direction?
-                Define Kinematics, Dynamics, Force. Give applications and example of force
+      <h2 className="text-2xl font-semibold mb-4">Force and Motion</h2>
+      <p className="text-lg">
+        <span className="font-bold">Question For You:</span> What causes an
+        object to start moving, change speed, or alter its direction? Define
+        Kinematics, Dynamics, Force. Give applications and example of force
+      </p>
+      <PlantUMLDiagram code={mindmapCode1} />
+      <h2 className="text-2xl font-semibold mb-4">Types of Forces</h2>
+      <p className="text-lg">
+        <span className="font-bold">Question For You: </span>
+        Describe Types of forces i.e. contact forces and non contact forces in
+        detail
+      </p>
 
-            </p>
-            <PlantUMLDiagram code={mindmapCode1} />
-            <h2 className="text-2xl font-semibold mb-4">
-                Types of Forces
-            </h2>
-            <p className="text-lg"><span className="font-bold">Question For You: </span>
-                Describe Types of forces i.e. contact forces and non contact forces in detail
-            </p>
-
-            <PlantUMLDiagram code={mindmapCode3} />
-            <p className="text-lg"><span className="font-bold">Question For You: </span>
-                Write down categories of fundamental forces of nature <br />
-                On what bases this classification is made? Write down Froce mediators or exchange particles
-            </p>
-            <PlantUMLDiagram
-                code={`
+      <PlantUMLDiagram code={mindmapCode3} />
+      <PlantUMLDiagram
+        code={`@startmindmap
+* Contact Forces
+** Contact Forces
+*** Definition
+**** The force acting between two objects in physical contact.
+**** Example: Batter hitting a cricket ball.
+** Normal Force
+*** Definition
+**** Force perpendicular to the contact surface.
+**** Keeps objects from passing through each other.
+*** Example
+**** Book lying on a table.
+*** Representation
+**** F₁₁
+** Thrust
+*** Definition
+**** Force that propels a flying machine in the direction of motion.
+*** Example
+**** Engine thrust in a car.
+** Friction
+*** Definition
+**** Force that resists relative motion of surfaces, fluid layers, and material elements.
+**** Acts opposite to the direction of motion or attempted motion.
+*** Example
+**** Air resistance between air and an object.
+** Tension
+*** Definition
+**** Force exerted by two or more physical objects in contact through a string, rope, cable, or spring.
+*** Example
+**** Tension in a spider web.
+** Elastic Forces
+*** Definition
+**** Forces that resist a change in an object's shape due to forces between material particles.
+*** Example
+**** Stretching of a spring or rubber band.
+*** Note
+**** Tension is elastic only during extension, not compression.
+@endmindmap
+`}
+      />
+  
+  <PlantUMLDiagram code={`
+    @startmindmap
+* Non-Contact Forces
+** Non-Contact Forces
+*** Definition
+**** Forces that act at a distance without physical contact between bodies.
+**** Also termed as action at a distance force.
+*** Example
+**** Magnets exerting push or pull on other magnets at some distance.
+** Gravitational Force
+*** Definition
+**** Attractive force between two objects with mass.
+*** Example
+**** The force experienced by the moon due to the Earth.
+** Electrostatic Force
+*** Definition
+**** Attractive or repulsive force experienced by charged objects.
+*** Example
+**** The attractive force between a positively charged nucleus and a negatively charged electron.
+** Magnetic Force
+*** Definition
+**** Attractive or repulsive force experienced between magnetic poles.
+*** Example
+**** The repulsive force between two North poles of magnets.
+@endmindmap
+`} />
+  
+      <p className="text-lg">
+        <span className="font-bold">Question For You: </span>
+        Write down categories of fundamental forces of nature <br />
+        On what bases this classification is made? Write down Froce mediators or
+        exchange particles
+      </p>
+      <PlantUMLDiagram
+        code={`
       @startmindmap
 * Fundamental Forces of Nature
 right side
@@ -161,12 +230,14 @@ left side
 *** Each force is carried or mediated
 *** by the exchange of a particle
 @endmindmap`}
-            />
-            <h1 className="text-2xl font-bold text-blue-500">Strong Nuclear Force</h1>
-            <p className="text-lg"><span className="font-bold">Question For You: </span>
-                Write a short note on strong nuclear force.
-            </p>
-            <PlantUMLDiagram code={`@startmindmap
+      />
+      <h1 className="text-2xl font-bold text-blue-500">Strong Nuclear Force</h1>
+      <p className="text-lg">
+        <span className="font-bold">Question For You: </span>
+        Write a short note on strong nuclear force.
+      </p>
+      <PlantUMLDiagram
+        code={`@startmindmap
 * Strong Nuclear Force
 ** Strength
 *** Strongest of all fundamental forces
@@ -181,12 +252,17 @@ left side
 ** Range
 *** Very short
 *** Nearly equal to diameter of a proton
-@endmindmap`} />
-            <h1 className="text-2xl font-bold text-blue-500">Electromagnetic Force</h1>
-            <p className="text-lg"><span className="font-bold">Question For You: </span>
-                Write a short note on electromagnetic force.
-            </p>
-            <PlantUMLDiagram code={`@startmindmap
+@endmindmap`}
+      />
+      <h1 className="text-2xl font-bold text-blue-500">
+        Electromagnetic Force
+      </h1>
+      <p className="text-lg">
+        <span className="font-bold">Question For You: </span>
+        Write a short note on electromagnetic force.
+      </p>
+      <PlantUMLDiagram
+        code={`@startmindmap
 * Electromagnetic Force
 ** Nature/Function
 *** Acts between electric charges
@@ -208,12 +284,15 @@ left side
 *** Tension
 **** Result from particle interactions on contact surfaces
 **** Caused by electromagnetic force
-@endmindmap`} />
-            <h1 className="text-2xl font-bold text-blue-500">Gravitational Force</h1>
-            <p className="text-lg"><span className="font-bold">Question For You: </span>
-                Write a short note on gravitational force.
-            </p>
-            <PlantUMLDiagram code={`@startmindmap
+@endmindmap`}
+      />
+      <h1 className="text-2xl font-bold text-blue-500">Gravitational Force</h1>
+      <p className="text-lg">
+        <span className="font-bold">Question For You: </span>
+        Write a short note on gravitational force.
+      </p>
+      <PlantUMLDiagram
+        code={`@startmindmap
 * Gravitational Force
 ** Definition
 *** Force of attraction between all objects in universe
@@ -238,12 +317,15 @@ left side
 **** Not yet detected
 ** Range
 *** Similar range to electromagnetic force
-@endmindmap`} />
-            <h1 className="text-2xl font-bold text-blue-500">Weak Nuclear Force</h1>
-            <p className="text-lg"><span className="font-bold">Question For You: </span>
-                Write a short note on weak nuclear force.
-            </p>
-            <PlantUMLDiagram code={`@startmindmap
+@endmindmap`}
+      />
+      <h1 className="text-2xl font-bold text-blue-500">Weak Nuclear Force</h1>
+      <p className="text-lg">
+        <span className="font-bold">Question For You: </span>
+        Write a short note on weak nuclear force.
+      </p>
+      <PlantUMLDiagram
+        code={`@startmindmap
 * Weak Nuclear Force
 ** Strength
 *** Very weak
@@ -263,92 +345,95 @@ left side
 *** Changes flavor (type) of quarks
 *** Neutron transformation
 **** Neutron in nucleus becomes proton
-@endmindmap`} />
-            <div className="overflow-x-auto mb-8">
-                <table className="min-w-full divide-y divide-gray-300">
-                    <thead>
-                        <tr className="bg-gray-100">
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                Force
-                            </th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                Range (metre)
-                            </th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                Relative strength
-                            </th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                Function
-                            </th>
-                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                                Exchange Particles
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody className="bg-white divide-y divide-gray-200">
-                        <tr>
-                            <td className="px-6 py-4 whitespace-nowrap">Strong Force</td>
-                            <td className="px-6 py-4 whitespace-nowrap">
-                                10⁻¹⁵ (diameter of proton)
-                            </td>
-                            <td className="px-6 py-4 whitespace-nowrap">1</td>
-                            <td className="px-6 py-4 whitespace-nowrap">
-                                Binds protons and neutrons in nuclei <br /> Strongest of all
-                                forces
-                            </td>
-                            <td className="px-6 py-4 whitespace-nowrap">
-                                Pions (Π) or others
-                            </td>
-                        </tr>
-                        <tr className="bg-gray-50">
-                            <td className="px-6 py-4 whitespace-nowrap">
-                                Electromagnetic Force
-                            </td>
-                            <td className="px-6 py-4 whitespace-nowrap">infinite</td>
-                            <td className="px-6 py-4 whitespace-nowrap">7.3 x 10⁻³</td>
-                            <td className="px-6 py-4 whitespace-nowrap">
-                                Acts between charged particles <br /> Can be attractive or
-                                repulsive
-                            </td>
-                            <td className="px-6 py-4 whitespace-nowrap">
-                                Photons (massless)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="px-6 py-4 whitespace-nowrap">Weak Force</td>
-                            <td className="px-6 py-4 whitespace-nowrap">
-                                10<sup>-17</sup>
-                            </td>
-                            <td className="px-6 py-4 whitespace-nowrap">
-                                10<sup>-5</sup>
-                            </td>
-                            <td className="px-6 py-4 whitespace-nowrap">
-                                Responsible for radioactive decay <br /> Short-range force
-                            </td>
-                            <td className="px-6 py-4 whitespace-nowrap">
-                                W+, W-, Z<sub>0</sub> (vector bosons)
-                            </td>
-                        </tr>
-                        <tr className="bg-gray-50">
-                            <td className="px-6 py-4 whitespace-nowrap">
-                                Gravitational Force
-                            </td>
-                            <td className="px-6 py-4 whitespace-nowrap">infinite</td>
-                            <td className="px-6 py-4 whitespace-nowrap">6 x 10⁻³⁹</td>
-                            <td className="px-6 py-4 whitespace-nowrap">
-                                Attractive force between masses <br /> Long-range force
-                            </td>
-                            <td className="px-6 py-4 whitespace-nowrap">
-                                graviton (not yet detected)
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <p className="text-lg"><span className="font-bold">Question For You: </span>
-                Write a short note on unification of forces.
-            </p>
-            <PlantUMLDiagram code={`
+@endmindmap`}
+      />
+      <div className="overflow-x-auto mb-8">
+        <table className="min-w-full divide-y divide-gray-300">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Force
+              </th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Range (metre)
+              </th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Relative strength
+              </th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Function
+              </th>
+              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                Exchange Particles
+              </th>
+            </tr>
+          </thead>
+          <tbody className="bg-white divide-y divide-gray-200">
+            <tr>
+              <td className="px-6 py-4 whitespace-nowrap">Strong Force</td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                10⁻¹⁵ (diameter of proton)
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">1</td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Binds protons and neutrons in nuclei <br /> Strongest of all
+                forces
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Pions (Π) or others
+              </td>
+            </tr>
+            <tr className="bg-gray-50">
+              <td className="px-6 py-4 whitespace-nowrap">
+                Electromagnetic Force
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">infinite</td>
+              <td className="px-6 py-4 whitespace-nowrap">7.3 x 10⁻³</td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Acts between charged particles <br /> Can be attractive or
+                repulsive
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Photons (massless)
+              </td>
+            </tr>
+            <tr>
+              <td className="px-6 py-4 whitespace-nowrap">Weak Force</td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                10<sup>-17</sup>
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                10<sup>-5</sup>
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Responsible for radioactive decay <br /> Short-range force
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                W+, W-, Z<sub>0</sub> (vector bosons)
+              </td>
+            </tr>
+            <tr className="bg-gray-50">
+              <td className="px-6 py-4 whitespace-nowrap">
+                Gravitational Force
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">infinite</td>
+              <td className="px-6 py-4 whitespace-nowrap">6 x 10⁻³⁹</td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                Attractive force between masses <br /> Long-range force
+              </td>
+              <td className="px-6 py-4 whitespace-nowrap">
+                graviton (not yet detected)
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p className="text-lg">
+        <span className="font-bold">Question For You: </span>
+        Write a short note on unification of forces.
+      </p>
+      <PlantUMLDiagram
+        code={`
         @startmindmap
 * Unification of Forces
 ** Goal
@@ -382,18 +467,21 @@ left side
 *** Implications
 **** Mass of weak gauge bosons
 ***** Limits effective range of weak force
-@endmindmap`} />
-            <h1 className="text-2xl text-blue-500 font-bold">Force Diagrams</h1>
-            <p className="text-lg"><span className="font-bold">Question For You: </span>
-                Write a short note on concept of force diagram.
-            </p>
-            <PlantUMLDiagram code={mindmapCode5} />
-            <h1 className="text-2xl text-blue-500 font-bold">Concept of Net Force</h1>
-            <p className="text-lg"><span className="font-bold">Question For You: </span>
-                Write a short note on concept of net forces in detail.
-            </p>
-            <PlantUMLDiagram
-                code={`
+@endmindmap`}
+      />
+      <h1 className="text-2xl text-blue-500 font-bold">Force Diagrams</h1>
+      <p className="text-lg">
+        <span className="font-bold">Question For You: </span>
+        Write a short note on concept of force diagram.
+      </p>
+      <PlantUMLDiagram code={mindmapCode5} />
+      <h1 className="text-2xl text-blue-500 font-bold">Concept of Net Force</h1>
+      <p className="text-lg">
+        <span className="font-bold">Question For You: </span>
+        Write a short note on concept of net forces in detail.
+      </p>
+      <PlantUMLDiagram
+        code={`
                     @startmindmap
 * Concept of Net Force
 right side
@@ -435,9 +523,9 @@ left side
 *** Non-parallel forces
 **** Use head-to-tail rule on coordinate axis
 @endmindmap`}
-            />
-        </div>
-    );
+      />
+    </div>
+  );
 };
 
 export default DynamicsPage;

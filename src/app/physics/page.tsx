@@ -18,6 +18,7 @@ const data: Section[] = [
     { id: "4", link: "/physics/unit-4", title: "DYNAMICS-II" },
     { id: "5", link: "/physics/unit-5", title: "Pressure and Deformation in Solids" },
     { id: "6", link: "/physics/unit-6", title: "Work And Energy" },
+    { id: "7", link: "/physics/unit-7", title: "Density and Temperature" },
     { id: "7", link: "/physics/unit-9", title: "Unit 9: Nature Of Science And Physics" },
 ];
 
