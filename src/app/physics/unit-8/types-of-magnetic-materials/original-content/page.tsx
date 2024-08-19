@@ -49,7 +49,6 @@ const MagneticMaterials: FC = () => {
                         </tr>
                     </tbody>
                 </table>
-
                 <p>Examples of magnetic materials are: Nickel, Cobalt, Steel, and Iron.</p>
                 <p>Examples of non-magnetic materials are: Rubber, Plastic, Wood, and Copper.</p>
             </div>
