@@ -113,7 +113,7 @@ const QuestionDashboard = () => {
                             Explain Mass-Energy Equation.
                         </AccordionTrigger>
                         <AccordionContent>
-                            Einstein's mass-energy equation E = mc² shows the relationship between mass (m) and energy (E), where c is the speed of light. It indicates that a small amount of mass can be converted into a large amount of energy.
+                            Einstein&apos;s mass-energy equation E = mc² shows the relationship between mass (m) and energy (E), where c is the speed of light. It indicates that a small amount of mass can be converted into a large amount of energy.
                         </AccordionContent>
                     </AccordionItem>
 

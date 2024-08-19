@@ -24,7 +24,7 @@ const Page = () => {
                             <p><strong>Definition:</strong> The product of force and distance covered in the direction of force is equal to the work done.</p>
                             <p>Work is done when force acting on a body displaces it in the direction of the force.</p>
                             <p><strong>Unit of work:</strong> Joule</p>
-                            <p>"The amount of work done will be one joule if a force of one Newton displaces a body through a distance of one meter in the direction of the force."</p>
+                            <p>&quot;The amount of work done will be one joule if a force of one Newton displaces a body through a distance of one meter in the direction of the force.&quot;</p>
                         </AccordionContent>
                     </AccordionItem>
 
@@ -49,7 +49,7 @@ const Page = () => {
                     <AccordionItem value="item-3">
                         <AccordionTrigger>Q.3 Define kinetic energy and give at least one example.</AccordionTrigger>
                         <AccordionContent>
-                            <p>"The energy possessed by a body due to its motion is called kinetic energy."</p>
+                            <p>&quot;The energy possessed by a body due to its motion is called kinetic energy.&quot;</p>
                             <p><strong>Example:</strong> Moving water in a river can carry wooden logs through large distances and can also be used to drive turbines for generating electricity.</p>
                         </AccordionContent>
                     </AccordionItem>
@@ -109,9 +109,9 @@ const Page = () => {
                     <AccordionItem value="item-9">
                         <AccordionTrigger>Q.9 Define Power. Write down its unit and define it.</AccordionTrigger>
                         <AccordionContent>
-                            <p>"Rate of doing work with respect to time is called power."</p>
+                            <p>&quot;Rate of doing work with respect to time is called power.&quot;</p>
                             <p><strong>Unit of power:</strong> Watt (W)</p>
-                            <p>"If a body does work of one joule in one second, then its power will be one watt."</p>
+                            <p>&quot;If a body does work of one joule in one second, then its power will be one watt.&quot;</p>
                         </AccordionContent>
                     </AccordionItem>
 
@@ -152,7 +152,7 @@ const Page = () => {
                     <AccordionItem value="item-13">
                         <AccordionTrigger>Q.13 How much work is done when a body moves with uniform velocity?</AccordionTrigger>
                         <AccordionContent>
-                            <p>When a body moves with uniform velocity, it means it is moving with zero acceleration. Therefore, the work done will be zero because, according to Newton's second law of motion, if a = 0, then the net resultant force acting on the body is zero.</p>
+                            <p>When a body moves with uniform velocity, it means it is moving with zero acceleration. Therefore, the work done will be zero because, according to Newton&apos;s second law of motion, if a = 0, then the net resultant force acting on the body is zero.</p>
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>

@@ -80,7 +80,7 @@ const Page = () => {
                     {/* Question 7 */}
                     <AccordionItem value="item-7">
                         <AccordionTrigger>
-                            When a body is lifted through a height 'h', the work done on it appears in the form of its:
+                            When a body is lifted through a height &apos;h&apos;, the work done on it appears in the form of its:
                         </AccordionTrigger>
                         <AccordionContent>
                             <p>b) potential energy</p>
@@ -110,7 +110,7 @@ const Page = () => {
                     {/* Question 10 */}
                     <AccordionItem value="item-10">
                         <AccordionTrigger>
-                            In Einstein's mass-energy equation, 'c' is the:
+                            In Einstein&apos;s mass-energy equation, &apos;c&apos; is the:
                         </AccordionTrigger>
                         <AccordionContent>
                             <p>b) speed of light</p>
