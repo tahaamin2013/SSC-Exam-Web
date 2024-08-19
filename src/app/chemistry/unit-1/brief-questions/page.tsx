@@ -34,7 +34,7 @@ const Page = () => {
                     <AccordionItem value="item-3">
                         <AccordionTrigger>Differentiated between geochemistry and astrochemistry.</AccordionTrigger>
                         <AccordionContent>
-                            Geochemistry focuses on the chemical composition and processes of the Earth's crust, while astrochemistry studies chemical processes and reactions in astronomical environments, such as stars and interstellar space.
+                            Geochemistry focuses on the chemical composition and processes of the Earth&apos;s crust, while astrochemistry studies chemical processes and reactions in astronomical environments, such as stars and interstellar space.
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-4">

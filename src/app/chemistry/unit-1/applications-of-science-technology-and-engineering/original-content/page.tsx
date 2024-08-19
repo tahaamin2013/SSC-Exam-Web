@@ -33,7 +33,7 @@ const ApplicationsOfScienceTechnologyEngineering: NextPage = () => {
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-4">Example 1.3: Designing a Water Filtration System</h2>
             <p>
-              Let's look at how engineers design water filtration systems. Chemical engineers can help develop processes to remove contaminants from water, while mechanical engineers design physical components. Together, they create a solution to clean drinking water for a community. From understanding chemical reactions to using technological devices to solving practical problems through engineering.
+              Let&apos;s look at how engineers design water filtration systems. Chemical engineers can help develop processes to remove contaminants from water, while mechanical engineers design physical components. Together, they create a solution to clean drinking water for a community. From understanding chemical reactions to using technological devices to solving practical problems through engineering.
             </p>
             <ul className="list-decimal list-inside space-y-2 mt-4">
               <li>Filtration</li>

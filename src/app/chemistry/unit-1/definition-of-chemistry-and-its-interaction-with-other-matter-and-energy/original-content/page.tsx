@@ -27,7 +27,7 @@ const NatureOfScience: NextPage = () => {
             <li>Define chemistry as the study of matter, its properties, composition, and its interactions with other matter and energy.</li>
             <li>Explain with examples that chemistry has many sub-fields and interdisciplinary fields.</li>
             <li>Formulate examples of essential questions that are important for the branch of chemistry.</li>
-            <li>Differentiate between 'science' 'technology' and 'engineering' by referring to examples from the physical sciences.</li>
+            <li>Differentiate between &apos;science&apos; &apos;technology&apos; and &apos;engineering&apos; by referring to examples from the physical sciences.</li>
           </ul>
 
           <h4 className="text-lg font-semibold mb-4">Unit 1: Nature of Science in Chemistry</h4>

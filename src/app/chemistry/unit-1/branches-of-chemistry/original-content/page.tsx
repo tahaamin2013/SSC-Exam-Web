@@ -79,7 +79,7 @@ const BranchesOfChemistry: NextPage = () => {
             <li>
               <h3 className="text-lg font-semibold mb-2">Geochemistry</h3>
               <p>
-                Geochemistry is the branch of chemistry that deals with the study of chemical composition, distribution, and transformation of elements and compounds in the Earth's crust, such as rocks, minerals, soils, water, and the atmosphere.
+                Geochemistry is the branch of chemistry that deals with the study of chemical composition, distribution, and transformation of elements and compounds in the Earth&apos;s crust, such as rocks, minerals, soils, water, and the atmosphere.
               </p>
             </li>
             <li>

@@ -85,7 +85,7 @@ const EssentialQuestions: NextPage = () => {
             <section>
               <h3 className="text-xl font-semibold mb-4">Geochemistry</h3>
               <ol className="list-decimal list-inside space-y-2">
-                <li>How do geological processes influence the distribution of elements in the Earth's crust?</li>
+                <li>How do geological processes influence the distribution of elements in the Earth&apos;crust?</li>
               </ol>
             </section>
 
