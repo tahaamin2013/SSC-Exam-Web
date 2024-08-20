@@ -158,7 +158,7 @@ const ColloidsAndSuspensions = () => {
 
                 <li>Project:</li>
                 <ul className="pl-4">
-                    <li>Create a poster that illustrates the various forms of matter in the student's everyday environment.</li>
+                    <li>Create a poster that illustrates the various forms of matter in the student&apos;s everyday environment.</li>
                 </ul>
             </ol>
         </div>

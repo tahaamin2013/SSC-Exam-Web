@@ -17,7 +17,7 @@ const Solution = () => {
 
             <h3 className="text-lg font-semibold mt-4">Gaseous Solutions</h3>
             <p>
-                In gaseous solutions, the solvent is a gas and the solute can be a gas, liquid, or solid. For example, a mixture of nitrogen and hydrogen used in Haber's process (ammonia formation) and another is a mixture of ammonia and carbon dioxide used for urea preparation. Fog, clouds, and mist are examples of solutions where liquid water (solute) is dissolved in air (solvent). Smoke is a solution of carbon particles in gaseous air in our daily life.
+                In gaseous solutions, the solvent is a gas and the solute can be a gas, liquid, or solid. For example, a mixture of nitrogen and hydrogen used in Haber&apos;s process (ammonia formation) and another is a mixture of ammonia and carbon dioxide used for urea preparation. Fog, clouds, and mist are examples of solutions where liquid water (solute) is dissolved in air (solvent). Smoke is a solution of carbon particles in gaseous air in our daily life.
             </p>
 
             <h3 className="text-lg font-semibold mt-4">Liquid Solutions</h3>
@@ -32,7 +32,7 @@ const Solution = () => {
 
             <h3 className="text-lg font-semibold mt-4">2.4.1 Aqueous Solutions</h3>
             <p>
-                An aqueous solution is formed by dissolving a substance in water. The dissolved substances in an aqueous solution may be solids, gases, or other liquids. In order to be a true solution, a mixture must be stable. For example, sugar in water and table salt in water. Water is called a universal solvent because it dissolves the majority of compounds present in the earth's crust. Aqueous solutions are mostly used in laboratories.
+                An aqueous solution is formed by dissolving a substance in water. The dissolved substances in an aqueous solution may be solids, gases, or other liquids. In order to be a true solution, a mixture must be stable. For example, sugar in water and table salt in water. Water is called a universal solvent because it dissolves the majority of compounds present in the earth&apos;s crust. Aqueous solutions are mostly used in laboratories.
             </p>
 
             <h3 className="text-lg font-semibold mt-4">2.4.2 Saturated Solution</h3>
