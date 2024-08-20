@@ -111,22 +111,19 @@ const data = [
 
 const Section = ({ section }: any) => {
   return (
-    <div className="w-full h-fit md:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1rem)] mb-6 p-4 rounded-2xl transition-all duration-300 hover:shadow-lg"
-      style={{
-        backdropFilter: 'blur(10px)',
-        border: '1px solid rgba(255, 255, 255, 0.2)',
-        boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
-      }}>
-      <h2 className="text-xl font-bold text-white mb-4 capitalize">{section.title}</h2>
-      <div className="grid grid-cols-2 gap-2">
+    <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1rem)] mb-6 p-6 rounded-3xl transition-all duration-300 hover:shadow-2xl bg-gradient-to-br from-purple-900 to-indigo-900 border border-purple-700">
+      <h2 className="text-xl font-bold text-white mb-2">{section.title}</h2>
+      <div className="grid grid-cols-2 gap-3">
         {section.links.map((link: any) => (
           <Link
             key={link.href}
             href={link.href}
-            className="flex items-center space-x-2 p-2 rounded-lg text-white hover:bg-white hover:bg-opacity-20 transition-colors duration-200"
+            className="flex items-center space-x-3 p-3 rounded-xl text-white hover:bg-white hover:bg-opacity-10 transition-all duration-200 group"
           >
-            {React.createElement(link.icon, { size: 18 })}
-            <span className="text-sm">{link.text}</span>
+            <div className="p-2 bg-purple-700 rounded-lg group-hover:bg-purple-600 transition-colors duration-200">
+              {React.createElement(link.icon, { size: 20 })}
+            </div>
+            <span className="text-sm font-medium">{link.text}</span>
           </Link>
         ))}
       </div>
