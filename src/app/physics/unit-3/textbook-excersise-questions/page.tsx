@@ -23,7 +23,8 @@ const Page = () => {
                             Q.no.3.2 Define the following terms:
                         </AccordionTrigger>
                         <AccordionContent>
-                            i) Inertia: Ans: See Q.no.3 short Question<br />
+                            i) Inertia: Ans:                             Inertia of a body is its property due to which it resists any change in uniform motion. It depends on the mass of the body. Greater the mass of the body greater will be the inertia. Therefore, we can say that mass is the direct measure of inertia.
+                            <br />
                             ii) Momentum: Ans: See Q.no.4 short Question<br />
                             iii) Force: Ans: See Q.no.2 short Question<br />
                             iv) Force of friction: Ans: See no. Long Question<br />
