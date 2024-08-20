@@ -54,7 +54,7 @@ const Page = () => {
                     </AccordionItem>
                     <AccordionItem value="item-3">
                         <AccordionTrigger>
-                            7. Draw Bohr's Model for the following atoms indicating the location for electron, protons and neutrons:
+                            7. Draw Bohr&apos;s Model for the following atoms indicating the location for electron, protons and neutrons:
                         </AccordionTrigger>
                         <AccordionContent>
                             <p>
@@ -120,7 +120,7 @@ const Page = () => {
                         </AccordionTrigger>
                         <AccordionContent>
                             <p>
-                                The atomic symbol "Al" represents the element Aluminium. The symbol tells us the following:
+                                The atomic symbol &quot;Al&quot; represents the element Aluminium. The symbol tells us the following:
                                 - **Element Name**: Aluminium.
                                 - **Atomic Number**: 13 (the number of protons in the nucleus).
                                 - **Mass Number**: Not directly provided by the symbol, but typically the most common isotope has a mass number of 27.

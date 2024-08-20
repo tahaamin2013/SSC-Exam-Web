@@ -17,7 +17,7 @@ const AtomicModels = () => {
             <section className="mb-8">
                 <h2 className="text-3xl font-semibold mb-2">Proton Number/Atomic Number</h2>
                 <p>
-                    Define proton number/atomic number as the number of protons in the nucleus of an atom. Explain that the proton number is unique to each element and is used to arrange elements in the periodic table. State that radioactivity can change the proton number and alter an atom's identity.
+                    Define proton number/atomic number as the number of protons in the nucleus of an atom. Explain that the proton number is unique to each element and is used to arrange elements in the periodic table. State that radioactivity can change the proton number and alter an atom&apos;s identity.
                 </p>
             </section>
 
@@ -54,9 +54,9 @@ const AtomicModels = () => {
                     The concept of the atomic model evolved over time as our understanding of atomic structure deepened through experimental observations and theoretical advances. Several important models of the atom had been proposed throughout history, each contributing to the understanding of atomic behavior and properties. The most important atomic models are:
                 </p>
 
-                <h3 className="text-2xl font-semibold mt-4 mb-2">Dalton's Model</h3>
+                <h3 className="text-2xl font-semibold mt-4 mb-2">Dalton&apos;s Model</h3>
                 <p>
-                    In 1803, the British chemist John Dalton presented a scientific theory on the existence and nature of matter. This theory is called Dalton's atomic theory. Main postulates of his theory are as follows:
+                    In 1803, the British chemist John Dalton presented a scientific theory on the existence and nature of matter. This theory is called Dalton&apos;s atomic theory. Main postulates of his theory are as follows:
                 </p>
                 <ol className="list-decimal list-inside mb-4">
                     <li>All elements are composed of tiny indivisible particles called atoms.</li>
@@ -68,7 +68,7 @@ const AtomicModels = () => {
                     Dalton was able to explain quantitative results that scientists of his time had obtained in their experiments. He nicely explained the laws of chemical combinations. His brilliant work became the main stimulus for the rapid progress of chemistry during the nineteenth century. However, a series of experiments that were performed in the 1850s and the beginning of the twentieth century clearly demonstrated that an atom is divisible and consists of subatomic particles, electrons, protons, and neutrons.
                 </p>
 
-                <h3 className="text-2xl font-semibold mt-4 mb-2">Rutherford's Experiment</h3>
+                <h3 className="text-2xl font-semibold mt-4 mb-2">Rutherford&apos;s Experiment</h3>
                 <p>
                     In 1911, Rutherford performed an experiment to know the arrangement of electrons and protons in atoms. Rutherford bombarded a very thin gold foil about 0.00004 cm thickness with alpha particles. He used alpha particles obtained from the disintegration of polonium. Alpha particles are helium nuclei that are doubly positively charged (He<sup>2+</sup>). Most of these particles passed straight through the foil. Only a few particles were slightly deflected. But one in 1 million was deflected through an angle greater than 90° from their straight paths. Rutherford performed a series of experiments using thin foils of other elements. He observed similar results from these experiments.
                 </p>
@@ -84,23 +84,23 @@ const AtomicModels = () => {
                     On the basis of conclusions drawn from these experiments, Rutherford proposed a new model for an atom. He proposed a planetary model (similar to the solar system) for an atom. An atom is a neutral particle. The mass of an atom is concentrated in a very small dense positively charged region. He named this region as the nucleus. The electrons are revolving around the nucleus in circles. These circles are called orbits. The centrifugal force due to the revolution of electrons balances the electrostatic force of attraction between the nucleus and the electrons.
                 </p>
 
-                <h3 className="text-2xl font-semibold mt-4 mb-2">Defects in Rutherford's Atomic Model</h3>
+                <h3 className="text-2xl font-semibold mt-4 mb-2">Defects in Rutherford&apos;s Atomic Model</h3>
                 <p>
-                    Rutherford's model of an atom resembles our solar system. It has the following defects:
+                    Rutherford&apos;s model of an atom resembles our solar system. It has the following defects:
                 </p>
                 <ol className="list-decimal list-inside mb-4">
                     <li>Classical physics suggests that an electron being a charged particle will emit energy continuously while revolving around the nucleus. Thus, the orbit of the revolving electron becomes smaller and smaller until it would fall into the nucleus. This would collapse the atomic structure.</li>
                     <li>If the revolving electron emits energy continuously, it should form a continuous spectrum.</li>
                 </ol>
 
-                <h3 className="text-2xl font-semibold mt-4 mb-2">Bohr's Atomic Theory</h3>
+                <h3 className="text-2xl font-semibold mt-4 mb-2">Bohr&apos;s Atomic Theory</h3>
                 <p>
-                    In 1913, Niels Bohr proposed a model for an atom that was consistent with Rutherford's model. But it also explains the observed line spectrum of the hydrogen atom. Main postulates of Bohr's atomic theory are as follows:
+                    In 1913, Niels Bohr proposed a model for an atom that was consistent with Rutherford&apos;s model. But it also explains the observed line spectrum of the hydrogen atom. Main postulates of Bohr&apos;s atomic theory are as follows:
                 </p>
                 <ol className="list-decimal list-inside mb-4">
                     <li>The electron in an atom revolves around the nucleus in one of the circular orbits. Each orbit has a fixed energy. So each orbit is also called an energy level.</li>
                     <li>The energy of the electron in an orbit is proportional to its distance from the nucleus. The farther the electron is from the nucleus, the more energy it has.</li>
-                    <li>The electron revolves only in those orbits for which the angular momentum of the electron is an integral multiple of ℎ/2π where ℎ is Planck's constant (its value is 6.626 x 10<sup>-34</sup> J.s).</li>
+                    <li>The electron revolves only in those orbits for which the angular momentum of the electron is an integral multiple of ℎ/2π where ℎ is Planck&apos;s constant (its value is 6.626 x 10<sup>-34</sup> J.s).</li>
                     <li>Light is absorbed when an electron jumps to a higher energy orbit and emitted when an electron falls into a lower energy orbit. Electron present in a particular orbit does not radiate energy.</li>
                     <li>The energy of the light emitted is exactly equal to the difference between the energies of the orbits. ΔE = E<sub>2</sub> - E<sub>1</sub></li>
                 </ol>
@@ -118,7 +118,7 @@ const AtomicModels = () => {
 
                 <h3 className="text-2xl font-semibold mt-4 mb-2">Limitations of Atomic Models</h3>
                 <p>
-                    All models of the atom have limitations. The Rutherford model could not explain why electrons do not spiral into the nucleus. Bohr's model accurately described hydrogen spectra but failed for more complex atoms. The quantum mechanical model, while successful in explaining many observations, is complex and involves probability rather than definitive paths for electrons.
+                    All models of the atom have limitations. The Rutherford model could not explain why electrons do not spiral into the nucleus. Bohr&apos;s model accurately described hydrogen spectra but failed for more complex atoms. The quantum mechanical model, while successful in explaining many observations, is complex and involves probability rather than definitive paths for electrons.
                 </p>
             </section>
         </div>

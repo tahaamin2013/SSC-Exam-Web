@@ -19,15 +19,15 @@ const IsotopesAndElectronicConfiguration = () => {
                     <li>(e) Both differ in the total number of protons and neutrons. This means they have different mass numbers.</li>
                 </ul>
                 <p className="mb-4">
-                    Since both the atoms have the same atomic number, they must be the atoms of the same element and are called isotopes. The word isotope was first used by Soddy. It is a Greek word "isos" meaning same and "tope" meaning place.
+                    Since both the atoms have the same atomic number, they must be the atoms of the same element and are called isotopes. The word isotope was first used by Soddy. It is a Greek word &quot;isos&quot; meaning same and &quot;tope&quot; meaning place.
                 </p>
                 <p className="mb-4">
                     Isotopes are atoms of an element whose nuclei have the same atomic number but different mass numbers. This is because atoms of an element can differ in the number of neutrons. Isotopes are chemically alike and differ in their physical properties.
                 </p>
 
-                <h2 className="text-xl font-semibold mb-4">How does the discovery of isotopes contradict Dalton's atomic theory?</h2>
+                <h2 className="text-xl font-semibold mb-4">How does the discovery of isotopes contradict Dalton&apos;s atomic theory?</h2>
                 <p className="mb-4">
-                    The discovery of isotopes contradicted Dalton's atomic theory, which proposed that atoms of a given element are identical in mass and properties. The existence of isotopes shows that atoms of the same element can have different masses due to varying numbers of neutrons.
+                    The discovery of isotopes contradicted Dalton&apos;s atomic theory, which proposed that atoms of a given element are identical in mass and properties. The existence of isotopes shows that atoms of the same element can have different masses due to varying numbers of neutrons.
                 </p>
 
                 <h2 className="text-xl font-semibold mb-4">3.5.1 Isotopes of Hydrogen</h2>

@@ -10,7 +10,7 @@ const ProtonNumber: React.FC = () => {
 
                 <h3 className="text-2xl font-semibold mb-2">What Determines the Identity of an Element?</h3>
                 <p className="mb-4">
-                    Proton number refers to the number of protons in the nucleus of an atom. It is also known as the atomic number and is indicated by the symbol "Z".
+                    Proton number refers to the number of protons in the nucleus of an atom. It is also known as the atomic number and is indicated by the symbol &quot;Z&quot;.
                 </p>
                 <p className="mb-4">
                     Protons have a positive electrical charge. In neutral atoms, the number of protons is equal to the number of electrons. This balances the positive charge of the protons. This means that the proton number also indicates the number of electrons in the atom. For example, there is only one proton in the nucleus of a H atom; therefore its atomic number is 1. All the atoms of a given element have the same number of protons and therefore the same atomic number.

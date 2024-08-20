@@ -23,11 +23,11 @@ const AtomicMassInfo: React.FC = () => {
 
             <h2 className="text-2xl font-bold mb-4">3.5 ISOTOPES</h2>
             <p className="mb-4">
-                Isotopes are atoms of an element that have the same number of protons but different numbers of neutrons. The number of neutrons affects the mass of the atom. As a result, isotopes of an element have different mass numbers but are chemically alike. The term "isotope" was first used by Soddy. It is derived from the Greek words "isos" (same) and "topos" (place), meaning isotopes are different forms of the same element that occupy the same position in the periodic table.
+                Isotopes are atoms of an element that have the same number of protons but different numbers of neutrons. The number of neutrons affects the mass of the atom. As a result, isotopes of an element have different mass numbers but are chemically alike. The term &quot;isotope&quot; was first used by Soddy. It is derived from the Greek words &quot;isos&quot; (same) and &quot;topos&quot; (place), meaning isotopes are different forms of the same element that occupy the same position in the periodic table.
             </p>
 
             <p className="mb-4">
-                The discovery of isotopes contradicted Dalton's atomic theory because Dalton's theory stated that all atoms of a given element were identical in mass. The existence of isotopes showed that atoms of the same element can have different masses due to varying numbers of neutrons.
+                The discovery of isotopes contradicted Dalton&apos;s atomic theory because Dalton&apos;s theory stated that all atoms of a given element were identical in mass. The existence of isotopes showed that atoms of the same element can have different masses due to varying numbers of neutrons.
             </p>
 
             <h3 className="text-xl font-semibold mb-4">3.5.1 Isotopes of Hydrogen</h3>

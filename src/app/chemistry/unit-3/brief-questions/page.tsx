@@ -26,7 +26,7 @@ const Page = () => {
                     <AccordionItem value="item-2">
                         <AccordionTrigger>Why is an atom electrically neutral?</AccordionTrigger>
                         <AccordionContent>
-                            An atom is electrically neutral because it has an equal number of protons and electrons, which balance each other's charges.
+                            An atom is electrically neutral because it has an equal number of protons and electrons, which balance each other&apos;s charges.
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-3">
@@ -50,7 +50,7 @@ const Page = () => {
                     <AccordionItem value="item-6">
                         <AccordionTrigger>Can you identify an atom without knowing the number of neutrons in it?</AccordionTrigger>
                         <AccordionContent>
-                            Yes, you can identify an atom by knowing its atomic number, which indicates the number of protons and thus the element. The number of neutrons does not affect the element's identity.
+                            Yes, you can identify an atom by knowing its atomic number, which indicates the number of protons and thus the element. The number of neutrons does not affect the element&apos;s identity.
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>

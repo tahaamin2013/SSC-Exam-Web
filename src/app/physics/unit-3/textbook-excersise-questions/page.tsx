@@ -23,10 +23,13 @@ const Page = () => {
                             Q.no.3.2 Define the following terms:
                         </AccordionTrigger>
                         <AccordionContent>
-                            i) Inertia: Ans:                             Inertia of a body is its property due to which it resists any change in uniform motion. It depends on the mass of the body. Greater the mass of the body greater will be the inertia. Therefore, we can say that mass is the direct measure of inertia.
+                            i) Inertia: Ans: Inertia of a body is its property due to which it resists any change in uniform motion. It depends on the mass of the body. Greater the mass of the body greater will be the inertia. Therefore, we can say that mass is the direct measure of inertia.
                             <br />
-                            ii) Momentum: Ans: See Q.no.4 short Question<br />
-                            iii) Force: Ans: See Q.no.2 short Question<br />
+                            ii) Momentum: Ans: Momentum of a body is the quantity of motion it possesses due to its mass and velocity. The momentum "P" of a body is given by the product of its mass m and velocity v. Thus, P = m × v.
+Momentum is a vector quantity.
+Unit: The SI unit of momentum is kg·m/s or Ns.<br />
+                            iii) Force: Ans: A force moves or tends to move, stops or tends to stop the motion of a body. The force can also change the direction of motion of a body.
+                            Example: We can open the door either by pushing or pulling the door. A man pushes the cart. The push may move the cart or change the direction of its motion or may stop the moving cart. A batsman changes the direction of the moving ball by pushing it with his bat.<br />
                             iv) Force of friction: Ans: See no. Long Question<br />
                             v) Centripetal force: Ans: See Q, on. 22 short Question
                         </AccordionContent>

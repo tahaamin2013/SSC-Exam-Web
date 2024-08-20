@@ -10,7 +10,7 @@ const ElectronicConfiguration = () => {
 
                 <h2 className="text-xl font-semibold mb-4">Shells</h2>
                 <p className="mb-4">
-                    According to Bohr's atomic theory, the electron in an atom revolves around the nucleus in one of the circular paths called shells or orbits. Each shell has a fixed energy and is also known as an energy level. Each shell is described by an <i>n</i> value, where <i>n</i> can have values 1, 2, 3, etc.
+                    According to Bohr&apos;s atomic theory, the electron in an atom revolves around the nucleus in one of the circular paths called shells or orbits. Each shell has a fixed energy and is also known as an energy level. Each shell is described by an <i>n</i> value, where <i>n</i> can have values 1, 2, 3, etc.
                 </p>
                 <ul className="list-disc list-inside mb-4">
                     <li><i>n = 1</i>, it is the K shell</li>
@@ -62,7 +62,7 @@ const ElectronicConfiguration = () => {
                 <h2 className="text-xl font-semibold mb-4">Key Points</h2>
                 <ul className="list-disc list-inside mb-4">
                     <li>Rutherford proposed a planetary model for an atom. The nucleus of an atom is composed of protons, while electrons surround the nucleus and occupy most of the volume of the atom.</li>
-                    <li>According to Bohr's atomic model, electrons revolve around the nucleus in fixed circular orbits called shells.</li>
+                    <li>According to Bohr&apos;s atomic model, electrons revolve around the nucleus in fixed circular orbits called shells.</li>
                     <li>Isotopes are atoms of an element that differ in the number of neutrons.</li>
                     <li>Uranium isotope is used in nuclear reactors and atomic bombs.</li>
                     <li>Radioactive isotopes have various applications in science and medicine, such as killing cancer cells, diagnosing thyroid problems, imaging the brain, detecting circulatory system obstructions, and dating rocks, soils, and mummies.</li>
