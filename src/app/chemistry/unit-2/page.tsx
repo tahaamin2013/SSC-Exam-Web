@@ -52,7 +52,7 @@ const data = [
             { href: "/chemistry/unit-2/solution/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
         ],
     },
- 
+
     {
         id: "6",
         title: "2.5 COLLOIDS & SUSPENSIONS",
