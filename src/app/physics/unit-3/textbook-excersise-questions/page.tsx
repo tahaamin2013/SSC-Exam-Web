@@ -25,7 +25,7 @@ const Page = () => {
                         <AccordionContent>
                             i) Inertia: Ans: Inertia of a body is its property due to which it resists any change in uniform motion. It depends on the mass of the body. Greater the mass of the body greater will be the inertia. Therefore, we can say that mass is the direct measure of inertia.
                             <br />
-                            ii) Momentum: Ans: Momentum of a body is the quantity of motion it possesses due to its mass and velocity. The momentum "P" of a body is given by the product of its mass m and velocity v. Thus, P = m × v.
+                            ii) Momentum: Ans: Momentum of a body is the quantity of motion it possesses due to its mass and velocity. The momentum &quot;P&quot; of a body is given by the product of its mass m and velocity v. Thus, P = m × v.
 Momentum is a vector quantity.
 Unit: The SI unit of momentum is kg·m/s or Ns.<br />
                             iii) Force: Ans: A force moves or tends to move, stops or tends to stop the motion of a body. The force can also change the direction of motion of a body.
