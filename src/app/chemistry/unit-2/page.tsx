@@ -52,18 +52,7 @@ const data = [
             { href: "/chemistry/unit-2/solution/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
         ],
     },
-    {
-        id: "5",
-        title: "2.4.8 Effect of Temperature on Solubility",
-        links: [
-            { href: "/chemistry/unit-2/effect-of-temperature-on-solubility/original-content", text: "ORIGINAL CONTENT", icon: List },
-            { href: "/chemistry/unit-2/effect-of-temperature-on-solubility/notes", text: "NOTES", icon: BookOpen },
-            { href: "/chemistry/unit-2/effect-of-temperature-on-solubility/mind-map", text: "MIND MAP", icon: Brain },
-            { href: "/chemistry/unit-2/effect-of-temperature-on-solubility/quiz", text: "MCQS", icon: HelpCircle },
-            { href: "/chemistry/unit-2/effect-of-temperature-on-solubility/brief-questions", text: "BRIEF QUESTIONS", icon: FileText },
-            { href: "/chemistry/unit-2/effect-of-temperature-on-solubility/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
-        ],
-    },
+ 
     {
         id: "6",
         title: "2.5 COLLOIDS & SUSPENSIONS",
