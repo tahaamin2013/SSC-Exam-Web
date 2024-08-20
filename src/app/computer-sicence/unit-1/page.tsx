@@ -119,7 +119,7 @@ const data = [
 
 const Section = ({ section }: any) => {
   return (
-    <div className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.33%-1rem)] mb-6 p-6 rounded-3xl transition-all duration-300 hover:shadow-2xl bg-gradient-to-br from-purple-900 to-indigo-900 border border-purple-700">
+    <div className="w-[400px] mb-6 py-6 px-5 rounded-3xl transition-all duration-300 hover:shadow-2xl bg-gradient-to-br from-purple-900 to-indigo-900 border border-purple-700">
       <h2 className="text-xl font-bold text-white mb-2">{section.title}</h2>
       <div className="grid grid-cols-2 gap-3">
         {section.links.map((link: any) => (
@@ -147,7 +147,7 @@ const ComputerSystemsDashboard = () => {
       <h1 className="text-5xl font-extrabold mb-12 text-center text-white">
         Computer Systems
       </h1>
-      <div className="flex flex-wrap gap-6 justify-center">
+      <div className="flex flex-wrap gap-5 justify-center">
         {data.map((section) => (
           <Section key={section.id} section={section} />
         ))}

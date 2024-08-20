@@ -128,7 +128,7 @@ const ComputerSystemsDashboard = () => {
         }}>
             <h1 className="text-5xl font-extrabold mb-12 text-center text-white">
                 PRESSURE AND DEFORMATION IN SOLIDS            </h1>
-            <div className="flex flex-wrap gap-6 justify-center">
+            <div className="flex flex-wrap gap-5 justify-center">
                 {data.map((section) => (
                     <Section key={section.id} section={section} />
                 ))}
