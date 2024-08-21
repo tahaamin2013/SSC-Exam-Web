@@ -79,4 +79,3 @@ const TransitionElements: NextPage = () => {
 };
 
 export default TransitionElements;
-W
