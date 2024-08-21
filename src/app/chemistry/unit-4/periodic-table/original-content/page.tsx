@@ -37,7 +37,7 @@ const PeriodicTablePage = () => {
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-4">4.1 Periodic Table</h2>
                 <p>One of the most important activities is the search for order. A large number of observations of objects can be arranged into groups according to common features they share, it becomes easier to describe them. After the discovery of atomic number by Moseley in 1913, it was noticed that atomic number could serve as a base for systematic arrangement of elements. Thus elements are arranged in the order of increasing atomic number. A table showing systematic arrangement of elements is called periodic table. It is based on the Periodic law that states if the elements are arranged in the order of their increasing atomic numbers, their properties are repeated in a periodic manner.</p>
-<Image alt='fd' height={7000} src='/table.jpg' width={700} />
+                <Image alt='fd' height={7000} src='/table.jpg' width={700} />
 
                 <h3 className="text-xl font-semibold mb-2">4.1.1 Periods and Groups of Elements</h3>
                 <p>The most commonly used form of the periodic table is shown in figure 4.1. Note that the elements are listed in order of increasing atomic numbers, from left to right and from top to bottom. Hydrogen (H) is in the top left corner. Helium (He), atomic number 2, is at the top right corner. Lithium (Li), atomic number 3, is at the left end of the second row.</p>
@@ -48,7 +48,7 @@ const PeriodicTablePage = () => {
             <section className="mb-8">
                 <h3 className="text-xl font-semibold mb-2">4.1.2 s and p Blocks in the Periodic Table</h3>
                 <p>Group 1 and Group 2 elements contain their valence electrons in the s sub-shell. Therefore, these elements are called s-block elements. Elements in groups 13 to 18 (except He) are known as p-block elements because their valence electrons are located in the p sub-shell. Lanthanides and actinides are known as f-block elements since their valence electrons lie in the f sub-shell. Figure 4.2 shows the blocks of the periodic table.</p>
-                <p>Li 1,2s', as valence electron is in the s sub-shell, Li belongs to s-block. C-1s², 2s, 2p, as valence electron is in the sub-shell p, C belongs to p-block.</p>
+                <p>Li 1,2s&apos;, as valence electron is in the s sub-shell, Li belongs to s-block. C-1s², 2s, 2p, as valence electron is in the sub-shell p, C belongs to p-block.</p>
             </section>
         </div>
     );

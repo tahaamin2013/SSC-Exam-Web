@@ -13,7 +13,7 @@ const Halogens: NextPage = () => {
         <header className="mb-8">
           <h1 className="text-3xl font-bold mb-4">4.7 Halogens</h1>
           <p>
-            The elements in Group 17 (or Group VII-A) are called halogens. The name "halogen" is derived from the Greek words "halous" meaning salt and "gen" meaning former. Halogens include fluorine, chlorine, bromine, iodine, astatine, and tennessine (astatine and tennessine are radioactive elements with less known properties). All halogens are reactive non-metals and exist as diatomic molecules.
+            The elements in Group 17 (or Group VII-A) are called halogens. The name &quot;halogen&quot; is derived from the Greek words &quot;halous&quot; meaning salt and &quot;gen&quot; meaning former. Halogens include fluorine, chlorine, bromine, iodine, astatine, and tennessine (astatine and tennessine are radioactive elements with less known properties). All halogens are reactive non-metals and exist as diatomic molecules.
           </p>
         </header>
 
