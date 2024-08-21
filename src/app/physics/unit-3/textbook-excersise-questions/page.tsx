@@ -58,7 +58,7 @@ const Page = () => {
               our bike rims, that slows the rolling wheels so we can stop our
               bike in time. Rim brakes, are the most effective and most popular
               bicycle brakes, as they provide adequate braking power without too
-              much malintenance. They are controlled by hand lewer's which are
+              much malintenance. They are controlled by hand lewer&apos;s which are
               attached to the actual brake by a cable. When the rider pulls on
               the brake lever the cable attached to it moves the two pads, ome
               on each side of rim. These pads attached to break leather press
