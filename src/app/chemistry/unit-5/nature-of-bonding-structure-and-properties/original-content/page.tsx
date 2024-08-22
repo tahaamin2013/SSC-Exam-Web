@@ -21,7 +21,7 @@ const Unit05_5 = () => {
 
       <h4 className="text-md font-semibold mt-8">3. Arrangement of Particles</h4>
       <p className="mt-4">
-        Particles may be arranged in planes (e.g., polymers), layers (e.g., clays, graphite), or three-dimensional networks. Graphite's atoms are arranged in 2D layers, allowing them to slide over each other, which makes graphite useful for writing (e.g., pencils). Diamonds have a three-dimensional network of carbon atoms, making them the hardest substance on earth. Metals also have giant structures with strong metallic bonding, resulting in high melting/boiling points and thermal stability.
+        Particles may be arranged in planes (e.g., polymers), layers (e.g., clays, graphite), or three-dimensional networks. Graphite&apos; s atoms are arranged in 2D layers, allowing them to slide over each other, which makes graphite useful for writing (e.g., pencils). Diamonds have a three-dimensional network of carbon atoms, making them the hardest substance on earth. Metals also have giant structures with strong metallic bonding, resulting in high melting/boiling points and thermal stability.
       </p>
 
       <h4 className="text-md font-semibold mt-8">Conduction of Electricity in Ionic Compounds</h4>
