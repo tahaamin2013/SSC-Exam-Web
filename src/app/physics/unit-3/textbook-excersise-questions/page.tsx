@@ -28,15 +28,13 @@ const Page = () => {
               depends on the mass of the body. Greater the mass of the body
               greater will be the inertia. Therefore, we can say that mass is
               the direct measure of inertia.
-              <br />              <br />
-
+              <br /> <br />
               ii) <strong>Momentum</strong>: Ans: Momentum of a body is the
               quantity of motion it possesses due to its mass and velocity. The
               momentum &quot;P&quot; of a body is given by the product of its
               mass m and velocity v. Thus, P = m × v. Momentum is a vector
               quantity. Unit: The SI unit of momentum is kg·m/s or Ns.
-              <br />              <br />
-
+              <br /> <br />
               iii) <strong>Force</strong>: Ans: A force moves or tends to move,
               stops or tends to stop the motion of a body. The force can also
               change the direction of motion of a body. Example: We can open the
@@ -44,8 +42,7 @@ const Page = () => {
               The push may move the cart or change the direction of its motion
               or may stop the moving cart. A batsman changes the direction of
               the moving ball by pushing it with his bat.
-              <br />              <br />
-
+              <br /> <br />
               iv) <strong>Force of friction</strong>: Every surface is rough,
               even surfaces that appear to be highly polished can actually look
               quite rough when examined under a microscope as shown in figure
@@ -58,14 +55,13 @@ const Page = () => {
               our bike rims, that slows the rolling wheels so we can stop our
               bike in time. Rim brakes, are the most effective and most popular
               bicycle brakes, as they provide adequate braking power without too
-              much malintenance. They are controlled by hand lewer&apos;s which are
-              attached to the actual brake by a cable. When the rider pulls on
-              the brake lever the cable attached to it moves the two pads, ome
-              on each side of rim. These pads attached to break leather press
-              against the rim, causing the wheel to slow down due to friction as
-              shown in figure 4.16.
-              <br />              <br />
-
+              much malintenance. They are controlled by hand lewer&apos;s which
+              are attached to the actual brake by a cable. When the rider pulls
+              on the brake lever the cable attached to it moves the two pads,
+              ome on each side of rim. These pads attached to break leather
+              press against the rim, causing the wheel to slow down due to
+              friction as shown in figure 4.16.
+              <br /> <br />
               v) <strong>Centripetal force</strong>: Ans: See Q, on. 22 short
               Question
             </AccordionContent>
