@@ -3,7 +3,7 @@ export default function ChemicalCalculations() {
         <div className="p-4">
             <h2 className="text-2xl font-bold mb-4">6.5 CHEMICAL CALCULATIONS</h2>
             <p className="mb-2">
-                In this section, you will learn about the chemical calculations based on the concept of mole and Avogadro's number.
+                In this section, you will learn about the chemical calculations based on the concept of mole and Avogadro&apos;s number.
             </p>
 
             <h3 className="text-lg font-semibold mb-2">6.5.1 Mole-Mass Calculations</h3>
@@ -154,7 +154,7 @@ export default function ChemicalCalculations() {
             <p className="mb-2">
                 Problem solving strategy:
                 <br />
-                Convert moles of substance to number of molecules using Avogadro's number.
+                Convert moles of substance to number of molecules using Avogadro&apos;s number.
             </p>
             <p className="mb-2">
                 Solution:

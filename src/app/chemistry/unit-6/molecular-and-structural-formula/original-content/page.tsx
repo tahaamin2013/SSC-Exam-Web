@@ -44,7 +44,7 @@ export default function MolecularAndStructuralFormula() {
         <li>Chemical formula of a compound that gives the simplest whole-number ratio between atoms is called empirical formula.</li>
         <li>Molecular formula of a compound gives the exact number of atoms present in a molecule.</li>
         <li>Molecular mass is the sum of atomic masses of all the atoms present in the molecule.</li>
-        <li>The number of representative particles in one mole of the substance is known as Avogadro's number.</li>
+        <li>The number of representative particles in one mole of the substance is known as Avogadro&apos;s number.</li>
         <li>The amount of matter that contains as many atoms, ions, or molecules as the number of atoms in exactly 12g of C-12 is called mole. Mole can also be defined as atomic mass, molecular mass, or formula mass expressed in grams.</li>
         <li>Atomic mass of an element expressed in grams is called gram atomic mass.</li>
         <li>Molecular mass of an element or a compound expressed in grams is its gram molecular mass.</li>

@@ -18,8 +18,8 @@ export default function Unit06() {
           <li>Deduce the formula and name of a binary compound from ions given relevant information.</li>
           <li>Deduce the formula of a molecular substance from a given structure of molecules.</li>
           <li>Use the relationship amount of substance = mass/molar mass to calculate number of moles, mass, molar mass, relative mass (atomic/molecular/formula) and number of particles.</li>
-          <li>Define mole as amount of substance containing Avogadro's number (6.022 x 10") of particles.</li>
-          <li>Explain the relationship between a mole and Avogadro's constant.</li>
+          <li>Define mole as amount of substance containing Avogadro&apos;s number (6.022 x 10&quot;) of particles.</li>
+          <li>Explain the relationship between a mole and Avogadro&apos;s constant.</li>
           <li>Construct chemical equations and ionic equations to show reactants forming products, including state symbols.</li>
           <li>Deduce the symbol equation with state symbols for a chemical reaction given relevant information.</li>
         </ul>
@@ -28,7 +28,7 @@ export default function Unit06() {
       <div className="mb-6">
         <h3 className="text-lg font-semibold">INTRODUCTION</h3>
         <p className="mb-2">what are the simplest components of wood, rocks and living organisms? This is an age-old question. Ancient Greek Philosophers believed that everything was made of an elemental substance. Some believed that substance to be water, other thought it was air. Some other believed that there were four elemental substances.</p>
-        <p className="mb-2">As 19" century began, John Dalton proposed an atomic theory. This theory led to rapid progress in chemistry. By the end of the century however, further observations exposed the need for a different atomic theory. 20" century led to a picture of an atom with a complex internal structure.</p>
+        <p className="mb-2">As 19" century began, John Dalton proposed an atomic theory. This theory led to rapid progress in chemistry. By the end of the century however, further observations exposed the need for a different atomic theory. 20&quot; century led to a picture of an atom with a complex internal structure.</p>
         <p className="mb-2">A major goal of this chapter is to acquaint you with the fundamental concepts about matter. In this chapter you will learn some basic definitions to understand matter. This knowledge will help you in grade XI.</p>
       </div>
 

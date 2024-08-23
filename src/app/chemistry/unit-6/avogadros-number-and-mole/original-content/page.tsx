@@ -75,14 +75,14 @@ export default function Unit06() {
         </tbody>
       </table>
 
-      <h2 className="text-xl font-semibold mb-3">6.4 AVOGADRO'S NUMBER AND MOLE</h2>
+      <h2 className="text-xl font-semibold mb-3">6.4 AVOGADRO&apos;S NUMBER AND MOLE</h2>
 
       <p className="mb-2">
-        How do you count your shoes? Since the shoes come in pairs, you'll probably count them in pairs rather than individually. Likewise, eggs, oranges, etc. are counted in the dozens, but paper with the ream. So the unit of counting depends on what you are counting. Chemists also use a practical unit for counting atoms, molecules and ions. They use a counting unit called mole to measure the amount of a substance.
+        How do you count your shoes? Since the shoes come in pairs, you&apos;ll probably count them in pairs rather than individually. Likewise, eggs, oranges, etc. are counted in the dozens, but paper with the ream. So the unit of counting depends on what you are counting. Chemists also use a practical unit for counting atoms, molecules and ions. They use a counting unit called mole to measure the amount of a substance.
       </p>
 
       <p className="mb-2">
-        A mole is an amount of a substance that contains 6.022 x 10<sup>23</sup> particles of that substance. This experimentally determined number is known as Avogadro's number. It is represented by N<sub>A</sub>. Just as a dozen eggs represent twelve eggs, a ream of paper represent 500 papers, a mole of a substance represents 6.022 x 10<sup>23</sup> representative particles of a substance. For example a mole of carbon is 6.022 x 10<sup>23</sup> atoms. A mole of sulfur is 6.022 x 10<sup>23</sup> atoms. A mole of water is 6.022 x 10<sup>23</sup> molecules.
+        A mole is an amount of a substance that contains 6.022 x 10<sup>23</sup> particles of that substance. This experimentally determined number is known as Avogadro&apos;s number. It is represented by N<sub>A</sub>. Just as a dozen eggs represent twelve eggs, a ream of paper represent 500 papers, a mole of a substance represents 6.022 x 10<sup>23</sup> representative particles of a substance. For example a mole of carbon is 6.022 x 10<sup>23</sup> atoms. A mole of sulfur is 6.022 x 10<sup>23</sup> atoms. A mole of water is 6.022 x 10<sup>23</sup> molecules.
       </p>
 
       <p className="mb-2">
