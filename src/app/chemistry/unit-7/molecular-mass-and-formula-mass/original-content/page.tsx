@@ -27,7 +27,7 @@ export default function MolecularMassAndFormulaMass() {
       </ul>
 
       <p className="mb-4">
-        The term "molecular mass" is used for molecular compounds, whereas the term "formula mass" is used for ionic compounds. Ionic compounds consist of arrays of oppositely charged ions rather than separate molecules. Thus, we represent an ionic compound by its formula unit. A formula unit indicates the simplest ratio between cations and anions in an ionic compound. For example, common salt consists of Na<sup>+</sup> and Cl<sup>-</sup> ions. It has one Na<sup>+</sup> ion for every Cl<sup>-</sup> ion. So, the formula unit for common salt is NaCl.
+        The term &quot;molecular mass&quot; is used for molecular compounds, whereas the term &quot;formula mass&quot; is used for ionic compounds. Ionic compounds consist of arrays of oppositely charged ions rather than separate molecules. Thus, we represent an ionic compound by its formula unit. A formula unit indicates the simplest ratio between cations and anions in an ionic compound. For example, common salt consists of Na<sup>+</sup> and Cl<sup>-</sup> ions. It has one Na<sup>+</sup> ion for every Cl<sup>-</sup> ion. So, the formula unit for common salt is NaCl.
       </p>
       <p className="mb-4">
         The sum of the atomic masses of all the atoms in the formula unit of a substance is called formula mass.
@@ -63,4 +63,3 @@ export default function MolecularMassAndFormulaMass() {
     </div>
   );
 }
-  

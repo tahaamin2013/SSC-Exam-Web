@@ -1,13 +1,13 @@
 export default function AvogadroAndMole() {
   return (
     <div className="p-4">
-      <h1 className="text-3xl font-bold mb-4">6.4 AVOGADRO'S NUMBER AND MOLE</h1>
+      <h1 className="text-3xl font-bold mb-4">6.4 AVOGADRO&apos;S NUMBER AND MOLE</h1>
 
       <p className="mb-4">
-        How do you count your shoes? Since the shoes come in pairs, you'll probably count them in pairs rather than individually. Similarly, eggs come in dozens and paper in reams. Chemists use a practical unit for counting atoms, molecules, and ions called the mole.
+        How do you count your shoes? Since the shoes come in pairs, you&apos;ll probably count them in pairs rather than individually. Similarly, eggs come in dozens and paper in reams. Chemists use a practical unit for counting atoms, molecules, and ions called the mole.
       </p>
       <p className="mb-4">
-        A mole is an amount of a substance that contains \(6.022 \times 10^{23}\) particles of that substance, known as Avogadro's number (Nₐ). Just as a dozen represents twelve items, a mole represents \(6.022 \times 10^{23}\) representative particles. For example, a mole of carbon contains \(6.022 \times 10^{23}\) atoms, and a mole of water contains \(6.022 \times 10^{23}\) molecules.
+        A mole is an amount of a substance that contains \(6.022 \times 10^{23}\) particles of that substance, known as Avogadro&apos;s number (Nₐ). Just as a dozen represents twelve items, a mole represents \(6.022 \times 10^{23}\) representative particles. For example, a mole of carbon contains \(6.022 \times 10^{23}\) atoms, and a mole of water contains \(6.022 \times 10^{23}\) molecules.
       </p>
 
       <h2 className="text-2xl font-semibold mb-2">Examples:</h2>
@@ -59,7 +59,7 @@ export default function AvogadroAndMole() {
 
       <h2 className="text-2xl font-semibold mb-2">Molar Masses</h2>
       <p className="mb-4">
-        The term "molar mass" can refer to:
+        The term &quot;molar mass&quot; can refer to:
       </p>
       <ul className="list-disc ml-6 mb-4">
         <li>Gram atomic mass: Mass of one mole of atoms (e.g., C = 12 g)</li>

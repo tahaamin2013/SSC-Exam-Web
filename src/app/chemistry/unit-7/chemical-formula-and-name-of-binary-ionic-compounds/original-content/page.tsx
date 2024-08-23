@@ -7,7 +7,7 @@ export default function BinaryIonicCompounds() {
         A binary ionic compound is composed of mono-atomic metal cations and mono-atomic non-metal anions. To write the name of an ionic compound, the cation is named first, followed by the name of the anion.
       </p>
       <p className="mb-4">
-        The name of the cation is the same as the name of the metal. For a mono-atomic anion, the suffix "-ide" is added to the root name of the element. For example: sodium chloride, magnesium oxide, aluminium nitride, etc.
+        The name of the cation is the same as the name of the metal. For a mono-atomic anion, the suffix &quot;-ide&quot; is added to the root name of the element. For example: sodium chloride, magnesium oxide, aluminium nitride, etc.
       </p>
       <p className="mb-4">
         Follow these steps to write the chemical formula of a binary ionic compound:

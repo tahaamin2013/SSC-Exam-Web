@@ -10,7 +10,7 @@ const ChemicalCalculations = () => {
                 <h1 className="text-3xl font-bold mb-6">6.5 CHEMICAL CALCULATIONS</h1>
 
                 <p className="mb-4">
-                    In this section, you will learn about the chemical calculations based on the concept of mole and Avogadro's number.
+                    In this section, you will learn about the chemical calculations based on the concept of mole and Avogadro&apos;s number.
                 </p>
 
                 <h2 className="text-2xl font-semibold mb-4">6.5.1 Mole-Mass Calculations</h2>
