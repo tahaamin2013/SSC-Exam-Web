@@ -7,8 +7,7 @@ const PressurePage = () => {
             <p className="text-base">
                 Pressure is defined as force per unit area. Pressure is represented by letter &apos;P&apos;, if force &apos;F&apos; is applied on area &apos;A&apos;, the pressure is given by
             </p>
-            <p className="text-base font-bold">P=</p>
-            <p className="text-base font-bold">A</p>
+            <p className="text-base font-bold">P=F/A</p>
             <p className="text-base">
                 The Sl unit of pressure is pascal (Pa) which equals newton per square meter (N/m²). 1 Pa = 1N 1m²
             </p>
