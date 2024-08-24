@@ -93,7 +93,7 @@ right side
         />
       </section>
       <section>
-        <h1 className="text-4xl font-bold text-blue-500">5.1.1 HOOKE'S LAW</h1>
+        <h1 className="text-4xl font-bold text-blue-500">5.1.1 HOOKE&apos;S LAW</h1>
         <PlantUMLDiagram
           code={`@startmindmap
 * Hooke's Law
@@ -126,7 +126,7 @@ left side
         />
       </section>
       <section>
-        <h1 className="text-4xl font-bold text-blue-500">5.1.2 APPLICATIONS OF HOOKE'S LAW
+        <h1 className="text-4xl font-bold text-blue-500">5.1.2 APPLICATIONS OF HOOKE&apos;S LAW
         </h1> 
         <PlantUMLDiagram
           code={`@startmindmap
