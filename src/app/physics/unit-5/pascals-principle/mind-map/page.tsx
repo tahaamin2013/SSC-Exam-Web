@@ -6,7 +6,7 @@ const MindmapFriction = () => {
     <div className="p-8 flex flex-col gap-8">
       <section>
         <h1 className="text-4xl font-bold text-blue-500">
-        PASCAL'S PRINCIPLE
+        PASCAL&apos;S PRINCIPLE
         </h1>
         <PlantUMLDiagram
           code={`@startmindmap
