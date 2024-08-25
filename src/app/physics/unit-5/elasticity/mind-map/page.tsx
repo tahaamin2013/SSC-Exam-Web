@@ -59,7 +59,6 @@ left side
 **** Maximum deformation before losing elasticity
 **** Beyond this limit
 ***** Material won't return to original dimensions
-
 ** Inelastic
 *** Remains deformed
 *** Inelastic Materials
