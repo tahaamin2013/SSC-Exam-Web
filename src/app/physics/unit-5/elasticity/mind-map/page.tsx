@@ -44,31 +44,31 @@ const MindmapFriction = () => {
         <h1 className="text-4xl font-bold text-blue-500">5.1 ELASTICITY</h1>
         <PlantUMLDiagram
           code={`@startmindmap
-* Elasticity
+* Elasticity vs Inelasticity
 left side
-** Definition
-*** Ability to return to original shape and size
-*** Occurs when deforming forces are removed
-** Examples of Elastic Behavior
-*** Stretched spring
-*** Tennis ball after impact
-*** Archer's bow
-** Inelastic Materials
-*** Definition: Don't return to original shape
-*** Examples
-**** Plasticine
-**** Clay
-**** Dough
-** Elastic Limit
-*** Maximum deformation before losing elasticity
-*** Beyond this limit
-**** Material won't return to original dimensions
+** Elastic
+*** Returns to original shape
+*** Definition
+**** Ability to return to original shape and size
+**** Occurs when deforming forces are removed
+*** Examples of Elastic Behavior
+**** Stretched spring
+**** Tennis ball after impact
+**** Archer's bow
+*** Elastic Limit
+**** Maximum deformation before losing elasticity
+**** Beyond this limit
+***** Material won't return to original dimensions
+
+** Inelastic
+*** Remains deformed
+*** Inelastic Materials
+**** Definition: Don't return to original shape
+**** Examples
+***** Plasticine
+***** Clay
+***** Dough
 right side
-** Elastic vs Inelastic
-*** Elastic
-**** Returns to original shape
-*** Inelastic
-**** Remains deformed
 ** Spring Chair Example
 *** Given Information
 **** Mass (m) = 50 kg
@@ -101,7 +101,7 @@ right side
 *** Relationship between force and extension/compression
 *** Applies within elastic limit
 ** Formula
-*** F = -kx
+*** F = k x X
 **** F: Restoring force
 **** k: Spring constant
 **** x: Extension or compression
