@@ -6,7 +6,6 @@ const GlobalWarming = () => {
         <div className="p-6 bg-white text-black">
             <h1 className="text-2xl font-bold mb-4">UNIT 11</h1>
             <h2 className="text-xl font-semibold mb-4">GLOBAL WARMING</h2>
-
             <h3 className="text-lg font-semibold mb-4">11.4 GLOBAL WARMING</h3>
             <p className="mb-4">
                 The increasing use of fossil fuels and deforestation have led to an increase in the levels of CO₂ in the air.
