@@ -13,8 +13,8 @@ const GlobalWarming = () => {
                 Gases like water vapour, methane, and carbon dioxide act in a similar way in the atmosphere. These gases are called greenhouse gases.
             </p>
             <p className="mb-4">
-                When sunlight reaches the Earth's surface, some of it is absorbed by the Earth's surface, including vegetation, oceans, and land.
-                This absorption warms the earth. As the earth's surface heats up, it emits energy in the form of infrared radiation. Greenhouse gases absorb this energy.
+                When sunlight reaches the Earth&apos;s surface, some of it is absorbed by the Earth&apos;s surface, including vegetation, oceans, and land.
+                This absorption warms the earth. As the earth&apos;s surface heats up, it emits energy in the form of infrared radiation. Greenhouse gases absorb this energy.
                 These gases re-radiate some of the infrared radiation.
             </p>
             <p className="mb-4">
@@ -24,11 +24,11 @@ const GlobalWarming = () => {
             </p>
             <p className="mb-4">
                 As a result, greenhouse gases act like a blanket, trapping some of the heat energy in the lower atmosphere. This process is referred to as the greenhouse effect.
-                This effect reduces thermal energy loss to space and helps to regulate the Earth's temperature. Without this effect, the Earth would be much colder, making it difficult for life to exist.
+                This effect reduces thermal energy loss to space and helps to regulate the Earth&apos;s temperature. Without this effect, the Earth would be much colder, making it difficult for life to exist.
                 Human activities have been increasing the concentration of greenhouse gases in the atmosphere, by burning fossil fuels, deforestation, and industrial processes.
                 This additional increase in greenhouse gases is enhancing the natural greenhouse effect. This is significant, leading to an increase in the atmospheric temperature causing global warming and climate change.
                 The higher the concentration of greenhouse gases in the air, the greater the greenhouse effect and the greater the increase in temperature.
-                The greenhouse effect is a natural phenomenon of the earth's energy distribution mechanism. The warming of the atmosphere due to our influence on the greenhouse effect is called global warming.
+                The greenhouse effect is a natural phenomenon of the earth&apos;s energy distribution mechanism. The warming of the atmosphere due to our influence on the greenhouse effect is called global warming.
                 Global warming is caused by disturbing the natural balance of greenhouse gas concentrations in the atmosphere.
             </p>
             <p className="mb-4">
@@ -36,7 +36,7 @@ const GlobalWarming = () => {
             </p>
             <ul className="list-disc list-inside mb-4">
                 <li>Temperature of the earth will gradually increase.</li>
-                <li>The earth's climate may change, affecting both the rate of rainfall and how much it rains. This could cause both increased risks of flooding in some regions and drought in others.</li>
+                <li>The earth&apos;s climate may change, affecting both the rate of rainfall and how much it rains. This could cause both increased risks of flooding in some regions and drought in others.</li>
                 <li>Polar ice may melt and cause significant increase in sea levels.</li>
             </ul>
 

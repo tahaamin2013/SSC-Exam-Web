@@ -126,7 +126,7 @@ const EnvironmentalChemistry = () => {
             <h3 className="text-lg font-semibold mb-4">11.2.3 Carbon Dioxide</h3>
             <p className="mb-4">
                 Carbon dioxide (CO₂) is a major air pollutant that has received increasing attention due to its association with climate change
-                and global warming. Although it occurs naturally in the Earth's atmosphere, human activities such as burning fossil fuels,
+                and global warming. Although it occurs naturally in the Earth&apos;s atmosphere, human activities such as burning fossil fuels,
                 deforestation, and industrial processes have dramatically increased its levels.
             </p>
 
