@@ -1,6 +1,4 @@
-// pages/efficiency.tsx
-
-import React from 'react';
+import React from "react";
 
 const EfficiencyPage: React.FC = () => {
   return (
@@ -11,13 +9,13 @@ const EfficiencyPage: React.FC = () => {
           The principle of conservation of energy suggests that energy can neither be created nor destroyed. That is, the total energy output of a machine must be equal to its energy input. However, it is found that the energy output is always less than the energy input. This is mainly due to the work that must be done against frictional forces.
         </p>
         <p className="text-lg mb-4">
-          A car engine is designed to convert chemical energy stored in the fuel into kinetic energy for the car. A light bulb is designed to convert electric energy into light energy. While the car engine and the light bulb are transforming some of the potential energy into the desired form of energy, part of its energy is 'lost'.
+          A car engine is designed to convert chemical energy stored in the fuel into kinetic energy for the car. A light bulb is designed to convert electric energy into light energy. While the car engine and the light bulb are transforming some of the potential energy into the desired form of energy, part of its energy is &quot;lost&quot;.
         </p>
         <p className="text-lg mb-4">
-          The lost energy is converted into a form that does not serve the intended purpose. Often, the lost energy is transformed into heat. The efficiency 'η' of a machine or device describes the extent to which it converts input energy or work into a useful type of output energy or work.
+          The lost energy is converted into a form that does not serve the intended purpose. Often, the lost energy is transformed into heat. The efficiency &quot;η&quot; of a machine or device describes the extent to which it converts input energy or work into a useful type of output energy or work.
         </p>
         <p className="text-lg mb-4">
-          Efficiency 'η' is the ratio of useful work output 'W<sub>out</sub>' to the total work input 'W<sub>in</sub>'.
+          Efficiency &quot;η&quot; is the ratio of useful work output &quot;W<sub>out</sub>&quot; to the total work input &quot;W<sub>in</sub>&quot;.
         </p>
         <div className="flex justify-center my-4">
           <div className="bg-gray-100 p-4 rounded-lg">
@@ -44,7 +42,7 @@ const EfficiencyPage: React.FC = () => {
           </div>
         </div>
         <p className="text-lg mb-4">
-          The correlation between power and efficiency becomes apparent when considering the output power of an energy conversion process. The output power 'P<sub>out</sub>' of a given system is directly proportional to its input power 'P<sub>in</sub>' through the efficiency 'η' factor:
+          The correlation between power and efficiency becomes apparent when considering the output power of an energy conversion process. The output power &quot;P<sub>out</sub>&quot; of a given system is directly proportional to its input power &quot;P<sub>in</sub>&quot; through the efficiency &quot;η&quot; factor:
         </p>
         <div className="flex justify-center my-4">
           <div className="bg-gray-100 p-4 rounded-lg">
