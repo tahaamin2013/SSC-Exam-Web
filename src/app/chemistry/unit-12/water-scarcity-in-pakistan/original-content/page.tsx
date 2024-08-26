@@ -15,7 +15,7 @@ const WaterScarcityPakistan = () => {
 
         <li>
           <h2 className="text-xl font-semibold">Climate change:</h2>
-          <p>Climate change has caused irregular rainfall patterns, which affects water availability Climate Chy's water resources are also declining due to excessive extraction of water from groundwater aquifers and insufficient irrigation practices.</p>
+          <p>Climate change has caused irregular rainfall patterns, which affects water availability Climate Chy&apos;s water resources are also declining due to excessive extraction of water from groundwater aquifers and insufficient irrigation practices.</p>
         </li>
 
         <li>

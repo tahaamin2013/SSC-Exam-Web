@@ -44,7 +44,7 @@ const EnvironmentalChemistryWater = () => {
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-4">12.1 PROPERTIES OF WATER</h2>
                 <p>Water is the only substance that exists in three different states on Earth. Can you name these states?</p>
-                <p>Pure water is transparent, colourless, odourless and tasteless. It boils at 100°Cand freezes at O"C at the sea level.</p>
+                <p>Pure water is transparent, colourless, odourless and tasteless. It boils at 100°Cand freezes at O&quot;C at the sea level.</p>
             </section>
 
             <section className="mb-8">
@@ -114,7 +114,7 @@ const EnvironmentalChemistryWater = () => {
 
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-4">12.1.1 Water as Solvent</h2>
-                <p>Water is very good at dissolving substances. For this reason natural water such as rainwater and groundwater is not pure water. As water falls through the atmosphere, it dissolves, a little oxygen, nitrogen, carbon dioxide, and dust particies. During thunder storms, it also dissolves nitric acid. Ground water dissolves minerals from rocks and soils as it moves along on or beneath Earth's surface. Ground water also dissolves many substances from decaying plants and animals.</p>
+                <p>Water is very good at dissolving substances. For this reason natural water such as rainwater and groundwater is not pure water. As water falls through the atmosphere, it dissolves, a little oxygen, nitrogen, carbon dioxide, and dust particies. During thunder storms, it also dissolves nitric acid. Ground water dissolves minerals from rocks and soils as it moves along on or beneath Earth&apos;s surface. Ground water also dissolves many substances from decaying plants and animals.</p>
             </section>
 
             <section className="mb-8">
