@@ -5,10 +5,7 @@ const MindmapFriction = () => {
   return (
     <div className="p-8 flex flex-col gap-8">
       <section>
-        <h1 className="text-4xl font-bold text-blue-500">
-        Work And Energy
-
-</h1>
+        <h1 className="text-4xl font-bold text-blue-500">Work And Energy</h1>
         <PlantUMLDiagram
           code={`@startmindmap
 <style>
@@ -33,6 +30,22 @@ mindmapDiagram {
 }
 </style>
 * Work and Energy
+left side
+** Work
+*** Work in physics means using energy to make something move!
+*** :Examples
+**** Pushing a Shopping Cart: Using force to move the cart.
+**** Lifting a Book: Using energy to lift the book upward.
+**** Riding a Bicycle: Pedaling to move the bike forward.
+
+** Energy
+*** Energy is what makes things move, change, or happen. It's the power that keeps everything going.
+*** :Examples
+**** Food Gives You Energy: Powers your body to run, jump, and play.
+**** Sunlight for Plants: Energy that helps plants grow.
+**** Batteries in a Toy: Energy that makes the toy work.
+
+right side
 ** Definition of Work
 *** Scientific meaning
 **** Force applied
@@ -103,7 +116,6 @@ mindmapDiagram {
 @endmindmap`}
         />
       </section>
-  
     </div>
   );
 };

@@ -38,6 +38,11 @@ mindmapDiagram {
 *** Joule (J)
 **** Same as work
 **** J = Nm
+** Energy Transfer Examples
+*** Boy pushing toy car
+*** Child sharpening pencil
+*** Riding a bicycle
+left side
 ** Forms of Energy
 *** Chemical Energy
 **** Energy in atomic bonds
@@ -60,10 +65,6 @@ mindmapDiagram {
 **** Energy from atomic nuclei changes
 **** Example
 ***** Nuclear power stations
-** Energy Transfer Examples
-*** Boy pushing toy car
-*** Child sharpening pencil
-*** Riding a bicycle
 @endmindmap`}
         />
       </section>
