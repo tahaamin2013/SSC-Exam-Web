@@ -33,12 +33,12 @@ const data = [
         id: "3",
         title: "7.3 STATES OF MATTER",
         links: [
-            { href: "/physics/unit-7states-of-matter/original-content", text: "Original Content", icon: List },
-            { href: "/physics/unit-7states-of-matter/notes", text: "Notes", icon: BookOpen },
-            { href: "/physics/unit-7states-of-matter/mind-map", text: "Mind Map", icon: Brain },
-            { href: "/physics/unit-7states-of-matter/quiz", text: "MCQs", icon: HelpCircle },
-            { href: "/physics/unit-7states-of-matter/brief-questions", text: "Brief Questions", icon: FileText },
-            { href: "/physics/unit-7states-of-matter/detailed-questions", text: "Detailed Questions", icon: List },
+            { href: "/physics/unit-7/states-of-matter/original-content", text: "Original Content", icon: List },
+            { href: "/physics/unit-7/states-of-matter/notes", text: "Notes", icon: BookOpen },
+            { href: "/physics/unit-7/states-of-matter/mind-map", text: "Mind Map", icon: Brain },
+            { href: "/physics/unit-7/states-of-matter/quiz", text: "MCQs", icon: HelpCircle },
+            { href: "/physics/unit-7/states-of-matter/brief-questions", text: "Brief Questions", icon: FileText },
+            { href: "/physics/unit-7/states-of-matter/detailed-questions", text: "Detailed Questions", icon: List },
         ],
     },
     {
