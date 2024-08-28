@@ -1,12 +1,8 @@
-// pages/organic-chemistry.tsx
-
 import React from 'react';
 
 const OrganicChemistry: React.FC = () => {
   return (
     <div className="p-6">
-      {/* Previous sections here */}
-
       <h2 className="text-xl font-semibold mb-2">13.7 FUNCTIONAL GROUPS</h2>
       <p className="mb-4">
         Most organic compounds contain elements other than carbon and hydrogen. Most of these compounds are considered hydrocarbon derivatives. That is, they are essentially hydrocarbons, but instead of one or more hydrogen atoms, they have an additional atom or groups of atoms called functional groups. In many simple molecules, the functional group is attached to an alkyl group.

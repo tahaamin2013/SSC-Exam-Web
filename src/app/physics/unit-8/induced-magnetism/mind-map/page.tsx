@@ -46,6 +46,42 @@ left side
 ***[#Red] Temporary magnets
 @endmindmap`}
         />
+         <PlantUMLDiagram code={`@startmindmap
+* Flashlight with a Hand-Crank
+** How It Works
+*** Spinning Magnet
+**** Turning the crank spins the magnet around the wire loops
+*** Magic Change
+**** Spinning changes the magnetic field around the wire loops
+*** Making Light
+**** The "magic change" creates an electric current
+**** This current powers the flashlight's light
+** Faraday’s Law of Induction
+*** Formula: \(\mathcal{E} = -N \frac{\Delta \Phi}{\Delta t}\)
+**** \( \mathcal{E} \)
+***** Induced EMF or Voltage
+***** Measured in volts (V)
+***** Shows how strong the electricity is
+**** \( N \)
+***** Number of Turns
+***** Unitless (count of wire loops)
+***** More loops = more electricity
+**** \( \Delta \Phi \)
+***** Change in Magnetic Flux
+***** Measured in Webers (Wb)
+***** Indicates change in magnet’s power
+**** \( \Delta t \)
+***** Change in Time
+***** Measured in seconds (s)
+***** Faster changes = more power
+** Putting It All Together
+*** Magnetic Flux (\( \Delta \Phi \)) in Webers
+*** Change in Time (\( \Delta t \)) in Seconds
+*** Rate of Change of Flux
+*** Number of Loops (\( N \))
+*** Induced Voltage (\( \mathcal{E} \)) in Volts
+@endmindmap
+`} />
       </section>
       <section>
         <h1 className="text-4xl font-bold text-blue-500">TEMPORARY AND PERMANENT MAGNETICS</h1>
@@ -179,7 +215,110 @@ left side
 ****[#LightCyan] Systems with continuous power supply
 @endmindmap`}
         />
+        <h1>Magnetic Recording</h1>
+        <PlantUMLDiagram
+          code={`
+@startmindmap
+* Magnetic Recording
+** Definition
+*** Saving sounds, pictures, and data
+*** Electrical signals
+*** Selective magnetization
+** Process
+*** Writing data
+**** Magnetic tape head
+**** Tape in motion
+**** Alignment of magnetic domains
+*** Reading data
+**** Reverse process
+** Materials
+*** Iron-oxide
+*** Cobalt
+*** Chromium oxide
+*** Pure iron
+** Recording Media
+*** Magnetic tape
+*** Disk recorders
+** Applications
+*** Audio storage
+*** Video storage
+*** Computer data storage
+** Other Devices
+*** Magnetic drum
+*** Core units
+*** Bubble units
+@endmindmap`}
+        />
+        <h1>Speakers</h1>
+        <PlantUMLDiagram
+          code={`
+@startmindmap
+* Speakers
+** Function
+*** Create vibrations in air
+*** Produce sound
+** Components
+*** Permanent magnet
+**** Strong magnetization
+**** Fixed in center of cone
+*** Electromagnet
+**** Attached to center of permanent magnet
+**** Can move to and fro
+*** Cone (Diaphragm)
+**** Conical structure
+**** Made of flexible material
+**** Produces vibrations
+** Working Principle
+*** Sound signal as electric current
+*** Flows through electromagnet coil
+*** Produces alternating magnetic field
+*** Interacts with permanent magnet field
+*** Causes vibration
+*** Cone vibrates with electromagnet
+*** Produces sound
+** Factors affecting sound
+*** Larger permanent magnet
+**** Produces louder sound
+** Materials
+*** Neodymium
+**** Commonly used for permanent magnet
+** Related device
+*** Microphone
+**** Uses magnets in reverse order
+**** Cone vibrates due to sound
+**** Produces movement in electromagnet
+**** Generates electric current
+**** Acts as signal for speaker
+@endmindmap`}
+        />
+        <h1>door locks</h1>
+        <PlantUMLDiagram
+          code={`
+@startmindmap
+* Magnetic Door Locks
+** Components
+*** Electromagnet
+**** Fixed at door frame
+*** Metal plate
+**** Fixed with the door
+** Working Principle
+*** Door closed
+**** Metal plate connects with electromagnet
+*** Current flows through electromagnet
+**** Attracts metal plate with huge force
+**** Makes door difficult to open
+*** To open door
+**** Disconnect current from electromagnet
+**** Releases metal plate
+** Requirements
+*** Continuous power supply
+** Applications
+*** Systems with constant electricity
+@endmindmap`}
+        />
       </section>
+
+      
     </div>
   );
 };

@@ -65,6 +65,7 @@ mindmapDiagram {
 ****** Sensitive to magnetism
 @endmindmap`}
         />
+       
       </section>
     </div>
   );
