@@ -7,7 +7,7 @@ const BiochemistryUnit15: React.FC = () => {
 
             <h2 className="text-xl font-semibold mb-4">15.4 PROTEINS</h2>
             <p className="mb-4">
-                Every cell in the human body contains protein. The basic structure of protein is a chain of amino acids. Proteins are macromolecules that are responsible for most of the functions that take place in the body. They do most of the work in cells and are required for the structure, function, and regulation of the body's tissues and organs. The building blocks of proteins are amino acids.
+                Every cell in the human body contains protein. The basic structure of protein is a chain of amino acids. Proteins are macromolecules that are responsible for most of the functions that take place in the body. They do most of the work in cells and are required for the structure, function, and regulation of the body&apos;s tissues and organs. The building blocks of proteins are amino acids.
             </p>
             <p className="mb-4">
                 <strong>DO YOU KNOW?</strong> Enzymes are proteins that act as biological catalysts in living organisms. They help speed up chemical reactions in the human body.

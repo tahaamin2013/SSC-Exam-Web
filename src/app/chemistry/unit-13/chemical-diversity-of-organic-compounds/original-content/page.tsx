@@ -1,5 +1,3 @@
-// pages/organic-chemistry.tsx
-
 import React from 'react';
 
 const OrganicChemistry: React.FC = () => {
@@ -48,7 +46,7 @@ const OrganicChemistry: React.FC = () => {
 
       <h2 className="text-xl font-semibold mb-2">13.5 CHEMICAL DIVERSITY OF ORGANIC COMPOUNDS</h2>
       <p className="mb-4">
-        Carbon has four bonding electrons in its valence shell. Carbon, therefore, forms four bonds with other atoms. The chemical diversity of organic compounds arises from carbon's ability to bond to each other to form long chains, branched chains, and rings. This self-linking ability of carbon is called catenation. There appears to be almost no limit to the number of different structures that carbon can form. No other element can compete with carbon in this regard. Silicon and a few other elements can form chains, but only short ones. Carbon chains may contain thousands of carbon atoms. Another reason for the large number of organic compounds is the phenomenon of isomerism.
+        Carbon has four bonding electrons in its valence shell. Carbon, therefore, forms four bonds with other atoms. The chemical diversity of organic compounds arises from carbon&apos;s ability to bond to each other to form long chains, branched chains, and rings. This self-linking ability of carbon is called catenation. There appears to be almost no limit to the number of different structures that carbon can form. No other element can compete with carbon in this regard. Silicon and a few other elements can form chains, but only short ones. Carbon chains may contain thousands of carbon atoms. Another reason for the large number of organic compounds is the phenomenon of isomerism.
       </p>
       <p className="mb-4">
         The compounds that have the same molecular formula but different arrangement of atoms in their molecules are called structural isomers. This phenomenon is called isomerism. For example, two compounds have the molecular formula C₄H₁₀ but different structures:

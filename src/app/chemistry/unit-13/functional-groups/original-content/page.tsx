@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const OrganicChemistry: React.FC = () => {
   return (
@@ -55,7 +55,7 @@ const OrganicChemistry: React.FC = () => {
           <tr className="border-b">
             <td className="py-2 px-4">Ether</td>
             <td className="py-2 px-4">-O-</td>
-            <td className="py-2 px-4">R-O-R'</td>
+            <td className="py-2 px-4">R-O-R&apos;</td>
           </tr>
           <tr className="border-b">
             <td className="py-2 px-4">Aldehyde</td>
@@ -65,7 +65,7 @@ const OrganicChemistry: React.FC = () => {
           <tr className="border-b">
             <td className="py-2 px-4">Ketone</td>
             <td className="py-2 px-4">-CO-</td>
-            <td className="py-2 px-4">R-CO-R'</td>
+            <td className="py-2 px-4">R-CO-R&apos;</td>
           </tr>
           <tr className="border-b">
             <td className="py-2 px-4">Carboxylic Acid</td>
@@ -75,7 +75,7 @@ const OrganicChemistry: React.FC = () => {
           <tr className="border-b">
             <td className="py-2 px-4">Ester</td>
             <td className="py-2 px-4">-COO-</td>
-            <td className="py-2 px-4">R-COO-R'</td>
+            <td className="py-2 px-4">R-COO-R&apos;</td>
           </tr>
           <tr className="border-b">
             <td className="py-2 px-4">Amide</td>
@@ -130,7 +130,7 @@ const OrganicChemistry: React.FC = () => {
         <li><span className="font-bold">CH₃-CH₂-O-CH₂-CH₃:</span> Diethyl ether</li>
       </ul>
       <p className="mb-4">
-        The general formula for ethers is R-O-R', where R and R' are alkyl groups which may be the same or different.
+        The general formula for ethers is R-O-R&apos;, where R and R&apos; are alkyl groups which may be the same or different.
       </p>
 
       <h3 className="text-lg font-semibold mb-2">13.7.5 Aldehydes and Ketones</h3>
@@ -158,7 +158,7 @@ const OrganicChemistry: React.FC = () => {
 
       <h3 className="text-lg font-semibold mb-2">13.7.7 Esters</h3>
       <p className="mb-4">
-        Compounds having the general formula R-COO-R' are called esters. R and R' are alkyl groups which may be the same or different.
+        Compounds having the general formula R-COO-R&apos; are called esters. R and R&apos; are alkyl groups which may be the same or different.
       </p>
       <ul className="list-disc list-inside mb-4">
         <li><span className="font-bold">CH₃-COO-CH₃:</span> Methyl acetate (Methyl ethanoate)</li>

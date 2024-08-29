@@ -105,13 +105,13 @@ const BasicComponentsOfFood: React.FC = () => {
                             Seeds, grains, and fish eggs are good sources of the genetic material, DNA.
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap">
-                            DNA is a type of genetic material that contains all a person's genetic information. DNA also allows genetic information to be passed down from one generation to the next. RNA plays a role in the expression of DNA's genetic code by generating certain proteins.
+                            DNA is a type of genetic material that contains all a person&apos;s genetic information. DNA also allows genetic information to be passed down from one generation to the next. RNA plays a role in the expression of DNA&apos;s genetic code by generating certain proteins.
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap">
                             Nucleic acids carry genetic information which is read in cells to make the RNA and proteins by which living things work. They play a central role in a wide variety of cellular processes, including metabolic regulation and the storage and utilization of genetic information.
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap">
-                            Lesch-Nyhan syndrome (a rare congenital birth disorder that affects a child's brain and behavior), and ataxia telangiectasia (also known as Louis-Bar syndrome, a rare inherited childhood neurological disorder that affects the part of the brain that controls motor movement, intended movement of muscles, and speech).
+                            Lesch-Nyhan syndrome (a rare congenital birth disorder that affects a child&apos;s brain and behavior), and ataxia telangiectasia (also known as Louis-Bar syndrome, a rare inherited childhood neurological disorder that affects the part of the brain that controls motor movement, intended movement of muscles, and speech).
                         </td>
                     </tr>
                 </tbody>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const BiochemistryUnit15: React.FC = () => {
   return (
@@ -7,7 +7,7 @@ const BiochemistryUnit15: React.FC = () => {
 
       <h2 className="text-xl font-semibold mb-4">INTRODUCTION</h2>
       <p className="mb-4">
-        Think about your brain. It works 24/7, even while you are asleep. Your brain supervises all your body functions, your thoughts, your breath, your heartbeat, even your senses. In this scenario, your brain requires a constant supply of fuel. Food is a fuel that drives the processes of life. That "fuel" comes from the foods you eat, and what's in that fuel makes all the difference. If your brain couldn't get good-quality nutrition, it can affect the functioning of the brain. It means what you eat directly affects the structure and function of your brain and, finally, your life.
+        Think about your brain. It works 24/7, even while you are asleep. Your brain supervises all your body functions, your thoughts, your breath, your heartbeat, even your senses. In this scenario, your brain requires a constant supply of fuel. Food is a fuel that drives the processes of life. That &quot;fuel&quot; comes from the foods you eat, and what&apos;s in that fuel makes all the difference. If your brain couldn&apos;t get good-quality nutrition, it can affect the functioning of the brain. It means what you eat directly affects the structure and function of your brain and, finally, your life.
       </p>
 
       <h2 className="text-xl font-semibold mb-4">15.1 NUTRITION AND HEALTHY EATING</h2>
@@ -26,7 +26,7 @@ const BiochemistryUnit15: React.FC = () => {
 
       <h3 className="text-lg font-semibold mb-4">15.1.2 What is a Healthy Eating/Balanced Diet?</h3>
       <p className="mb-4">
-        A "balanced diet" provides all the nutrients in suitable amounts needed to carry out the processes. At every life stage, our diet is fundamental to our overall health and happiness. A healthy diet can lower the risk of disease. It also increases bone health and muscle strength.
+        A &quot;balanced diet&quot; provides all the nutrients in suitable amounts needed to carry out the processes. At every life stage, our diet is fundamental to our overall health and happiness. A healthy diet can lower the risk of disease. It also increases bone health and muscle strength.
       </p>
       <p className="mb-4">
         A balanced diet includes a variety of foods in limited amounts and proportions to satisfy the needs for calories, proteins, minerals, vitamins, and other nutrients. A balanced diet should contain the correct proportion of six basic nutrients, e.g., carbohydrates, lipids, proteins, vitamins, minerals, and dietary fiber.
