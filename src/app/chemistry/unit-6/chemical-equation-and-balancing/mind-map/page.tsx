@@ -7,238 +7,120 @@ const MagneticMindmap = () => {
     <div className="p-8 flex flex-col gap-8">
       <section>
         <h1 className="text-4xl font-bold text-blue-500">
-          Periodic Table and Periodicity
-        </h1>
+        Chemical Equations and Balancing        </h1>
         <PlantUMLDiagram
           code={`
 @startmindmap
-<style>
-mindmapDiagram {
-    node {
-        BackgroundColor lightBlue
-    }
-    :depth(1) {
-      BackgroundColor lightGreen
-    }
-    :depth(2) {
-      BackgroundColor lightYellow
-    }
-    :depth(3) {
-      BackgroundColor lightPink
-    }
-}
-</style>
-* Periodic Table and Periodicity
-** Structure
-*** Periods (horizontal rows)
-**** 7 periods
-**** Short periods (1-3)
-**** Long periods (4-7)
-*** Groups (vertical columns)
-*** Blocks
-**** s-block (Groups 1-2)
-**** p-block (Groups 13-18)
-**** d-block (Transition elements)
-**** f-block (Lanthanides and Actinides)
-** Element Properties
-*** Group 1 (Alkali Metals)
-**** Soft metals
-**** Decreasing melting point
-**** Increasing density
-**** Increasing reactivity
-*** Group 7 (Halogens)
-**** Diatomic non-metals
-**** Increasing density
-**** Decreasing reactivity
-**** Appearances at room temperature
-*** Group 18 (Noble Gases)
-**** Unreactive monoatomic gases
-*** Transition Elements
-**** High densities
-**** High melting points
-**** Variable oxidation numbers
-**** Colored compounds
-**** Catalytic properties
-** Periodic Law
-*** Elements arranged by atomic number
-*** Properties repeat periodically
-** Predicting Properties
-*** Based on group trends
-*** Based on period trends
-** Metal vs Non-metal Properties
-*** Thermal conductivity
-*** Electrical conductivity
-*** Malleability and ductility
-*** Melting and boiling points
-** Applications
-*** Predicting reactivity
-*** Understanding bonding
-*** Catalysts in industrial processes
+*[#LightBlue] Chemical Equations and Balancing
+** Definition
+*** Symbolic representation of a chemical reaction
+*** Reactants → Products
+** Writing Chemical Equations
+*** Step 1: Word equation
+*** Step 2: Symbols and formulae
+**** Physical states in parentheses
+***** (s) for solid
+***** (l) for liquid
+***** (g) for gas
+***** (aq) for aqueous
+*** Example: Burning of Coal
+**** C + O2 → CO2
+** Balancing Chemical Equations
+*** Principle
+**** Number of atoms remains the same
+**** Same number of each atom type on both sides
+*** Steps for Balancing
+**** Balance one element at a time
+**** Use coefficients, not subscripts
+**** Start with the lowest coefficient
+*** Example: CH4 + O2 → CO2 + H2O
+**** Step 1: Balance H atoms
+**** Step 2: Balance O atoms
+**** Step 3: Check final equation
+** Ionic Equations
+*** Definition
+**** Substances in water written as individual ions
+*** Steps
+**** Write dissociated forms of soluble substances
+**** Remove spectator ions
+**** Write net ionic equation
+*** Example
+**** HCl(aq) + NaOH(aq) → NaCl(aq) + H2O(l)
+**** Net: H+(aq) + OH-(aq) → H2O(l)
+** Concept Assessment Exercises
+*** Writing chemical equations
+**** Burning of hydrogen
+**** Burning of magnesium
+*** Transforming to ionic equations
+**** AgNO3 + NaCl reaction
+**** Zn + HCl reaction
 @endmindmap`}
         />
-        <Image alt="fd" height={7000} src="/table.jpg" width={700} />
       </section>
 
-      <div className="bg-gradient-to-r from-blue-100 to-purple-100 p-10 font-sans">
-        <div className="max-w-5xl mx-auto p-8 bg-white shadow-lg rounded-[2rem]">
-          <h1 className="text-4xl font-bold text-center text-black mb-8">
-            Periodic Table and Periodicity
-          </h1>
+      <div className="p-6 bg-white text-gray-900 border border-gray-200 rounded-lg shadow-md">
+  <h2 className="text-3xl font-bold mb-4">Chemical Equations and Balancing</h2>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Element Properties and Prediction
-            </h2>
-            <p className="text-lg text-gray-700 mb-4">
-              Use chemical periodicity to predict properties of elements in a
-              group. Deduce unknown elements' nature and position from given
-              properties.
-            </p>
-          </section>
+  <p className="text-lg mb-4"><strong>Definition:</strong></p>
+  <p className="mb-4">
+    A chemical equation is the symbolic representation of a chemical reaction.<br />
+    <strong>Reactants:</strong> Substances initiating the reaction (left side of equation)<br />
+    <strong>Products:</strong> Substances formed during the reaction (right side of equation)<br />
+    Arrow (→) indicates the direction of chemical change
+  </p>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Group 1 (Alkali Metals)
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>Characteristics: Relatively soft metals</li>
-              <li>
-                Trends down the group:
-                <ul className="list-disc pl-5">
-                  <li>Decreasing melting point</li>
-                  <li>Increasing density</li>
-                  <li>Increasing reactivity</li>
-                </ul>
-              </li>
-            </ul>
-          </section>
+  <h3 className="text-2xl font-semibold mb-4">Writing a Chemical Equation:</h3>
+  <p className="mb-4"><strong>Step 1:</strong> Identify reactants and products, write a word equation</p>
+  <p className="mb-4"><strong>Step 2:</strong> Write symbols and formulae, indicate physical states</p>
+  <ul className="list-disc pl-5 mb-4">
+    <li><strong>(s)</strong> for solid</li>
+    <li><strong>(l)</strong> for liquid</li>
+    <li><strong>(g)</strong> for gas</li>
+    <li><strong>(aq)</strong> for aqueous</li>
+  </ul>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Group 7 (Halogens)
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>Characteristics: Diatomic non-metals</li>
-              <li>
-                Trends down the group:
-                <ul className="list-disc pl-5">
-                  <li>Increasing density</li>
-                  <li>Decreasing reactivity</li>
-                </ul>
-              </li>
-              <li>
-                Appearances at room temperature:
-                <ul className="list-disc pl-5">
-                  <li>Fluorine: Pale yellow gas</li>
-                  <li>Chlorine: Yellow-green gas</li>
-                  <li>Bromine: Red-brown liquid</li>
-                  <li>Iodine: Grey-black solid</li>
-                </ul>
-              </li>
-              <li>
-                Reactions:
-                <ul className="list-disc pl-5">
-                  <li>Displacement reactions with halide ions</li>
-                  <li>Act as reducing agents</li>
-                </ul>
-              </li>
-            </ul>
-          </section>
+  <p className="text-lg font-medium mb-4"><strong>Example: Burning of Coal</strong></p>
+  <p className="mb-4">Word equation: Coal + Oxygen → Carbon Dioxide</p>
+  <p className="mb-4">Chemical equation: C + O₂ → CO₂</p>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Hydrogen Halides
-            </h2>
-            <p className="text-lg text-gray-700">
-              Analyze relative thermal stabilities. Explain in terms of bond
-              strengths.
-            </p>
-          </section>
+  <h3 className="text-2xl font-semibold mb-4">Balancing a Chemical Equation:</h3>
+  <p className="mb-4"><strong>Principle:</strong> Number of atoms remains the same, only arrangement changes</p>
+  <p className="mb-4"><strong>Example of Balanced Equation:</strong> C + O₂ → CO₂</p>
+  <p className="mb-4"><strong>Steps for Balancing:</strong></p>
+  <ul className="list-disc pl-5 mb-4">
+    <li>Balance one element at a time using coefficients</li>
+    <li>Start with the lowest coefficient</li>
+    <li>Do not change subscripts in chemical formulas</li>
+  </ul>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Transition Elements
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>
-                Characteristics:
-                <ul className="list-disc pl-5">
-                  <li>High densities</li>
-                  <li>High melting points</li>
-                  <li>Variable oxidation numbers</li>
-                  <li>Form colored compounds</li>
-                  <li>
-                    Act as catalysts (e.g., Haber process, catalytic converters)
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </section>
+  <p className="text-lg font-medium mb-4"><strong>Example of Balancing:</strong></p>
+  <p className="mb-4"><strong>Unbalanced:</strong> CH₄ + O₂ → CO₂ + H₂O</p>
+  <p className="mb-4">Step 1: CH₄ + O₂ → CO₂ + 2H₂O (balance H atoms)</p>
+  <p className="mb-4">Step 2: CH₄ + 2O₂ → CO₂ + 2H₂O (balance O atoms)</p>
+  <p className="mb-4"><strong>Final Balanced Equation:</strong> CH₄ + 2O₂ → CO₂ + 2H₂O</p>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Group 18 (Noble Gases)
-            </h2>
-            <p className="text-lg text-gray-700">
-              Characteristics: Unreactive monoatomic gases. Explain unreactivity
-              in terms of electronic configuration.
-            </p>
-          </section>
+  <h3 className="text-2xl font-semibold mb-4">Ionic Equations:</h3>
+  <p className="mb-4"><strong>Definition:</strong> Chemical equation where substances dissolved in water are written as individual ions</p>
+  <p className="mb-4"><strong>Steps:</strong></p>
+  <ul className="list-disc pl-5 mb-4">
+    <li>Write soluble substances in dissociated form</li>
+    <li>Remove spectator ions (common ions on both sides)</li>
+  </ul>
+  <p className="mb-4"><strong>Example:</strong></p>
+  <p className="mb-4">Reaction: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)</p>
+  <p className="mb-4">Dissociated: H⁺(aq) + Cl⁻(aq) + Na⁺(aq) + OH⁻(aq) → Na⁺(aq) + Cl⁻(aq) + H₂O(l)</p>
+  <p className="mb-4"><strong>Net Ionic Equation:</strong> H⁺(aq) + OH⁻(aq) → H₂O(l)</p>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Metals vs. Non-metals
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>
-                Compare general physical properties:
-                <ul className="list-disc pl-5">
-                  <li>Thermal conductivity</li>
-                  <li>Electrical conductivity</li>
-                  <li>Malleability and ductility</li>
-                  <li>Melting and boiling points</li>
-                </ul>
-              </li>
-            </ul>
-          </section>
+  <h3 className="text-2xl font-semibold mb-4">Practice Exercises:</h3>
+  <ul className="list-disc pl-5">
+    <li>Writing chemical equations for given reactions</li>
+    <li>Balancing chemical equations</li>
+    <li>Transforming chemical equations into ionic equations</li>
+  </ul>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Periodic Table Structure
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>Elements arranged by increasing atomic number</li>
-              <li>Based on Periodic Law: Properties repeat periodically</li>
-              <li>7 periods (horizontal rows)</li>
-              <li>18 groups (vertical columns)</li>
-            </ul>
-          </section>
+  <p className="mt-6 text-lg font-medium"><strong>Note:</strong> This content covers the basics of chemical equations, balancing, and ionic equations. It provides a foundation for understanding chemical reactions and their symbolic representations.</p>
+</div>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Blocks in the Periodic Table
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>s-block: Groups 1 and 2</li>
-              <li>p-block: Groups 13 to 18 (except He)</li>
-              <li>d-block: Transition elements</li>
-              <li>f-block: Lanthanides and actinides</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Importance of the Periodic Table
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>Organizes element information</li>
-              <li>Predicts properties and reactivity</li>
-              <li>Relates reactivity to atomic structure</li>
-              <li>Predicts bond types (ionic or covalent)</li>
-            </ul>
-          </section>
-        </div>
-      </div>
     </div>
   );
 };

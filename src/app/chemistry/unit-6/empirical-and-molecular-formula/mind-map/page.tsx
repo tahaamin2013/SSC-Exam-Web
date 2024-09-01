@@ -7,238 +7,131 @@ const MagneticMindmap = () => {
     <div className="p-8 flex flex-col gap-8">
       <section>
         <h1 className="text-4xl font-bold text-blue-500">
-          Periodic Table and Periodicity
+          Periodic Table Empirical and Molecular Formulas: Periodicity
         </h1>
         <PlantUMLDiagram
           code={`
 @startmindmap
-<style>
-mindmapDiagram {
-    node {
-        BackgroundColor lightBlue
-    }
-    :depth(1) {
-      BackgroundColor lightGreen
-    }
-    :depth(2) {
-      BackgroundColor lightYellow
-    }
-    :depth(3) {
-      BackgroundColor lightPink
-    }
-}
-</style>
-* Periodic Table and Periodicity
-** Structure
-*** Periods (horizontal rows)
-**** 7 periods
-**** Short periods (1-3)
-**** Long periods (4-7)
-*** Groups (vertical columns)
-*** Blocks
-**** s-block (Groups 1-2)
-**** p-block (Groups 13-18)
-**** d-block (Transition elements)
-**** f-block (Lanthanides and Actinides)
-** Element Properties
-*** Group 1 (Alkali Metals)
-**** Soft metals
-**** Decreasing melting point
-**** Increasing density
-**** Increasing reactivity
-*** Group 7 (Halogens)
-**** Diatomic non-metals
-**** Increasing density
-**** Decreasing reactivity
-**** Appearances at room temperature
-*** Group 18 (Noble Gases)
-**** Unreactive monoatomic gases
-*** Transition Elements
-**** High densities
-**** High melting points
-**** Variable oxidation numbers
-**** Colored compounds
-**** Catalytic properties
-** Periodic Law
-*** Elements arranged by atomic number
-*** Properties repeat periodically
-** Predicting Properties
-*** Based on group trends
-*** Based on period trends
-** Metal vs Non-metal Properties
-*** Thermal conductivity
-*** Electrical conductivity
-*** Malleability and ductility
-*** Melting and boiling points
-** Applications
-*** Predicting reactivity
-*** Understanding bonding
-*** Catalysts in industrial processes
+*[#LightBlue] Stoichiometry
+** Student Learning Outcomes
+*** State formulae of common elements/compounds
+*** Define molecular formula
+*** Define empirical formula
+*** Deduce formulas and names of binary compounds
+*** Calculate moles, mass, molar mass
+*** Define mole and Avogadro's constant
+*** Construct chemical equations
+** Introduction
+*** Historical context
+**** Ancient Greek philosophy
+**** John Dalton's atomic theory
+**** 20th century atomic structure
+** Empirical Formula
+*** Definition
+**** Simplest integer ratio of atoms
+*** Examples
+**** Hydrogen peroxide (HO)
+**** Glucose (CH2O)
+** Molecular Formula
+*** Definition
+**** Actual number of atoms in molecule
+*** Examples
+**** Hydrogen peroxide (H2O2)
+**** Glucose (C6H12O6)
+**** Benzene (C6H6)
+** Relationship between Formulas
+*** Sometimes identical
+**** Water (H2O)
+**** Carbon dioxide (CO2)
+*** Sometimes different
+**** Benzene (Empirical: CH, Molecular: C6H6)
+** Common Formulas Table
+*** Elements
+**** Hydrogen (H2)
+**** Oxygen (O2)
+**** Nitrogen (N2)
+*** Compounds
+**** Water (H2O)
+**** Carbon dioxide (CO2)
+**** Glucose (C6H12O6)
+** Concept Assessment Exercises
+*** Writing empirical formulas
+*** Aspirin formula
+*** Acetic acid formula
+*** Caffeine formula
 @endmindmap`}
         />
-        <Image alt="fd" height={7000} src="/table.jpg" width={700} />
       </section>
 
-      <div className="bg-gradient-to-r from-blue-100 to-purple-100 p-10 font-sans">
-        <div className="max-w-5xl mx-auto p-8 bg-white shadow-lg rounded-[2rem]">
-          <h1 className="text-4xl font-bold text-center text-black mb-8">
-            Periodic Table and Periodicity
-          </h1>
+      <div className="p-6 bg-white text-gray-900 border border-gray-200 rounded-lg shadow-md">
+  <h1 className="text-4xl font-bold mb-6">Unit 06: Stoichiometry</h1>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Element Properties and Prediction
-            </h2>
-            <p className="text-lg text-gray-700 mb-4">
-              Use chemical periodicity to predict properties of elements in a
-              group. Deduce unknown elements' nature and position from given
-              properties.
-            </p>
-          </section>
+  <section className="mb-6">
+    <h2 className="text-3xl font-semibold mb-4">I. Student Learning Outcomes (SLOs):</h2>
+    <ul className="list-disc pl-5 space-y-2">
+      <li>State formulae of common elements and compounds</li>
+      <li>Define molecular formula</li>
+      <li>Define empirical formula</li>
+      <li>Deduce formula and name of binary compounds from ions</li>
+      <li>Deduce formula of molecular substances from given structures</li>
+      <li>Use relationship: amount of substance = mass/molar mass</li>
+      <li>Define mole and Avogadro's number</li>
+      <li>Explain relationship between mole and Avogadro's constant</li>
+      <li>Construct chemical and ionic equations</li>
+      <li>Deduce symbol equations with state symbols</li>
+    </ul>
+  </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Group 1 (Alkali Metals)
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>Characteristics: Relatively soft metals</li>
-              <li>
-                Trends down the group:
-                <ul className="list-disc pl-5">
-                  <li>Decreasing melting point</li>
-                  <li>Increasing density</li>
-                  <li>Increasing reactivity</li>
-                </ul>
-              </li>
-            </ul>
-          </section>
+  <section className="mb-6">
+    <h2 className="text-3xl font-semibold mb-4">II. Introduction:</h2>
+    <ul className="list-disc pl-5 space-y-2">
+      <li>Historical context: Ancient Greek philosophers' beliefs about elemental substances</li>
+      <li>John Dalton's atomic theory in the 19th century</li>
+      <li>20th century developments in atomic structure</li>
+      <li>Chapter goal: Understand fundamental concepts about matter</li>
+    </ul>
+  </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Group 7 (Halogens)
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>Characteristics: Diatomic non-metals</li>
-              <li>
-                Trends down the group:
-                <ul className="list-disc pl-5">
-                  <li>Increasing density</li>
-                  <li>Decreasing reactivity</li>
-                </ul>
-              </li>
-              <li>
-                Appearances at room temperature:
-                <ul className="list-disc pl-5">
-                  <li>Fluorine: Pale yellow gas</li>
-                  <li>Chlorine: Yellow-green gas</li>
-                  <li>Bromine: Red-brown liquid</li>
-                  <li>Iodine: Grey-black solid</li>
-                </ul>
-              </li>
-              <li>
-                Reactions:
-                <ul className="list-disc pl-5">
-                  <li>Displacement reactions with halide ions</li>
-                  <li>Act as reducing agents</li>
-                </ul>
-              </li>
-            </ul>
-          </section>
+  <section className="mb-6">
+    <h2 className="text-3xl font-semibold mb-4">III. Empirical and Molecular Formulas:</h2>
+    <h3 className="text-2xl font-semibold mb-2">A. Empirical Formula:</h3>
+    <p className="mb-4">
+      <strong>Definition:</strong> Simplest integer ratio of atoms of each element in a compound.<br/>
+      <strong>Example:</strong> Hydrogen peroxide (HO)<br/>
+      <strong>Exercise:</strong> Empirical formula of glucose
+    </p>
+    <h3 className="text-2xl font-semibold mb-2">B. Molecular Formula:</h3>
+    <p className="mb-4">
+      <strong>Definition:</strong> Specifies the actual number of atoms of each element in one molecule.<br />
+      <strong>Example:</strong> Hydrogen peroxide (H₂O₂), Glucose (C₆H₁₂O₆)<br/>
+      <strong>Relationship to empirical formula:</strong> Molecular formula is a multiple of the empirical formula.<br/>
+      <strong>Examples where empirical and molecular formulas are the same:</strong> H₂O (water), NH₃ (ammonia)
+    </p>
+  </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Hydrogen Halides
-            </h2>
-            <p className="text-lg text-gray-700">
-              Analyze relative thermal stabilities. Explain in terms of bond
-              strengths.
-            </p>
-          </section>
+  <section className="mb-6">
+    <h2 className="text-3xl font-semibold mb-4">IV. Common Formulas:</h2>
+    <p className="mb-4">
+      <strong>Table of common elements and compounds with their formulas:</strong>
+    </p>
+    <ul className="list-disc pl-5 space-y-2">
+      <li><strong>Elements:</strong> Hydrogen (H₂), Oxygen (O₂), Nitrogen (N₂), etc.</li>
+      <li><strong>Compounds:</strong> Water (H₂O), Carbon dioxide (CO₂), Hydrochloric acid (HCl), etc.</li>
+    </ul>
+  </section>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Transition Elements
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>
-                Characteristics:
-                <ul className="list-disc pl-5">
-                  <li>High densities</li>
-                  <li>High melting points</li>
-                  <li>Variable oxidation numbers</li>
-                  <li>Form colored compounds</li>
-                  <li>
-                    Act as catalysts (e.g., Haber process, catalytic converters)
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </section>
+  <section>
+    <h2 className="text-3xl font-semibold mb-4">V. Practice Exercises:</h2>
+    <ul className="list-disc pl-5 space-y-2">
+      <li>Writing empirical formulas for carbon-hydrogen compounds</li>
+      <li>Determining empirical and molecular formulas for aspirin, acetic acid, and caffeine</li>
+    </ul>
+    <p className="mt-4 text-lg font-medium">
+      <strong>Note:</strong> This unit introduces basic concepts of chemical formulas and stoichiometry, providing a foundation for understanding chemical composition and reactions. It emphasizes the difference between empirical and molecular formulas and includes practical exercises for application of these concepts.
+    </p>
+  </section>
+</div>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Group 18 (Noble Gases)
-            </h2>
-            <p className="text-lg text-gray-700">
-              Characteristics: Unreactive monoatomic gases. Explain unreactivity
-              in terms of electronic configuration.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Metals vs. Non-metals
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>
-                Compare general physical properties:
-                <ul className="list-disc pl-5">
-                  <li>Thermal conductivity</li>
-                  <li>Electrical conductivity</li>
-                  <li>Malleability and ductility</li>
-                  <li>Melting and boiling points</li>
-                </ul>
-              </li>
-            </ul>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Periodic Table Structure
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>Elements arranged by increasing atomic number</li>
-              <li>Based on Periodic Law: Properties repeat periodically</li>
-              <li>7 periods (horizontal rows)</li>
-              <li>18 groups (vertical columns)</li>
-            </ul>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Blocks in the Periodic Table
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>s-block: Groups 1 and 2</li>
-              <li>p-block: Groups 13 to 18 (except He)</li>
-              <li>d-block: Transition elements</li>
-              <li>f-block: Lanthanides and actinides</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold text-black mb-4">
-              Importance of the Periodic Table
-            </h2>
-            <ul className="list-disc pl-5 text-lg text-gray-700">
-              <li>Organizes element information</li>
-              <li>Predicts properties and reactivity</li>
-              <li>Relates reactivity to atomic structure</li>
-              <li>Predicts bond types (ionic or covalent)</li>
-            </ul>
-          </section>
-        </div>
-      </div>
     </div>
   );
 };

@@ -1,5 +1,3 @@
-// pages/unit06.js
-
 import React from 'react';
 
 export default function Unit06() {

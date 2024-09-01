@@ -7,133 +7,95 @@ const MagneticMindmap = () => {
     <div className="p-8 flex flex-col gap-8">
       <section>
         <h1 className="text-4xl font-bold text-blue-500">
-          Periodic Table and Periodicity
-        </h1>
-        <PlantUMLDiagram
-          code={`
-@startmindmap
-<style>
-mindmapDiagram {
-    node {
-        BackgroundColor lightBlue
-    }
-    :depth(1) {
-      BackgroundColor lightGreen
-    }
-    :depth(2) {
-      BackgroundColor lightYellow
-    }
-    :depth(3) {
-      BackgroundColor lightPink
-    }
-}
-</style>
-* Periodic Table and Periodicity
-** Structure
-*** Periods (horizontal rows)
-**** 7 periods
-**** Short periods (1-3)
-**** Long periods (4-7)
-*** Groups (vertical columns)
-*** Blocks
-**** s-block (Groups 1-2)
-**** p-block (Groups 13-18)
-**** d-block (Transition elements)
-**** f-block (Lanthanides and Actinides)
-** Element Properties
-*** Group 1 (Alkali Metals)
-**** Soft metals
-**** Decreasing melting point
-**** Increasing density
-**** Increasing reactivity
-*** Group 7 (Halogens)
-**** Diatomic non-metals
-**** Increasing density
-**** Decreasing reactivity
-**** Appearances at room temperature
-*** Group 18 (Noble Gases)
-**** Unreactive monoatomic gases
-*** Transition Elements
-**** High densities
-**** High melting points
-**** Variable oxidation numbers
-**** Colored compounds
-**** Catalytic properties
-** Periodic Law
-*** Elements arranged by atomic number
-*** Properties repeat periodically
-** Predicting Properties
-*** Based on group trends
-*** Based on period trends
-** Metal vs Non-metal Properties
-*** Thermal conductivity
-*** Electrical conductivity
-*** Malleability and ductility
-*** Melting and boiling points
-** Applications
-*** Predicting reactivity
-*** Understanding bonding
-*** Catalysts in industrial processes
-@endmindmap`}
-        />
-        <Image alt="fd" height={7000} src="/table.jpg" width={700} />
+        Molecular and Structural Formula        </h1>
+        Mindmap here
       </section>
 
-      <div class="bg-gradient-to-r from-gray-100 to-blue-300 text-gray-900">
-    <div class="max-w-4xl mx-auto p-8">
-        <h1 class="text-4xl font-bold text-center mb-8">Chemical Formula and Avogadro's Number</h1>
+      <div className="p-6 bg-white text-gray-900 border border-gray-200 rounded-lg shadow-md">
+  <h1 className="text-4xl font-bold mb-6">Molecular and Structural Formula</h1>
 
-        <div class="bg-white p-6 rounded-2xl shadow-lg mb-8">
-            <h2 class="text-3xl font-semibold mb-4">6.3 Chemical Formula and Name of Binary Ionic Compounds</h2>
-            <p class="text-lg mb-4">Binary ionic compound: Composed of mono-atomic metal cations and mono-atomic non-metal anions.</p>
-            <p class="text-lg mb-4">Naming convention: Cation name + anion name (with -ide suffix).</p>
-            <p class="text-lg mb-4">Steps to write chemical formula:</p>
-            <ol class="list-decimal list-inside space-y-2 text-lg">
-                <li>Write symbols for cation and anion with charges</li>
-                <li>Balance charges using smallest coefficients</li>
-                <li>Write coefficients as subscripts</li>
-                <li>Omit charge subscripts of 1</li>
-            </ol>
-            <p class="text-lg mt-4">Examples:</p>
-            <ul class="list-disc list-inside space-y-2 text-lg">
-                <li><strong>NaCl:</strong> Sodium chloride</li>
-                <li><strong>Al₂O₃:</strong> Aluminium oxide</li>
-            </ul>
-        </div>
+  <section className="mb-6">
+    <h2 className="text-3xl font-semibold mb-4">I. Definitions:</h2>
+    <h3 className="text-2xl font-semibold mb-2">A. Structural Formula:</h3>
+    <p className="mb-4">
+      Shows the arrangement of atoms in a compound.
+    </p>
+    <h3 className="text-2xl font-semibold mb-2">B. Molecular Formula:</h3>
+    <p className="mb-4">
+      Shows the number of atoms of each element in a compound.
+    </p>
+  </section>
 
-        <div class="bg-white p-6 rounded-2xl shadow-lg mb-8">
-            <h2 class="text-3xl font-semibold mb-4">6.4 Avogadro's Number and Mole</h2>
-            <p class="text-lg mb-4">Mole: Amount of substance containing 6.022 x 10<sup>23</sup> particles</p>
-            <p class="text-lg mb-4">Avogadro's number (N<sub>A</sub>): 6.022 x 10<sup>23</sup></p>
-            <p class="text-lg mb-4">Molar mass: Mass of one mole of a substance</p>
-            
-            <div class="bg-gray-50 p-4 rounded-lg mt-6">
-                <h3 class="text-2xl font-semibold mb-4">6.4.1 Gram Atomic Mass, Gram Molecular Mass, and Gram Formula Mass</h3>
-                <p class="text-lg mb-4">Gram atomic mass: Atomic mass of an element expressed in grams</p>
-                <p class="text-lg mb-4">Gram molecular mass: Molecular mass of a substance expressed in grams</p>
-                <p class="text-lg mb-4">Gram formula mass: Formula mass of a substance expressed in grams</p>
-                <p class="text-lg mt-4">Examples:</p>
-                <ul class="list-disc list-inside space-y-2 text-lg">
-                    <li><strong>Gram atomic mass of C:</strong> 12 g</li>
-                    <li><strong>Gram molecular mass of H₂O:</strong> 18.016 g</li>
-                    <li><strong>Gram formula mass of NaCl:</strong> 58.5 g</li>
-                </ul>
-            </div>
+  <section className="mb-6">
+    <h2 className="text-3xl font-semibold mb-4">II. Example:</h2>
+    <p className="mb-4">
+      <strong>n-Butane</strong><br />
+      - Structural formula: <span className="font-mono">CH₃-CH₂-CH₂-CH₃</span><br/>
+      - Molecular formula: <span className="font-mono">C₄H₁₀</span>
+    </p>
+  </section>
 
-            <div class="bg-gray-50 p-4 rounded-lg mt-6">
-                <h3 class="text-2xl font-semibold mb-4">6.4.2 Differences between Gram Atomic Mass, Gram Molecular Mass, and Gram Formula Mass</h3>
-                <p class="text-lg mb-4">Representation:</p>
-                <ul class="list-disc list-inside space-y-2 text-lg">
-                    <li><strong>Gram atomic mass:</strong> One mole of atoms</li>
-                    <li><strong>Gram molecular mass:</strong> One mole of molecules</li>
-                    <li><strong>Gram formula mass:</strong> One mole of ionic formula units</li>
-                </ul>
-                <p class="text-lg mb-4">Particle count: All contain 6.022 x 10<sup>23</sup> particles</p>
-                <p class="text-lg mb-4">Molar mass: All represent molar mass (mass of one mole of substance in grams)</p>
-            </div>
-        </div>
-    </div>
-</body>
+  <section className="mb-6">
+    <h2 className="text-3xl font-semibold mb-4">III. Steps to Write Molecular Formula from Structural Formula:</h2>
+    <ol className="list-decimal pl-5 space-y-2 mb-4">
+      <li>Identify different types of elements in the structural formula.</li>
+      <li>Write symbols of these elements side by side.</li>
+      <li>Count the number of atoms of each element.</li>
+      <li>Show this number as subscripts for each element symbol.</li>
+    </ol>
+  </section>
+
+  <section className="mb-6">
+    <h2 className="text-3xl font-semibold mb-4">IV. Example 6.13: Writing the Molecular Formula</h2>
+    <p className="mb-4">
+      Given structural formula: <span className="font-mono">CH₃-CH₂-CH₂-OH</span><br/>
+      Molecular formula: <span className="font-mono">C₃H₈O</span>
+    </p>
+  </section>
+
+  <section className="mb-6">
+    <h2 className="text-3xl font-semibold mb-4">V. Practice Exercise:</h2>
+    <ul className="list-disc pl-5 space-y-2 mb-4">
+      <li>Write molecular formulae for:
+        <ul className="list-disc pl-5 mt-2 space-y-1">
+          <li><span className="font-mono">CH₃-CH₂-OH</span></li>
+          <li><span className="font-mono">CH₃-CH₂-NH₂</span></li>
+          <li><span className="font-mono">CH₃-CO-CH₃</span></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section className="mb-6">
+    <h2 className="text-3xl font-semibold mb-4">VI. Key Points:</h2>
+    <ul className="list-disc pl-5 space-y-2 mb-4">
+      <li><strong>Chemistry:</strong> Science of materials of the universe</li>
+      <li><strong>Physical Chemistry:</strong> Deals with laws and theories of matter structure and changes</li>
+      <li><strong>Element:</strong> Substance with atoms of the same atomic number</li>
+      <li><strong>Compound:</strong> Two or more elements in fixed proportions held by chemical bonds</li>
+      <li><strong>Empirical Formula:</strong> Simplest whole-number ratio of atoms in a compound</li>
+      <li><strong>Molecular Formula:</strong> Exact number of atoms in a molecule</li>
+      <li><strong>Molecular Mass:</strong> Sum of atomic masses of all atoms in a molecule</li>
+      <li><strong>Avogadro's Number:</strong> Number of particles in one mole of a substance</li>
+      <li><strong>Mole:</strong> Amount of matter containing Avogadro's number of particles</li>
+      <li><strong>Gram Atomic Mass:</strong> Atomic mass in grams</li>
+      <li><strong>Gram Molecular Mass:</strong> Molecular mass in grams</li>
+      <li><strong>Gram Formula Mass:</strong> Formula mass in grams</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 className="text-3xl font-semibold mb-4">VII. Additional References:</h2>
+    <ul className="list-disc pl-5">
+      <li>Zumdahl, Introductory Chemistry</li>
+      <li>Raymond Chang, Essential Chemistry</li>
+    </ul>
+    <p className="mt-4 text-lg font-medium">
+      <strong>Note:</strong> This section covers the relationship between structural and molecular formulas, providing a method to derive molecular formulas from structural representations. It also summarizes key concepts in chemistry, emphasizing the importance of understanding molecular structure and composition.
+    </p>
+  </section>
+</div>
+
     </div>
   );
 };
