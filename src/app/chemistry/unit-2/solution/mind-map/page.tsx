@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import PlantUMLDiagram from "@/components/PlantUMLDiagram";
 import React from "react";
 
@@ -9,49 +10,51 @@ const MagneticMindmap = () => {
         <PlantUMLDiagram
           code={`
 @startmindmap
-<style>
-mindmapDiagram {
-  node {
-    BackgroundColor lightGreen
-  }
-  :depth(1) {
-    BackgroundColor lightBlue
-  }
-  :depth(2) {
-    BackgroundColor pink
-  }
-  :depth(3) {
-    BackgroundColor lightyellow
-  }
-}
-</style>
-* Allotropes of Carbon
-** Graphite
-*** Flat 2D layers of hexagonally arranged carbon atoms
-*** Each C-atom covalently bonded to 3 others in a layer
-*** Weak intermolecular bonds between layers
-*** Properties
-**** Soft and slippery
-**** Good conductor of electricity
-**** Used as lubricant
-** Diamond
-*** Hardest and purest crystalline allotrope
-*** Each C-atom covalently bonded to 4 others
-*** Rigid network of tetrahedral shape
-*** Properties
-**** Hardest substance
-**** Very high melting point
-**** Non-conductor of electricity
-** Buckyballs (C-60)
-*** Also known as fullerenes
-*** Football-like fused hollow ring structure
-*** 20 hexagons and 12 pentagons
-*** Each of 60 carbon atoms bonded to 3 others
-
-center footer Allotropes: Different structural forms of the same element in the same physical state
+* Solutions
+** Definition
+*** Homogeneous mixture of two or more substances
+** Key characteristics
+*** One substance dissolved in another
+*** No visible particles
+*** Uniform appearance
+** Components
+*** Solute
+*** Solvent
+** Particle size
+*** Microscopic (< 1 nm)
+** Stability
+*** Very stable
+** Types
+*** Gaseous solutions
+**** Solvent: Gas
+**** Solute: Gas, liquid, or solid
+**** Examples
+***** N₂ and H₂ mixture
+***** NH₃ and CO₂ mixture
+***** Fog, clouds, mist
+***** Smoke
+*** Liquid solutions
+**** Examples
+***** Carbonated drinks
+***** Rectified spirit
+***** Vinegar
+***** Brine
+***** Sugar syrup
+*** Solid solutions
+**** Examples
+***** H₂ on Ni surface
+***** Amalgam
+***** Alloys
+****** Brass
+****** Bronze
+****** Steel
+** Real-life Examples
+*** Air
+*** Seawater
+*** Alloy
 @endmindmap`}
         />
-       
+       <Image src="/solute-solvent-solution4 (1).png" alt="Solute Solvent Solution Image" width={600} height={600} />
       </section>
 
       <div className="p-8 bg-gradient-to-r from-blue-50 to-teal-50 rounded-lg shadow-xl">

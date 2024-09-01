@@ -54,6 +54,33 @@ left side
 **** Forms a new substance
 @endmindmap`}
                 />
+                <PlantUMLDiagram
+                    code={`
+@startmindmap
+* Dispersed Substances / Mixture
+** Colloid
+*** Definition
+**** Microscopic particles dispersed in a medium
+**** Particles not dissolved
+*** Characteristics
+**** Particles do not settle if undisturbed
+*** Example
+**** Pumice (air in stone)
+** Emulsion
+*** Definition
+**** Type of colloid
+**** Liquid particles in another liquid
+*** Example
+**** Milk (butterfat in water-based medium)
+** Suspension
+*** Definition
+**** Similar to colloid, but larger particles
+*** Characteristics
+**** Particles eventually settle
+*** Example
+**** Sand in water
+@endmindmap`}
+                />
             </section>
 
             <div className="p-8 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg shadow-xl">
@@ -75,6 +102,86 @@ left side
                             <li>a. Colloid</li>
                             <li>b. Suspension</li>
                         </ul>
+                        <div className="p-6 bg-white text-gray-900 border border-gray-200 rounded-lg shadow-md">
+  <h1 className="text-4xl font-bold mb-6">Colloids, Emulsions, and Suspensions</h1>
+
+  <section className="mb-6">
+    <h2 className="text-3xl font-semibold mb-4">1. Colloid</h2>
+    <p className="mb-4">
+      <strong>Definition:</strong> A substance with microscopic particles dispersed in a medium, not dissolved.
+    </p>
+    <p className="mb-4">
+      <strong>Characteristics:</strong>
+      <ul className="list-disc pl-5 space-y-2">
+        <li>Dispersed particles do not settle or form sediment if left undisturbed.</li>
+      </ul>
+    </p>
+    <p>
+      <strong>Example:</strong> Pumice (air particles dispersed in solid stone).
+    </p>
+  </section>
+
+  <section className="mb-6">
+    <h2 className="text-3xl font-semibold mb-4">2. Emulsion</h2>
+    <p className="mb-4">
+      <strong>Definition:</strong> A specific type of colloid.
+    </p>
+    <p className="mb-4">
+      <strong>Characteristics:</strong>
+      <ul className="list-disc pl-5 space-y-2">
+        <li>Microscopic particles of liquid dispersed in another liquid.</li>
+      </ul>
+    </p>
+    <p>
+      <strong>Example:</strong> Milk (lipophilic butterfat particles dispersed in a water-based medium).
+    </p>
+  </section>
+
+  <section className="mb-6">
+    <h2 className="text-3xl font-semibold mb-4">3. Suspension</h2>
+    <p className="mb-4">
+      <strong>Definition:</strong> Similar to a colloid, but with larger dispersed particles.
+    </p>
+    <p className="mb-4">
+      <strong>Characteristics:</strong>
+      <ul className="list-disc pl-5 space-y-2">
+        <li>Dispersed particles will eventually settle or form sediment.</li>
+      </ul>
+    </p>
+    <p>
+      <strong>Example:</strong> Sand in water (when shaken, sand disperses; when left alone, it settles at the bottom).
+    </p>
+  </section>
+
+  <section>
+    <h2 className="text-3xl font-semibold mb-4">## Key Differences</h2>
+    <ul className="list-disc pl-5 space-y-4 mb-4">
+      <li>
+        <strong>Particle Size:</strong>
+        <ul className="list-disc pl-5 mt-2 space-y-1">
+          <li>Colloids and Emulsions: Microscopic particles</li>
+          <li>Suspensions: Larger particles</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Settling Behavior:</strong>
+        <ul className="list-disc pl-5 mt-2 space-y-1">
+          <li>Colloids and Emulsions: Do not settle</li>
+          <li>Suspensions: Will settle over time</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Medium:</strong>
+        <ul className="list-disc pl-5 mt-2 space-y-1">
+          <li>Colloids: Any medium (solid, liquid, or gas)</li>
+          <li>Emulsions: Specifically liquid in liquid</li>
+          <li>Suspensions: Typically solid in liquid</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</div>
+
                     </ul>
                 </div>
 
