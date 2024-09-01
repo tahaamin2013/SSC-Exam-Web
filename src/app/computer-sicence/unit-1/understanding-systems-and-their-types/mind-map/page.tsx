@@ -44,7 +44,7 @@ const Page = () => {
 +++[#87CEEB] Weather Systems
 ++++_ Atmospheric interactions: Rainfall, wind patterns, temperature changes
 +++[#87CEEB] Geological Systems
-++++_ Plate Tectonics: Movement of Earth's plates causing earthquakes and volcanic eruptions
+++++_ Plate Tectonics: Movement of Earth&apos;splates causing earthquakes and volcanic eruptions
 ++++_ Mountain Systems: Formed by tectonic plate collisions, e.g., Himalayas
 +++[#87CEEB] Hydrological Systems
 ++++_ Water movement and distribution: Rivers, lakes, water cycle

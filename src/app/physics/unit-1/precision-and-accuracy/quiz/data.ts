@@ -347,7 +347,7 @@ export const quiz = {
         "It increases the perceived precision of the measurement",
         "It improves the accuracy of the measurement",
         "It has no effect on precision",
-        "It decreases the measurement's reliability",
+        "It decreases the measurement&apos;sreliability",
       ],
       correctAnswer: "It increases the perceived precision of the measurement",
     },

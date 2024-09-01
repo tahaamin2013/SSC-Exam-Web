@@ -84,7 +84,7 @@ export const quiz = {
         "A) Length and Width",
         "B) Sum of grades",
         "C) Grade 1, Grade 2, Grade 3",
-        "D) Student's average",
+        "D) Student&apos;saverage",
       ],
       correctAnswer: "C) Grade 1, Grade 2, Grade 3",
     },
@@ -95,7 +95,7 @@ export const quiz = {
       answers: [
         "A) Divide sum by the number of grades",
         "B) Sum all grades",
-        "C) Output the student's average",
+        "C) Output the student&apos;saverage",
         "D) Enter grades into the system",
       ],
       correctAnswer: "B) Sum all grades",
@@ -344,7 +344,7 @@ export const quiz = {
     {
       id: 31,
       question:
-        "In a bank's ATM system IPO chart, what would be the input for a cash withdrawal?",
+        "In a bank&apos;sATM system IPO chart, what would be the input for a cash withdrawal?",
       answers: [
         "A) Account balance",
         "B) Withdrawal amount",
@@ -387,7 +387,7 @@ export const quiz = {
     {
       id: 35,
       question:
-        "For calculating a student's average, which step is part of the 'Process'?",
+        "For calculating a student&apos;saverage, which step is part of the 'Process'?",
       answers: [
         "A) Sum all grades",
         "B) Grade 1, Grade 2, Grade 3",

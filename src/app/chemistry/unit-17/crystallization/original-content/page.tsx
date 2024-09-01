@@ -59,7 +59,7 @@ const Crystallization = () => {
       </p>
 
       <p className="mb-4">
-        To determine if a substance is pure in school laboratories, we can check the substance's melting or boiling points. Impure substances tend to have a slightly lower melting point and higher boiling point than the pure substance, and a broader range.
+        To determine if a substance is pure in school laboratories, we can check the substance&apos;s  melting or boiling points. Impure substances tend to have a slightly lower melting point and higher boiling point than the pure substance, and a broader range.
       </p>
 
       <p className="mb-4">

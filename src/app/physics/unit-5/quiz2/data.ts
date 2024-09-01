@@ -12,7 +12,7 @@ export const quiz = {
       id: 2,
       question:
         "The force that acts on unit area of an object and thus changes its shape or size:",
-      answers: ["Stress", "Strain", "Young's Modulus", "Elastic limit"],
+      answers: ["Stress", "Strain", "Young&apos;sModulus", "Elastic limit"],
       correctAnswer: "Stress",
     },
     {
@@ -24,7 +24,7 @@ export const quiz = {
     {
       id: 4,
       question: "The ratio of change in length to the original length is:",
-      answers: ["Stress", "Strain", "Young's Modulus", "Elastic limit"],
+      answers: ["Stress", "Strain", "Young&apos;sModulus", "Elastic limit"],
       correctAnswer: "Strain",
     },
     {
@@ -42,7 +42,7 @@ export const quiz = {
     {
       id: 7,
       question:
-        "According to Hooke's law, within the elastic limit stress and strain has proportion:",
+        "According to Hooke&apos;slaw, within the elastic limit stress and strain has proportion:",
       answers: ["Inverse", "Direct", "Same", "None of above"],
       correctAnswer: "Direct",
     },
@@ -54,7 +54,7 @@ export const quiz = {
     },
     {
       id: 9,
-      question: "The unit of Young's modulus is:",
+      question: "The unit of Young&apos;smodulus is:",
       answers: ["Nm", "Nm", "Nm", "None of above"],
       correctAnswer: "None of above",
     },
@@ -94,12 +94,12 @@ export const quiz = {
       id: 15,
       question: "Hydraulic press is based on:",
       answers: [
-        "Joule's law",
-        "Pascal's law",
-        "Newton's law",
-        "Young's Modulus",
+        "Joule&apos;slaw",
+        "Pascal&apos;slaw",
+        "Newton&apos;slaw",
+        "Young&apos;sModulus",
       ],
-      correctAnswer: "Pascal's law",
+      correctAnswer: "Pascal&apos;slaw",
     },
     {
       id: 16,
@@ -110,15 +110,15 @@ export const quiz = {
     {
       id: 17,
       question: "Hydraulic brake works on the principle of:",
-      answers: ["Hydraulic press", "Pascal's law", "Joule's law", "Both a & b"],
+      answers: ["Hydraulic press", "Pascal&apos;slaw", "Joule&apos;slaw", "Both a & b"],
       correctAnswer: "Both a & b",
     },
     {
       id: 18,
       question: "Tells about the floating and sinking of objects:",
       answers: [
-        "Pascal's law",
-        "Newton's law",
+        "Pascal&apos;slaw",
+        "Newton&apos;slaw",
         "Archimedes' principle",
         "None of them",
       ],
@@ -154,8 +154,8 @@ export const quiz = {
       id: 23,
       question: "Submarine works on the principle of:",
       answers: [
-        "Pascal's law",
-        "Newton's law",
+        "Pascal&apos;slaw",
+        "Newton&apos;slaw",
         "Archimedes' principle",
         "None of them",
       ],

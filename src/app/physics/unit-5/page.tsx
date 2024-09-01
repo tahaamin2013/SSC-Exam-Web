@@ -67,7 +67,7 @@ const data = [
     },
     {
         id: "6",
-        title: "5.6 PASCAL'S PRINCIPLE",
+        title: "5.6 PASCAL&apos;sPRINCIPLE",
         links: [
             { href: "/physics/unit-5/pascals-principle/original-content", text: "Original Content", icon: List },
             { href: "/physics/unit-5/pascals-principle/notes", text: "Notes", icon: BookOpen },

@@ -9,7 +9,7 @@ export const quiz = {
     },
     {
       id: 2,
-      question: "Hooke's law holds good up to:",
+      question: "Hooke&apos;slaw holds good up to:",
       answers: [
         "Proportional Limit",
         "Yield Limit",
@@ -33,7 +33,7 @@ export const quiz = {
         "Elastic Materials",
         "Plastic Materials",
         "Rigid Materials",
-        "Hooke's Materials",
+        "Hooke&apos;sMaterials",
       ],
       correctAnswer: "Plastic Materials",
     },

@@ -60,7 +60,7 @@ const questionsAndAnswers = [
         answer: "By allowing content to load without refreshing the entire webpage, leading to a smoother user experience."
     },
     {
-        question: "What HTML element is used to display the result of the user's selection in the example?",
+        question: "What HTML element is used to display the result of the user&apos;sselection in the example?",
         answer: "The `<p>` tag with the id 'result'."
     },
 ];

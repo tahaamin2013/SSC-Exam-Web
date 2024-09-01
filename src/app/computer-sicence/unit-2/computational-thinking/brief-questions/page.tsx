@@ -41,7 +41,7 @@ const questionsAndAnswers = [
     },
     {
         question: "What is a tip for learning programming related to computational thinking?",
-        answer: "Before diving into programming, it's beneficial to understand and practice computational thinking. This foundational approach will help you tackle problems more effectively and design better solutions."
+        answer: "Before diving into programming, it&apos;sbeneficial to understand and practice computational thinking. This foundational approach will help you tackle problems more effectively and design better solutions."
     }
 ];
 

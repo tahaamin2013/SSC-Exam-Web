@@ -129,10 +129,10 @@ export const quiz = {
       id: 14,
       question: "Why does the sky appear blue?",
       answers: [
-        "Because of the ocean's reflection",
+        "Because of the ocean&apos;sreflection",
         "Due to the scattering of sunlight by gas molecules",
-        "Because of the sun's color",
-        "Due to the moon's light",
+        "Because of the sun&apos;scolor",
+        "Due to the moon&apos;slight",
       ],
       correctAnswer: "Due to the scattering of sunlight by gas molecules",
     },
@@ -185,12 +185,12 @@ export const quiz = {
       id: 19,
       question: "What does the theory of relativity improve upon?",
       answers: [
-        "Newton's laws of motion at slow speeds",
+        "Newton&apos;slaws of motion at slow speeds",
         "The laws of thermodynamics",
         "The principles of quantum mechanics",
         "The rules of chemical reactions",
       ],
-      correctAnswer: "Newton's laws of motion at slow speeds",
+      correctAnswer: "Newton&apos;slaws of motion at slow speeds",
     },
     {
       id: 20,

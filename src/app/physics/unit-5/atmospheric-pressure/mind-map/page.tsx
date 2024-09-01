@@ -13,7 +13,7 @@ const MindmapFriction = () => {
 * Atmospheric Pressure
 ** Definition
 *** Pressure exerted by atmospheric particles
-*** Acts on Earth's surface and objects
+*** Acts on Earth&apos;ssurface and objects
 ** Characteristics
 *** Varies with weather
 *** Varies with altitude
@@ -31,7 +31,7 @@ left side
 *** Suction cups
 *** Collapsing sealed can experiment
 ** Historical Note
-*** Otto Von Guricke's experiment
+*** Otto Von Guricke&apos;sexperiment
 **** 17th century
 **** Hemispheres and horse teams
 ** Key Concepts

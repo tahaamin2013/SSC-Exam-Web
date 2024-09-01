@@ -64,7 +64,7 @@ left side
 *** Media and Entertainment
 **** Targeting audiences
 **** Predicting content preferences
-**** Example: Spotify's personalized playlists
+**** Example: Spotify&apos;spersonalized playlists
 *** IoT
 **** Enhancing capabilities of IoT devices
 **** Example: Smart homes optimizing energy usage

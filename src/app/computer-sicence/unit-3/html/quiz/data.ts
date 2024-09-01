@@ -178,10 +178,10 @@ export const quiz = {
       question:
         "What is the function of the `title` attribute in an HTML link?",
       answers: [
-        "A) Specifies the link's destination URL",
+        "A) Specifies the link&apos;sdestination URL",
         "B) Provides additional information displayed as a tooltip",
         "C) Sets the link color",
-        "D) Defines the link's text size",
+        "D) Defines the link&apos;stext size",
       ],
       correctAnswer:
         "B) Provides additional information displayed as a tooltip",
@@ -232,7 +232,7 @@ export const quiz = {
       answers: [
         "A) It defines the CSS class to apply styles",
         "B) It specifies the type of content",
-        "C) It sets the element's ID",
+        "C) It sets the element&apos;sID",
         "D) It creates a hyperlink",
       ],
       correctAnswer: "A) It defines the CSS class to apply styles",
@@ -294,12 +294,12 @@ export const quiz = {
       question:
         "What is the main purpose of the `<title>` tag in an HTML document?",
       answers: [
-        "A) To display the document's title in the browser tab",
+        "A) To display the document&apos;stitle in the browser tab",
         "B) To define a table header",
         "C) To create a hyperlink",
         "D) To add a line break",
       ],
-      correctAnswer: "A) To display the document's title in the browser tab",
+      correctAnswer: "A) To display the document&apos;stitle in the browser tab",
     },
     {
       id: 29,
@@ -362,12 +362,12 @@ export const quiz = {
       id: 34,
       question: "What does the `href` attribute define in an HTML hyperlink?",
       answers: [
-        "A) The hyperlink's destination URL",
-        "B) The hyperlink's text color",
-        "C) The hyperlink's background color",
-        "D) The hyperlink's font size",
+        "A) The hyperlink&apos;sdestination URL",
+        "B) The hyperlink&apos;stext color",
+        "C) The hyperlink&apos;sbackground color",
+        "D) The hyperlink&apos;sfont size",
       ],
-      correctAnswer: "A) The hyperlink's destination URL",
+      correctAnswer: "A) The hyperlink&apos;sdestination URL",
     },
     {
       id: 35,

@@ -56,7 +56,7 @@ left side
 +++[#FFA07A] 1.1.1 A written summary of the proposed business venture.
 ++++_ Operational, financial, marketing, and management details.
 ++++_ A roadmap for building a successful business.
-++++_ Describes company's direction, goals, and plans.
+++++_ Describes company&apos;sdirection, goals, and plans.
 ++++_ Reflects strengths of the business model, team, and culture.
 ++[#FF8C00] 1.2 Purpose and Benefits
 +++[#FFD700] 1.2.1 Guides entrepreneurs in launching and financing their business.
@@ -65,7 +65,7 @@ left side
 ++++_ Provides a "game plan" for managing the business during start-up.
 ++++_ Allows comparing actual results against targeted performance.
 ++++_ Important tool for attracting capital and financing.
-++++_ Critical in today's competitive global environment.
+++++_ Critical in today&apos;scompetitive global environment.
 ++[#4682B4] 1.3 Business Planning Tools
 +++[#87CEEB] 1.3.1 Software options
 ++++_ LivePlan, PlanMaker, PlanWrite, Canva, WordPress.
@@ -145,7 +145,7 @@ right side
 ++[#FF8C00] 2. Factors to Consider when Setting Prices
 +++[#FFD700] 2.1 Cost of Production
 ++++_ Direct costs: materials, labor, and other expenses.
-++++_ Includes entrepreneur's salary or compensation.
+++++_ Includes entrepreneur&apos;ssalary or compensation.
 +++[#FFD700] 2.2 Overhead Costs
 ++++_ Indirect costs: rent, utilities, insurance, marketing, etc.
 +++[#FFD700] 2.3 Profit Margin

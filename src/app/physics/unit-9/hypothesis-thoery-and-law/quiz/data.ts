@@ -8,7 +8,7 @@ export const quiz = {
         "A proven fact",
         "A tentative assumption or explanation made before research",
         "A universally accepted theory",
-        "A description of nature's behavior",
+        "A description of nature&apos;sbehavior",
       ],
       correctAnswer:
         "A tentative assumption or explanation made before research",
@@ -62,8 +62,8 @@ export const quiz = {
       id: 6,
       question: "Which of the following is an example of a scientific theory?",
       answers: [
-        "Newton's Law of Universal Gravitation",
-        "Boyle's Law",
+        "Newton&apos;sLaw of Universal Gravitation",
+        "Boyle&apos;sLaw",
         "Theory of General Relativity",
         "Laws of Thermodynamics",
       ],
@@ -145,10 +145,10 @@ export const quiz = {
       answers: [
         "Theory of Evolution",
         "Kinetic Molecular Theory",
-        "Newton's Laws of Motion",
+        "Newton&apos;sLaws of Motion",
         "Theory of General Relativity",
       ],
-      correctAnswer: "Newton's Laws of Motion",
+      correctAnswer: "Newton&apos;sLaws of Motion",
     },
     {
       id: 15,
@@ -199,9 +199,9 @@ export const quiz = {
       id: 19,
       question: "Which of the following is an example of a hypothesis?",
       answers: [
-        "Newton's Laws of Motion",
+        "Newton&apos;sLaws of Motion",
         "Theory of Evolution",
-        "Boyle's Law",
+        "Boyle&apos;sLaw",
         "An educated guess before an experiment",
       ],
       correctAnswer: "An educated guess before an experiment",
@@ -284,8 +284,8 @@ export const quiz = {
       id: 27,
       question: "Which of the following is NOT an example of a scientific law?",
       answers: [
-        "Newton's Laws of Motion",
-        "Boyle's Law",
+        "Newton&apos;sLaws of Motion",
+        "Boyle&apos;sLaw",
         "Laws of Thermodynamics",
         "Theory of General Relativity",
       ],
@@ -309,7 +309,7 @@ export const quiz = {
       answers: [
         "By ignoring contradictory evidence",
         "Through repeated testing and experimentation",
-        "By guessing until it's correct",
+        "By guessing until it&apos;scorrect",
         "By not allowing changes",
       ],
       correctAnswer: "Through repeated testing and experimentation",

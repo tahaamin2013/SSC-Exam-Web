@@ -15,7 +15,7 @@ right side
 *** Unit: Kilogram (kg)
 ** Weight
 *** Gravitational force
-*** Calculated using Newton's 2nd law
+*** Calculated using Newton&apos;s2nd law
 *** Unit: Newton (N)
 left side 
 ** Relationship

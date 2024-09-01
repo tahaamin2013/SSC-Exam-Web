@@ -45,7 +45,7 @@ left side
 ** Polymer Chemistry
 *** Structure and properties of polymers
 ** Geochemistry
-*** Element distribution in Earth's crust
+*** Element distribution in Earth&apos;scrust
 ** Nuclear Chemistry
 *** Nuclear vs chemical reactions
 *** Applications of radioisotopes

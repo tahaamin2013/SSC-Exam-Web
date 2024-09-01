@@ -129,7 +129,7 @@ const CSSNotes = () => {
                     <div className="bg-gray-100 p-4 rounded-md">
                         <code className="text-sm text-gray-800 whitespace-pre-wrap">
                             {`<video width="320" height="240" controls>
-  <source src="Pakistan's First Ever Win in International Football.mp4" type="video/mp4">
+  <source src="Pakistan&apos;sFirst Ever Win in International Football.mp4" type="video/mp4">
   Congratulations!
   <p>Your browser doesn't support HTML5 video.</p>
 </video>`}
@@ -145,7 +145,7 @@ const CSSNotes = () => {
                     <div className="bg-gray-100 p-4 rounded-md">
                         <code className="text-sm text-gray-800 whitespace-pre-wrap">
                             {`<video width="320" height="240" autoplay muted>
-  <source src="Pakistan's First Ever Win in International Football.mp4" type="video/mp4">
+  <source src="Pakistan&apos;sFirst Ever Win in International Football.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>`}
                         </code>

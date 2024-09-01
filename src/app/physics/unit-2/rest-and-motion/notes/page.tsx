@@ -102,7 +102,7 @@ const KinematicsNotes = () => {
                                 examples={[
                                     "A satellite orbiting Earth",
                                     "A car driving around a roundabout",
-                                    "The tip of a clock's second hand"
+                                    "The tip of a clock&apos;ssecond hand"
                                 ]}
                             />
                             <ExampleCard

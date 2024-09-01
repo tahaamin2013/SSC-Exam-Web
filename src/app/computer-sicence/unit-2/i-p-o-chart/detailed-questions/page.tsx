@@ -16,8 +16,8 @@ const questionsAndAnswers = [
   // Example 1: Computing Rectangle Area
   { question: "Can you give an example of an IPO chart?", answer: "Example 1: Computing Rectangle Area\n\n**Input**: Length and Width of the rectangle.\n**Process**: Area = Length * Width.\n**Output**: Area of the rectangle.\n\nThe input column contains the length and width of the rectangle. The process column shows the multiplication operation to be performed. The output provides the calculated area to the user." },
 
-  // Example 2: Calculate Student's Average
-  { question: "Can you provide another example of an IPO chart?", answer: "Example 2: Calculate Student's Average\n\n**Inputs**: Grade 1, Grade 2, Grade 3.\n**Process**: Sum all grades and divide the sum by the number of grades.\n**Output**: Student grade average." },
+  // Example 2: Calculate Student&apos;sAverage
+  { question: "Can you provide another example of an IPO chart?", answer: "Example 2: Calculate Student&apos;sAverage\n\n**Inputs**: Grade 1, Grade 2, Grade 3.\n**Process**: Sum all grades and divide the sum by the number of grades.\n**Output**: Student grade average." },
 
   // Key Points Summary
   { question: "What are the key points of IPO charts?", answer: "1. **Purpose**: Visually represent the IPO model.\n2. **Usage**: Software designers use it to solve problems.\n3. **Input**: Data entered into the system.\n4. **Process**: Operations applied to the input.\n5. **Output**: Resulting information for the user." }

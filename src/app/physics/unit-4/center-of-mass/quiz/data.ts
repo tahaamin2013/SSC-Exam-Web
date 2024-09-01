@@ -9,7 +9,7 @@ export const quiz = {
     },
     {
       id: 2,
-      question: "Which of Newton's laws of motion describes the relationship between force, mass, and acceleration?",
+      question: "Which of Newton&apos;slaws of motion describes the relationship between force, mass, and acceleration?",
       answers: ["First law", "Second law", "Third law", "None of the above"],
       correctAnswer: "Second law",
     },
@@ -22,7 +22,7 @@ export const quiz = {
     {
       id: 4,
       question: "If the line of action of a force passes through the center of mass, it will:",
-      answers: ["Produce rotation", "Not produce any rotation", "Always cause the object to move", "Increase the object's weight"],
+      answers: ["Produce rotation", "Not produce any rotation", "Always cause the object to move", "Increase the object&apos;sweight"],
       correctAnswer: "Not produce any rotation",
     },
     {
@@ -69,7 +69,7 @@ export const quiz = {
     },
     {
       id: 12,
-      question: "Which of Newton's laws states that for every action, there is an equal and opposite reaction?",
+      question: "Which of Newton&apos;slaws states that for every action, there is an equal and opposite reaction?",
       answers: ["First law", "Second law", "Third law", "Law of universal gravitation"],
       correctAnswer: "Third law",
     },
@@ -106,7 +106,7 @@ export const quiz = {
     {
       id: 18,
       question: "Which principle states that the mass of a system is equally distributed around its center of mass?",
-      answers: ["Archimedes' Principle", "Bernoulli's Principle", "Newton's First Law", "Conservation of Momentum"],
+      answers: ["Archimedes' Principle", "Bernoulli&apos;sPrinciple", "Newton&apos;sFirst Law", "Conservation of Momentum"],
       correctAnswer: "Conservation of Momentum",
     },
     {
@@ -226,8 +226,8 @@ export const quiz = {
     {
       id: 38,
       question: "Which of the following affects the center of gravity of an object?",
-      answers: ["The object's temperature", "The object's color", "The object's shape and mass distribution", "The object's age"],
-      correctAnswer: "The object's shape and mass distribution",
+      answers: ["The object&apos;stemperature", "The object&apos;scolor", "The object&apos;sshape and mass distribution", "The object&apos;sage"],
+      correctAnswer: "The object&apos;sshape and mass distribution",
     },
     {
       id: 39,

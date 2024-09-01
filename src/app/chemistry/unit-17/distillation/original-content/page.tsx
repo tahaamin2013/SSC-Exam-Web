@@ -7,7 +7,7 @@ const Distillation = () => {
             <h1 className="text-2xl font-bold mb-4">17.3 DISTILLATION</h1>
 
             <p className="mb-4">
-                Distillation is a separation technique used to separate components of a liquid mixture by a process of heating and cooling, which exploits the differences in the volatility of each of the components. The liquid that is obtained by performing the condensation of vapor is called the distillate. Distillation is carried out at the solvent's boiling points. Boiling takes place when the vapor pressure is equivalent to the atmospheric pressure.
+                Distillation is a separation technique used to separate components of a liquid mixture by a process of heating and cooling, which exploits the differences in the volatility of each of the components. The liquid that is obtained by performing the condensation of vapor is called the distillate. Distillation is carried out at the solvent&apos;s  boiling points. Boiling takes place when the vapor pressure is equivalent to the atmospheric pressure.
             </p>
 
             <p className="mb-4">

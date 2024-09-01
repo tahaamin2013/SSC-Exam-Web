@@ -33,7 +33,7 @@ mindmapDiagram {
 ** Characteristics
 *** Chemically alike
 *** Differ in physical properties
-*** Contradicts Dalton's atomic theory
+*** Contradicts Dalton&apos;satomic theory
 ** Examples
 *** Hydrogen Isotopes
 **** Protium (H-1)
@@ -99,7 +99,7 @@ mindmapDiagram {
             <p className="text-green-900">
                 Term "isotope" first used by Soddy<br/>
                 Greek origin: "isos" (same) + "tope" (place)<br/>
-                Contradicts Dalton's atomic theory of identical atoms for a given element
+                Contradicts Dalton&apos;satomic theory of identical atoms for a given element
             </p>
         </div>
     </div>

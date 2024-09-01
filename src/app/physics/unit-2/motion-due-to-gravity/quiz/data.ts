@@ -28,7 +28,7 @@ export const quiz = {
         "Negative",
         "Positive",
         "Zero",
-        "It depends on the object's weight",
+        "It depends on the object&apos;sweight",
       ],
       correctAnswer: "Negative",
     },
@@ -82,7 +82,7 @@ export const quiz = {
         "The rate of change of velocity downward",
         "The constant speed of an object",
         "The distance traveled",
-        "The object's mass",
+        "The object&apos;smass",
       ],
       correctAnswer: "The rate of change of velocity downward",
     },
@@ -109,9 +109,9 @@ export const quiz = {
       question: "What determines the falling speed of an object in a vacuum?",
       answers: [
         "Acceleration due to gravity",
-        "The object's mass",
-        "The object's size",
-        "The object's shape",
+        "The object&apos;smass",
+        "The object&apos;ssize",
+        "The object&apos;sshape",
       ],
       correctAnswer: "Acceleration due to gravity",
     },
@@ -168,12 +168,12 @@ export const quiz = {
     {
       id: 18,
       question:
-        "What effect does air resistance have on a falling object's motion?",
+        "What effect does air resistance have on a falling object&apos;smotion?",
       answers: [
         "It slows down the object",
         "It speeds up the object",
         "It has no effect",
-        "It increases the object's acceleration",
+        "It increases the object&apos;sacceleration",
       ],
       correctAnswer: "It slows down the object",
     },
@@ -214,7 +214,7 @@ export const quiz = {
         "It affects the vertical component",
         "It affects the horizontal component",
         "It has no effect",
-        "It increases the projectile's speed",
+        "It increases the projectile&apos;sspeed",
       ],
       correctAnswer: "It affects the vertical component",
     },
@@ -258,7 +258,7 @@ export const quiz = {
     {
       id: 27,
       question:
-        "What happens to an object's velocity when it is dropped from a higher height?",
+        "What happens to an object&apos;svelocity when it is dropped from a higher height?",
       answers: [
         "The velocity increases",
         "The velocity decreases",

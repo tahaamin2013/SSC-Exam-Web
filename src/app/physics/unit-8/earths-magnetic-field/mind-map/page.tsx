@@ -25,7 +25,7 @@ mindmapDiagram {
   }
 }
 </style>
-* Earth's Magnetic Field
+* Earth&apos;sMagnetic Field
 ** Origin
 *** Core of Earth (molten iron)
 *** "Dynamo effect"
@@ -49,7 +49,7 @@ mindmapDiagram {
 **** Compass points to magnetic north
 ** Effects on Life
 *** Aurora
-**** Formed due to Earth's magnetic field pattern
+**** Formed due to Earth&apos;smagnetic field pattern
 **** Charged particles from Sun hit Earth at poles
 **** Ionization of air atoms produces colorful lights
 *** Bio-magnetism
@@ -59,7 +59,7 @@ mindmapDiagram {
 **** Animal navigation
 ***** Pigeons
 ****** Iron crystals in beaks
-****** Sense Earth's magnetic field
+****** Sense Earth&apos;smagnetic field
 ***** Migrating birds
 ****** Cryptochrome-4 molecule in eyes
 ****** Sensitive to magnetism

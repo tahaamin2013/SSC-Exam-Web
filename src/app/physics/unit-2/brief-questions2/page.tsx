@@ -92,7 +92,7 @@ const Page = () => {
 **** In motion relative to outside observer
 ** Key Factors
 *** Frame of reference
-*** Observer's position
+*** Observer&apos;sposition
 @endmindmap`;
 
   const q7 = `

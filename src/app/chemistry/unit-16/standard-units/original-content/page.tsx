@@ -21,7 +21,7 @@ const Unit16 = () => {
             <p>Suggest advantages and disadvantages of experimental methods and apparatus</p>
             <h2 className="text-xl font-semibold mt-6 mb-2">16.1 STANDARD UNITS</h2>
             <p>Measurement is an essential requirement to keep accuracy in our daily life. Measurement is a comparison of an unknown quantity with a known fixed quantity. For example, when you feel sick, your mother measures your body temperature with the help of a thermometer. The thermometer shows a 102°F temperature. So, do you have a fever? Yes, since our normal body temperature is 98.6°F, any value above it confirms that you are suffering from fever. It means that by measuring your body temperature, she will know exactly if you have a fever or not. So, Accurate, precise measurement is a fundamental component of chemistry.</p>
-            <p>In the past, people didn't have accurate measuring methods to calculate standard measurements. People used abstract units to measure with. For example, when an object was measured with a cubit or hand span, its length varied from person to person. The simple reason for the variation was the difference in the size of the cubit or hand-span of each person. Thus, this system of measurement was inconvenient as well as inaccurate. So, to maintain uniformity in measurement, scientists from all over the world accepted some of the units as standard units. This set of units is generally referred to as Standard International or Sl system of units.</p>
+            <p>In the past, people didn&apos;t have accurate measuring methods to calculate standard measurements. People used abstract units to measure with. For example, when an object was measured with a cubit or hand span, its length varied from person to person. The simple reason for the variation was the difference in the size of the cubit or hand-span of each person. Thus, this system of measurement was inconvenient as well as inaccurate. So, to maintain uniformity in measurement, scientists from all over the world accepted some of the units as standard units. This set of units is generally referred to as Standard International or Sl system of units.</p>
             <p>FOOT STEP</p>
             <p>ARM LENGTH OR CUBIT</p>
             <p>HAND SPAN</p>
@@ -87,7 +87,7 @@ const Unit16 = () => {
                 </tbody>
             </table>
             <h2 className="text-xl font-semibold mt-6 mb-2">16.1.2 SI Prefixes</h2>
-            <p>The Si system develops a standard system of prefixes to the basic units, Prefixes are used to identify the original unit's multiples or fractions.</p>
+            <p>The Si system develops a standard system of prefixes to the basic units, Prefixes are used to identify the original unit&apos;s  multiples or fractions.</p>
             <h3 className="text-lg font-semibold mt-4">Table 16.2: Prefixes for measurements</h3>
             <p>Prefix, Unit abbreviation, Meaning, Example, Abbreviation</p>
             <p>Kilo, k, 1000, 1 kilometer (km) = 1000 m, 10 m</p>
@@ -99,7 +99,7 @@ const Unit16 = () => {
             <p>Micro, u, 10-6, 1 micrometer (um) = 1.0 x 10-6 m</p>
             <p>nano, n, 10-0, 1 nanometer (nm) = 1.0 x 10 m, 10</p>
             <p>The table shows the meaning of some prefixes and examples of how they can be applied to different types of measurements in the metric system.</p>
-            <p>Prefixes are used to identify the original unit's multiples or fractions.</p>
+            <p>Prefixes are used to identify the original unit&apos;s  multiples or fractions.</p>
             <p>The table shows the meaning of some prefixes and examples of how they can be applied to different types of measurements in the metric system.</p>
         </div>
     );

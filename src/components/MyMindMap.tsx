@@ -94,7 +94,7 @@
 //     if (newUserId) {
 //       setUserId(newUserId);
 //       localStorage.setItem('mindmap-userId', newUserId);
-//       // Load user's nodes and edges here
+//       // Load user&apos;snodes and edges here
 //     }
 //   };
 

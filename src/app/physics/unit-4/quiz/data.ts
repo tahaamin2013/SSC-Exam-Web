@@ -47,7 +47,7 @@ export const quiz = {
     {
       id: 6,
       question:
-        "You throw a weighted fishing net into a calm lake. As the net sinks, it opens fully underwater, spreading out its mesh evenly. Compared to the moment it left your hand, where is the net's center of mass now?",
+        "You throw a weighted fishing net into a calm lake. As the net sinks, it opens fully underwater, spreading out its mesh evenly. Compared to the moment it left your hand, where is the net&apos;scenter of mass now?",
       answers: [
         "Higher in the water column.",
         "Lower in the water column.",
@@ -145,7 +145,7 @@ export const quiz = {
       question:
         "A car drives at steady speed around a perfectly circular track.",
       answers: [
-        "The car's acceleration is zero.",
+        "The car&apos;sacceleration is zero.",
         "The net force on the car is zero.",
         "Both the acceleration and net force on the car point outward.",
         "Both the acceleration and net force on the car point inward.",

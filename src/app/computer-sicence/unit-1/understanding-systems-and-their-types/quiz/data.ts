@@ -283,13 +283,13 @@ export const quiz = {
       id: 25,
       question: "What is the primary characteristic of a system?",
       answers: [
-        "A) It's always artificial",
-        "B) It's always natural",
-        "C) It's a collection of interconnected components working together",
+        "A) It&apos;salways artificial",
+        "B) It&apos;salways natural",
+        "C) It&apos;sa collection of interconnected components working together",
         "D) It only exists in engineering fields",
       ],
       correctAnswer:
-        "C) It's a collection of interconnected components working together",
+        "C) It&apos;sa collection of interconnected components working together",
     },
     {
       id: 26,

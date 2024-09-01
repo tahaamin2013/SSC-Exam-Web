@@ -79,7 +79,7 @@ center footer Allotropes: Different structural forms of the same element in the 
         <p className="text-blue-900 bg-blue-100 p-4 rounded-lg">Microscopic ( 1 nm in diameter).</p>
         
         <h3 className="text-xl font-bold text-teal-600 mt-4 mb-2">E. Stability:</h3>
-        <p className="text-blue-900 bg-blue-100 p-4 rounded-lg">Very stable, solute doesn't separate from solvent.</p>
+        <p className="text-blue-900 bg-blue-100 p-4 rounded-lg">Very stable, solute doesn&apos;t  separate from solvent.</p>
     </div>
     
     <div className="mb-8">
@@ -101,7 +101,7 @@ center footer Allotropes: Different structural forms of the same element in the 
         
         <h3 className="text-xl font-bold text-teal-600 mt-4 mb-2">C. Examples:</h3>
         <ul className="list-disc list-inside text-blue-900 ml-8">
-            <li>1. Mixture of nitrogen and hydrogen (Haber's process)</li>
+            <li>1. Mixture of nitrogen and hydrogen (Haber&apos;s  process)</li>
             <li>2. Mixture of ammonia and carbon dioxide (urea preparation)</li>
             <li>3. Fog, clouds, mist (liquid water in air)</li>
             <li>4. Smoke (carbon particles in air)</li>
@@ -176,7 +176,7 @@ mindmapDiagram {
 *** Sugar in water
 *** Table salt in water
 ** Water as universal solvent
-*** Dissolves majority of compounds in Earth's crust
+*** Dissolves majority of compounds in Earth&apos;s crust
 ** Usage
 *** Mostly used in laboratories
 

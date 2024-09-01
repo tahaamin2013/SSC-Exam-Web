@@ -219,7 +219,7 @@ export const quiz = {
     {
       id: 19,
       question:
-        "What is the expected output when the `<select>` element's value changes in the provided example?",
+        "What is the expected output when the `<select>` element&apos;svalue changes in the provided example?",
       answers: [
         "A) A new page is loaded",
         "B) The `order` value is displayed in the `result` paragraph",
@@ -316,7 +316,7 @@ export const quiz = {
       question:
         "How does the `changeOrder` function interact with the `<select>` element?",
       answers: [
-        "A) It changes the `<select>` element's style",
+        "A) It changes the `<select>` element&apos;sstyle",
         "B) It retrieves and displays the selected value from the `<select>` element",
         "C) It creates new `<option>` elements",
         "D) It hides the `<select>` element",
@@ -369,12 +369,12 @@ export const quiz = {
         "What is the purpose of the `result` paragraph in the dynamic website example?",
       answers: [
         "A) To display a static message",
-        "B) To show the result of the user's selection from the `<select>` element",
+        "B) To show the result of the user&apos;sselection from the `<select>` element",
         "C) To create a new `<select>` element",
         "D) To style the webpage",
       ],
       correctAnswer:
-        "B) To show the result of the user's selection from the `<select>` element",
+        "B) To show the result of the user&apos;sselection from the `<select>` element",
     },
     {
       id: 32,
@@ -408,12 +408,12 @@ export const quiz = {
         "What is the expected outcome when a user selects an option in the `<select>` dropdown in the provided example?",
       answers: [
         "A) The page reloads",
-        "B) The selected option's value is displayed in the `result` paragraph",
+        "B) The selected option&apos;svalue is displayed in the `result` paragraph",
         "C) A new page is opened",
         "D) The content of the `<select>` element is changed",
       ],
       correctAnswer:
-        "B) The selected option's value is displayed in the `result` paragraph",
+        "B) The selected option&apos;svalue is displayed in the `result` paragraph",
     },
   ],
 };

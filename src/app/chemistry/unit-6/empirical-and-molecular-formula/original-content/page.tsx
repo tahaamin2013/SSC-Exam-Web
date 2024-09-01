@@ -16,8 +16,8 @@ export default function Unit06() {
                     <li>Deduce the formula and name of a binary compound from ions given relevant information.</li>
                     <li>Deduce the formula of a molecular substance from a given structure of molecules.</li>
                     <li>Use the relationship amount of substance = mass/molar mass to calculate number of moles, mass, molar mass, relative mass (atomic/molecular/formula) and number of particles.</li>
-                    <li>Define mole as amount of substance containing Avogadro&apos;s number (6.022 x 10&quot;) of particles.</li>
-                    <li>Explain the relationship between a mole and Avogadro&apos;s constant.</li>
+                    <li>Define mole as amount of substance containing Avogadro&apos;s  number (6.022 x 10&quot;) of particles.</li>
+                    <li>Explain the relationship between a mole and Avogadro&apos;s  constant.</li>
                     <li>Construct chemical equations and ionic equations to show reactants forming products, including state symbols.</li>
                     <li>Deduce the symbol equation with state symbols for a chemical reaction given relevant information.</li>
                 </ul>

@@ -57,7 +57,7 @@ export const quiz = {
     {
       id: 8,
       question:
-        "When the slope of a body's displacement-time graph increases, the body is moving with:",
+        "When the slope of a body&apos;sdisplacement-time graph increases, the body is moving with:",
       answers: [
         "increasing velocity",
         "decreasing velocity",

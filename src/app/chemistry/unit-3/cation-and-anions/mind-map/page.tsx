@@ -93,7 +93,7 @@ mindmapDiagram {
             </ul>
             <h3 className="text-xl font-semibold text-blue-600 mb-2">Problem Solving Strategy for Cation Formation</h3>
             <ol className="list-decimal list-inside text-blue-900 ml-6">
-                <li>Identify the element's group in the periodic table.</li>
+                <li>Identify the element&apos;s  group in the periodic table.</li>
                 <li>Determine the number of valence electrons.</li>
                 <li>Represent the loss of valence electrons using electronic configuration or electron dot structure.</li>
             </ol>

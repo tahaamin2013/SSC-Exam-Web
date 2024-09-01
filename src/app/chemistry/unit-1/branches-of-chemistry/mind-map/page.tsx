@@ -46,7 +46,7 @@ left side
 *** Studies polymers and polymerization
 *** Examples: nylon, plastic, polyester
 ** Geochemistry
-*** Chemical composition of Earth's crust
+*** Chemical composition of Earth&apos;s crust
 *** Studies rocks, minerals, soil, water, atmosphere
 ** Nuclear Chemistry
 *** Changes in atomic nuclei

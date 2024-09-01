@@ -125,7 +125,7 @@ const MagneticMindmap = () => {
 
           <div className="bg-white p-6 rounded-2xl shadow-lg">
             <h2 className="text-3xl font-semibold mb-4">Key Points</h2>
-            <p className="text-lg mb-4">Characteristic properties are based on periodicity and chemical reactivity. Understanding trends in metallic character, reactivity, and density helps predict element behavior. Electronic configuration is crucial for determining an element's position and properties.</p>
+            <p className="text-lg mb-4">Characteristic properties are based on periodicity and chemical reactivity. Understanding trends in metallic character, reactivity, and density helps predict element behavior. Electronic configuration is crucial for determining an element&apos;s position and properties.</p>
           </div>
         </div>
       </div>

@@ -53,7 +53,7 @@ const faqs = [
     },
     {
         question: "What is the main purpose of assembly language?",
-        answer: "Assembly language is used for programming specific to a computer's architecture."
+        answer: "Assembly language is used for programming specific to a computer&apos;sarchitecture."
     },
     {
         question: "Give an example of a compiler.",

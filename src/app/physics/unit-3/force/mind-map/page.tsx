@@ -71,7 +71,7 @@ right side
 **** No physical contact required
 *** Gravitational Force
 **** Attraction between objects with mass
-**** Example: Earth's gravity on moon
+**** Example: Earth&apos;sgravity on moon
 *** Electrostatic Force
 **** Between charged objects
 **** Can be attractive or repulsive
@@ -167,7 +167,7 @@ left side
 **** Tension in a spider web.
 ** Elastic Forces
 *** Definition
-**** Forces that resist a change in an object's shape due to forces between material particles.
+**** Forces that resist a change in an object&apos;sshape due to forces between material particles.
 *** Example
 **** Stretching of a spring or rubber band.
 *** Note
@@ -499,12 +499,12 @@ right side
 **** Determines if forces are balanced or unbalanced
 ** Balanced Forces
 *** Net Force = 0 N
-*** No change in object's motion
+*** No change in object&apos;smotion
 *** Example
 **** Tug of war with equal forces
 ** Unbalanced Forces
 *** Net Force ≠ 0 N
-*** Produces change in object's motion
+*** Produces change in object&apos;smotion
 *** Example
 **** Tug of war with unequal forces
 left side

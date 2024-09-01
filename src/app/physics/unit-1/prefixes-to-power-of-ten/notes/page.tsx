@@ -65,7 +65,7 @@ const sections: Section[] = [
     {
         title: "5. Scientific Scale Examples",
         content: [
-            "Sun's mass: 1.97 x 10^30 kg",
+            "Sun&apos;smass: 1.97 x 10^30 kg",
             "Hydrogen atom radius: 5 x 10^-11 m",
             "Earth&apos;s age: 1.433 x 10^17 s",
             "Paper thickness: 1 x 10^5 nm = 1 x 10^-4 m",

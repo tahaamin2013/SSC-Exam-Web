@@ -249,7 +249,7 @@ export const quiz = {
     {
       id: 29,
       question:
-        "If a car's speed-time graph is a straight line with positive slope, what does this indicate about the car's motion?",
+        "If a car&apos;sspeed-time graph is a straight line with positive slope, what does this indicate about the car&apos;smotion?",
       answers: [
         "Constant speed",
         "Deceleration",
@@ -261,7 +261,7 @@ export const quiz = {
     {
       id: 30,
       question:
-        "What information can be derived from a distance-time graph about an object's motion?",
+        "What information can be derived from a distance-time graph about an object&apos;smotion?",
       answers: [
         "Speed and Distance",
         "Acceleration and Time",

@@ -80,7 +80,7 @@ export const quiz = {
         "By focusing only on the visual elements",
         "By breaking down the game development into smaller tasks such as level design and character movement",
         "By ignoring the different components of the game",
-        "By focusing solely on the game's soundtrack",
+        "By focusing solely on the game&apos;ssoundtrack",
       ],
       correctAnswer:
         "By breaking down the game development into smaller tasks such as level design and character movement",
@@ -171,10 +171,10 @@ export const quiz = {
     {
       id: 15,
       question:
-        "In an IPO chart, what is the 'Input' for calculating a student's average grade?",
+        "In an IPO chart, what is the 'Input' for calculating a student&apos;saverage grade?",
       answers: [
         "Grades of individual tests",
-        "Student's average grade",
+        "Student&apos;saverage grade",
         "Grading formula",
         "Sum of grades",
       ],
@@ -183,7 +183,7 @@ export const quiz = {
     {
       id: 16,
       question:
-        "What is the 'Process' in an IPO chart for calculating a student's average grade?",
+        "What is the 'Process' in an IPO chart for calculating a student&apos;saverage grade?",
       answers: [
         "Summing all grades and dividing by the number of grades",
         "Entering individual grades",
@@ -195,14 +195,14 @@ export const quiz = {
     {
       id: 17,
       question:
-        "What is the 'Output' in an IPO chart when calculating a student's average grade?",
+        "What is the 'Output' in an IPO chart when calculating a student&apos;saverage grade?",
       answers: [
-        "Student's average grade",
+        "Student&apos;saverage grade",
         "Individual test scores",
         "Grading formula",
         "Sum of grades",
       ],
-      correctAnswer: "Student's average grade",
+      correctAnswer: "Student&apos;saverage grade",
     },
     {
       id: 18,
@@ -331,12 +331,12 @@ export const quiz = {
       question:
         "What is the 'Process' for finding the shortest path in a network graph?",
       answers: [
-        "Applying an algorithm like Dijkstra's algorithm",
+        "Applying an algorithm like Dijkstra&apos;salgorithm",
         "Entering the graph data",
         "Displaying the shortest path",
         "Calculating the total distance",
       ],
-      correctAnswer: "Applying an algorithm like Dijkstra's algorithm",
+      correctAnswer: "Applying an algorithm like Dijkstra&apos;salgorithm",
     },
     {
       id: 29,
@@ -429,7 +429,7 @@ export const quiz = {
         "Distance traveled and time taken",
         "Average speed",
         "Speed limit",
-        "Vehicle's fuel efficiency",
+        "Vehicle&apos;sfuel efficiency",
       ],
       correctAnswer: "Distance traveled and time taken",
     },
@@ -654,7 +654,7 @@ export const quiz = {
         "What is the 'Process' in an IPO chart for computing the total distance traveled during a road trip?",
       answers: [
         "Summing the distances traveled on each leg of the trip",
-        "Entering each leg's distance",
+        "Entering each leg&apos;sdistance",
         "Displaying the total distance",
         "Calculating average speed",
       ],

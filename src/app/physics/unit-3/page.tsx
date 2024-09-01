@@ -19,7 +19,7 @@ const data = [
     },
     {
         id: "2",
-        title: "Newton's Laws of motion",
+        title: "Newton&apos;sLaws of motion",
         links: [
             { href: "/physics/unit-3/newtons-laws-of-motion/original-content", text: "Original Content", icon: List },
             { href: "/physics/unit-3/newtons-laws-of-motion/notes", text: "Notes", icon: BookOpen },

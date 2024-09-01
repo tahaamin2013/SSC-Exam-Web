@@ -9,7 +9,7 @@ const ForcesonBodiesMindmap = () => {
         <PlantUMLDiagram
           code={`@startmindmap
 *[#D0F0C0] Dynamics-II
-**[#ADD8E6] In Dynamics I, we learnt about the force and Newton's laws of motion.
+**[#ADD8E6] In Dynamics I, we learnt about the force and Newton&apos;slaws of motion.
 **[#FFD700] Dynamics II Concepts
 ***[#FFB6C1] Forces on Bodies
 ****[#87CEEB] Line of Action of Force

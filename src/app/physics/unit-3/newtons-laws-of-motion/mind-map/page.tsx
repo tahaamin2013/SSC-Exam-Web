@@ -6,7 +6,7 @@ const NewtonLawsPage = () => {
 
   const mindmapCode = `
 @startmindmap
-* Newton's Laws of Motion
+* Newton&apos;sLaws of Motion
 left side
 ** First Law
 *** Objects at rest stay at rest
@@ -31,7 +31,7 @@ right side
 
   const mindmapCode2 = `
 @startmindmap
-* Newton's Laws of Motion
+* Newton&apos;sLaws of Motion
 ** Published in 1686
 ** Book: Philosophiæ Naturalis Principia Mathematica
 *** English title: Principles of Natural Mathematics
@@ -47,7 +47,7 @@ right side
 `;
   const mindmapCode3 = `
 @startmindmap
-* Newton's First Law of Motion
+* Newton&apos;sFirst Law of Motion
 right side
 ** Statement
 *** Object maintains state of rest or uniform motion without external force
@@ -78,7 +78,7 @@ left side
 
   const mindmapCode4 = `
 @startmindmap
-* Newton's Second Law of Motion
+* Newton&apos;sSecond Law of Motion
 ** Statement
 *** a = F / m or F = ma
 *** Acceleration is directly proportional to net force
@@ -112,7 +112,7 @@ left side
 
   const mindmapCode5 = `
 @startmindmap
-* Newton's Third Law of Motion
+* Newton&apos;sThird Law of Motion
 ** Statement
 *** For every action, there is an equal and opposite reaction
 *** F = -F (opposite directions)
@@ -146,7 +146,7 @@ left side
 
   const mindmapCode6 = `
 @startmindmap
-* Limitations of Newton's Laws of Motion
+* Limitations of Newton&apos;sLaws of Motion
 ** Small Scale
 *** Not applicable at atomic scale
 *** Quantum mechanics takes over

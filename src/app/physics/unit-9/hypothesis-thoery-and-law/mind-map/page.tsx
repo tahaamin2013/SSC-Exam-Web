@@ -28,8 +28,8 @@ have found to be provably true;
 *** Observed regularity in nature
 *** Relationship between variables
 *** Examples
-**** Newton's Laws
-**** Boyle's Law
+**** Newton&apos;sLaws
+**** Boyle&apos;sLaw
 **** Laws of Thermodynamics
 ** Theory vs Law
 ***:Laws describe phenomena,

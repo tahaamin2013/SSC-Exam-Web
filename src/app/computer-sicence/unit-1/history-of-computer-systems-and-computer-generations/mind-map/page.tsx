@@ -27,7 +27,7 @@ mindmapDiagram {
 ++++_ Manual arithmetic calculations
 ++++_ Earliest counting device
 ++++_ Used in various cultures for centuries
-+++[#FFA07A] Napier's Bones
++++[#FFA07A] Napier&apos;sBones
 ++++_ John Napier, Scotland, 17th century
 ++++_ 9 separate strips (bones)
 ++++_ Multiplication and division
@@ -38,7 +38,7 @@ mindmapDiagram {
 ++++_ Wooden box with gears and wheels
 ++++_ Automated arithmetic calculations
 ++++_ First mechanical and automated calculator
-++++_ Motivated by Pascal's father's tax calculations
+++++_ Motivated by Pascal&apos;sfather&apos;stax calculations
 +++[#FFD700] Stepped Reckoner
 ++++_ Wilhelm Leibniz, Germany, 1673
 ++++_ Grooved wheels
@@ -225,9 +225,9 @@ mindmapDiagram {
                 <tbody className="bg-white divide-y divide-gray-200">
                   {[
                     ["Abacus", "Unknown, used in various cultures", "Ancient times", "Beads or stones on rods or wires; manually operated", "Arithmetic calculations by sliding beads to represent numerical values"],
-                    ["Napier's Bones", "John Napier, Scotland", "17th century", "9 separate strips (bones) marked with numerals; first decimal-calculating device", "Multiplication and division"],
+                    ["Napier&apos;sBones", "John Napier, Scotland", "17th century", "9 separate strips (bones) marked with numerals; first decimal-calculating device", "Multiplication and division"],
                     ["Pascaline", "Blaise Pascal, France", "1642", "Wooden box with gears and wheels; mechanical and automated calculator", "Arithmetic calculations; early mechanical device"],
-                    ["Stepped Reckoner", "Wilhelm Leibniz, Germany", "1673", "Grooved wheels; digital mechanical calculator", "Improved on Pascal's invention; used for arithmetic calculations"],
+                    ["Stepped Reckoner", "Wilhelm Leibniz, Germany", "1673", "Grooved wheels; digital mechanical calculator", "Improved on Pascal&apos;sinvention; used for arithmetic calculations"],
                     ["Difference Engine", "Charles Babbage, England", "1820s", "Mechanical computer capable of basic computations; steam-powered", "Solving numerical problems"],
                     ["Analytical Engine", "Charles Babbage, England", "1830", "Mechanical computer; input from punch cards; capable of solving mathematical problems and storing data", "More advanced computations and data storage"],
                     ["Tabulating Machine", "Herman Hollerith, USA", "1890", "Punch card-based mechanical calculator", "Computing statistics and recording data; used in census calculations World Wide"],

@@ -43,7 +43,7 @@ const data = [
     },
     {
         id: "4",
-        title: "6.4 AVOGADRO'S NUMBER AND MOLE",
+        title: "6.4 AVOGADRO&apos;sNUMBER AND MOLE",
         links: [
             { href: "/chemistry/unit-6/avogadros-number-and-mole/original-content", text: "ORIGINAL CONTENT", icon: List },
             { href: "/chemistry/unit-6/avogadros-number-and-mole/notes", text: "NOTES", icon: BookOpen },

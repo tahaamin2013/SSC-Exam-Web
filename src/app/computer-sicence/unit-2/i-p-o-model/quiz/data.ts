@@ -154,7 +154,7 @@ export const quiz = {
         "The final results after processing the input data",
         "The initial data entry requirements",
         "The steps involved in computation",
-        "The system's interaction with the environment",
+        "The system&apos;sinteraction with the environment",
       ],
       correctAnswer: "The final results after processing the input data",
     },

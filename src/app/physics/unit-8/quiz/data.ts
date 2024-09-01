@@ -25,7 +25,7 @@ export const quiz = {
     },
     {
       id: 3,
-      question: "Earth's magnetic field intensity is:",
+      question: "Earth&apos;smagnetic field intensity is:",
       answers: [
         "constant everywhere",
         "very high at equator",
@@ -36,7 +36,7 @@ export const quiz = {
     },
     {
       id: 4,
-      question: "The cause of the Earth's magnetic field is:",
+      question: "The cause of the Earth&apos;smagnetic field is:",
       answers: [
         "rotational motion of Earth",
         "spinning of Earth",

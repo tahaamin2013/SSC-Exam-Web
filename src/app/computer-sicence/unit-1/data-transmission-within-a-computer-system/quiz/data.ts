@@ -102,7 +102,7 @@ export const quiz = {
         "A) They reduce the need for memory hierarchy.",
         "B) They increase the speed of data processing and transmission.",
         "C) They improve the efficiency of single-threaded applications.",
-        "D) They enhance the control unit's capability to handle interrupts.",
+        "D) They enhance the control unit&apos;scapability to handle interrupts.",
       ],
       correctAnswer:
         "B) They increase the speed of data processing and transmission.",
@@ -305,7 +305,7 @@ export const quiz = {
         "A) It reduces the overall cost of the system",
         "B) It improves data transmission speed by utilizing different levels of memory",
         "C) It increases the physical size of the computer",
-        "D) It simplifies the computer's architecture",
+        "D) It simplifies the computer&apos;sarchitecture",
       ],
       correctAnswer:
         "B) It improves data transmission speed by utilizing different levels of memory",

@@ -5,12 +5,12 @@ export const quiz = {
       id: 1,
       question:
         "Which of the following was one of the earliest counting devices?",
-      answers: ["Napier's Bones", "Abacus", "Pascaline", "Stepped Reckoner"],
+      answers: ["Napier&apos;sBones", "Abacus", "Pascaline", "Stepped Reckoner"],
       correctAnswer: "Abacus",
     },
     {
       id: 2,
-      question: "Who developed Napier's Bones?",
+      question: "Who developed Napier&apos;sBones?",
       answers: [
         "Blaise Pascal",
         "John Napier",
@@ -34,7 +34,7 @@ export const quiz = {
     {
       id: 4,
       question:
-        "Which device did Wilhelm Leibniz create to improve Pascal's invention?",
+        "Which device did Wilhelm Leibniz create to improve Pascal&apos;sinvention?",
       answers: [
         "Analytical Engine",
         "Difference Engine",
@@ -46,7 +46,7 @@ export const quiz = {
     {
       id: 5,
       question:
-        "What was the primary function of Charles Babbage's Analytical Engine?",
+        "What was the primary function of Charles Babbage&apos;sAnalytical Engine?",
       answers: [
         "To perform basic computations",
         "To store data in memory and solve any mathematical problem",
@@ -263,7 +263,7 @@ export const quiz = {
       id: 25,
       question:
         "Which of the following was one of the earliest counting devices, using beads or stones on rods or wires?",
-      answers: ["Napier's Bone", "Pascaline", "Abacus", "Analytical Engine"],
+      answers: ["Napier&apos;sBone", "Pascaline", "Abacus", "Analytical Engine"],
       correctAnswer: "Abacus",
     },
     {
@@ -281,7 +281,7 @@ export const quiz = {
       id: 27,
       question:
         "Which device was known as the first mechanical and automated calculator?",
-      answers: ["Abacus", "Napier's Bones", "Pascaline", "Stepped Reckoner"],
+      answers: ["Abacus", "Napier&apos;sBones", "Pascaline", "Stepped Reckoner"],
       correctAnswer: "Pascaline",
     },
     {
@@ -300,7 +300,7 @@ export const quiz = {
     {
       id: 29,
       question:
-        "Which company eventually evolved from Herman Hollerith's tabulating machine business?",
+        "Which company eventually evolved from Herman Hollerith&apos;stabulating machine business?",
       answers: ["Apple", "Microsoft", "IBM", "Intel"],
       correctAnswer: "IBM",
     },
@@ -367,8 +367,8 @@ export const quiz = {
       id: 35,
       question:
         "Which device, invented by John Napier, used 9 separate strips for multiplication and division?",
-      answers: ["Abacus", "Pascaline", "Napier's Bones", "Stepped Reckoner"],
-      correctAnswer: "Napier's Bones",
+      answers: ["Abacus", "Pascaline", "Napier&apos;sBones", "Stepped Reckoner"],
+      correctAnswer: "Napier&apos;sBones",
     },
     {
       id: 36,
@@ -421,7 +421,7 @@ export const quiz = {
       id: 40,
       question:
         "Which of the following was one of the earliest counting devices, using beads or stones on rods or wires?",
-      answers: ["Napier's Bone", "Pascaline", "Abacus", "Analytical Engine"],
+      answers: ["Napier&apos;sBone", "Pascaline", "Abacus", "Analytical Engine"],
       correctAnswer: "Abacus",
     },
     {

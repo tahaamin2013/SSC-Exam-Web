@@ -14,7 +14,7 @@ const PhysicsSummary = () => {
             icon: <Zap className="w-6 h-6 text-yellow-500" />
         },
         {
-            title: "Newton's Laws of Motion",
+            title: "Newton&apos;sLaws of Motion",
             description: [
                 "First Law: Objects remain at rest or in uniform motion unless acted upon by a force.",
                 "Second Law: Force equals mass times acceleration (F = ma).",

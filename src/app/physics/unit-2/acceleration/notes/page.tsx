@@ -56,7 +56,7 @@ const AccelerationNotes = () => {
                 a = (26.8 m/s - 0 m/s) / 3 s
                 a = 8.93 m/s²
               `}
-                            answer="The cheetah's acceleration is 8.93 m/s² towards the East."
+                            answer="The cheetah&apos;sacceleration is 8.93 m/s² towards the East."
                         />
                     </section>
 

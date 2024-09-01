@@ -26,7 +26,7 @@ export const quiz = {
     },
     {
       id: 5,
-      question: "Which of Newton's laws of motion describes the relationship between force, mass, and acceleration?",
+      question: "Which of Newton&apos;slaws of motion describes the relationship between force, mass, and acceleration?",
       answers: ["First law", "Second law", "Third law", "None of the above"],
       correctAnswer: "Second law",
     },
@@ -78,7 +78,7 @@ export const quiz = {
     },
     {
       id: 12,
-      question: "What does Hooke's Law describe?",
+      question: "What does Hooke&apos;sLaw describe?",
       answers: ["Force is proportional to extension", "Force is proportional to velocity", "Force is proportional to area", "Force is proportional to mass"],
       correctAnswer: "Force is proportional to extension",
     },
@@ -132,19 +132,19 @@ export const quiz = {
     {
       id: 20,
       question: "Which principle explains why an airplane can fly?",
-      answers: ["Bernoulli's principle", "Archimedes' principle", "Pascal's law", "Newton's third law"],
-      correctAnswer: "Bernoulli's principle",
+      answers: ["Bernoulli&apos;sprinciple", "Archimedes' principle", "Pascal&apos;slaw", "Newton&apos;sthird law"],
+      correctAnswer: "Bernoulli&apos;sprinciple",
     },
     {
       id: 21,
-      question: "What is the equation for Ohm's Law?",
+      question: "What is the equation for Ohm&apos;sLaw?",
       answers: ["V = IR", "P = IV", "E = mc^2", "F = ma"],
       correctAnswer: "V = IR",
     },
     {
       id: 22,
       question: "What is the primary cause of tides on Earth?",
-      answers: ["The gravitational pull of the moon", "The gravitational pull of the sun", "Wind patterns", "Earth's rotation"],
+      answers: ["The gravitational pull of the moon", "The gravitational pull of the sun", "Wind patterns", "Earth&apos;srotation"],
       correctAnswer: "The gravitational pull of the moon",
     },
     {
@@ -174,8 +174,8 @@ export const quiz = {
     {
       id: 27,
       question: "Which law explains the motion of planets around the sun?",
-      answers: ["Kepler's laws of planetary motion", "Newton's first law", "Einstein's theory of relativity", "Faraday's law"],
-      correctAnswer: "Kepler's laws of planetary motion",
+      answers: ["Kepler&apos;slaws of planetary motion", "Newton&apos;sfirst law", "Einstein&apos;stheory of relativity", "Faraday&apos;slaw"],
+      correctAnswer: "Kepler&apos;slaws of planetary motion",
     },
     {
       id: 28,
@@ -227,7 +227,7 @@ export const quiz = {
     },
     {
       id: 36,
-      question: "What does Coulomb's Law describe?",
+      question: "What does Coulomb&apos;sLaw describe?",
       answers: ["The force between two charged particles", "The behavior of light", "The speed of sound", "The pressure in fluids"],
       correctAnswer: "The force between two charged particles",
     },
@@ -276,8 +276,8 @@ export const quiz = {
     {
       id: 44,
       question: "Which of the following laws describes the behavior of an ideal gas?",
-      answers: ["Boyle's Law", "Faraday's Law", "Ohm's Law", "Newton's First Law"],
-      correctAnswer: "Boyle's Law",
+      answers: ["Boyle&apos;sLaw", "Faraday&apos;sLaw", "Ohm&apos;sLaw", "Newton&apos;sFirst Law"],
+      correctAnswer: "Boyle&apos;sLaw",
     },
     {
       id: 45,

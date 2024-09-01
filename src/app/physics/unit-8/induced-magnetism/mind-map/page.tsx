@@ -55,7 +55,7 @@ left side
 **** Spinning changes the magnetic field around the wire loops
 *** Making Light
 **** The "magic change" creates an electric current
-**** This current powers the flashlight's light
+**** This current powers the flashlight&apos;slight
 ** Faraday’s Law of Induction
 *** Formula: \(\mathcal{E} = -N \frac{\Delta \Phi}{\Delta t}\)
 **** \( \mathcal{E} \)

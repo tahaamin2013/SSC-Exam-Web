@@ -86,7 +86,7 @@ left side
             <li>Each element has a unique proton number</li>
             <li>Determines:
                 <ul className="list-disc list-inside text-yellow-900 ml-6">
-                    <li>Element's properties</li>
+                    <li>Element&apos;sproperties</li>
                     <li>Position in the periodic table</li>
                 </ul>
             </li>

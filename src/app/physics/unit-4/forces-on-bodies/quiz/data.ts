@@ -9,7 +9,7 @@ export const quiz = {
     },
     {
       id: 2,
-      question: "Which of Newton's laws of motion describes the relationship between force, mass, and acceleration?",
+      question: "Which of Newton&apos;slaws of motion describes the relationship between force, mass, and acceleration?",
       answers: ["First law", "Second law", "Third law", "None of the above"],
       correctAnswer: "Second law",
     },

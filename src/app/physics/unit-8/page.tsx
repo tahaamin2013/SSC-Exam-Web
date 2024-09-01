@@ -57,7 +57,7 @@ const data = [
     },
     {
         id: "5",
-        title: "8.5 EARTH'S MAGNETIC FIELD",
+        title: "8.5 EARTH&apos;sMAGNETIC FIELD",
         links: [
             { href: "/physics/unit-8/earths-magnetic-field/original-content", text: "Original Content", icon: List },
             { href: "/physics/unit-8/earths-magnetic-field/notes", text: "Notes", icon: BookOpen },

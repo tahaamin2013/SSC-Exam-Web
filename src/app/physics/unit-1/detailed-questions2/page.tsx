@@ -30,7 +30,7 @@ const questionsAndAnswers: QuestionAnswer[] = [
             <li><strong>Atomic Physics:</strong> Study of the structure and properties of atoms.</li>
             <li><strong>Nuclear Physics:</strong> Deals with properties and behavior of atomic nuclei.</li>
             <li><strong>Plasma Physics:</strong> Study of the fourth state of matter, ionized gases.</li>
-            <li><strong>Geophysics:</strong> Study of Earth's internal structure.</li>
+            <li><strong>Geophysics:</strong> Study of Earth&apos;sinternal structure.</li>
         </ul>
         `,
     uml: `
@@ -66,7 +66,7 @@ const questionsAndAnswers: QuestionAnswer[] = [
    *** Fourth state of matter
    *** Ionized gases
 ** Geophysics
-   *** Earth's internal structure
+   *** Earth&apos;sinternal structure
 @endmindmap
         `,
   },

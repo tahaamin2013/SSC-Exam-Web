@@ -10,7 +10,7 @@ const MindmapFriction = () => {
         </h1>
         <PlantUMLDiagram
           code={`@startmindmap
-* Pascal's Principle
+* Pascal&apos;sPrinciple
 ** Definition
 *** Pressure increase at one point
 *** Transmitted equally throughout fluid
@@ -37,7 +37,7 @@ left side
 **** Force pushes outward perpendicular to surface
 *** Underwater Diving
 **** Pressure increases with depth
-**** Force perpendicular to diver's body
+**** Force perpendicular to diver&apos;sbody
 ***** Affects ears
 ***** Requires specialized suits for deep-sea diving
 ** Implications
@@ -61,7 +61,7 @@ left side
 *** Connecting tube
 *** Hydraulic fluid
 *** Pistons in each cylinder
-** Pascal's Principle Application
+** Pascal&apos;sPrinciple Application
 *** P₁ = P₂
 ** Pressure Equations
 *** P₁ = F₁ / A₁
@@ -105,13 +105,13 @@ left side
 **** Pressure Transmission
 *** Brake Calipers/Wheel Cylinders
 **** Force Application to Brake Pads
-** Operation (Pascal's Principle)
+** Operation (Pascal&apos;sPrinciple)
 *** 1. Pedal Press
 *** 2. Master Cylinder Pressure Increase
 *** 3. Equal Pressure Transmission
 *** 4. Force Application at Wheels
 left side
-** Example: Pascal's Principle
+** Example: Pascal&apos;sPrinciple
 *** Given
 **** Narrow cylinder area: 0.002 m²
 **** Wider cylinder area: 0.9 m²

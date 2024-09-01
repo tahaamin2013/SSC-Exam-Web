@@ -54,7 +54,7 @@ left side
 *** Examples of Elastic Behavior
 **** Stretched spring
 **** Tennis ball after impact
-**** Archer's bow
+**** Archer&apos;sbow
 *** Elastic Limit
 **** Maximum deformation before losing elasticity
 **** Beyond this limit
@@ -79,14 +79,14 @@ right side
 ***** F = mg
 ***** F = 50 kg * 9.8 m/s²
 ***** F = 490 N
-**** Apply Hooke's Law
+**** Apply Hooke&apos;sLaw
 ***** k = F / x
 ***** k = 490 N / 0.1 m
 *** Answer
 **** Spring constant (k) = 4,900 N/m
 *** Key Concepts
 **** Weight calculation
-**** Hooke's Law application
+**** Hooke&apos;sLaw application
 **** Unit conversion
 @endmindmap`}
         />
@@ -95,7 +95,7 @@ right side
         <h1 className="text-4xl font-bold text-blue-500">5.1.1 HOOKE&apos;S LAW</h1>
         <PlantUMLDiagram
           code={`@startmindmap
-* Hooke's Law
+* Hooke&apos;sLaw
 ** Definition
 *** Relationship between force and extension/compression
 *** Applies within elastic limit
@@ -112,7 +112,7 @@ left side
 *** Straight line through origin
 *** Slope represents spring constant
 ** Limit of Proportionality
-*** Point where Hooke's Law no longer applies
+*** Point where Hooke&apos;sLaw no longer applies
 *** Beyond this, relationship becomes non-linear
 ** Applications
 *** Springs
@@ -129,7 +129,7 @@ left side
         </h1> 
         <PlantUMLDiagram
           code={`@startmindmap
-* Applications of Hooke's Law
+* Applications of Hooke&apos;sLaw
 ** Practical Applications
 *** Balance Wheel
 **** Used in mechanical watches

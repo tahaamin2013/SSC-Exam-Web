@@ -15,7 +15,7 @@ const QualitativeAnalysis = () => {
 
             <h3 className="text-lg font-semibold mb-4">18.1.1 Detection of Ammonia</h3>
             <p className="mb-4">
-                Ammonia is a basic gas whose pH is more than 7. It is used for making urea fertilizer. It can be manufactured by Haber's process using hydrogen and nitrogen gases.
+                Ammonia is a basic gas whose pH is more than 7. It is used for making urea fertilizer. It can be manufactured by Haber&apos;s  process using hydrogen and nitrogen gases.
             </p>
             <h4 className="text-md font-semibold mb-4">Procedure for Detection</h4>
             <ol className="list-decimal list-inside mb-4">
@@ -92,7 +92,7 @@ const QualitativeAnalysis = () => {
             <ol className="list-decimal list-inside mb-4">
                 <li>Ensure you are in a well-ventilated area and follow safety precautions when handling flammable materials.</li>
                 <li>Prepare your source of oxygen: use hydrogen peroxide, pour a small amount into the test tube; it generates oxygen gas automatically.</li>
-                <li>Ignite the wooden splint using a matchstick or lighter until it's glowing at the tip. Carefully insert the glowing splint into the test tube containing the oxygen gas.</li>
+                <li>Ignite the wooden splint using a matchstick or lighter until it&apos;s  glowing at the tip. Carefully insert the glowing splint into the test tube containing the oxygen gas.</li>
                 <li>Observe what happens to the splint inside the test tube; if oxygen is present, the splint will burst into flames, burning brightly.</li>
             </ol>
             <p className="mb-4">

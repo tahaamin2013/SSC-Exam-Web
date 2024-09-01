@@ -24,11 +24,11 @@ export const quiz = {
         "What is the purpose of the 'type' attribute in the <script> tag?",
       answers: [
         "A) To specify the programming language used",
-        "B) To define the script's execution order",
-        "C) To set the script's file type",
-        "D) It's optional in modern HTML",
+        "B) To define the script&apos;sexecution order",
+        "C) To set the script&apos;sfile type",
+        "D) It&apos;soptional in modern HTML",
       ],
-      correctAnswer: "D) It's optional in modern HTML",
+      correctAnswer: "D) It&apos;soptional in modern HTML",
     },
     {
       id: 4,

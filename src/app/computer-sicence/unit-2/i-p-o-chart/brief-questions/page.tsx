@@ -32,12 +32,12 @@ const questionsAndAnswers = [
         answer: "Certainly! Example: \nInput: Length and Width of the rectangle \nProcess: Area = Length * Width \nOutput: Area of the rectangle"
     },
     {
-        question: "Can you give an example of an I-P-O Chart for computing a student's average grade?",
+        question: "Can you give an example of an I-P-O Chart for computing a student&apos;saverage grade?",
         answer: "Sure! Example: \nInput: Grade 1, Grade 2, Grade 3 \nProcess: Sum all grades and divide by the number of grades \nOutput: Average grade of the student"
     },
     {
         question: "What is the purpose of an I-P-O Chart?",
-        answer: "The purpose of an I-P-O Chart is to visually represent how data flows through a system, breaking down the process into inputs, processes, and outputs. This helps in understanding, designing, and analyzing systems by clearly showing each component's role."
+        answer: "The purpose of an I-P-O Chart is to visually represent how data flows through a system, breaking down the process into inputs, processes, and outputs. This helps in understanding, designing, and analyzing systems by clearly showing each component&apos;srole."
     },
     {
         question: "How do software designers use I-P-O Charts?",
@@ -53,7 +53,7 @@ const questionsAndAnswers = [
     },
     {
         question: "What role does visualization play in using the I-P-O model?",
-        answer: "Visualization through the I-P-O Chart helps in understanding and communicating how a system works. It provides a clear and organized view of the system's components, making it easier to analyze, design, and discuss the system's functionality."
+        answer: "Visualization through the I-P-O Chart helps in understanding and communicating how a system works. It provides a clear and organized view of the system&apos;scomponents, making it easier to analyze, design, and discuss the system&apos;sfunctionality."
     },
     {
         question: "How can an I-P-O Chart be applied in real-world scenarios?",
@@ -61,7 +61,7 @@ const questionsAndAnswers = [
     },
     {
         question: "What challenges might arise when creating an I-P-O Chart?",
-        answer: "Challenges in creating an I-P-O Chart may include accurately defining inputs and outputs, ensuring that all relevant processes are included, and maintaining clarity in the chart. It requires careful consideration to ensure that the chart accurately reflects the system's functionality."
+        answer: "Challenges in creating an I-P-O Chart may include accurately defining inputs and outputs, ensuring that all relevant processes are included, and maintaining clarity in the chart. It requires careful consideration to ensure that the chart accurately reflects the system&apos;sfunctionality."
     },
     {
         question: "What tools or techniques are useful for creating I-P-O Charts?",
@@ -69,7 +69,7 @@ const questionsAndAnswers = [
     },
     {
         question: "How can an I-P-O Chart improve system design and analysis?",
-        answer: "An I-P-O Chart improves system design and analysis by providing a clear framework for understanding and organizing the system's components. It helps in identifying the necessary inputs, processes, and outputs, leading to more effective and efficient system design and analysis."
+        answer: "An I-P-O Chart improves system design and analysis by providing a clear framework for understanding and organizing the system&apos;scomponents. It helps in identifying the necessary inputs, processes, and outputs, leading to more effective and efficient system design and analysis."
     },
     {
         question: "What is the significance of the 'Process' component in an I-P-O Chart?",

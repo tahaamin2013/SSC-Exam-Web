@@ -36,7 +36,7 @@ right side
 *** Constant Rate
 ***:If you walk at different speeds, sometimes fast
 and sometimes slow, your movement is non-uniform because
-it's not steady or consistent;
+it&apos;snot steady or consistent;
 ** Example 2.4: Acceleration of Cheetah
 *** Given
 **** Initial velocity (v₁): 0 m/s (East)

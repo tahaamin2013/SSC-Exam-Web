@@ -55,8 +55,8 @@ left side
 *** Charge (right superscript)
 *** Example: Mg12242+
 ** Key Points
-*** Rutherford's planetary model
-*** Bohr's circular orbits
+*** Rutherford&apos;s planetary model
+*** Bohr&apos;s circular orbits
 *** Isotopes
 *** Uranium isotope uses
 *** Radioactive isotope applications
@@ -74,7 +74,7 @@ left side
         <div className="bg-white p-4 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold text-green-600 mb-2">Definition</h3>
             <p className="text-green-900 mb-4">
-                Based on Bohr's atomic theory, shells are circular paths where electrons revolve around the nucleus. Each shell has fixed energy, described by the quantum number <i>n</i> (n = 1, 2, 3, ...). As <i>n</i> increases, the distance from the nucleus and the energy of the shell increase.
+                Based on Bohr&apos;s  atomic theory, shells are circular paths where electrons revolve around the nucleus. Each shell has fixed energy, described by the quantum number <i>n</i> (n = 1, 2, 3, ...). As <i>n</i> increases, the distance from the nucleus and the energy of the shell increase.
             </p>
             <h3 className="text-xl font-semibold text-green-600 mb-2">Nomenclature</h3>
             <ul className="list-disc list-inside text-green-900 ml-6 mb-4">
@@ -129,8 +129,8 @@ left side
         <h2 className="text-2xl font-semibold text-green-700 mb-4">Key Points</h2>
         <div className="bg-white p-4 rounded-lg shadow-md">
             <ul className="list-disc list-inside text-green-900 ml-6 mb-4">
-                <li>Rutherford's planetary model: Nucleus (protons) surrounded by electrons.</li>
-                <li>Bohr's model: Electrons in fixed circular orbits (shells).</li>
+                <li>Rutherford&apos;s  planetary model: Nucleus (protons) surrounded by electrons.</li>
+                <li>Bohr&apos;s  model: Electrons in fixed circular orbits (shells).</li>
                 <li>Isotopes: Atoms with the same number of protons but different numbers of neutrons.</li>
                 <li>Uranium isotope: Used in nuclear reactors and atomic bombs.</li>
                 <li>Radioactive isotopes: Various applications in science and medicine.</li>

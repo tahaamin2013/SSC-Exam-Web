@@ -64,7 +64,7 @@ const MindmapFriction = () => {
 ** Quiz
 ***[#Cyan] Can a satellite catch up by increasing speed?
 ****_ No, increased speed increases orbit radius
-** Example: Earth's Orbital Speed
+** Example: Earth&apos;sOrbital Speed
 ***[#LightGray] Given
 ****_ T = 365.25 days = 3.16 × 10^7 s
 ****_ r = 150 million km = 1.5 × 10^11 m

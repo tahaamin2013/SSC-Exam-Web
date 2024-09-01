@@ -25,7 +25,7 @@ left side
 ** Characteristics
 *** Decreases with distance from surface
 *** Varies for different planets
-** Earth's g
+** Earth&apos;sg
 *** 9.8 N/kg
 *** 9.8 m/s²
 ** Applications

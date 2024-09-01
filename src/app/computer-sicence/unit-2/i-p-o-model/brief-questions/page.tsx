@@ -17,7 +17,7 @@ const questionsAndAnswers = [
     },
     {
         question: "What does the 'Input' component refer to in the I-P-O model?",
-        answer: "The 'Input' component refers to the data or information provided to the system from the environment. This data serves as the starting point for the system's operations."
+        answer: "The 'Input' component refers to the data or information provided to the system from the environment. This data serves as the starting point for the system&apos;soperations."
     },
     {
         question: "What is involved in the 'Process' component of the I-P-O model?",
@@ -25,7 +25,7 @@ const questionsAndAnswers = [
     },
     {
         question: "What does the 'Output' component represent in the I-P-O model?",
-        answer: "The 'Output' component represents the results or responses produced by the system after processing the input. It is the final product of the system's operations, presented back to the environment."
+        answer: "The 'Output' component represents the results or responses produced by the system after processing the input. It is the final product of the system&apos;soperations, presented back to the environment."
     },
     {
         question: "Why is the Input-Processing-Output model important?",

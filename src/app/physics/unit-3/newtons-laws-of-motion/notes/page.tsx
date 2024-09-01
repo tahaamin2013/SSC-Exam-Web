@@ -19,7 +19,7 @@ const NewtonLaws = () => {
 
           {[
             {
-              title: "1. Newton's First Law of Motion",
+              title: "1. Newton&apos;sFirst Law of Motion",
               content: [
                 {
                   subtitle: "Statement",
@@ -48,7 +48,7 @@ const NewtonLaws = () => {
               ]
             },
             {
-              title: "2. Newton's Second Law of Motion",
+              title: "2. Newton&apos;sSecond Law of Motion",
               content: [
                 {
                   subtitle: "Statement",
@@ -76,7 +76,7 @@ const NewtonLaws = () => {
               ]
             },
             {
-              title: "3. Newton's Third Law of Motion",
+              title: "3. Newton&apos;sThird Law of Motion",
               content: [
                 {
                   subtitle: "Statement",

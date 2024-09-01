@@ -19,7 +19,7 @@ left side
 *** SI unit: kg·m/s or N·s
 ** Force and Momentum
 *** F = Δp / Δt
-*** Newton's Second Law
+*** Newton&apos;sSecond Law
 right side
 ** Impulse (J)
 *** Definition: J = F x Δt
@@ -74,7 +74,7 @@ right side
 *** Vector quantity
 *** Direction: Same as velocity
 *** SI Unit: kg·m/s or Ns
-** Newton's Second Law
+** Newton&apos;sSecond Law
 *** Relates force and momentum
 ** Example 3.4: Golf Ball Momentum
 *** Given
@@ -100,7 +100,7 @@ right side
 *** Vector quantity
 *** Direction: Same as velocity
 *** SI Unit: kg·m/s or Ns
-** Newton's Second Law
+** Newton&apos;sSecond Law
 *** Relates force and momentum
 ** Force and Change in Momentum
 *** Force 'F' produces acceleration 'a'
@@ -155,7 +155,7 @@ right side
 *** Vector quantity
 *** Direction: Same as velocity
 *** SI Unit: kg·m/s or Ns
-** Newton's Second Law
+** Newton&apos;sSecond Law
 *** Relates force and momentum
 ** Force and Change in Momentum
 *** Force 'F' produces acceleration 'a'
@@ -234,7 +234,7 @@ right side
 *** Vector quantity
 *** Direction: Same as velocity
 *** SI Unit: kg·m/s or Ns
-** Newton's Second Law
+** Newton&apos;sSecond Law
 *** Relates force and momentum
 ** Force and Change in Momentum
 *** Force 'F' produces acceleration 'a'
@@ -266,7 +266,7 @@ right side
 *** Impulse-Momentum Relationship
 **** Analyze momentum before and after interaction
 **** Useful for collisions and interactions
-** Newton's Laws and Conservation of Momentum
+** Newton&apos;sLaws and Conservation of Momentum
 *** Isolated System
 **** No net force acting ('F = 0')
 **** ΔP = 0
@@ -282,7 +282,7 @@ right side
 **** Conservation of momentum:
 ***** mv + MV = 0
 ***** V = - (m x v) / M
-**** Negative sign: Gun recoils opposite to bullet's velocity
+**** Negative sign: Gun recoils opposite to bullet&apos;svelocity
 **** Larger mass of gun results in smaller recoil velocity
 *** Point to Ponder
 **** Rockets in space accelerate by expelling hot gases

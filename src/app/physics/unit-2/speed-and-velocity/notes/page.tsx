@@ -96,7 +96,7 @@ const SpeedVelocityNotes = () => {
                         <div className="space-y-4">
                             <ExampleCard
                                 title="Reaction Time of a Batsman"
-                                problem="Shoaib Akhtar bowled at 161.3 km/h. If the batsman is 17.5 m away, what's the reaction time?"
+                                problem="Shoaib Akhtar bowled at 161.3 km/h. If the batsman is 17.5 m away, what&apos;sthe reaction time?"
                                 solution={`
                   1. Convert speed to m/s: 161.3 km/h = 44.8 m/s
                   2. Use time = distance / speed
@@ -106,13 +106,13 @@ const SpeedVelocityNotes = () => {
                             />
                             <ExampleCard
                                 title="Fastest Train in the World"
-                                problem="Shanghai's Maglev traveled 30 km in 7 minutes and 30 seconds. What's its speed in km/h?"
+                                problem="Shanghai&apos;sMaglev traveled 30 km in 7 minutes and 30 seconds. What&apos;sits speed in km/h?"
                                 solution={`
                   1. Convert time to seconds: 7.5 min = 450 s
                   2. Calculate speed: 30,000 m / 450 s = 66.67 m/s
                   3. Convert to km/h: 66.67 m/s * (3600 s / 1 h) * (1 km / 1000 m)
                 `}
-                                answer="The train's speed is 240.01 km/h."
+                                answer="The train&apos;sspeed is 240.01 km/h."
                             />
                         </div>
                     </section>

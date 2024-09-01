@@ -21,9 +21,9 @@ Mole Concept;
 *** Writing chemical formula
 **** Steps to write formula
 **** Examples: NaCl, Al2O3
-** Avogadro's Number and Mole
+** Avogadro&apos;s Number and Mole
 *** Mole: 6.022 x 10^23 particles
-*** Avogadro's number: NA
+*** Avogadro&apos;s number: NA
 *** Molar mass
 ** Gram Atomic Mass
 *** Atomic mass in grams
@@ -46,7 +46,7 @@ left side
       <div>
          <div className="bg-gradient-to-r from-gray-100 to-blue-300 text-gray-900">
     <div className="max-w-4xl mx-auto p-8">
-        <h1 className="text-4xl font-bold text-center mb-8">Chemical Formula and Avogadro's Number</h1>
+        <h1 className="text-4xl font-bold text-center mb-8">Chemical Formula and Avogadro&apos;s Number</h1>
 
         <div className="bg-white p-6 rounded-2xl shadow-lg mb-8">
             <h2 className="text-3xl font-semibold mb-4">6.3 Chemical Formula and Name of Binary Ionic Compounds</h2>
@@ -67,9 +67,9 @@ left side
         </div>
 
         <div className="bg-white p-6 rounded-2xl shadow-lg mb-8">
-            <h2 className="text-3xl font-semibold mb-4">6.4 Avogadro's Number and Mole</h2>
+            <h2 className="text-3xl font-semibold mb-4">6.4 Avogadro&apos;s Number and Mole</h2>
             <p className="text-lg mb-4">Mole: Amount of substance containing 6.022 x 10<sup>23</sup> particles</p>
-            <p className="text-lg mb-4">Avogadro's number (N<sub>A</sub>): 6.022 x 10<sup>23</sup></p>
+            <p className="text-lg mb-4">Avogadro&apos;s number (N<sub>A</sub>): 6.022 x 10<sup>23</sup></p>
             <p className="text-lg mb-4">Molar mass: Mass of one mole of a substance</p>
             
             <div className="bg-gray-50 p-4 rounded-lg mt-6">

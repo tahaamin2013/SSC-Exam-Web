@@ -19,12 +19,12 @@ const MagneticMindmap = () => {
 *** Define empirical formula
 *** Deduce formulas and names of binary compounds
 *** Calculate moles, mass, molar mass
-*** Define mole and Avogadro's constant
+*** Define mole and Avogadro&apos;s constant
 *** Construct chemical equations
 ** Introduction
 *** Historical context
 **** Ancient Greek philosophy
-**** John Dalton's atomic theory
+**** John Dalton&apos;s atomic theory
 **** 20th century atomic structure
 ** Empirical Formula
 *** Definition
@@ -75,8 +75,8 @@ const MagneticMindmap = () => {
       <li>Deduce formula and name of binary compounds from ions</li>
       <li>Deduce formula of molecular substances from given structures</li>
       <li>Use relationship: amount of substance = mass/molar mass</li>
-      <li>Define mole and Avogadro's number</li>
-      <li>Explain relationship between mole and Avogadro's constant</li>
+      <li>Define mole and Avogadro&apos;s number</li>
+      <li>Explain relationship between mole and Avogadro&apos;s constant</li>
       <li>Construct chemical and ionic equations</li>
       <li>Deduce symbol equations with state symbols</li>
     </ul>
@@ -86,7 +86,7 @@ const MagneticMindmap = () => {
     <h2 className="text-3xl font-semibold mb-4">II. Introduction:</h2>
     <ul className="list-disc pl-5 space-y-2">
       <li>Historical context: Ancient Greek philosophers' beliefs about elemental substances</li>
-      <li>John Dalton's atomic theory in the 19th century</li>
+      <li>John Dalton&apos;s atomic theory in the 19th century</li>
       <li>20th century developments in atomic structure</li>
       <li>Chapter goal: Understand fundamental concepts about matter</li>
     </ul>

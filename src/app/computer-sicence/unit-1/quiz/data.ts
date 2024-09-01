@@ -97,7 +97,7 @@ export const quiz = {
       answers: [
         "a) In separate memory units",
         "b) In the same memory unit",
-        "c) In the processor's registers",
+        "c) In the processor&apos;sregisters",
         "d) In the cache memory",
       ],
       correctAnswer: "b) In the same memory unit",
@@ -105,7 +105,7 @@ export const quiz = {
     {
       id: 11,
       question:
-        "What is the primary function of the buses in a computer's memory system?",
+        "What is the primary function of the buses in a computer&apos;smemory system?",
       answers: [
         "a) Control memory operations",
         "b) Display graphics",
@@ -269,7 +269,7 @@ export const quiz = {
     },
     {
       id: 27,
-      question: "Who developed Napier's Bones?",
+      question: "Who developed Napier&apos;sBones?",
       answers: [
         "a) Blaise Pascal",
         "b) Charles Babbage",
@@ -490,7 +490,7 @@ export const quiz = {
     },
     {
       id: 48,
-      question: "What does the OSI model's Presentation Layer do?",
+      question: "What does the OSI model&apos;sPresentation Layer do?",
       answers: [
         "a) Establishes connections between computers",
         "b) Converts data into a standard format",

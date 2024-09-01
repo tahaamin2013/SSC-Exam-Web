@@ -39,7 +39,7 @@ left side
 **** Riding a Bicycle: Pedaling to move the bike forward.
 
 ** Energy
-*** Energy is what makes things move, change, or happen. It's the power that keeps everything going.
+*** Energy is what makes things move, change, or happen. It&apos;sthe power that keeps everything going.
 *** :Examples
 **** Food Gives You Energy: Powers your body to run, jump, and play.
 **** Sunlight for Plants: Energy that helps plants grow.

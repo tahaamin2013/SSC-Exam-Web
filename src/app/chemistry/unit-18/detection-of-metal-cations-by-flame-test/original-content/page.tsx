@@ -7,7 +7,7 @@ const FlameTest = () => {
             <h1 className="text-2xl font-bold mb-4">18.2 DETECTION OF METAL CATIONS BY FLAME TEST</h1>
 
             <p className="mb-4">
-                A Bunsen burner flame has two parts the upper part is called oxidizing flame and the lower part is called reducing flame. Bunsen flame has enough energy to excite the electrons of alkali and alkaline earth metal atoms. Alkali metals have low ionization potentials that's why there atoms get their electrons excited by the energy of visible wavelength of light. The same energy is released when the electron comes to the ground state showing the colour of flame, as this flame contain the energy of visible wavelength of light it possesses a characteristic flame colour.
+                A Bunsen burner flame has two parts the upper part is called oxidizing flame and the lower part is called reducing flame. Bunsen flame has enough energy to excite the electrons of alkali and alkaline earth metal atoms. Alkali metals have low ionization potentials that&apos;s  why there atoms get their electrons excited by the energy of visible wavelength of light. The same energy is released when the electron comes to the ground state showing the colour of flame, as this flame contain the energy of visible wavelength of light it possesses a characteristic flame colour.
             </p>
 
             <h2 className="text-xl font-bold mb-4">How is Flame Test Performed?</h2>

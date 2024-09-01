@@ -209,7 +209,7 @@ export const quiz = {
     {
       id: 24,
       question:
-        "What type of computer would be most suitable for a large bank's central database?",
+        "What type of computer would be most suitable for a large bank&apos;scentral database?",
       answers: ["Microcomputer", "Minicomputer", "Mainframe", "Supercomputer"],
       correctAnswer: "Mainframe",
     },
@@ -293,7 +293,7 @@ export const quiz = {
     {
       id: 32,
       question:
-        "What type of computer would be most suitable for a medium-sized business's accounting system?",
+        "What type of computer would be most suitable for a medium-sized business&apos;saccounting system?",
       answers: ["Supercomputer", "Mainframe", "Minicomputer", "Microcomputer"],
       correctAnswer: "Minicomputer",
     },

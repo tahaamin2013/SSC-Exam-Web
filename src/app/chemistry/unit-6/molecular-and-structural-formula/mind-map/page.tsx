@@ -76,8 +76,8 @@ const MagneticMindmap = () => {
       <li><strong>Empirical Formula:</strong> Simplest whole-number ratio of atoms in a compound</li>
       <li><strong>Molecular Formula:</strong> Exact number of atoms in a molecule</li>
       <li><strong>Molecular Mass:</strong> Sum of atomic masses of all atoms in a molecule</li>
-      <li><strong>Avogadro's Number:</strong> Number of particles in one mole of a substance</li>
-      <li><strong>Mole:</strong> Amount of matter containing Avogadro's number of particles</li>
+      <li><strong>Avogadro&apos;s Number:</strong> Number of particles in one mole of a substance</li>
+      <li><strong>Mole:</strong> Amount of matter containing Avogadro&apos;s number of particles</li>
       <li><strong>Gram Atomic Mass:</strong> Atomic mass in grams</li>
       <li><strong>Gram Molecular Mass:</strong> Molecular mass in grams</li>
       <li><strong>Gram Formula Mass:</strong> Formula mass in grams</li>

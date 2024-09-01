@@ -90,7 +90,7 @@ export const quiz = {
         "Which of these is NOT a characteristic of low-level languages?",
       answers: [
         "Machine-oriented",
-        "Requires detailed knowledge of computer's internal workings",
+        "Requires detailed knowledge of computer&apos;sinternal workings",
         "Easy for humans to read and write",
         "Includes machine language and assembly language",
       ],

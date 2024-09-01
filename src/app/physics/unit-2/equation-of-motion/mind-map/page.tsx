@@ -4,7 +4,7 @@ import React from 'react';
 const MeasuringInstrumentsTable = () => {
     const tableData = [
         { name: 'First Equation', equation: 'v = vi + at', variables: 'v: final velocity, vi: initial velocity, a: acceleration, t: time' },
-        { name: 'Second Equation', equation: 'S = vi * t + 1/2 * a * t²', variables: 'S: distance, vi: initial velocity, a: acceleration, t: time' },
+        { name: 'Second Equation', equation: &apos;s= vi * t + 1/2 * a * t²', variables: 'S: distance, vi: initial velocity, a: acceleration, t: time' },
         { name: 'Third Equation', equation: 'v² = vi² + 2aS', variables: 'v: final velocity, vi: initial velocity, a: acceleration, S: distance' },
     ];
     const umlCode = `

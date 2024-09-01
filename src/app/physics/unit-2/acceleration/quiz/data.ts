@@ -65,7 +65,7 @@ export const quiz = {
     {
       id: 7,
       question:
-        "If an object's velocity changes by equal amounts in equal intervals of time, what type of acceleration does it have?",
+        "If an object&apos;svelocity changes by equal amounts in equal intervals of time, what type of acceleration does it have?",
       answers: [
         "Non-uniform acceleration",
         "Zero acceleration",
@@ -78,7 +78,7 @@ export const quiz = {
       id: 8,
       question: "What does non-uniform acceleration imply?",
       answers: [
-        "The object's velocity changes at a constant rate",
+        "The object&apos;svelocity changes at a constant rate",
         "The rate of velocity change is not steady over time",
         "There is no change in velocity",
         "Velocity increases exponentially",
@@ -132,7 +132,7 @@ export const quiz = {
     {
       id: 13,
       question:
-        "In the example of a cheetah, what is the cheetah's acceleration if it reaches 26.8 m/s in 3 seconds?",
+        "In the example of a cheetah, what is the cheetah&apos;sacceleration if it reaches 26.8 m/s in 3 seconds?",
       answers: ["8.93 m/s²", "9.8 m/s²", "26.8 m/s²", "3 m/s²"],
       correctAnswer: "8.93 m/s²",
     },
@@ -160,8 +160,8 @@ export const quiz = {
       id: 16,
       question: "What happens during non-uniform acceleration?",
       answers: [
-        "The object's velocity increases at a constant rate.",
-        "The object's velocity decreases at a constant rate.",
+        "The object&apos;svelocity increases at a constant rate.",
+        "The object&apos;svelocity decreases at a constant rate.",
         "The rate of change of velocity varies over time.",
         "The object moves in a circular path.",
       ],
@@ -187,7 +187,7 @@ export const quiz = {
     {
       id: 19,
       question:
-        "During Galileo's experiment from the Leaning Tower of Pisa, what did he observe?",
+        "During Galileo&apos;sexperiment from the Leaning Tower of Pisa, what did he observe?",
       answers: [
         "Objects of different masses reached the ground at different times.",
         "Objects of different masses reached the ground at the same time.",

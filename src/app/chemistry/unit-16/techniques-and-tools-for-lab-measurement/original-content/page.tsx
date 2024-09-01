@@ -33,7 +33,7 @@ const TechniquesAndTools = () => {
       <p>Analytical balances are precision measuring instruments used in quantitative chemical analysis. They are used to determine the mass of solid objects, liquids, powders, and granular substances.</p>
 
       <h2 className="text-xl font-semibold mt-4">Beam Balance</h2>
-      <p>It is a valuable tool when an accurate measurement of mass is required. It doesn't require any electricity for its operation.</p>
+      <p>It is a valuable tool when an accurate measurement of mass is required. It doesn&apos;t require any electricity for its operation.</p>
 
       <h2 className="text-xl font-semibold mt-4">Electronic Balance</h2>
       <p>Electronic balance is an instrument used for the accurate measurement of the weight of materials. It provides digital results of measurements and is significant for laboratories requiring precise measurement of chemicals used in experiments.</p>

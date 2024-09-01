@@ -6,7 +6,7 @@ export default function SummaryPage() {
         { title: "Energy", description: "The capacity of a body to do work." },
         { title: "Kinetic Energy", description: "Energy of an object due to its motion, given by E = mv²." },
         { title: "Potential Energy", description: "Energy an object possesses due to its position or state." },
-        { title: "Gravitational Potential Energy", description: "Energy associated with an object's position in a gravitational field, given by E = mgh." },
+        { title: "Gravitational Potential Energy", description: "Energy associated with an object&apos;sposition in a gravitational field, given by E = mgh." },
         { title: "Energy Conversion", description: "Process of changing one form of energy into another." },
         { title: "Law of Conservation of Energy", description: "Total energy of an isolated system remains constant over time." },
         { title: "Energy Resources", description: "Substances or systems from which we can extract energy." },

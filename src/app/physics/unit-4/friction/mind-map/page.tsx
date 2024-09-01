@@ -116,7 +116,7 @@ const MindmapFriction = () => {
 ** Drag Force
 ***[#Yellow] Retarding force on moving objects
 ***[#Yellow] Result of fluid friction
-** Newton's Third Law
+** Newton&apos;sThird Law
 ***[#Pink] Object pushes fluid
 ***[#Pink] Fluid pushes back equally
 @endmindmap`}

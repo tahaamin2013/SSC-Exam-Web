@@ -70,7 +70,7 @@ const PhysicsApplications: FC = () => (
       />
       <ApplicationCard
         title="Climate Moderation"
-        description="Large water bodies moderate nearby climates due to water's heat capacity"
+        description="Large water bodies moderate nearby climates due to water&apos;sheat capacity"
       />
       <ApplicationCard
         title="Vehicles"

@@ -418,7 +418,7 @@ export const quiz = {
     },
     {
       id: 61,
-      question: "Newton's first law of motion is valid only in the absence of:",
+      question: "Newton&apos;sfirst law of motion is valid only in the absence of:",
       answers: ["Force", "net force", "friction", "momentum"],
       correctAnswer: "net force",
     },

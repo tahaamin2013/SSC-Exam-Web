@@ -51,7 +51,7 @@ mindmapDiagram {
 *** Relative mass of an isotope given atomic mass and abundance
 left side
 ** 3.1 Atomic Models
-*** Dalton's Model (1803)
+*** Dalton&apos;s Model (1803)
 **** Postulates
 ***** Elements composed of indivisible atoms
 ***** Atoms of an element are identical
@@ -59,7 +59,7 @@ left side
 ***** Atoms cannot be created or destroyed
 **** Limitations
 ***** Later experiments showed atoms are divisible
-*** Rutherford's Experiment (1911)
+*** Rutherford&apos;s Experiment (1911)
 **** Gold foil experiment with alpha particles
 **** Conclusions
 ***** Most of atom is empty space
@@ -68,7 +68,7 @@ left side
 **** Limitations
 ***** Classical physics predicts electron collapse into nucleus
 ***** Continuous spectrum not explained
-*** Bohr's Atomic Theory (1913)
+*** Bohr&apos;s Atomic Theory (1913)
 **** Postulates
 ***** Electrons in fixed energy orbits
 ***** Energy proportional to distance from nucleus
@@ -105,7 +105,7 @@ left side
     <div className="mb-8">
         <h2 className="text-2xl font-semibold text-teal-700 mb-3">I. Atomic Models Evolution</h2>
         
-        <h3 className="text-xl font-semibold text-blue-700 mb-2">A. Dalton's Model (1803)</h3>
+        <h3 className="text-xl font-semibold text-blue-700 mb-2">A. Dalton&apos;s  Model (1803)</h3>
         <ul className="list-disc list-inside text-blue-900 ml-8">
             <li>Main postulates:
                 <ul className="list-disc list-inside text-blue-900 ml-8">
@@ -117,7 +117,7 @@ left side
             </li>
         </ul>
 
-        <h3 className="text-xl font-semibold text-blue-700 mt-6 mb-2">B. Rutherford's Model (1911)</h3>
+        <h3 className="text-xl font-semibold text-blue-700 mt-6 mb-2">B. Rutherford&apos;s  Model (1911)</h3>
         <ul className="list-disc list-inside text-blue-900 ml-8">
             <li>Gold foil experiment findings:
                 <ul className="list-disc list-inside text-blue-900 ml-8">
@@ -134,7 +134,7 @@ left side
             </li>
         </ul>
 
-        <h3 className="text-xl font-semibold text-blue-700 mt-6 mb-2">C. Bohr's Model (1913)</h3>
+        <h3 className="text-xl font-semibold text-blue-700 mt-6 mb-2">C. Bohr&apos;s  Model (1913)</h3>
         <ul className="list-disc list-inside text-blue-900 ml-8">
             <li>Key postulates:
                 <ul className="list-disc list-inside text-blue-900 ml-8">

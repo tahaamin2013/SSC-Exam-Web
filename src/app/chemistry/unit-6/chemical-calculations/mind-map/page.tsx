@@ -124,7 +124,7 @@ const MagneticMindmap = () => {
   <p className="text-lg font-medium mb-2"><strong>Key Concepts:</strong></p>
   <ul className="list-disc pl-5 mb-4">
     <li>Mole-mass conversions use molar mass (g/mol)</li>
-    <li>Mole-particle conversions use Avogadro's number (6.022 × 10²³)</li>
+    <li>Mole-particle conversions use Avogadro&apos;s number (6.022 × 10²³)</li>
     <li>For metals, molar mass equals gram atomic mass</li>
     <li>For molecular substances, molar mass equals gram molecular mass</li>
   </ul>
@@ -133,7 +133,7 @@ const MagneticMindmap = () => {
   <ul className="list-disc pl-5">
     <li>Identify the substance (metal, molecular, ionic)</li>
     <li>Determine molar mass</li>
-    <li>Use appropriate conversion factor (molar mass or Avogadro's number)</li>
+    <li>Use appropriate conversion factor (molar mass or Avogadro&apos;s number)</li>
     <li>Perform calculations</li>
   </ul>
 </div>

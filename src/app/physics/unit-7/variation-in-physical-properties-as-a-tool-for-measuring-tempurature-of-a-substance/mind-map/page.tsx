@@ -50,10 +50,10 @@ Methods;
 ** Variation of Volume and Pressure
 *** Gas Thermometers
 **** Constant Pressure Gas Thermometer
-***** Uses Charles's Law
+***** Uses Charles&apos;sLaw
 ***** Volume ∝ Temperature
 **** Constant Volume Gas Thermometer
-***** Uses Gay-Lussac's Law
+***** Uses Gay-Lussac&apos;sLaw
 ***** Pressure ∝ Temperature
 ** Variation in Colour of Crystals
 *** Liquid crystal thermometers
