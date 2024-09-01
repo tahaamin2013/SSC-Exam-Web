@@ -97,8 +97,8 @@ mindmapDiagram {
         <h2 className="text-2xl font-semibold text-green-700 mb-4">Historical Context</h2>
         <div className="bg-white p-4 rounded-lg shadow-md">
             <p className="text-green-900">
-                Term "isotope" first used by Soddy<br/>
-                Greek origin: "isos" (same) + "tope" (place)<br/>
+                Term &quot;isotope&quot; first used by Soddy<br/>
+                Greek origin: &quot;isos&quot; (same) + &quot;tope&quot; (place)<br/>
                 Contradicts Dalton&apos;satomic theory of identical atoms for a given element
             </p>
         </div>

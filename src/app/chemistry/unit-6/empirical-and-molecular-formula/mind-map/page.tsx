@@ -85,7 +85,7 @@ const MagneticMindmap = () => {
   <section className="mb-6">
     <h2 className="text-3xl font-semibold mb-4">II. Introduction:</h2>
     <ul className="list-disc pl-5 space-y-2">
-      <li>Historical context: Ancient Greek philosophers' beliefs about elemental substances</li>
+            <li>Historical context: Ancient Greek philosophers&apos; beliefs about elemental substances</li>
       <li>John Dalton&apos;s atomic theory in the 19th century</li>
       <li>20th century developments in atomic structure</li>
       <li>Chapter goal: Understand fundamental concepts about matter</li>

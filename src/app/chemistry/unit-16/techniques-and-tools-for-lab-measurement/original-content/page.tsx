@@ -9,7 +9,7 @@ const TechniquesAndTools = () => {
       <h2 className="text-xl font-semibold mt-4">Graduated Cylinder</h2>
       <p>A significant technique in a chemistry lab is the ability to accurately measure a liquid in a graduated cylinder.</p>
       <img src="/graduated-cylindar.jpg" alt="Graduated Cylinder" className="w-full mt-4 mb-4" />
-      <p>When a solution is in the graduated cylinder, the liquid sticks to the sides making a U shape called a meniscus. This makes it difficult to read a measuring cylinder accurately. If you are too high, you will read a smaller volume. If you are too low, you will read a larger volume. The right way to take a reading is to get to 'eye level' to read an accurate volume of water.</p>
+      <p>When a solution is in the graduated cylinder, the liquid sticks to the sides making a U shape called a meniscus. This makes it difficult to read a measuring cylinder accurately. If you are too high, you will read a smaller volume. If you are too low, you will read a larger volume. The right way to take a reading is to get to &apos;eye level&apos; to read an accurate volume of water.</p>
 
       <h2 className="text-xl font-semibold mt-4">Beaker</h2>
       <p>Measuring beakers are tools used to measure the approximate volume of liquids. Beakers are also used for holding samples, stirring, mixing, and heating liquids. Beakers can also be used as a container for reactions and to estimate the volume of liquid.</p>

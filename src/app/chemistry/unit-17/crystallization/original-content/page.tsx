@@ -22,7 +22,7 @@ const Crystallization = () => {
         <li>At this stage, dynamic equilibrium is established. Although dissolution and crystallization continue at any temperature, the net amount of dissolved solute remains constant.</li>
         <li>The solution is heated until enough of the solvent (water) has evaporated to make the solution saturated.</li>
         <li>We can tell when the solution is saturated by dipping a glass rod into the solution to remove a drop and seeing if the drop goes cloudy and crystals start to form as it cools.</li>
-        <li>Once the solution is turned off and allowed to cool, solubility decreases with temperature, and the solute that can't remain dissolved forms crystals. The crystals are removed from the remaining solution by filtering.</li>
+        <li>Once the solution is turned off and allowed to cool, solubility decreases with temperature, and the solute that can&apos;t remain dissolved forms crystals. The crystals are removed from the remaining solution by filtering.</li>
         <li>The crystals are dried (in a warm oven, or just left to dry in air).</li>
       </ul>
 

@@ -91,7 +91,7 @@ mindmapDiagram {
             </h2>
             <p className="text-lg text-gray-700 mb-4">
               Use chemical periodicity to predict properties of elements in a
-              group. Deduce unknown elements' nature and position from given
+              group. Deduce unknown elements&apos; nature and position from given
               properties.
             </p>
           </section>

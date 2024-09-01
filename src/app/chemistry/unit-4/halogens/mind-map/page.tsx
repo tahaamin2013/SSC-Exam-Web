@@ -81,7 +81,7 @@ mindmapDiagram {
 
         <div className="bg-white p-6 rounded-2xl shadow-lg mb-8">
             <h2 className="text-3xl font-semibold mb-4">Definition</h2>
-            <p className="text-lg mb-4">The name is derived from Greek: "halous" (salt) + "gen" (former). Halogens are reactive non-metals existing as diatomic molecules.</p>
+            <p className="text-lg mb-4">The name is derived from Greek: &quot;halous&quot; (salt) + &quot;gen&quot; (former). Halogens are reactive non-metals existing as diatomic molecules.</p>
             <ul className="list-disc list-inside space-y-2 text-lg">
                 <li>Elements: Fluorine, Chlorine, Bromine, Iodine, Astatine, Tennessine</li>
                 <li>Reactive non-metals</li>
