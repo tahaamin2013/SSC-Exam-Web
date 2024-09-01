@@ -146,7 +146,7 @@ const ComputerSystemsDashboard = () => {
             }}
         >
             <h1 className="text-5xl font-extrabold mb-12 text-center text-white">
-                Holy Qur'an and Hadith      </h1>
+                Holy Qur&apos;an and Hadith      </h1>
             <div className="flex flex-wrap gap-5 justify-center">
                 {data.map((section) => (
                     <Section key={section.id} section={section} />
