@@ -93,7 +93,7 @@ const Unit16 = () => {
             <p>Kilo, k, 1000, 1 kilometer (km) = 1000 m, 10 m</p>
             <p>hector, h, 100, 1 hectometer (hm) = 100 m, 10-m</p>
             <p>Deca, da, 10, 1 decameter (dam) = 10m, 10 m, 100, 1 meter</p>
-            <p>Deci, d, 1/10, 1 decimeter (dm) = 0.1 m, 10&apos;'m</p>
+            <p>Deci, d, 1/10, 1 decimeter (dm) = 0.1 m, 10&apos;m</p>
             <p>Centi, 1/100, 1 centimeter (cm) = 0.01 m, 10m, C</p>
             <p>Milli, 1/1, 1000, 1 millimeter (mm) = 0.001 m, 10</p>
             <p>Micro, u, 10-6, 1 micrometer (um) = 1.0 x 10-6 m</p>

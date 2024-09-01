@@ -107,7 +107,7 @@ mindmapDiagram {
         <div className="bg-white p-6 rounded-2xl shadow-lg mb-8">
             <h2 className="text-3xl font-semibold mb-4">Key Points</h2>
             <ul className="list-disc list-inside space-y-2 text-lg">
-                <li><strong>Periodic Arrangement:</strong> Elements' properties repeat when arranged by increasing atomic number</li>
+                          <li><strong>Periodic Arrangement:</strong> Elements&apos; properties repeat when arranged by increasing atomic number</li>
                 <li><strong>Period:</strong> Horizontal row in the periodic table</li>
                 <li><strong>Group/Family:</strong> Column in the periodic table</li>
                 <li><strong>s-block elements:</strong> Group IA and IIA (s sub-shell fills)</li>
