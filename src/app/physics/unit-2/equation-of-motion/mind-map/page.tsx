@@ -51,6 +51,7 @@ left side
 *** 1 km/h = 0.27778 m/s
 @endmindmap
  `;
+    
     return (
         <>
             <div className="flex justify-center my-8">
