@@ -79,6 +79,8 @@ mindmapDiagram {
         />
       </section>
 
+            
+
     </div>
   );
 };

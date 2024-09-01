@@ -58,7 +58,61 @@ const MagneticMindmap = () => {
         />
 
       </section>
-       
+
+      <div className="bg-gradient-to-r from-green-100 to-blue-100 p-10 font-sans">
+    <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-[2rem]">
+        <h1 className="text-4xl font-bold text-center text-black mb-8">Why Do Atoms React?</h1>
+
+        <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-black mb-4">Noble Gases (Group VIIIA)</h2>
+            <p className="text-lg text-gray-700">
+                Noble gases are very stable and chemically inert. They have a general electronic configuration of <code>ns² np⁶</code> (except Helium: <code>1s²</code>) and completely filled valence shells, making them non-reactive in ordinary chemical reactions.
+            </p>
+        </section>
+
+        <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">Octet Rule (G. N. Lewis, 1916)</h3>
+            <p className="text-lg text-gray-700">
+                The octet rule states that an atom is most stable when its valence shell contains eight electrons. This rule applies to major group elements, involving s and p electrons. Examples include oxygen, nitrogen, and halogens.
+            </p>
+        </section>
+
+        <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">Duplet Rule</h3>
+            <p className="text-lg text-gray-700">
+                The duplet rule is the tendency of atoms to acquire two electrons in their outermost shell during bond formation, leading to a stable electronic configuration like helium. Examples include hydrogen, lithium, and beryllium.
+            </p>
+        </section>
+
+        <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">Atomic Stability and Reactivity</h3>
+            <p className="text-lg text-gray-700">
+                Unstable atoms with incomplete octets are reactive, while stable atoms with complete octets or duplets are less reactive. For example:
+            </p>
+            <ul className="list-disc pl-5 text-lg text-gray-700">
+                <li>Na: 1s² 2s² 2p⁶ 3s¹ (unstable, reactive)</li>
+                <li>Na⁺: 1s² 2s² 2p⁶ (stable, like Ne)</li>
+                <li>Cl: 1s² 2s² 2p⁶ 3s² 3p⁵ (unstable, reactive)</li>
+                <li>Cl⁻: 1s² 2s² 2p⁶ 3s² 3p⁶ (stable, like Ar)</li>
+            </ul>
+        </section>
+
+        <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">Exceptions to Octet Rule</h3>
+            <p className="text-lg text-gray-700">
+                Hydrogen, helium, and lithium follow the duplet rule. Their electrons lie in the s orbital, making them exceptions to the octet rule.
+            </p>
+        </section>
+
+        <section>
+            <h3 className="text-xl font-semibold text-black mb-4">Importance of Electronic Configuration</h3>
+            <p className="text-lg text-gray-700">
+                Electronic configuration determines the reactivity and stability of atoms and helps predict the chemical behavior of main group elements.
+            </p>
+        </section>
+    </div>
+</div>
+
     </div>
   );
 };

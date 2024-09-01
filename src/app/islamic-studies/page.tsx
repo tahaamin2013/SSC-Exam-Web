@@ -15,8 +15,6 @@ const data: Section[] = [
 
 ];
 
-
-
 const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; isRedirecting: boolean; onRedirect: () => void }) => {
     const router = useRouter();
 

@@ -56,7 +56,74 @@ const MagneticMindmap = () => {
         />
 
       </section>
-       
+      <div className="bg-gradient-to-r from-purple-100 to-pink-100 p-10 font-sans">
+    <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-[2rem]">
+        <h1 className="text-4xl font-bold text-center text-black mb-8">Nature of Bonding, Structure, and Properties</h1>
+
+        <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-black mb-4">Key Factors Determining Substance Properties</h2>
+            <ul className="list-disc pl-5 text-lg text-gray-700">
+                <li>Type of Particles</li>
+                <li>Type of Bonding</li>
+                <li>Arrangement of Particles</li>
+            </ul>
+        </section>
+
+        <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">Type of Particles</h3>
+            <p className="text-lg text-gray-700">
+                Particles can be atoms, ions, or molecules. Ionic substances conduct electricity when melted or dissolved, and water solubility requires ions or polar molecules.
+            </p>
+        </section>
+
+        <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">Type of Bonding</h3>
+            <p className="text-lg text-gray-700">
+                Bonding can be ionic, covalent, metallic, or involve weak intermolecular forces. Stronger bonds lead to higher melting/boiling points and hardness.
+                Example: SiO₂ (strong covalent bonds) vs. CO₂ (weak intermolecular forces).
+            </p>
+        </section>
+
+        <section className="mb-8">
+            <h3 className="text-xl font-semibold text-black mb-4">Arrangement of Particles</h3>
+            <p className="text-lg text-gray-700">
+                Particles can be arranged in planes, layers, or 3D networks, affecting properties like hardness and conductivity.
+                Example: Graphite (2D layers) vs. Diamond (3D network).
+            </p>
+        </section>
+
+        <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-black mb-4">Electrical Conductivity</h2>
+            <ul className="list-disc pl-5 text-lg text-gray-700">
+                <li><strong>Ionic Compounds:</strong> Non-conductive in solid state but conductive when melted or dissolved.</li>
+                <li><strong>Acids:</strong> Conduct electricity when dissolved due to ionization.</li>
+                <li><strong>Metals:</strong> Good conductors due to free electrons.</li>
+            </ul>
+        </section>
+
+        <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-black mb-4">Diamond Properties and Uses</h2>
+            <p className="text-lg text-gray-700">
+                Diamond is the hardest known material, used in ornaments, cutting tools, medical instruments, and audio equipment.
+            </p>
+        </section>
+
+        <section className="mb-8">
+            <h2 className="text-2xl font-semibold text-black mb-4">Graphite Properties and Uses</h2>
+            <p className="text-lg text-gray-700">
+                Graphite has a 2D layered structure with weak van der Waals forces between layers. It is used in refractory items, nuclear reactors, lubricants, and pencils.
+            </p>
+        </section>
+
+        <section>
+            <h2 className="text-2xl font-semibold text-black mb-4">Comparing Ionic and Covalent Compounds</h2>
+            <ul className="list-disc pl-5 text-lg text-gray-700">
+                <li><strong>Ionic:</strong> Strong in compression, brittle, poor solid conductors.</li>
+                <li><strong>Covalent (giant structures):</strong> Strong, hard, typically poor conductors.</li>
+            </ul>
+        </section>
+    </div>
+</div>
     </div>
   );
 };

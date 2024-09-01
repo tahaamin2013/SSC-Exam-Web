@@ -63,6 +63,86 @@ const MagneticMindmap = () => {
 
       </section>
        
+      <div class="bg-gradient-to-r from-purple-100 to-blue-100 p-10 font-sans">
+    <div class="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-[2rem]">
+        <h1 class="text-4xl font-bold text-center text-black mb-8">Chemical Bonds</h1>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-black mb-4">Definition</h2>
+            <p class="text-lg text-gray-700">
+                Forces of attraction that hold atoms together in substances.<br />
+                Electrical in nature.
+            </p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-black mb-4">Atomic Reactivity</h2>
+            <ul class="list-disc pl-5 text-lg text-gray-700">
+                <li>Most atoms (except noble gases) tend to react with other elements.</li>
+                <li>Atoms gain stability by losing or gaining electrons.</li>
+                <li>Goal: Acquire the electron configuration of the nearest noble gas.</li>
+            </ul>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-black mb-4">Electropositivity and Electronegativity</h2>
+            <ul class="list-disc pl-5 text-lg text-gray-700">
+                <li><strong>Electropositivity:</strong> Tendency of metal atoms to lose electrons.</li>
+                <li><strong>Electronegativity:</strong> Tendency of non-metal atoms to gain electrons.</li>
+            </ul>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-black mb-4">Electron Sharing</h2>
+            <p class="text-lg text-gray-700">
+                Atoms can also achieve noble gas configuration by sharing electrons.
+            </p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-black mb-4">Electropositive Elements (Metals)</h2>
+            <ul class="list-disc pl-5 text-lg text-gray-700">
+                <li>Lose electrons from outermost shell.</li>
+                <li>Become positively charged.</li>
+                <li>Characteristics:
+                    <ul class="list-decimal pl-5">
+                        <li>Low ionization energy</li>
+                        <li>Low electronegativity</li>
+                    </ul>
+                </li>
+                <li>Form positive ions.</li>
+                <li>Examples:
+                    <ul class="list-none pl-5">
+                        <li>Na → Na<sup>+</sup> + e<sup>-</sup></li>
+                        <li>Mg → Mg<sup>2+</sup> + 2e<sup>-</sup></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-black mb-4">Electronegative Elements (Non-metals)</h2>
+            <ul class="list-disc pl-5 text-lg text-gray-700">
+                <li>Gain electrons.</li>
+                <li>Become negatively charged.</li>
+                <li>Characteristics:
+                    <ul class="list-decimal pl-5">
+                        <li>High electronegativity</li>
+                        <li>High electron affinity</li>
+                    </ul>
+                </li>
+                <li>Form negative ions.</li>
+                <li>Example:
+                    <ul class="list-none pl-5">
+                        <li>F + e<sup>-</sup> → F<sup>-</sup></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+
     </div>
   );
 };

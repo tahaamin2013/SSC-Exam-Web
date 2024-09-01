@@ -47,7 +47,64 @@ const MagneticMindmap = () => {
         />
 
       </section>
-       
+      <div class="bg-gradient-to-r from-gray-100 to-blue-100 p-10 font-sans">
+    <div class="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-[2rem]">
+        <h1 class="text-4xl font-bold text-center text-black mb-8">Metallic Bonds and Properties of Metals</h1>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-black mb-4">Metallic Bonding</h2>
+            <p class="text-lg text-gray-700">
+                Valence electrons are not confined to individual atoms (free electrons).
+                Metal atoms form positive ions, and free electrons move throughout the metal structure.
+            </p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-black mb-4">Electron Sea Model</h2>
+            <p class="text-lg text-gray-700">
+                Sea of delocalized electrons creates a strong electrostatic attraction between metal cations and the electron sea.
+            </p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-black mb-4">Properties of Metals</h2>
+            <ul class="list-disc pl-5 text-lg text-gray-700">
+                <li>Malleability</li>
+                <li>Ductility</li>
+                <li>High melting and boiling points</li>
+                <li>High electrical and thermal conductivity</li>
+                <li>Metallic lustre</li>
+            </ul>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-black mb-4">Structure and Industrial Applications</h2>
+            <ul class="list-disc pl-5 text-lg text-gray-700">
+                <li>Giant structures with strong metallic bonds.</li>
+                <li>Thermally stable due to high melting/boiling points.</li>
+                <li>Malleable and ductile, allowing them to be drawn into wires and sheets.</li>
+                <li>Good conductors of electricity and thermal energy.</li>
+            </ul>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-black mb-4">Key Concepts</h2>
+            <ul class="list-disc pl-5 text-lg text-gray-700">
+                <li><strong>Octet Rule:</strong> Atoms tend to acquire eight-electron configurations in the valence shell, aiming for noble gas electron configuration.</li>
+                <li><strong>Ionic Bonds:</strong> Formed by electron transfer between atoms, with high melting points and conductivity in molten state.</li>
+                <li><strong>Covalent Bonds:</strong> Formed by electron sharing; can be single, double, or triple bonds.</li>
+                <li><strong>Hydrogen Bonding:</strong> Occurs between electron-deficient hydrogen and a lone pair on an electronegative atom; important for adhesive properties of paints and dyes.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="text-2xl font-semibold text-black mb-4">Additional Information</h2>
+            <p class="text-lg text-gray-700">
+                References are provided for further reading on chemistry topics.
+            </p>
+        </section>
+    </div>
+</div>
     </div>
   );
 };
