@@ -70,7 +70,125 @@ mindmapDiagram {
         />
        
       </section>
-       
+      <div className="p-8 bg-gradient-to-r from-green-100 to-yellow-200 rounded-lg shadow-xl">
+    <h1 className="text-3xl font-extrabold text-yellow-800 mb-6">3.5 Isotopes</h1>
+
+    <div className="mb-8">
+        <h2 className="text-2xl font-semibold text-green-700 mb-4">Definition and Characteristics</h2>
+        <div className="bg-white p-4 rounded-lg shadow-md">
+            <p className="text-green-900 mb-4">
+                Isotopes: Atoms of an element with the same atomic number but different mass numbers
+            </p>
+            <p className="text-green-900 mb-4">
+                <strong>Similarities:</strong><br/>
+                a) Same number of protons<br/>
+                b) Same number of electrons<br/>
+                c) Same atomic number
+            </p>
+            <p className="text-green-900">
+                <strong>Differences:</strong><br/>
+                d) Different numbers of neutrons<br/>
+                e) Different mass numbers
+            </p>
+        </div>
+    </div>
+
+    <div className="mb-8">
+        <h2 className="text-2xl font-semibold text-green-700 mb-4">Historical Context</h2>
+        <div className="bg-white p-4 rounded-lg shadow-md">
+            <p className="text-green-900">
+                Term "isotope" first used by Soddy<br/>
+                Greek origin: "isos" (same) + "tope" (place)<br/>
+                Contradicts Dalton's atomic theory of identical atoms for a given element
+            </p>
+        </div>
+    </div>
+
+    <div className="mb-8">
+        <h2 className="text-2xl font-semibold text-green-700 mb-4">Isotopes of Hydrogen</h2>
+        <div className="bg-white p-4 rounded-lg shadow-md">
+            <ul className="list-disc list-inside text-green-900 ml-6">
+                <li>Protium (H)</li>
+                <li>Deuterium (D)</li>
+                <li>Tritium (T)</li>
+            </ul>
+            <p className="text-green-900 mt-4">
+                Heavy water: Contains Deuterium instead of Protium
+            </p>
+        </div>
+    </div>
+
+    <div className="mb-8">
+        <h2 className="text-2xl font-semibold text-green-700 mb-4">Isotopes of Carbon</h2>
+        <div className="bg-white p-4 rounded-lg shadow-md">
+            <ul className="list-disc list-inside text-green-900 ml-6">
+                <li>Carbon-12</li>
+                <li>Carbon-13</li>
+                <li>Carbon-14</li>
+            </ul>
+        </div>
+    </div>
+
+    <div className="mb-8">
+        <h2 className="text-2xl font-semibold text-green-700 mb-4">Isotopes of Chlorine</h2>
+        <div className="bg-white p-4 rounded-lg shadow-md">
+            <ul className="list-disc list-inside text-green-900 ml-6">
+                <li>Chlorine-35</li>
+                <li>Chlorine-37</li>
+            </ul>
+            <p className="text-green-900 mt-4">
+                Natural abundance details
+            </p>
+        </div>
+    </div>
+
+    <div className="mb-8">
+        <h2 className="text-2xl font-semibold text-green-700 mb-4">Isotopes of Uranium</h2>
+        <div className="bg-white p-4 rounded-lg shadow-md">
+            <ul className="list-disc list-inside text-green-900 ml-6">
+                <li>Uranium-234</li>
+                <li>Uranium-235</li>
+                <li>Uranium-238</li>
+            </ul>
+            <p className="text-green-900 mt-4">
+                Natural abundance and applications<br/>
+                Fission of Uranium-235
+            </p>
+        </div>
+    </div>
+
+    <div className="mb-8">
+        <h2 className="text-2xl font-semibold text-green-700 mb-4">Determination of Relative Atomic Mass</h2>
+        <div className="bg-white p-4 rounded-lg shadow-md">
+            <p className="text-green-900">
+                Calculation method using isotopic masses and relative abundance<br/>
+                Example with carbon
+            </p>
+        </div>
+    </div>
+
+    <div className="mb-8">
+        <h2 className="text-2xl font-semibold text-green-700 mb-4">Uses of Isotopes</h2>
+        <div className="bg-white p-4 rounded-lg shadow-md">
+            <ul className="list-disc list-inside text-green-900 ml-6">
+                <li>Medical applications (e.g., Iodine-131, Sodium-24, Cobalt-60)</li>
+                <li>Scientific applications (e.g., Carbon-14 in photosynthesis research)</li>
+                <li>Archaeological dating</li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <h2 className="text-2xl font-semibold text-green-700 mb-4">Carbon Dating</h2>
+        <div className="bg-white p-4 rounded-lg shadow-md">
+            <p className="text-green-900">
+                Process of using Carbon-14 to estimate age of carbon-containing substances<br/>
+                Principle and application in archaeology
+            </p>
+        </div>
+    </div>
+</div>
+
     </div>
   );
 };

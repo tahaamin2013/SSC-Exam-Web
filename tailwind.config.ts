@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      gridTemplateColumns: {
+        '18': 'repeat(18, minmax(0, 1fr))',
+      },
       dark: "bg-gradient-to-br from-gray-900 to-gray-800",
       colors: {
         border: "hsl(var(--border))",

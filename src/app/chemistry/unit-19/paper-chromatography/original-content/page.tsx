@@ -1,4 +1,3 @@
-// pages/paper-chromatography.tsx
 import React from 'react';
 
 const PaperChromatography = () => {

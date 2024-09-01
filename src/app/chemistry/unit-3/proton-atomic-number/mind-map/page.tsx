@@ -64,7 +64,88 @@ left side
         />
        
       </section>
-       
+      <div className="p-8 bg-gradient-to-r from-yellow-100 to-orange-200 rounded-lg shadow-xl">
+    <h1 className="text-3xl font-extrabold text-orange-800 mb-6">3.3 Proton or Atomic Number</h1>
+
+    <div className="mb-8">
+        <h2 className="text-2xl font-semibold text-yellow-700 mb-4">Identity of an Element</h2>
+        <div className="bg-white p-4 rounded-lg shadow-md mb-4">
+            <h3 className="text-xl font-semibold text-orange-700 mb-2">Proton Number (Atomic Number)</h3>
+            <ul className="list-disc list-inside text-yellow-900 ml-6">
+                <li>Symbol: Z</li>
+                <li>Refers to the number of protons in the nucleus</li>
+                <li>Determines the identity of an element</li>
+                <li>Equal to the number of electrons in a neutral atom</li>
+            </ul>
+        </div>
+    </div>
+
+    <div className="mb-8">
+        <h2 className="text-2xl font-semibold text-yellow-700 mb-4">Uniqueness of Proton Number</h2>
+        <ul className="list-disc list-inside text-yellow-900 ml-6">
+            <li>Each element has a unique proton number</li>
+            <li>Determines:
+                <ul className="list-disc list-inside text-yellow-900 ml-6">
+                    <li>Element's properties</li>
+                    <li>Position in the periodic table</li>
+                </ul>
+            </li>
+        </ul>
+        <div className="bg-white p-4 rounded-lg shadow-md mt-4">
+            <h3 className="text-xl font-semibold text-orange-700 mb-2">Examples:</h3>
+            <ul className="list-disc list-inside text-yellow-900 ml-6">
+                <li>Carbon: 6 protons</li>
+                <li>Sodium: 11 protons</li>
+                <li>Nitrogen: 7 protons</li>
+                <li>Oxygen: 8 protons</li>
+            </ul>
+        </div>
+    </div>
+
+    <div className="mb-8">
+        <h2 className="text-2xl font-semibold text-yellow-700 mb-4">Nucleon Number (Mass Number)</h2>
+        <ul className="list-disc list-inside text-yellow-900 ml-6">
+            <li>Total number of protons and neutrons in an atom</li>
+            <li>Calculation: No. of neutrons = mass number - atomic number</li>
+            <li>Isotopes: Atoms of an element with different numbers of neutrons</li>
+        </ul>
+        <div className="bg-white p-4 rounded-lg shadow-md mt-4">
+            <h3 className="text-xl font-semibold text-orange-700 mb-2">Example 3.1: Determining Protons and Neutrons</h3>
+            <p className="text-yellow-900">
+                Given:<br />
+                Atomic number = 17<br />
+                Mass number = 35
+            </p>
+            <p className="text-yellow-900">
+                Solution:<br />
+                Number of protons = atomic number = 17<br />
+                Number of neutrons = mass number - atomic number = 35 - 17 = 18
+            </p>
+        </div>
+    </div>
+
+    <div className="mb-8">
+        <h2 className="text-2xl font-semibold text-yellow-700 mb-4">Radioactivity</h2>
+        <ul className="list-disc list-inside text-yellow-900 ml-6">
+            <li>Occurs in elements with unbalanced nuclear forces</li>
+            <li>Radioactive decay: Process of nucleus decay to become another atom</li>
+            <li>Effects on atomic identity:
+                <ul className="list-disc list-inside text-yellow-900 ml-6">
+                    <li>Neutron emission: Changes to another isotope of the same element</li>
+                    <li>Proton emission: Changes to a different element</li>
+                </ul>
+            </li>
+        </ul>
+        <div className="bg-white p-4 rounded-lg shadow-md mt-4">
+            <h3 className="text-xl font-semibold text-orange-700 mb-2">Examples:</h3>
+            <ul className="list-disc list-inside text-yellow-900 ml-6">
+                <li>Carbon-14 decay to Nitrogen-14</li>
+                <li>Uranium-238 decay to Lead-206</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
     </div>
   );
 };
