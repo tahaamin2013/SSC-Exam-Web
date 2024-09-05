@@ -65,6 +65,18 @@ const data = [
             { href: "/chemistry/unit-2/colloids-and-suspensions/detailed-questions", text: "DETAILED QUESTIONS", icon: List },
         ],
     },
+    {
+        id: "7",
+        title: "Chapter Round up",
+        links: [
+          { href: "/chemistry/unit-2/quiz", text: "MCQS", icon: HelpCircle },
+          { href: "/chemistry/unit-2/textbook-excersise-questions", text: "TextBook Excersise Questions", icon: HelpCircle },
+          { href: "/chemistry/unit-2/brief-questions", text: "Brief Questions", icon: FileText },
+          { href: "/chemistry/unit-2/detailed-questions", text: "Detailed Questions", icon: List },
+          { href: "/chemistry/unit-2/content", text: "Content", icon: List },
+          { href: "/chemistry/unit-2/numerical", text: "Numerical Questions", icon: List },
+        ]
+      }
 ];
 
 
