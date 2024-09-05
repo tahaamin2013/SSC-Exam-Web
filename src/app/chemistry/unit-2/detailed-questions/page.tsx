@@ -27,9 +27,9 @@ const QuestionDashboard = () => {
               <ul>
                 <li>
                   {" "}
-                  <b>Diffusion:</b> Diffusion is defined as "spontaneous mixing
+                  <b>Diffusion:</b> Diffusion is defined as &quot;spontaneous mixing
                   up of molecules by random motion and collisions to form a
-                  homogeneous mixture." Gases can diffuse very rapidly. The rate
+                  homogeneous mixture.&quot; Gases can diffuse very rapidly. The rate
                   of diffusion depends upon the molecular mass of the gases.
                   Lighter gases diffuse faster than heavier ones. Example:{" "}
                   <code>
@@ -108,8 +108,8 @@ const QuestionDashboard = () => {
                 **Mathematical Expression:** The volume (V) of a given mass of
                 gas decreases with an increase in pressure (P) and vice versa.
                 Mathematically, \( PV = k \), where &apos;k&apos; is a constant. Boyle&apos;s
-                law can be stated as "the product of pressure and volume of a
-                fixed mass of a gas is constant at a constant temperature."
+                law can be stated as &quot;the product of pressure and volume of a
+                fixed mass of a gas is constant at a constant temperature.&quot;
               </p>
               <p>
                 **Experimental Verification:** For example, if the pressure is
