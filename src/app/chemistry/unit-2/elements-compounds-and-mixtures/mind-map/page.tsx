@@ -36,14 +36,41 @@ mindmapDiagram {
 **** Formed when two or more different atoms chemically combine
 **** New substance with different properties
 ** Mixture
-*** Homogeneous
-*** Heterogeneous
+*** Homogeneous Mixtures
+**** Uniform Composition
+***** Components evenly distributed
+***** Parts are not visible
+**** Examples
+***** Saltwater
+***** Air
+***** Vinegar
+*** Heterogeneous Mixtures
 **** Colloid
 **** Suspension
+**** Non-uniform Composition
+***** Components are not evenly spread
+***** Parts can be seen
+**** Examples
+***** Salad
+***** Oil and Water
+***** Sand and Iron Filings
 *** Physical combination of substances
 *** Particles have different chemical compositions
 *** Example: Tea (milk, water, tea leaves, sugar)
 left side
+** Differences Between Compounds and Mixtures
+*** Composition
+**** Compounds: Fixed ratio of elements
+**** Mixtures: Variable proportions of substances
+*** Bonding
+**** Compounds: Chemical bonds
+**** Mixtures: No chemical bonds
+*** Separation
+**** Compounds: Need chemical reactions to separate
+**** Mixtures: Can be separated physically
+*** Properties
+**** Compounds: New properties different from elements
+**** Mixtures: Properties of original substances remain
 ** Properties of Matter
 *** Physical Properties
 *** Chemical Properties
@@ -238,7 +265,40 @@ left side
                     </ul>
                 </div>
             </div>
+            <div className="max-w-4xl mx-auto bg-white rounded-[2rem] shadow-lg p-8 mt-10">
+      <section className="mb-8">
+        <h2 className="text-2xl font-bold text-primary mb-4">Differences Between Compounds and Mixtures</h2>
+        <div className="space-y-6">
+          <div>
+            <h3 className="text-xl font-semibold text-secondary mb-2">Composition</h3>
+            <p>
+              Compounds have a fixed ratio of elements. Mixtures can have any amount of substances.
+            </p>
+          </div>
 
+          <div>
+            <h3 className="text-xl font-semibold text-secondary mb-2">Bonding</h3>
+            <p>
+              Compounds have chemical bonds. Mixtures do not have chemical bonds.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-secondary mb-2">Separation</h3>
+            <p>
+              Compounds need chemical reactions to separate. Mixtures can be separated physically.
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold text-secondary mb-2">Properties</h3>
+            <p>
+              Compounds have new properties. Mixtures keep the properties of the original substances.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
         </div>
     );
 };
