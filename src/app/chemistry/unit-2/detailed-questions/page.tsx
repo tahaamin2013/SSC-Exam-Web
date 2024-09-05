@@ -90,10 +90,10 @@ const QuestionDashboard = () => {
           {/* Question 2 */}
           <AccordionItem value="item-2">
             <AccordionTrigger>
-              Define Boyle's law and verify it with an example.
+              Define Boyle&apos;s law and verify it with an example.
             </AccordionTrigger>
             <AccordionContent>
-              <p>**Boyle's Law**</p>
+              <p>**Boyle&apos;s Law**</p>
               <p>
                 **Introduction:** In 1662, Robert Boyle studied the relationship
                 between the volume and pressure of a gas at constant
@@ -107,7 +107,7 @@ const QuestionDashboard = () => {
               <p>
                 **Mathematical Expression:** The volume (V) of a given mass of
                 gas decreases with an increase in pressure (P) and vice versa.
-                Mathematically, \( PV = k \), where 'k' is a constant. Boyle's
+                Mathematically, \( PV = k \), where &apos;k&apos; is a constant. Boyle&apos;s
                 law can be stated as "the product of pressure and volume of a
                 fixed mass of a gas is constant at a constant temperature."
               </p>
@@ -116,7 +116,7 @@ const QuestionDashboard = () => {
                 increased from 2 atm to 8 atm, the volume decreases from 1 dm³
                 to 0.25 dm³. The product of pressure and volume remains constant
                 (2 atm x 1 dm³ = 2 atm dm³, 4 atm x 0.5 dm³ = 2 atm dm³, etc.),
-                verifying Boyle's law.
+                verifying Boyle&apos;s law.
               </p>
             </AccordionContent>
           </AccordionItem>

@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC } from "react";
 
 const NumericalQuestions: FC = () => {
     return (
@@ -57,7 +57,7 @@ const NumericalQuestions: FC = () => {
         </section>
     
         <section className="mb-10 p-6 bg-white shadow-lg rounded-lg">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">3) Boyle's Law Problem</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">3) Boyle&apos;s Law Problem</h2>
           
           <div className="mb-4">
             <p className="ml-4">A gas at pressure 912 mm of Hg has volume 450 cm³. What will be its volume at 0.4 atm?</p>
@@ -75,7 +75,7 @@ const NumericalQuestions: FC = () => {
         </section>
     
         <section className="mb-10 p-6 bg-white shadow-lg rounded-lg">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">5) Charles' Law Problem</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">5) Charles&apos; Law Problem</h2>
           
           <div className="mb-4">
             <p className="ml-4">It is desired to increase the volume of a fixed amount of gas from 87.5 to 118 cm³ while holding the pressure constant. The initial temperature is 23°C.</p>
@@ -120,7 +120,7 @@ const NumericalQuestions: FC = () => {
         </section>
     
         <section className="mb-10 p-6 bg-white shadow-lg rounded-lg">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">10) Titan's Atmospheric Pressure</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">10) Titan&apos;s Atmospheric Pressure</h2>
           
           <div className="mb-4">
             <p className="ml-4">The atmospheric pressure on Titan is 1.50 atm. Express this pressure in torr.</p>

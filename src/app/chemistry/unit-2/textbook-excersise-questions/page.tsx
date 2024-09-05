@@ -24,7 +24,7 @@ const ExamplesDashboard = () => {
                     </ul>
                     <h3 className="font-semibold">Solution:</h3>
                     <p>
-                        By using Boyle's Law: PV = P₂V₂
+                        By using Boyle&apos;s Law: PV = P₂V₂
                     </p>
                     <p>
                         Thus, <br />
@@ -50,7 +50,7 @@ const ExamplesDashboard = () => {
                     </ul>
                     <h3 className="font-semibold">Solution:</h3>
                     <p>
-                        By using Boyle's equation: P₁V₁ = P₂V₂
+                        By using Boyle&apos;s equation: P₁V₁ = P₂V₂
                     </p>
                     <p>
                         Thus, <br />
@@ -80,7 +80,7 @@ const ExamplesDashboard = () => {
                     </ul>
                     <h3 className="font-semibold">Solution:</h3>
                     <p>
-                        By using Charles's Law: V₁ / T₁ = V₂ / T₂
+                        By using Charles&apos;s Law: V₁ / T₁ = V₂ / T₂
                     </p>
                     <p>
                         Thus, <br />
@@ -106,7 +106,7 @@ const ExamplesDashboard = () => {
                     </ul>
                     <h3 className="font-semibold">Solution:</h3>
                     <p>
-                        By using Charles's Law: V₁ / T₁ = V₂ / T₂
+                        By using Charles&apos;s Law: V₁ / T₁ = V₂ / T₂
                     </p>
                     <p>
                         Thus, <br />
