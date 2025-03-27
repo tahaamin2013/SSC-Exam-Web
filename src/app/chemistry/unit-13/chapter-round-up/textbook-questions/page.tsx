@@ -36,16 +36,16 @@ const OrganicChemistryQuestions = () => {
             <br />1. What is the general formula for alkanes, and how does it differ from that of alkenes?
             <br />2. Can a hydrocarbon be both aromatic and aliphatic at the same time? Explain.
             <br />3. How does the presence of a double bond in alkenes affect their reactivity compared to
-            <br />4. What is the significance of the term 'unsaturated' in the context of hydrocarbons? relatively inert alkanes, which only undergo substitution or combustion reactions.</li>
+            <br />4. What is the significance of the term &apos;unsaturated&apos; in the context of hydrocarbons? relatively inert alkanes, which only undergo substitution or combustion reactions.</li>
           <li className="text-gray-800">1. What distinguishes a cyclic organic molecule from a straight-chained one?
-            <br />2. How does a structural formula provide a clear representation of a molecule's
+            <br />2. How does a structural formula provide a clear representation of a molecule&apos;s
             <br />3. Draw the structural formula for ethanol (CH3CH2OH).
             <br />4. Identify whether CH3COOCH3 represents a straight-chained, branched or cyclic- molecule?
             <br />5. Explain the significance of branched molecule in organic chemistry.
             <br />6. Given the formula CH3(CH2)2CH3, name the organic compound.</li>
-          <li className="text-gray-800">1. What defines a saturated compound's molecular structure?
+          <li className="text-gray-800">1. What defines a saturated compound&apos;s molecular structure?
             <br />2. How are the carbon-carbon bonds characterized in saturated compounds?
-            <br />3. Define an unsaturated compound's molecular structure.
+            <br />3. Define an unsaturated compound&apos;s molecular structure.
             <br />4. What distinguishes an unsaturated compound from a saturated one?
             <br />5. In saturated compounds, what may vary in terms of carbon-carbon bonds?
             <br />6. Explain the difference between saturated and unsaturated compounds in terms of carbon-carbon bonds.</li>

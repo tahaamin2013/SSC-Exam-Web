@@ -1,4 +1,4 @@
-export const organicChemistryQuiz = {
+export const quiz = {
   totalQuestions: 18,
   questions: [
     {
