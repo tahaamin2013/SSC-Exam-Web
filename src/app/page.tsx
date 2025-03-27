@@ -13,65 +13,11 @@ type Section = {
 };
 
 const data: Section[] = [
-  { id: "2", link: "/physics", title: "Physics", color: "#45B7D1" },
-  
-  { id: "3", link: "/chemistry", title: "Chemistry", color: "#4ECDC4" },
-  { id: "3", link: "/principles-of-marketing", title: "Principles of Marketing", color: "#5F27CD" },
-  {
-    id: "1",
-    link: "/modern-economic-theory",
-    title: "Modern Economic Theory",
-    color: "#FF6B6B",
-  },
-  
-  {
-    id: "5",
-    link: "/islamic-studies",
-    title: "Islamic Studies",
-    color: "#25CCF7",
-  },
+  { id: "3", link: "/company-law", title: " CAF-2 Tax Practices", color: "#4ECDC4" },
+  { id: "3", link: "/company-law", title: " CAF-3 Cost and Management Accounting", color: "#4ECDC4" },
+  { id: "3", link: "/managerial-and-financial-analysis", title: " CAF-6 Managerial and Financial Analysis", color: "#4ECDC4" },
+  { id: "3", link: "/company-law", title: " CAF-8 Audit and Assurance", color: "#4ECDC4" },
  
-  // { id: "4", link: "/pak-studies", title: "Pak Studies", color: "#F7B731" },
-  { id: "8", link: "/mathematics", title: "Mathematics", color: "#FF9FF3" },
-  { id: "6", link: "/english", title: "English", color: "#54A0FF" },
-  { id: "6", link: "/principles-of-marketing", title: "Principles of Marketing", color: "#54A0FF" },
-  { id: "7", link: "/urdu", title: "Urdu", color: "#5F27CD" },
-  {
-    id: "1",
-    link: "/computer-sicence",
-    title: "Computer Science",
-    color: "#FF6B6B",
-  },
-  {
-    id: "9",
-    link: "/tarjuma-tul-guran-ul-majeed",
-    title: "TARJUMA -TUL-QURAN -UL MAJEED",
-    color: "#01a3a4",
-  },
-  {
-    id: "9",
-    link: "/islam-our-glorious-religion",
-    title: "Hamara Islam",
-    color: "#0da3a4",
-  },
-  {
-    id: "9",
-    link: "/strengthening-of-the-faith",
-    title: "Strengthening Of The Faith",
-    color: "#0da3a4",
-  },
-  {
-    id: "10",
-    link: "/the-teachings-of-islam",
-    title: "The Teachings of Islam",
-    color: "#0da3a4",
-  },
-  {
-    id: "11",
-    link: "/islamic-theory-of-life",
-    title: "Islamic Theory of Life",
-    color: "#48C9B0",
-  },
 ];
 
 const UnitCard = ({
@@ -145,8 +91,7 @@ export default function Home() {
           transition={{ duration: 0.5 }}
           className="mb-12 text-center text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight text-white"
         >
-          FBISE Islamabad SSC-1 (9th Class) Subjects
-        </motion.h1>
+The Institute of Chartered Accountants of Pakistan         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
