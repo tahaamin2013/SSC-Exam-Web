@@ -10,6 +10,7 @@ const subjects = [
   { name: 'Chemistry', href: '/chemistry' },
   { name: 'Islamic Studies', href: '/islamic-studies' },
   { name: 'Pak Studies', href: '/pak-studies' },
+  { name: 'Boards', href: '/boards' },
 ];
 
 const Navbar = () => {

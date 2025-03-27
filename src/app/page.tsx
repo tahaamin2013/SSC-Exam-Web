@@ -1,9 +1,9 @@
-'use client'
+"use client";
 
-import React, { useState } from 'react';
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { motion, AnimatePresence } from 'framer-motion';
+import React, { useState } from "react";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { motion, AnimatePresence } from "framer-motion";
 
 type Section = {
   id: string;
@@ -13,18 +13,21 @@ type Section = {
 };
 
 const data: Section[] = [
-  { id: "2", link: "/physics", title: "Physics", color: "#45B7D1" },
-  { id: "3", link: "/chemistry", title: "Chemistry", color: "#4ECDC4" },
-  { id: "1", link: "/computer-sicence", title: "Computer Science", color: "#FF6B6B" },
-  { id: "5", link: "/islamic-studies", title: "Islamic Studies", color: "#25CCF7" },
-  // { id: "4", link: "/pak-studies", title: "Pak Studies", color: "#F7B731" },
-  { id: "8", link: "/mathematics", title: "Mathematics", color: "#FF9FF3" },
-  { id: "6", link: "/english", title: "English", color: "#54A0FF" },
-  { id: "7", link: "/urdu", title: "Urdu", color: "#5F27CD" },
-  { id: "9", link: "/tarjuma-tul-guran-ul-majeed", title: "TARJUMA -TUL-QURAN -UL MAJEED", color: "#01a3a4" },
+  { id: "3", link: "/company-law", title: " CAF-2 Tax Practices", color: "#4ECDC4" },
+  { id: "3", link: "/company-law", title: " CAF-3 Cost and Management Accounting", color: "#4ECDC4" },
+  { id: "3", link: "/managerial-and-financial-analysis", title: " CAF-6 Managerial and Financial Analysis", color: "#4ECDC4" },
+  { id: "3", link: "/company-law", title: " CAF-8 Audit and Assurance", color: "#4ECDC4" },
+ 
 ];
 
-const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; isRedirecting: boolean; onRedirect: () => void }) => {
+const UnitCard = ({
+  section,
+  onRedirect,
+}: {
+  section: Section;
+  isRedirecting: boolean;
+  onRedirect: () => void;
+}) => {
   const router = useRouter();
 
   const handleClick = (e: React.MouseEvent) => {
@@ -44,7 +47,10 @@ const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; is
     >
       <Link href={section.link} onClick={handleClick} className="block">
         <div className="relative h-48 rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:shadow-2xl">
-          <div className="absolute inset-0" style={{ backgroundColor: section.color }}></div>
+          <div
+            className="absolute inset-0"
+            style={{ backgroundColor: section.color }}
+          ></div>
           <div className="absolute inset-0 bg-black bg-opacity-20 transition-opacity duration-300 hover:bg-opacity-30"></div>
 
           {/* Circles */}
@@ -54,7 +60,9 @@ const UnitCard = ({ section, isRedirecting, onRedirect }: { section: Section; is
           <div className="absolute top-1/2 left-1/2 w-12 h-12 bg-white opacity-10 rounded-full transform -translate-x-1/2 -translate-y-1/2"></div>
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <h2 className="text-2xl hover:text-3xl transition-all duration-500 h-full w-full flex justify-center items-center font-bold text-white text-center px-4">{section.title}</h2>
+            <h2 className="text-2xl hover:text-3xl transition-all duration-500 h-full w-full flex justify-center items-center font-bold text-white text-center px-4">
+              {section.title}
+            </h2>
           </div>
         </div>
       </Link>
@@ -83,8 +91,7 @@ export default function Home() {
           transition={{ duration: 0.5 }}
           className="mb-12 text-center text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight text-white"
         >
-          FBISE Islamabad SSC-1 (9th Class) Subjects
-        </motion.h1>
+The Institute of Chartered Accountants of Pakistan         </motion.h1>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
